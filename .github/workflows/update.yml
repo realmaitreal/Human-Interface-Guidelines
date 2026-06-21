@@ -1,18 +1,11 @@
 name: Update Apple HIG
 
-# Runs once a year on June 13 (WWDC week), and can be triggered manually
-# at any time from the Actions tab ("Run workflow").
-#
-# NOTE: GitHub automatically disables a scheduled workflow after 60 days with
-# no repository activity. A once-a-year cron will therefore usually be paused
-# before June 13 arrives (you'd get an email with a re-enable button). If you
-# want the yearly run to fire reliably AND catch Apple's interim HIG updates,
-# uncomment the monthly line below — it commits only when something changed,
-# so quiet months produce no noise.
+# Refreshes the HIG every month on the 13th, and can be run manually at any
+# time from the Actions tab ("Run workflow"). A monthly cadence also keeps the
+# scheduled workflow from being auto-disabled and catches Apple's interim edits.
 on:
   schedule:
-    - cron: "0 8 13 6 *" # 08:00 UTC, June 13 (WWDC)
-    # - cron: "0 8 1 * *"  # 08:00 UTC, 1st of every month (keeps schedule alive)
+    - cron: "0 8 13 * *" # 08:00 UTC, the 13th of every month
   workflow_dispatch:
 
 permissions:
@@ -27,10 +20,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
