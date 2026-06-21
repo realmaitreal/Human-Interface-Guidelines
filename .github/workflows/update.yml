@@ -1,0 +1,50 @@
+name: Update Apple HIG
+
+# Runs once a year on June 13 (WWDC week), and can be triggered manually
+# at any time from the Actions tab ("Run workflow").
+#
+# NOTE: GitHub automatically disables a scheduled workflow after 60 days with
+# no repository activity. A once-a-year cron will therefore usually be paused
+# before June 13 arrives (you'd get an email with a re-enable button). If you
+# want the yearly run to fire reliably AND catch Apple's interim HIG updates,
+# uncomment the monthly line below — it commits only when something changed,
+# so quiet months produce no noise.
+on:
+  schedule:
+    - cron: "0 8 13 6 *" # 08:00 UTC, June 13 (WWDC)
+    # - cron: "0 8 1 * *"  # 08:00 UTC, 1st of every month (keeps schedule alive)
+  workflow_dispatch:
+
+permissions:
+  contents: write # allow the job to commit regenerated files
+
+concurrency:
+  group: update-hig
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate HIG Markdown
+        run: python3 hig_download.py --out . --readme --images remote --workers 12
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update Apple HIG ($(date -u +%Y-%m-%d))"
+            git push
+          fi

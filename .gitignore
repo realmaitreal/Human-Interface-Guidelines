@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+
+# Local image cache (only created when running with --images local)
+_assets/
+
+# OS junk
+.DS_Store
+Thumbs.db
