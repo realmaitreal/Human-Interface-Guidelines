@@ -110,7 +110,7 @@ In watchOS, the system manages audio playback. An app can play short audio clips
 
 [AVAudioSession](https://developer.apple.com/documentation/AVFAudio/AVAudioSession) — AVFAudio
 
-[MusicKit](https://developer.apple.com/documentation/musickit) — MusicKit
+[MusicKit](https://developer.apple.com/documentation/MusicKit) — MusicKit
 
 #### Videos
 
