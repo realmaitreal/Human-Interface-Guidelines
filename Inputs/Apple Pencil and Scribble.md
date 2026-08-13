@@ -8,7 +8,7 @@
 >
 > Added guidance for handling squeeze and barrel roll on Apple Pencil Pro.
 
-![A sketch of a scribble mark, suggesting drawing with Apple Pencil. The image is overlaid with rectangular and circular grid lines and is tinted purple to subtly reflect the purple in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/48578c745cec42fe322ab69c99575b38/inputs-apple-pencil-and-scribble-intro%402x.png)
+![A sketch of a scribble mark, suggesting drawing with Apple Pencil. The image is overlaid with rectangular and circular grid lines and is tinted purple to subtly reflect the purple in the original six-color Apple logo.](/images/com.apple.HIG/inputs-apple-pencil-and-scribble-intro@2x.png)
 
 Apple Pencil is a versatile, intuitive tool for iPad apps that offers pixel‑level precision when jotting notes, sketching, painting, marking up documents, and more. Scribble lets people use Apple Pencil to enter text in any text field through fast, private, on-device handwriting recognition.
 
@@ -24,22 +24,22 @@ For details on Apple Pencil features and compatibility, see [Apple Pencil](https
 
 **Help people express themselves by responding to the way they use Apple Pencil.** Apple Pencil may sense tilt (altitude), force (pressure), orientation (azimuth), and [Barrel roll](https://developer.apple.com/design/human-interface-guidelines/apple-pencil-and-scribble#Barrel-roll). Use this information to affect the strokes Apple Pencil makes, such as by varying thickness and intensity. When responding to pressure, keep things simple and intuitive. For example, it feels natural to affect continuous properties — such as ink opacity or brush size — by varying the pressure.
 
-![An illustration of Apple Pencil tilted up from a horizontal line by 45 degrees.](https://docs-assets.developer.apple.com/published/71e341540baa3fa3bd5bdf01a55cc8a8/apple-pencil-altitude%402x.png)  
+![An illustration of Apple Pencil tilted up from a horizontal line by 45 degrees.](/images/com.apple.HIG/apple-pencil-altitude@2x.png)  
 *Altitude*
 
-![An illustration of Apple Pencil drawing a curved line that increases in thickness as more pressure is applied to the tool.](https://docs-assets.developer.apple.com/published/ce6370f2a90cf23b39ee77f7ba64ff02/apple-pencil-pressure%402x.png)  
+![An illustration of Apple Pencil drawing a curved line that increases in thickness as more pressure is applied to the tool.](/images/com.apple.HIG/apple-pencil-pressure@2x.png)  
 *Pressure*
 
-![An illustration of Apple Pencil balancing on its tip at the center of a circle that has degree marks around its circumference. A line from the center of the circle to one of the degree marks indicates the angle at which Apple Pencil is tilted.](https://docs-assets.developer.apple.com/published/e3cd83ae350aac7fe4886903d65ac495/apple-pencil-azimuth%402x.png)  
+![An illustration of Apple Pencil balancing on its tip at the center of a circle that has degree marks around its circumference. A line from the center of the circle to one of the degree marks indicates the angle at which Apple Pencil is tilted.](/images/com.apple.HIG/apple-pencil-azimuth@2x.png)  
 *Azimuth*
 
 **Provide visual feedback to indicate a direct connection with content.** Make sure Apple Pencil appears to directly and immediately manipulate content it touches onscreen. Avoid letting Apple Pencil appear to initiate seemingly disconnected actions, or affect content on other parts of the screen.
 
 **Design a great left- and right-handed experience.** Avoid placing controls in locations that may be obscured by either hand. If there’s a chance controls may become obscured, consider letting people reposition them.
 
-![An illustration of an iPad app that shows a stack of three circular controls on both side edges. A drawing of a person’s left hand holding an Apple Pencil is shown at the bottom-left corner of the screen, partially obscuring the controls on that side. The controls on the left edge are grayed out to indicate the original position they no longer occupy, while the controls on the right edge are bright to indicate their final position.](https://docs-assets.developer.apple.com/published/386201ad5a8d093d8c72fc4db57978aa/apple-pencil-controls-moved-right%402x.png)
+![An illustration of an iPad app that shows a stack of three circular controls on both side edges. A drawing of a person’s left hand holding an Apple Pencil is shown at the bottom-left corner of the screen, partially obscuring the controls on that side. The controls on the left edge are grayed out to indicate the original position they no longer occupy, while the controls on the right edge are bright to indicate their final position.](/images/com.apple.HIG/apple-pencil-controls-moved-right@2x.png)
 
-![An illustration of an iPad app that shows a stack of three circular controls on both side edges. A drawing of a person’s right hand holding an Apple Pencil is shown at the bottom-right corner of the screen, partially obscuring the controls on that side. The controls on the right edge are grayed out to indicate the original position they no longer occupy, while the controls on the left edge are bright to indicate their final position.](https://docs-assets.developer.apple.com/published/6b9182644f4624493d4fbe541186a4dc/apple-pencil-controls-moved-left%402x.png)
+![An illustration of an iPad app that shows a stack of three circular controls on both side edges. A drawing of a person’s right hand holding an Apple Pencil is shown at the bottom-right corner of the screen, partially obscuring the controls on that side. The controls on the right edge are grayed out to indicate the original position they no longer occupy, while the controls on the left edge are bright to indicate their final position.](/images/com.apple.HIG/apple-pencil-controls-moved-left@2x.png)
 
 ## Hover
 
@@ -49,21 +49,21 @@ For details on Apple Pencil features and compatibility, see [Apple Pencil](https
 
 **Prefer showing a preview value that’s near the middle in a range of dynamic values.** Dynamic properties like opacity or flow can be difficult to depict at the highest or lowest ends of the spectrum. For example, previewing the appearance of a brush mark made with the maximum pressure could occlude the area in which people are marking; in contrast, depicting a mark made with the minimum pressure could be hard for people to detect, making the preview an inaccurate representation of an actual mark or even invisible.
 
-![An illustration of Apple Pencil hovering slightly above a gray rectangle that represents the screen. A small blue oval beneath the tip represents a preview.](https://docs-assets.developer.apple.com/published/d18ccebb3a51a66f6c6151bc1414d9a1/apple-pencil-preview-small%402x.png)
+![An illustration of Apple Pencil hovering slightly above a gray rectangle that represents the screen. A small blue oval beneath the tip represents a preview.](/images/com.apple.HIG/apple-pencil-preview-small@2x.png)
 
-![An X in a circle to indicate incorrect usage.](https://docs-assets.developer.apple.com/published/209f6f0fc8ad99d9bf59e12d82d06584/crossout%402x.png)
+![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
 
-![An illustration of Apple Pencil hovering slightly above a gray rectangle that represents the screen. A medium blue oval beneath the tip represents a preview.](https://docs-assets.developer.apple.com/published/4c5b24f4381fc1ed83af48f2a7ae3268/apple-pencil-preview-medium%402x.png)
+![An illustration of Apple Pencil hovering slightly above a gray rectangle that represents the screen. A medium blue oval beneath the tip represents a preview.](/images/com.apple.HIG/apple-pencil-preview-medium@2x.png)
 
-![A checkmark in a circle to indicate correct usage.](https://docs-assets.developer.apple.com/published/88662da92338267bb64cd2275c84e484/checkmark%402x.png)
+![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png)
 
-![An illustration of Apple Pencil hovering slightly above a gray rectangle that represents the screen. A large blue oval beneath the tip represents a preview.](https://docs-assets.developer.apple.com/published/50d3aa8162579aced9bd752b856b5f6b/apple-pencil-preview-large%402x.png)
+![An illustration of Apple Pencil hovering slightly above a gray rectangle that represents the screen. A large blue oval beneath the tip represents a preview.](/images/com.apple.HIG/apple-pencil-preview-large@2x.png)
 
-![An X in a circle to indicate incorrect usage.](https://docs-assets.developer.apple.com/published/209f6f0fc8ad99d9bf59e12d82d06584/crossout%402x.png)
+![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
 
 **Consider using hover to support relevant interactions close to where people are marking.** For example, you might respond to hover by displaying a contextual menu of tool sizes when people perform a gesture like [Squeeze](https://developer.apple.com/design/human-interface-guidelines/apple-pencil-and-scribble#Squeeze) or press a modifier key on an attached keyboard. Revealing a menu near where people are marking lets them make choices without moving Apple Pencil or their hands to another part of the screen.
 
-**Prefer showing hover previews for Apple Pencil, not for a pointing device.** Although a pointing device can also respond to hover gestures, it might be confusing to provide the same visual feedback for both devices. If it makes sense in your app, you can restrict your hover preview to Apple Pencil only. For developer guidance, see [Adopting hover support for Apple Pencil](https://developer.apple.com/documentation/UIKit/adopting-hover-support-for-apple-pencil).
+**Prefer showing hover previews for Apple Pencil, not for a pointing device.** Although a pointing device can also respond to hover gestures, it might be confusing to provide the same visual feedback for both devices. If it makes sense in your app, you can restrict your hover preview to Apple Pencil only. For developer guidance, see [Adopting hover support for Apple Pencil](https://developer.apple.com/documentation/uikit/adopting-hover-support-for-apple-pencil).
 
 ## Double tap
 
@@ -99,7 +99,7 @@ With Scribble and Apple Pencil, people can simply write wherever text is accepte
 
 **Make text entry feel fluid and effortless.** By default, Scribble works in all standard text components — such as text fields, text views, search fields, and editable fields in web content — except password fields. If you use a custom text field in your app, avoid making people tap or select it before they can begin writing.
 
-**Make Scribble available everywhere people might want to enter text.** Unlike using the keyboard, using Apple Pencil encourages people to treat the screen the way they treat a sheet of paper. Help strengthen this perception in your app by making Scribble consistently available in places where text entry seems natural. For example, in Reminders, it’s natural for people to create a new reminder by writing it in the blank space below the last item, even though the area doesn’t contain a text field. For developer guidance, see [UIIndirectScribbleInteraction](https://developer.apple.com/documentation/UIKit/UIIndirectScribbleInteraction-1nfjm).
+**Make Scribble available everywhere people might want to enter text.** Unlike using the keyboard, using Apple Pencil encourages people to treat the screen the way they treat a sheet of paper. Help strengthen this perception in your app by making Scribble consistently available in places where text entry seems natural. For example, in Reminders, it’s natural for people to create a new reminder by writing it in the blank space below the last item, even though the area doesn’t contain a text field. For developer guidance, see [UIIndirectScribbleInteraction](https://developer.apple.com/documentation/uikit/uiindirectscribbleinteraction-1nfjm).
 
 **Avoid distracting people while they write.** Some text field behaviors work well for keyboard input, but can disrupt the natural writing experience that Apple Pencil provides. For example, it’s best to avoid displaying autocompletion text as people write in a text field because the suggestions can visually interfere with their writing. It’s also a good idea to hide a field’s placeholder text the moment people begin to write so that their input doesn’t appear to overlap it.
 
@@ -107,19 +107,19 @@ With Scribble and Apple Pencil, people can simply write wherever text is accepte
 
 **Prevent autoscrolling text while people are writing and editing in a text field.** When transcribed text autoscrolls, people might try to avoid writing on top of it. Worse, if text scrolls while people are using Apple Pencil to select it, they might select a different range of text than they want.
 
-**Give people enough space to write.** A small text field can feel uncomfortable to write in. When you know that Apple Pencil input is likely, improve the writing experience in your app by increasing the size of the text field before people begin to write in it or when they pause writing; avoid resizing a text field while people are writing. For developer guidance, see [UIScribbleInteraction](https://developer.apple.com/documentation/UIKit/UIScribbleInteraction).
+**Give people enough space to write.** A small text field can feel uncomfortable to write in. When you know that Apple Pencil input is likely, improve the writing experience in your app by increasing the size of the text field before people begin to write in it or when they pause writing; avoid resizing a text field while people are writing. For developer guidance, see [UIScribbleInteraction](https://developer.apple.com/documentation/uikit/uiscribbleinteraction).
 
-![An illustration showing a stack of two text fields, where the top field is about half the width of the bottom field. Both text fields contain the word Name in the leading end, followed by a person's signature. The top text field is too narrow to fit all of the signature and is marked with an X in a circle to indicate incorrect usage. The bottom text field is wide enough to fit the full signature and is marked with a checkmark in a circle to indicate correct usage.](https://docs-assets.developer.apple.com/published/0e2cd3f5562569097b9f668253dac0f7/apple-pencil-scribble%402x.png)
+![An illustration showing a stack of two text fields, where the top field is about half the width of the bottom field. Both text fields contain the word Name in the leading end, followed by a person's signature. The top text field is too narrow to fit all of the signature and is marked with an X in a circle to indicate incorrect usage. The bottom text field is wide enough to fit the full signature and is marked with a checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/apple-pencil-scribble@2x.png)
 
 ## Custom drawing
 
-Using [PencilKit](https://developer.apple.com/documentation/PencilKit), you can let people take notes, annotate documents and images, and draw with the same low-latency experience that iOS provides. PencilKit also makes it easy to create a custom drawing canvas in your app and offer a state-of-the-art tool picker and ink palette.
+Using [PencilKit](https://developer.apple.com/documentation/pencilkit), you can let people take notes, annotate documents and images, and draw with the same low-latency experience that iOS provides. PencilKit also makes it easy to create a custom drawing canvas in your app and offer a state-of-the-art tool picker and ink palette.
 
 **Help people draw on top of existing content.** By default, the colors on your PencilKit canvas dynamically adjust to Dark Mode, so people can create content in either mode and the results will look great in both. However, when people draw on top of existing content like a PDF or a photo, you want to prevent the dynamic adjustment of colors so that the markup remains sharp and visible.
 
 **Consider displaying custom undo and redo buttons when your app runs in a compact environment.** In a regular environment, the tool picker includes undo and redo buttons, but in a compact environment it doesn’t. In a compact environment, you could display undo and redo buttons in a toolbar. You might also consider supporting the standard 3-finger undo/redo gesture, so people can use it in any environment. For guidance, see [Undo and redo](../Patterns/Undo%20and%20redo.md).
 
-![An illustration of an iPad screen in landscape on the left and an iPhone screen in portrait on the right. Both screens show the tool picker at the bottom edge of the screen. The iPad screen shows the standard undo and redo buttons in the left end of the tool picker, and the iPhone screen shows the undo button in the top toolbar.](https://docs-assets.developer.apple.com/published/7587fbeb4272d990e295d093f79e1ef8/apple-pencil-undo-redo-buttons%402x.png)
+![An illustration of an iPad screen in landscape on the left and an iPhone screen in portrait on the right. Both screens show the tool picker at the bottom edge of the screen. The iPad screen shows the standard undo and redo buttons in the left end of the tool picker, and the iPhone screen shows the undo button in the top toolbar.](/images/com.apple.HIG/apple-pencil-undo-redo-buttons@2x.png)
 
 ## Platform considerations
 
@@ -133,9 +133,9 @@ Using [PencilKit](https://developer.apple.com/documentation/PencilKit), you can 
 
 #### Developer documentation
 
-[PencilKit](https://developer.apple.com/documentation/PencilKit)
+[PencilKit](https://developer.apple.com/documentation/pencilkit)
 
-[PaperKit](https://developer.apple.com/documentation/PaperKit)
+[PaperKit](https://developer.apple.com/documentation/paperkit)
 
 #### Videos
 

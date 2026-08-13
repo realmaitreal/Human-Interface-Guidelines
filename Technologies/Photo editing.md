@@ -4,7 +4,7 @@
 
 *Photo-editing extensions let people modify photos and videos within the Photos app by applying filters or making other changes.*
 
-![A sketch of crop marks surrounded by two arrows, suggesting photo editing. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/0923c23bdf3aebd4a8b7d94e43cb0efd/technologies-photo-editing-intro%402x.png)
+![A sketch of crop marks surrounded by two arrows, suggesting photo editing. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](/images/com.apple.HIG/technologies-photo-editing-intro@2x.png)
 
 Edits are always saved in the Photos app as new files, safely preserving the original versions.
 
@@ -30,7 +30,7 @@ To access a photo editing extension, a photo must be in edit mode. While in edit
 
 [App extensions](https://developer.apple.com/app-extensions/)
 
-[PhotoKit](https://developer.apple.com/documentation/PhotoKit)
+[PhotoKit](https://developer.apple.com/documentation/photokit)
 
 #### Videos
 

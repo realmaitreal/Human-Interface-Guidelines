@@ -4,7 +4,7 @@
 
 *On a Mac, people can secondary click an app’s or game’s icon in the Dock to reveal a Dock menu, which presents both system-provided and custom items.*
 
-![A stylized representation of a menu extending from an icon in the Dock. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/68c8578c8c6d03f2cd53d3de827ca1ec/components-dock-menu-intro%402x.png)
+![A stylized representation of a menu extending from an icon in the Dock. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-dock-menu-intro@2x.png)
 
 The system-provided Dock menu items can vary depending on whether the app is open. For example, the Dock menu for Safari includes menu items for actions like viewing a current window or creating a new window.
 
@@ -34,7 +34,7 @@ As with all menus, you need to label Dock menu items succinctly and organize the
 
 #### Developer documentation
 
-[applicationDockMenu(_:)](https://developer.apple.com/documentation/AppKit/NSApplicationDelegate/applicationDockMenu(_:)) — AppKit
+[applicationDockMenu(_:)](https://developer.apple.com/documentation/appkit/nsapplicationdelegate/applicationdockmenu(_:)) — AppKit
 
 ---
 *Source: [https://developer.apple.com/design/human-interface-guidelines/dock-menus](https://developer.apple.com/design/human-interface-guidelines/dock-menus)*

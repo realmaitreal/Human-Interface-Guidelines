@@ -8,7 +8,7 @@
 >
 > Revised for Siri AI.
 
-![A sketch of the Siri icon. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/8e1b9efe67353bcd04df47749fb03905/technologies-Siri-intro%402x.png)
+![A sketch of the Siri icon. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](/images/com.apple.HIG/technologies-Siri-intro@2x.png)
 
 Siri is a personal assistant that helps people get information and perform quick actions throughout the system and the apps they use. People interact with Siri in a variety of ways, like using their voice, swiping down from the Dynamic Island, or in the Siri app.
 
@@ -18,21 +18,21 @@ For example, someone can say “Send a message to Marisa in *AppName*” from an
 
 ## Getting your app to work with Siri
 
-By default, the system doesn’t have specific awareness of what an app can do or the information it contains. In order for an app to work with Siri, the app has to make its features and content available to Apple Intelligence using the [App Intents](https://developer.apple.com/documentation/AppIntents) framework.
+By default, the system doesn’t have specific awareness of what an app can do or the information it contains. In order for an app to work with Siri, the app has to make its features and content available to Apple Intelligence using the [App Intents](https://developer.apple.com/documentation/appintents) framework.
 
-When an app implements intents, the system can expose the things the app can do (the app’s actions, or *intents*) and its content (the app’s *entities*) in system experiences where it makes sense. This makes the app’s actions and content available to features that build on Apple Intelligence, such as Siri, Spotlight, and the Shortcuts app. For developer guidance, see [Getting started with the App Intents framework](https://developer.apple.com/documentation/AppIntents/getting-started-with-the-app-intents-framework).
+When an app implements intents, the system can expose the things the app can do (the app’s actions, or *intents*) and its content (the app’s *entities*) in system experiences where it makes sense. This makes the app’s actions and content available to features that build on Apple Intelligence, such as Siri, Spotlight, and the Shortcuts app. For developer guidance, see [Getting started with the App Intents framework](https://developer.apple.com/documentation/appintents/getting-started-with-the-app-intents-framework).
 
-To get the most out of Siri, an app can additionally associate its features and content with app *[App schema domains](https://developer.apple.com/documentation/AppIntents/app-schema-domains)*: preset templates for functionality that the system already understands. Apps in common domain areas like email, music, or photos can use the system’s existing knowledge to access built-in logic for handling requests through a wider range of options with natural conversation and deeper contextual understanding. For developer guidance, see [Apple Intelligence and Siri AI](https://developer.apple.com/documentation/AppIntents/apple-intelligence-and-siri-ai) and [Making actions and content discoverable by Apple Intelligence](https://developer.apple.com/documentation/AppIntents/making-actions-and-content-discoverable-by-apple-intelligence).
+To get the most out of Siri, an app can additionally associate its features and content with app *[App schema domains](https://developer.apple.com/documentation/appintents/app-schema-domains)*: preset templates for functionality that the system already understands. Apps in common domain areas like email, music, or photos can use the system’s existing knowledge to access built-in logic for handling requests through a wider range of options with natural conversation and deeper contextual understanding. For developer guidance, see [Apple Intelligence and Siri AI](https://developer.apple.com/documentation/appintents/apple-intelligence-and-siri-ai) and [Making actions and content discoverable by Apple Intelligence](https://developer.apple.com/documentation/appintents/making-actions-and-content-discoverable-by-apple-intelligence).
 
 ### Sharing contextual information
 
 In addition to exposing actions and content with schemas, an app can offer a more personalized experience by giving the system contextual information about its content and features.
 
-An app can tell the system what’s onscreen by annotating its views and other content with app entities. This gives the system information Siri needs to improve contextual interaction based on what someone is interacting with. For example, when someone refers to parts of your app’s content (like buttons or onscreen graphics) during a Siri conversation, Siri can use the annotations your app provides to understand what the person means. For developer guidance, see [Providing contextual cues to Apple Intelligence and Siri](https://developer.apple.com/documentation/AppIntents/providing-contextual-cues-to-apple-intelligence-and-siri).
+An app can tell the system what’s onscreen by annotating its views and other content with app entities. This gives the system information Siri needs to improve contextual interaction based on what someone is interacting with. For example, when someone refers to parts of your app’s content (like buttons or onscreen graphics) during a Siri conversation, Siri can use the annotations your app provides to understand what the person means. For developer guidance, see [Providing contextual cues to Apple Intelligence and Siri](https://developer.apple.com/documentation/appintents/providing-contextual-cues-to-apple-intelligence-and-siri).
 
-To provide content information to the system, an app can donate entities to the on-device Spotlight index, which makes the app’s information available to someone searching in Spotlight or with Siri. For developer guidance, see [Defining app entities for your custom data types](https://developer.apple.com/documentation/AppIntents/defining-app-entities-for-your-custom-data-types) and [Making app entities available in Spotlight](https://developer.apple.com/documentation/AppIntents/making-app-entities-available-in-spotlight).
+To provide content information to the system, an app can donate entities to the on-device Spotlight index, which makes the app’s information available to someone searching in Spotlight or with Siri. For developer guidance, see [Defining app entities for your custom data types](https://developer.apple.com/documentation/appintents/defining-app-entities-for-your-custom-data-types) and [Making app entities available in Spotlight](https://developer.apple.com/documentation/appintents/making-app-entities-available-in-spotlight).
 
-An app can also tell the system about actions a person takes while using it by donating the actions as intents. This helps Siri anticipate future actions a person might want to take, and surface them through various system experiences at appropriate times. Examples of actions an app can donate include things like a person’s recent activity or items that a person has indicated an interest in. For developer guidance, see [Donating your app’s data and actions to the system](https://developer.apple.com/documentation/AppIntents/donating-your-apps-data-and-actions-to-the-system).
+An app can also tell the system about actions a person takes while using it by donating the actions as intents. This helps Siri anticipate future actions a person might want to take, and surface them through various system experiences at appropriate times. Examples of actions an app can donate include things like a person’s recent activity or items that a person has indicated an interest in. For developer guidance, see [Donating your app’s data and actions to the system](https://developer.apple.com/documentation/appintents/donating-your-apps-data-and-actions-to-the-system).
 
 ## Best practices
 
@@ -48,9 +48,9 @@ An app can also tell the system about actions a person takes while using it by d
 
 ## Customizing your app’s experience with Siri
 
-For apps with many common feature sets, existing [App schema domains](https://developer.apple.com/documentation/AppIntents/app-schema-domains) provide the built-in functionality that they need to expose their actions and content to Apple Intelligence and Siri without any additional work. If your app’s functionality falls outside of these areas, *App Shortcuts* offer a way to expose custom actions to the system for Siri to access. For design guidance, see [App Shortcuts](../Components/System%20experiences/App%20Shortcuts.md). For developer guidance, see [App Shortcuts](https://developer.apple.com/documentation/AppIntents/app-shortcuts).
+For apps with many common feature sets, existing [App schema domains](https://developer.apple.com/documentation/appintents/app-schema-domains) provide the built-in functionality that they need to expose their actions and content to Apple Intelligence and Siri without any additional work. If your app’s functionality falls outside of these areas, *App Shortcuts* offer a way to expose custom actions to the system for Siri to access. For design guidance, see [App Shortcuts](../Components/System%20experiences/App%20Shortcuts.md). For developer guidance, see [App Shortcuts](https://developer.apple.com/documentation/appintents/app-shortcuts).
 
-To customize the experience of an action or a piece of content associated with an existing schema, an app can define additional optional properties as part of an intent or entity that can contextually enhance the response that Siri provides. An app could present a playback control [Snippets](https://developer.apple.com/design/Human-Interface-Guidelines/snippets) that Siri can display as an audio file plays, for example. For developer guidance, see [Displaying static and interactive snippets](https://developer.apple.com/documentation/AppIntents/displaying-static-and-interactive-snippets).
+To customize the experience of an action or a piece of content associated with an existing schema, an app can define additional optional properties as part of an intent or entity that can contextually enhance the response that Siri provides. An app could present a playback control [Snippets](../Components/System%20experiences/Snippets.md) that Siri can display as an audio file plays, for example. For developer guidance, see [Displaying static and interactive snippets](https://developer.apple.com/documentation/appintents/displaying-static-and-interactive-snippets).
 
 > **Note**
 >
@@ -118,11 +118,11 @@ When you provide additional custom properties as part of your schema responses, 
 
 #### Developer documentation
 
-[App Intents](https://developer.apple.com/documentation/AppIntents)
+[App Intents](https://developer.apple.com/documentation/appintents)
 
-[App schema domains](https://developer.apple.com/documentation/AppIntents/app-schema-domains)
+[App schema domains](https://developer.apple.com/documentation/appintents/app-schema-domains)
 
-[Apple Intelligence and Siri AI](https://developer.apple.com/documentation/AppIntents/apple-intelligence-and-siri-ai)
+[Apple Intelligence and Siri AI](https://developer.apple.com/documentation/appintents/apple-intelligence-and-siri-ai)
 
 #### Videos
 

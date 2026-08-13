@@ -8,7 +8,7 @@
 >
 > Added guidance for the menu bar in iPadOS.
 
-![A stylized representation of the macOS menu bar displaying a selected menu. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/926463c076b1e6aea5a5af518c177750/components-the-menu-bar-intro%402x.png)
+![A stylized representation of the macOS menu bar displaying a selected menu. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-the-menu-bar-intro@2x.png)
 
 Mac users are very familiar with the macOS menu bar, and they rely on it to help them learn what an app does and find the commands they need. To help your app or game feel at home in macOS, it’s essential to provide a consistent menu bar experience.
 
@@ -16,7 +16,7 @@ Menu bar menus on iPad are similar to those on Mac, appearing in the same order 
 
 Keyboard shortcuts in iPadOS use the same patterns as in macOS. For guidance, see [Standard keyboard shortcuts](https://developer.apple.com/design/human-interface-guidelines/keyboards#Standard-keyboard-shortcuts).
 
-![An illustration of an app window on iPad, with its menu bar appearing at the top of the screen and the Edit menu open.](https://docs-assets.developer.apple.com/published/7c3a4ae9470f62e0eb41b8ce297032f8/menu-bar-ipad-overview%402x.png)
+![An illustration of an app window on iPad, with its menu bar appearing at the top of the screen and the Edit menu open.](/images/com.apple.HIG/menu-bar-ipad-overview@2x.png)
 
 Menus in the menu bar share most of the appearance and behavior characteristics that all menu types have. To learn about menus in general — and how to organize and label menu items — see [Menus](Menus.md).
 
@@ -196,7 +196,7 @@ The Help menu — located at the trailing end of the menu bar — provides acces
 | *YourAppName* Help | When the content uses the Help Book format, opens the content in the built-in Help Viewer. |  |
 | *Additional Item* |  | Use a separator between your primary help documentation and additional items, which might include registration information or release notes. Keep the total the number of items you list in the Help menu small to avoid overwhelming people with too many choices when they need help. Alternatively, consider linking to additional items from within your help documentation. |
 
-For guidance, see [Offering help](../../Patterns/Offering%20help.md); for developer guidance, see [NSHelpManager](https://developer.apple.com/documentation/AppKit/NSHelpManager).
+For guidance, see [Offering help](../../Patterns/Offering%20help.md); for developer guidance, see [NSHelpManager](https://developer.apple.com/documentation/appkit/nshelpmanager).
 
 ## Dynamic menu items
 
@@ -206,7 +206,7 @@ In rare cases, it can make sense to present a *dynamic menu item*, which is a me
 
 **Use dynamic menu items primarily in menu bar menus.** Adding a dynamic menu item to contextual or Dock menus can make the item even harder for people to discover.
 
-**Require only a single modifier key to reveal a dynamic menu item.** It can be physically awkward to press more than one key while simultaneously opening a menu and choosing a menu item, in addition to reducing the discoverability of the dynamic behavior. For developer guidance, see [isAlternate](https://developer.apple.com/documentation/AppKit/NSMenuItem/isAlternate).
+**Require only a single modifier key to reveal a dynamic menu item.** It can be physically awkward to press more than one key while simultaneously opening a menu and choosing a menu item, in addition to reducing the discoverability of the dynamic behavior. For developer guidance, see [isAlternate](https://developer.apple.com/documentation/appkit/nsmenuitem/isalternate).
 
 > **Tip**
 >
@@ -249,11 +249,11 @@ When people enter full-screen mode, the menu bar typically hides until they reve
 
 #### Menu bar extras
 
-A menu bar extra exposes app-specific functionality using an icon that appears in the menu bar when your app is running, even when it’s not the frontmost app. Menu bar extras are on the opposite side of the menu bar from your app’s menus. For developer guidance, see [MenuBarExtra](https://developer.apple.com/documentation/SwiftUI/MenuBarExtra).
+A menu bar extra exposes app-specific functionality using an icon that appears in the menu bar when your app is running, even when it’s not the frontmost app. Menu bar extras are on the opposite side of the menu bar from your app’s menus. For developer guidance, see [MenuBarExtra](https://developer.apple.com/documentation/swiftui/menubarextra).
 
 When necessary, the system hides menu bar extras to make room for app menus. Similarly, if there are too many menu bar extras, the system may hide some to avoid crowding app menus.
 
-![A screenshot of the Input menu bar extra and its menu.](https://docs-assets.developer.apple.com/published/97a8b1969dd941fc8920da157b345fb5/menu-bar-extras%402x.png)
+![A screenshot of the Input menu bar extra and its menu.](/images/com.apple.HIG/menu-bar-extras@2x.png)
 
 **Consider using a symbol to represent your menu bar extra.** You can create an [Icons](../../Foundations/Icons.md) or you can choose one of the [SF Symbols](../../Foundations/SF%20Symbols.md), using it as-is or customizing it to suit your needs. Both interface icons and symbols use black and clear colors to define their shapes; the system can apply other colors to the black areas in each image so it looks good on both dark and light menu bars, and when your menu bar extra is selected. The menu bar’s height is 24 pt.
 
@@ -277,11 +277,11 @@ When necessary, the system hides menu bar extras to make room for app menus. Sim
 
 #### Developer documentation
 
-[CommandMenu](https://developer.apple.com/documentation/SwiftUI/CommandMenu) — SwiftUI
+[CommandMenu](https://developer.apple.com/documentation/swiftui/commandmenu) — SwiftUI
 
-[Adding menus and shortcuts to the menu bar and user interface](https://developer.apple.com/documentation/UIKit/adding-menus-and-shortcuts-to-the-menu-bar-and-user-interface) — UIKit
+[Adding menus and shortcuts to the menu bar and user interface](https://developer.apple.com/documentation/uikit/adding-menus-and-shortcuts-to-the-menu-bar-and-user-interface) — UIKit
 
-[NSStatusBar](https://developer.apple.com/documentation/AppKit/NSStatusBar) — AppKit
+[NSStatusBar](https://developer.apple.com/documentation/appkit/nsstatusbar) — AppKit
 
 #### Videos
 

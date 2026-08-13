@@ -8,7 +8,7 @@
 >
 > New page.
 
-![A sketch of progressively larger curved lines emerging from the bottom corner of an ID card, suggesting ID Verifier. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/8d77246d289837a097f0556d6e7d2c7d/technologies-ID-Verifier-Apps-intro%402x.png)
+![A sketch of progressively larger curved lines emerging from the bottom corner of an ID card, suggesting ID Verifier. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](/images/com.apple.HIG/technologies-ID-Verifier-Apps-intro@2x.png)
 
 Beginning in iOS 17, you can integrate ID Verifier into your app, letting iPhone read ISO18013-5 compliant mobile IDs and helping you support in-person ID verification. For example, personnel at a concert venue can use your app on iPhone to verify customers’ ages.
 
@@ -19,12 +19,12 @@ Using ID Verifier has advantages for both customers and organizations.
 
 Depending on the needs of your app, you can use ID Verifier to make the following types of requests:
 
-- **Display Only request.** Use a Display Only request to display data — such as a person’s name or age alongside their photo portrait — within system-provided UI on the requester’s iPhone, so the requester can visually confirm the person’s identity. When you make a Display Only request, the customer’s data remains within the system-provided UI and isn’t transmitted to your app. For developer guidance, see [MobileDriversLicenseDisplayRequest](https://developer.apple.com/documentation/ProximityReader/MobileDriversLicenseDisplayRequest).
-- **Data Transfer request.** Use a Data Transfer request only when you have a legal verification requirement and you need to store or process information like a person’s address or date of birth. You must request an additional entitlement to make a Data Transfer request. To learn more, see [Get started with ID Verifier](https://developer.apple.com/wallet/id-verifier/); for developer guidance, see [MobileDriversLicenseDataRequest](https://developer.apple.com/documentation/ProximityReader/MobileDriversLicenseDataRequest) and [MobileDriversLicenseRawDataRequest](https://developer.apple.com/documentation/ProximityReader/MobileDriversLicenseRawDataRequest).
+- **Display Only request.** Use a Display Only request to display data — such as a person’s name or age alongside their photo portrait — within system-provided UI on the requester’s iPhone, so the requester can visually confirm the person’s identity. When you make a Display Only request, the customer’s data remains within the system-provided UI and isn’t transmitted to your app. For developer guidance, see [MobileDriversLicenseDisplayRequest](https://developer.apple.com/documentation/proximityreader/mobiledriverslicensedisplayrequest).
+- **Data Transfer request.** Use a Data Transfer request only when you have a legal verification requirement and you need to store or process information like a person’s address or date of birth. You must request an additional entitlement to make a Data Transfer request. To learn more, see [Get started with ID Verifier](https://developer.apple.com/wallet/id-verifier/); for developer guidance, see [MobileDriversLicenseDataRequest](https://developer.apple.com/documentation/proximityreader/mobiledriverslicensedatarequest) and [MobileDriversLicenseRawDataRequest](https://developer.apple.com/documentation/proximityreader/mobiledriverslicenserawdatarequest).
 
 ## Best practices
 
-**Ask only for the data you need.** People may lose trust in the experience if you ask for more data than you need to complete the current verification. For example, if you need to ensure that a customer is at least a minimum age, use a request that specifies an age threshold; avoid requesting the customer’s current age or birth date. For developer guidance, see [ageAtLeast(_:)](https://developer.apple.com/documentation/ProximityReader/MobileDriversLicenseDataRequest/Element/ageAtLeast(_:)).
+**Ask only for the data you need.** People may lose trust in the experience if you ask for more data than you need to complete the current verification. For example, if you need to ensure that a customer is at least a minimum age, use a request that specifies an age threshold; avoid requesting the customer’s current age or birth date. For developer guidance, see [ageAtLeast(_:)](https://developer.apple.com/documentation/proximityreader/mobiledriverslicensedatarequest/element/ageatleast(_:)).
 
 **If your app qualifies for Apple Business Register, register for ID Verifier to ensure that people can view essential information about your organization when you make a request.** Registering for ID Verifier with Apple Business Register lets you provide your official organization name and logo for the system to display on customers’ devices as part of the ID verification UI. To learn if your app qualifies and how to register, see [Apple Business Register](https://register.apple.com/services/login?returnTo=/signin/tap-to-present-id-on-iphone).
 
@@ -32,8 +32,8 @@ Depending on the needs of your app, you can use ID Verifier to make the followin
 
 | Button type | Example usage |
 | --- | --- |
-| ![An illustration of a Verify Age button.](https://docs-assets.developer.apple.com/published/68f99fdea3def2ba04aee092c3465400/id-verifier-button-age%402x.png) | An app that checks whether people are old enough to attend an event or access a venue, like a concert hall. |
-| ![An illustration of a Verify Identity button.](https://docs-assets.developer.apple.com/published/1e827d68149ef111a2ff7ebec21912a0/id-verifier-button-identity%402x.png) | An app that verifies whether specific identity information matches expected values, such as name and birth date when picking up a rental car. |
+| ![An illustration of a Verify Age button.](/images/com.apple.HIG/id-verifier-button-age@2x.png) | An app that checks whether people are old enough to attend an event or access a venue, like a concert hall. |
+| ![An illustration of a Verify Identity button.](/images/com.apple.HIG/id-verifier-button-identity@2x.png) | An app that verifies whether specific identity information matches expected values, such as name and birth date when picking up a rental car. |
 
 **In a Display Only request, help the person using your app provide feedback on the visual confirmation they perform.** For example, when the reader displays the customer’s portrait, you might provide buttons labeled Matches Person and Doesn’t Match Person so your app can receive an approved or rejected value as part of the response.
 
@@ -53,7 +53,7 @@ Depending on the needs of your app, you can use ID Verifier to make the followin
 
 #### Developer documentation
 
-[Adopting the Verifier API in your iPhone app](https://developer.apple.com/documentation/ProximityReader/adopting-the-verifier-api-in-your-iphone-app) — ProximityReader
+[Adopting the Verifier API in your iPhone app](https://developer.apple.com/documentation/proximityreader/adopting-the-verifier-api-in-your-iphone-app) — ProximityReader
 
 #### Videos
 

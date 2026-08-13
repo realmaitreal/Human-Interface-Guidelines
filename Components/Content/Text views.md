@@ -8,7 +8,7 @@
 >
 > Updated guidance to reflect changes in watchOS 10.
 
-![A stylized representation of a field containing text. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/f28bcd33358fefd86224205a772d14cc/components-text-view-intro%402x.png)
+![A stylized representation of a field containing text. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-text-view-intro@2x.png)
 
 Text views can be any height and allow scrolling when the content extends outside of the view. By default, content within a text view is aligned to the leading edge and uses the system label color. In iOS, iPadOS, and visionOS, if a text view is editable, a keyboard appears when people select the view.
 
@@ -44,11 +44,11 @@ You can display text in tvOS using a text view. Because text input in tvOS is mi
 
 #### Developer documentation
 
-[Text](https://developer.apple.com/documentation/SwiftUI/Text) — SwiftUI
+[Text](https://developer.apple.com/documentation/swiftui/text) — SwiftUI
 
-[UITextView](https://developer.apple.com/documentation/UIKit/UITextView) — UIKit
+[UITextView](https://developer.apple.com/documentation/uikit/uitextview) — UIKit
 
-[NSTextView](https://developer.apple.com/documentation/AppKit/NSTextView) — AppKit
+[NSTextView](https://developer.apple.com/documentation/appkit/nstextview) — AppKit
 
 ## Change log
 

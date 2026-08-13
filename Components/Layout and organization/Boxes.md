@@ -4,7 +4,7 @@
 
 *A box creates a visually distinct group of logically related information and components.*
 
-![A stylized representation of a group of interface elements within a rounded rectangle. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/2dcd532bc557461ac710d0dd428b2545/components-box-intro%402x.png)
+![A stylized representation of a group of interface elements within a rounded rectangle. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-box-intro@2x.png)
 
 By default, a box uses a visible border or background color to separate its contents from the rest of the interface. A box can also include a title.
 
@@ -40,9 +40,9 @@ By default, macOS displays a box’s title above it.
 
 #### Developer documentation
 
-[GroupBox](https://developer.apple.com/documentation/SwiftUI/GroupBox) — SwiftUI
+[GroupBox](https://developer.apple.com/documentation/swiftui/groupbox) — SwiftUI
 
-[NSBox](https://developer.apple.com/documentation/AppKit/NSBox) — AppKit
+[NSBox](https://developer.apple.com/documentation/appkit/nsbox) — AppKit
 
 ---
 *Source: [https://developer.apple.com/design/human-interface-guidelines/boxes](https://developer.apple.com/design/human-interface-guidelines/boxes)*

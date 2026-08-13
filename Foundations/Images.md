@@ -8,7 +8,7 @@
 >
 > Added guidance for spatial photos and spatial scenes in visionOS.
 
-![A sketch of a photo, suggesting imagery. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/b0a68ac859ddb098858e92609997d307/foundations-images-intro%402x.png)
+![A sketch of a photo, suggesting imagery. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo.](/images/com.apple.HIG/foundations-images-intro@2x.png)
 
 ## Resolution
 
@@ -18,13 +18,13 @@ A *point* is an abstract unit of measurement that helps visual content remain co
 
 When creating bitmap images, you specify a *scale factor* which determines the resolution of an image. You can visualize scale factor by considering the density of pixels per point in 2D displays of various resolutions. For example, a scale factor of 1 (also called @1x) describes a 1:1 pixel density, where one pixel is equal to one point. High-resolution 2D displays have higher pixel densities, such as 2:1 or 3:1. A 2:1 density (called @2x) has a scale factor of 2, and a 3:1 density (called @3x) has a scale factor of 3. Because of higher pixel densities, high-resolution displays demand images with more pixels.
 
-![Image of a circle that's in standard resolution at scale factor of @1x, and is 10 by 10 pixels.](https://docs-assets.developer.apple.com/published/a9b04545f30aff45ca503e263c02d464/image-resolution-1x%402x.png)  
+![Image of a circle that's in standard resolution at scale factor of @1x, and is 10 by 10 pixels.](/images/com.apple.HIG/image-resolution-1x@2x.png)  
 *1x (10x10 px)*
 
-![Image of a circle that's in high resolution at a scale factor of @2x, and is 20 by 20 pixels.](https://docs-assets.developer.apple.com/published/cf203acc0ee6299833fb2e5b5c4a7348/image-resolution-2x%402x.png)  
+![Image of a circle that's in high resolution at a scale factor of @2x, and is 20 by 20 pixels.](/images/com.apple.HIG/image-resolution-2x@2x.png)  
 *2x (20x20 px)*
 
-![Image of a circle that's in high resolution at a scale factor of @3x, and is 30 by 30 pixels.](https://docs-assets.developer.apple.com/published/0de9ee5144fc2278682eb211ac8f571d/image-resolution-3x%402x.png)  
+![Image of a circle that's in high resolution at a scale factor of @3x, and is 30 by 30 pixels.](/images/com.apple.HIG/image-resolution-3x@2x.png)  
 *3x (30x30 px)*
 
 **Provide high-resolution assets for all bitmap images in your app, for every device you support.** As you add each image to your project’s asset catalog, identify its scale factor by appending “@1x,” “@2x,” or “@3x” to its filename. Use the following values for guidance; for additional scale factors, see [Layout](Layout.md).
@@ -84,7 +84,7 @@ You can embed layered images in your app or retrieve them from a content server 
 >
 > If your app retrieves layered images from a content server at runtime, you must provide runtime layered images (`.lcr`). You can generate them from LSR files or Photoshop files using the `layerutil` command-line tool that Xcode provides. Runtime layered images are intended to be downloaded — don’t embed them in your app.
 
-**Use standard interface elements to display layered images.** If you use standard views and system-provided focus APIs — such as [FocusState](https://developer.apple.com/documentation/SwiftUI/FocusState) — layered images automatically get the parallax treatment when people bring them into focus.
+**Use standard interface elements to display layered images.** If you use standard views and system-provided focus APIs — such as [FocusState](https://developer.apple.com/documentation/swiftui/focusstate) — layered images automatically get the parallax treatment when people bring them into focus.
 
 **Identify logical foreground, middle, and background elements.** In foreground layers, display prominent elements like a character in a game, or text on an album cover or movie poster. Middle layers are perfect for secondary content and effects like shadows. Background layers are opaque backdrops that showcase the foreground and middle layers without upstaging them.
 
@@ -104,19 +104,19 @@ In visionOS, people can view images at a much larger range of sizes than in any 
 
 **Create a layered app icon.** App icons in visionOS are composed of two to three layers that provide the appearance of depth by moving at subtly different rates when the icon is in focus. For guidance, see [Layer design](https://developer.apple.com/design/human-interface-guidelines/app-icons#Layer-design).
 
-**Prefer vector-based art for 2D images.** Avoid bitmap content because it might not look good when the system scales it up. If you use Core Animation layers, see [Drawing sharp layer-based content in visionOS](https://developer.apple.com/documentation/visionOS/drawing-sharp-layer-based-content) for developer guidance.
+**Prefer vector-based art for 2D images.** Avoid bitmap content because it might not look good when the system scales it up. If you use Core Animation layers, see [Drawing sharp layer-based content in visionOS](https://developer.apple.com/documentation/visionos/drawing-sharp-layer-based-content) for developer guidance.
 
-**If you need to use rasterized images, balance quality with performance as you choose a resolution.** Although a @2x image looks fine at common viewing distances, its fixed resolution means that the system doesn’t dynamically scale it and it might not look sharp from close up. To help a rasterized image look sharp when people view it from a wide range of distances, you can use a higher resolution, but each increase in resolution results in a larger file size and may impact your app’s runtime performance, especially for resolutions over @6x. If you use images that have resolutions higher than @2x, be sure to also apply high-quality image filtering to help balance quality and performance (for developer guidance, see [filters](https://developer.apple.com/documentation/QuartzCore/CALayer/filters)).
+**If you need to use rasterized images, balance quality with performance as you choose a resolution.** Although a @2x image looks fine at common viewing distances, its fixed resolution means that the system doesn’t dynamically scale it and it might not look sharp from close up. To help a rasterized image look sharp when people view it from a wide range of distances, you can use a higher resolution, but each increase in resolution results in a larger file size and may impact your app’s runtime performance, especially for resolutions over @6x. If you use images that have resolutions higher than @2x, be sure to also apply high-quality image filtering to help balance quality and performance (for developer guidance, see [filters](https://developer.apple.com/documentation/quartzcore/calayer/filters)).
 
 #### Spatial photos and spatial scenes
 
-In addition to 2D and stereoscopic images, visionOS apps and games can use RealityKit to display spatial photos and spatial scenes. A *spatial photo* is a stereoscopic photo with additional spatial metadata, as captured on iPhone 15 Pro or later, Apple Vision Pro, or other compatible camera. A *spatial scene* is a 3D image generated from a 2D image to add a parallax effect that responds to head movement. For developer guidance, see [ImagePresentationComponent](https://developer.apple.com/documentation/RealityKit/ImagePresentationComponent).
+In addition to 2D and stereoscopic images, visionOS apps and games can use RealityKit to display spatial photos and spatial scenes. A *spatial photo* is a stereoscopic photo with additional spatial metadata, as captured on iPhone 15 Pro or later, Apple Vision Pro, or other compatible camera. A *spatial scene* is a 3D image generated from a 2D image to add a parallax effect that responds to head movement. For developer guidance, see [ImagePresentationComponent](https://developer.apple.com/documentation/realitykit/imagepresentationcomponent).
 
 **Make sure spatial photos render correctly in your app.** Use the stereo High-Efficiency Image Codec (HEIC) format to display a spatial photo in your app. When you add spatial metadata to a stereo HEIC, visionOS recognizes the photo as spatial and includes visual treatments that help minimize common causes of stereo-viewing discomfort.
 
-**Prefer the feathered glass background effect to display text over spatial photos.** If you need to place text over a spatial photo in your app or game, use the feathered glass background effect. The effect adds contrast to make the text readable, and it blurs out detail to help reduce visual discomfort when people view text over spatial photos. For developer guidance, see [GlassBackgroundEffect](https://developer.apple.com/documentation/SwiftUI/GlassBackgroundEffect).
+**Prefer the feathered glass background effect to display text over spatial photos.** If you need to place text over a spatial photo in your app or game, use the feathered glass background effect. The effect adds contrast to make the text readable, and it blurs out detail to help reduce visual discomfort when people view text over spatial photos. For developer guidance, see [GlassBackgroundEffect](https://developer.apple.com/documentation/swiftui/glassbackgroundeffect).
 
-**Take visual comfort into consideration when you make spatial photos from existing 2D content.** When adjusting the spatial metadata of a photo for your app or game, consider how you want people to view your content. Metadata like disparity adjustment can alter how people perceive the 3D scene, and can cause visual discomfort from certain viewing positions. For developer guidance, see [Creating spatial photos and videos with spatial metadata](https://developer.apple.com/documentation/ImageIO/Creating-spatial-photos-and-videos-with-spatial-metadata).
+**Take visual comfort into consideration when you make spatial photos from existing 2D content.** When adjusting the spatial metadata of a photo for your app or game, consider how you want people to view your content. Metadata like disparity adjustment can alter how people perceive the 3D scene, and can cause visual discomfort from certain viewing positions. For developer guidance, see [Creating spatial photos and videos with spatial metadata](https://developer.apple.com/documentation/imageio/creating-spatial-photos-and-videos-with-spatial-metadata).
 
 **Display spatial photos and spatial scenes in standalone views.** Avoid displaying spatial photos inline with other content, as this can cause visual discomfort. Instead, showcase spatial photos or spatial scenes in a separate view, like a sheet or window. If you must display stereoscopic images inline, provide generous spacing between the image and any inline content to help people’s eyes adjust to the depth changes.
 
@@ -150,13 +150,13 @@ In addition to 2D and stereoscopic images, visionOS apps and games can use Reali
 
 #### Developer documentation
 
-[Drawing sharp layer-based content in visionOS](https://developer.apple.com/documentation/visionOS/drawing-sharp-layer-based-content) — visionOS
+[Drawing sharp layer-based content in visionOS](https://developer.apple.com/documentation/visionos/drawing-sharp-layer-based-content) — visionOS
 
-[Images](https://developer.apple.com/documentation/SwiftUI/Images) — SwiftUI
+[Images](https://developer.apple.com/documentation/swiftui/images) — SwiftUI
 
-[UIImageView](https://developer.apple.com/documentation/UIKit/UIImageView) — UIKit
+[UIImageView](https://developer.apple.com/documentation/uikit/uiimageview) — UIKit
 
-[NSImageView](https://developer.apple.com/documentation/AppKit/NSImageView) — AppKit
+[NSImageView](https://developer.apple.com/documentation/appkit/nsimageview) — AppKit
 
 ## Change log
 

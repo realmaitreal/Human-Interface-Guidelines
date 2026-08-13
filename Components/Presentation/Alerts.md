@@ -8,7 +8,7 @@
 >
 > Enhanced guidance for using default and Cancel buttons.
 
-![A stylized representation of an alert mockup that includes a title, description, primary button, and secondary button. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/e74ac90d149b111c3f2c7d21e3484100/components-alert-intro%402x.png)
+![A stylized representation of an alert mockup that includes a title, description, primary button, and secondary button. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-alert-intro@2x.png)
 
 For example, an alert can tell people about a problem, warn them when their action might destroy data, and give them an opportunity to confirm a purchase or another important action they initiated.
 
@@ -79,7 +79,7 @@ In all platforms, alerts display a title, optional informative text, and up to t
 macOS automatically displays your app icon in an alert, but you can supply an alternative icon or symbol. In addition, macOS lets you:
 
 - Configure repeating alerts to let people suppress subsequent occurrences of the same alert.
-- Append a custom view if it’s necessary to provide additional information (for developer guidance, see [accessoryView](https://developer.apple.com/documentation/AppKit/NSAlert/accessoryView)).
+- Append a custom view if it’s necessary to provide additional information (for developer guidance, see [accessoryView](https://developer.apple.com/documentation/appkit/nsalert/accessoryview)).
 - Include a Help button that opens your help documentation (see [Help buttons](https://developer.apple.com/design/human-interface-guidelines/buttons#Help-buttons)).
 
 **Use a caution symbol sparingly.** Using a caution symbol like `exclamationmark.triangle` too frequently in your alerts diminishes its significance. Use the symbol only when extra attention is really needed, as when confirming an action that might result in unexpected loss of data. Don’t use the symbol for tasks whose only purpose is to overwrite or remove data, such as a save or empty trash.
@@ -104,11 +104,11 @@ If you need to display an accessory view in a visionOS alert, create a view that
 
 #### Developer documentation
 
-[alert(_:isPresented:actions:)](https://developer.apple.com/documentation/SwiftUI/View/alert(_:isPresented:actions:)-1bkka) — SwiftUI
+[alert(_:isPresented:actions:)](https://developer.apple.com/documentation/swiftui/view/alert(_:ispresented:actions:)-1bkka) — SwiftUI
 
-[UIAlertController](https://developer.apple.com/documentation/UIKit/UIAlertController) — UIKit
+[UIAlertController](https://developer.apple.com/documentation/uikit/uialertcontroller) — UIKit
 
-[NSAlert](https://developer.apple.com/documentation/AppKit/NSAlert) — AppKit
+[NSAlert](https://developer.apple.com/documentation/appkit/nsalert) — AppKit
 
 ## Change log
 

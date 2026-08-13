@@ -8,7 +8,7 @@
 >
 > Updated guidance for all platforms, and added guidance for macOS and CarPlay.
 
-![A stylized representation of the Dynamic Island, in collapsed and expanded form, displaying the score of a live sporting event. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/200baba6d90ab0dc888b4659cf3ed42b/components-live-activities-intro%402x.png)
+![A stylized representation of the Dynamic Island, in collapsed and expanded form, displaying the score of a live sporting event. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-live-activities-intro@2x.png)
 
 Live Activities let people keep track of tasks and events in glanceable locations across devices.  They go beyond push notifications, delivering frequent content and status updates over a few hours and letting people interact with the displayed information.
 
@@ -38,7 +38,7 @@ In iOS and iPadOS, your Live Activity appears throughout the system using these 
 
 In the Dynamic Island, the system uses the compact presentation when only one Live Activity is active. The presentation consists of two separate elements: one on the leading side of the TrueDepth camera and one on the trailing side. Despite its limited space, the compact presentation displays up-to-date information about your app’s Live Activity.
 
-![An illustration that shows the compact leading and compact trailing views in the Dynamic Island.](https://docs-assets.developer.apple.com/published/4992561b879b5788db4f1f0360f88c38/type-compact%402x.png)
+![An illustration that shows the compact leading and compact trailing views in the Dynamic Island.](/images/com.apple.HIG/type-compact@2x.png)
 
 For design guidance, see [Compact presentation](https://developer.apple.com/design/human-interface-guidelines/live-activities#Compact-presentation).
 
@@ -46,7 +46,7 @@ For design guidance, see [Compact presentation](https://developer.apple.com/desi
 
 When multiple Live Activities are active, the system uses the minimal presentation to display two of them in the Dynamic Island. One appears attached to the Dynamic Island while the other appears detached. Depending on its content size, the detached minimal presentation appears circular or oval. As with the compact presentation, people tap the minimal presentation to open its app or touch and hold it to see the expanded presentation.
 
-![An illustration that shows the minimal presentation in the Dynamic Island.](https://docs-assets.developer.apple.com/published/f90f614f67e66940fa8a3e8ca861b4d9/type-minimal%402x.png)
+![An illustration that shows the minimal presentation in the Dynamic Island.](/images/com.apple.HIG/type-minimal@2x.png)
 
 For design guidance, see [Minimal presentation](https://developer.apple.com/design/human-interface-guidelines/live-activities#Minimal-presentation).
 
@@ -54,7 +54,7 @@ For design guidance, see [Minimal presentation](https://developer.apple.com/desi
 
 When people touch and hold a Live Activity in compact or minimal presentation, the system displays the expanded presentation.
 
-![An illustration that shows the expanded view in the Dynamic Island.](https://docs-assets.developer.apple.com/published/4e5af6b7073ffa8245e0efd5e6815f0d/type-expanded%402x.png)
+![An illustration that shows the expanded view in the Dynamic Island.](/images/com.apple.HIG/type-expanded@2x.png)
 
 For design guidance, see [Expanded presentation](https://developer.apple.com/design/human-interface-guidelines/live-activities#Expanded-presentation).
 
@@ -62,11 +62,11 @@ For design guidance, see [Expanded presentation](https://developer.apple.com/des
 
 The system uses the Lock Screen presentation to display a banner at the bottom of the Lock Screen. In this presentation, use a layout similar to the expanded presentation.
 
-![A screenshot of a Live Activity on the Lock Screen of iPhone that supports the Dynamic Island.](https://docs-assets.developer.apple.com/published/fe50abc1d4dff465883107ba9448a19a/live-activity-lock-screen%402x.png)
+![A screenshot of a Live Activity on the Lock Screen of iPhone that supports the Dynamic Island.](/images/com.apple.HIG/live-activity-lock-screen@2x.png)
 
 When you alert people about Live Activity updates on devices that don’t support the Dynamic Island, the Lock Screen presentation briefly appears as a banner that overlays the Home Screen or other apps.
 
-![A screenshot of a Live Activity that appears as a banner on the Home Screen of iPhone without Dynamic Island support.](https://docs-assets.developer.apple.com/published/2b1fef03830a1927b085c2efb8ddcaf9/live-activity-notch%402x.png)
+![A screenshot of a Live Activity that appears as a banner on the Home Screen of iPhone without Dynamic Island support.](/images/com.apple.HIG/live-activity-notch@2x.png)
 
 For design guidance, see [Lock Screen presentation](https://developer.apple.com/design/human-interface-guidelines/live-activities#Lock-Screen-presentation).
 
@@ -74,7 +74,7 @@ For design guidance, see [Lock Screen presentation](https://developer.apple.com/
 
 On iPhone in StandBy, your Live Activity appears in the minimal presentation. When someone taps it, it transitions to the Lock Screen presentation, scaled up by 2x to fill the screen. If your Lock Screen presentation uses a custom background color, the system automatically extends it to the whole screen to create a seamless, full-screen design.
 
-![An image that shows the Lock Screen presentation of a Live Activity in StandBy, scaled up by 2x, with a dotted border to indicate the 2x scaling of the Live Activity.](https://docs-assets.developer.apple.com/published/fbbd5973af16593f3fd5ee7a2ddbebf8/live-activity-standby-default-outline%402x.png)
+![An image that shows the Lock Screen presentation of a Live Activity in StandBy, scaled up by 2x, with a dotted border to indicate the 2x scaling of the Live Activity.](/images/com.apple.HIG/live-activity-standby-default-outline@2x.png)
 
 For design guidance, see [StandBy presentation](https://developer.apple.com/design/human-interface-guidelines/live-activities#StandBy-presentation).
 
@@ -86,7 +86,7 @@ For design guidance, see [StandBy presentation](https://developer.apple.com/desi
 
 **Don’t use a Live Activity to display ads or promotions**. Live Activities help people stay informed about ongoing events and tasks, so it’s important to display only information that’s related to those events and tasks.
 
-**Avoid displaying sensitive information.** Live Activities are prominently visible and could be viewed by casual observers; for example, on the Lock Screen or in the Always-On display. For content people might consider sensitive or private, display an innocuous summary and let people tap the Live Activity to view the sensitive information in your app. Alternatively, redact views that may contain sensitive information and let people configure whether to show sensitive data. For developer guidance, see [Creating a widget extension](https://developer.apple.com/documentation/WidgetKit/Creating-a-Widget-Extension#Hide-sensitive-content).
+**Avoid displaying sensitive information.** Live Activities are prominently visible and could be viewed by casual observers; for example, on the Lock Screen or in the Always-On display. For content people might consider sensitive or private, display an innocuous summary and let people tap the Live Activity to view the sensitive information in your app. Alternatively, redact views that may contain sensitive information and let people configure whether to show sensitive data. For developer guidance, see [Creating a widget extension](https://developer.apple.com/documentation/widgetkit/creating-a-widget-extension).
 
 **Create a Live Activity that matches your app’s visual aesthetic and personality in both dark and light appearances.** This makes it easier for people to recognize your Live Activity and creates a visual connection to your app.
 
@@ -96,13 +96,13 @@ For design guidance, see [StandBy presentation](https://developer.apple.com/desi
 
 **Ensure text is easy to read.** Use large, heavier-weight text — a medium weight or higher. Use small text sparingly and make sure key information is legible at a glance.
 
-![An illustration that shows text in the Dynamic Island that's small and difficult to read.](https://docs-assets.developer.apple.com/published/6305527c5b59013de149075e4a20a138/live-activities-text-incorrect-size%402x.png)
+![An illustration that shows text in the Dynamic Island that's small and difficult to read.](/images/com.apple.HIG/live-activities-text-incorrect-size@2x.png)
 
-![An X in a circle to indicate incorrect usage.](https://docs-assets.developer.apple.com/published/209f6f0fc8ad99d9bf59e12d82d06584/crossout%402x.png)
+![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
 
-![An illustration that shows text in the Dynamic Island with heavier weights and legible size.](https://docs-assets.developer.apple.com/published/1cdb8d4deff3d5465cf4c71642bc94de/live-activities-text-correct-size%402x.png)
+![An illustration that shows text in the Dynamic Island with heavier weights and legible size.](/images/com.apple.HIG/live-activities-text-correct-size@2x.png)
 
-![A checkmark in a circle to indicate correct usage.](https://docs-assets.developer.apple.com/published/88662da92338267bb64cd2275c84e484/checkmark%402x.png)
+![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png)
 
 ### Creating Live Activity layouts
 
@@ -112,47 +112,47 @@ For design guidance, see [StandBy presentation](https://developer.apple.com/desi
 
 **Use familiar layouts for custom views and layouts.** Templates with default system margins and recommended text sizes are available in [Apple Design Resources](https://developer.apple.com/design/resources/). Using them helps your Live Activity remain legible at a glance and fit in with the visual language of its surroundings; for example, the Smart Stack on Apple Watch.
 
-![An illustration that shows content in the Dynamic Island with even margins.](https://docs-assets.developer.apple.com/published/08f636dea59d0355bbc0c42d67026509/live-activities-margins%402x.png)
+![An illustration that shows content in the Dynamic Island with even margins.](/images/com.apple.HIG/live-activities-margins@2x.png)
 
-**Use consistent margins and concentric placement.** Use even, matching margins between rounded shapes and the edges of the Live Activity, including corners, to ensure a harmonious fit. This prevents elements from poking into the rounded shape of the Live Activity and creating visual tension. For example, when placing a rounded rectangle near a corner of your Live Activity, match its corner radius to the outer corner radius of the Live Activity by subtracting the margin and using a SwiftUI container to apply the correct corner radius. For developer guidance, see [ContainerRelativeShape](https://developer.apple.com/documentation/SwiftUI/ContainerRelativeShape).
+**Use consistent margins and concentric placement.** Use even, matching margins between rounded shapes and the edges of the Live Activity, including corners, to ensure a harmonious fit. This prevents elements from poking into the rounded shape of the Live Activity and creating visual tension. For example, when placing a rounded rectangle near a corner of your Live Activity, match its corner radius to the outer corner radius of the Live Activity by subtracting the margin and using a SwiftUI container to apply the correct corner radius. For developer guidance, see [ContainerRelativeShape](https://developer.apple.com/documentation/swiftui/containerrelativeshape).
 
-![An illustration a Live Activity that draws content to the edge of the Dynamic Island.](https://docs-assets.developer.apple.com/published/881638db784a565ec2af57941e8dec5d/live-activities-rounded-shapes%402x.png)
+![An illustration a Live Activity that draws content to the edge of the Dynamic Island.](/images/com.apple.HIG/live-activities-rounded-shapes@2x.png)
 
 Keep content compact and snug within a margin that’s concentric to the outer edge of the Live Activity.
 
-![An illustration that shows how a Live Activity places an icon too far from the edge of the Dynamic Island.](https://docs-assets.developer.apple.com/published/f6ab85a99b55f39774f71e5f03d22455/live-activities-content-incorrect-position%402x.png)
+![An illustration that shows how a Live Activity places an icon too far from the edge of the Dynamic Island.](/images/com.apple.HIG/live-activities-content-incorrect-position@2x.png)
 
-![An X in a circle to indicate incorrect usage.](https://docs-assets.developer.apple.com/published/209f6f0fc8ad99d9bf59e12d82d06584/crossout%402x.png)
+![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
 
-![An illustration that shows how a Live Activity places an icon close to the edge of the Dynamic Island without poking into the rounded shape of the Dynamic Island.](https://docs-assets.developer.apple.com/published/c533297be7133d3ebeb70eaa6445b7c4/live-activities-content-correct-position%402x.png)
+![An illustration that shows how a Live Activity places an icon close to the edge of the Dynamic Island without poking into the rounded shape of the Dynamic Island.](/images/com.apple.HIG/live-activities-content-correct-position@2x.png)
 
-![A checkmark in a circle to indicate correct usage.](https://docs-assets.developer.apple.com/published/88662da92338267bb64cd2275c84e484/checkmark%402x.png)
+![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png)
 
 **When separating a block of content, place it in an inset container shape or use a thick line.** Don’t draw content all the way to the edge of the Dynamic Island.
 
-![An illustration that shows how a Live Activity draws content all the way to the edge of the Dynamic Island to separate content.](https://docs-assets.developer.apple.com/published/555c74e1fb1cdbb7a7f26c4da9a86cc8/live-activities-separating-content-incorrect%402x.png)
+![An illustration that shows how a Live Activity draws content all the way to the edge of the Dynamic Island to separate content.](/images/com.apple.HIG/live-activities-separating-content-incorrect@2x.png)
 
-![An X in a circle to indicate incorrect usage.](https://docs-assets.developer.apple.com/published/209f6f0fc8ad99d9bf59e12d82d06584/crossout%402x.png)
+![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
 
-![An illustration of a Live Activity with content in an inset, rounded shape to group it together.](https://docs-assets.developer.apple.com/published/2efb360240b1bfe7f7eac8e7a5a72748/live-activities-separating-content-pill%402x.png)
+![An illustration of a Live Activity with content in an inset, rounded shape to group it together.](/images/com.apple.HIG/live-activities-separating-content-pill@2x.png)
 
-![A checkmark in a circle to indicate correct usage.](https://docs-assets.developer.apple.com/published/88662da92338267bb64cd2275c84e484/checkmark%402x.png)
+![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png)
 
-![An illustration of a Live Activity that uses a line to separate a block of content.](https://docs-assets.developer.apple.com/published/2494f07e0a4653b67e75bd967c32fb93/live-activities-separating-content-separator%402x.png)
+![An illustration of a Live Activity that uses a line to separate a block of content.](/images/com.apple.HIG/live-activities-separating-content-separator@2x.png)
 
-![A checkmark in a circle to indicate correct usage.](https://docs-assets.developer.apple.com/published/88662da92338267bb64cd2275c84e484/checkmark%402x.png)
+![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png)
 
 > **Tip**
 >
 > To align nonrounded content in the rounded corners of the Live Activity view, it may be helpful to blur the nonrounded content in your drawing tool. When the content is blurred, it may be easier to find the positioning that best aligns with the outer perimeter of the view.
 
-![An illustration that shows a Live Activity with blurred text that's too far from the edge of the Dynamic Island.](https://docs-assets.developer.apple.com/published/803af1a5bf16d67d55e8f71b7e45bf1e/live-activities-blur-content-incorrect-position%402x.png)
+![An illustration that shows a Live Activity with blurred text that's too far from the edge of the Dynamic Island.](/images/com.apple.HIG/live-activities-blur-content-incorrect-position@2x.png)
 
-![An X in a circle to indicate incorrect usage.](https://docs-assets.developer.apple.com/published/209f6f0fc8ad99d9bf59e12d82d06584/crossout%402x.png)
+![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
 
-![An illustration that shows a Live Activity with blurred text that's close to the edge of the Dynamic Island without poking into the rounded shape of the Dynamic Island.](https://docs-assets.developer.apple.com/published/f616e49dc9d2ab9564930596bd59be97/live-activities-blur-content-correct-position%402x.png)
+![An illustration that shows a Live Activity with blurred text that's close to the edge of the Dynamic Island without poking into the rounded shape of the Dynamic Island.](/images/com.apple.HIG/live-activities-blur-content-correct-position@2x.png)
 
-![A checkmark in a circle to indicate correct usage.](https://docs-assets.developer.apple.com/published/88662da92338267bb64cd2275c84e484/checkmark%402x.png)
+![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png)
 
 **Dynamically change the height of your Live Activity on the Lock Screen or in the expanded presentation.** When there’s less information to show, reduce the height of the Live Activity to only use the space needed for the content. When more information becomes available, increase the height to display additional content. For example, a rideshare app might display a more compact Live Activity without additional details while it locates a driver. The app’s height extends as more information is available to display the estimated pickup time, driver details, and so on.
 
@@ -162,7 +162,7 @@ Keep content compact and snug within a margin that’s concentric to the outer e
 
 **Use color to express the character and identity of your app.** Live Activities in the Dynamic Island use a black opaque background. Consider using bold colors for text and objects to convey the personality and brand of your app. Bold colors make your Live Activity recognizable at a glance, stand out from other Live Activities, and feel like a small, glanceable part of your app. Additionally, bold colors can help reinforce the relationship between elements in the Live Activity itself.
 
-**Tint your Live Activity’s key line color so that it matches your content.** When the background is dark — for example, in Dark Mode — a key line appears around the Dynamic Island to distinguish it from other content. Choose a key line color that’s consistent with the color of other elements in your Live Activity. For developer guidance, see [Creating custom views for Live Activities](https://developer.apple.com/documentation/ActivityKit/creating-custom-views-for-live-activities#Use-custom-colors).
+**Tint your Live Activity’s key line color so that it matches your content.** When the background is dark — for example, in Dark Mode — a key line appears around the Dynamic Island to distinguish it from other content. Choose a key line color that’s consistent with the color of other elements in your Live Activity. For developer guidance, see [Creating custom views for Live Activities](https://developer.apple.com/documentation/activitykit/creating-custom-views-for-live-activities).
 
 ### Adding transitions and animating content updates
 
@@ -174,11 +174,11 @@ In addition to extending and contracting transitions, Live Activities use system
 
 **Try to avoid overlapping elements.** Sometimes, it’s best to animate out certain elements and then re-animate them in at a new position to avoid colliding with other parts of your transition. For example, when animating items in lists, only animate the element that moves to a new position and use fade-in-and-out transitions for the other list items.
 
-For developer guidance, see [Animating data updates in widgets and Live Activities](https://developer.apple.com/documentation/WidgetKit/Animating-data-updates-in-widgets-and-live-activities).
+For developer guidance, see [Animating data updates in widgets and Live Activities](https://developer.apple.com/documentation/widgetkit/animating-data-updates-in-widgets-and-live-activities).
 
 ### Offering interactivity
 
-**Make sure tapping the Live Activity opens your app at the right location.** Take people directly to related details and actions  — don’t make them navigate to find relevant information. For developer guidance on SwiftUI views that support deep linking to specific screens, see [Linking to specific app scenes from your widget or Live Activity](https://developer.apple.com/documentation/WidgetKit/Linking-to-specific-app-scenes-from-your-widget-or-Live-Activity).
+**Make sure tapping the Live Activity opens your app at the right location.** Take people directly to related details and actions  — don’t make them navigate to find relevant information. For developer guidance on SwiftUI views that support deep linking to specific screens, see [Linking to specific app scenes from your widget or Live Activity](https://developer.apple.com/documentation/widgetkit/linking-to-specific-app-scenes-from-your-widget-or-live-activity).
 
 **Focus on simple, direct actions.** Buttons or toggles take up space that might otherwise display useful information. Only include interactive elements for essential functionality that’s directly related to your Live Activity and that people activate once or temporarily pause and resume, like music playback, workouts, or apps that access the microphone to record live audio. If you offer interactivity, prefer limiting it to a single element to help people avoid accidentally tapping the wrong control.
 
@@ -196,7 +196,7 @@ For developer guidance, see [Animating data updates in widgets and Live Activiti
 
 **Let people track multiple events efficiently with a single Live Activity.** Instead of creating separate Live Activities people need to jump between to track different events, prefer a single Live Activity that uses a dynamic layout and rotates through events. For example, a sports app could offer a single Live Activity that cycles through scored points, substitutions, and fouls across multiple matches.
 
-**Always end a Live Activity immediately when the task or event ends, and consider setting a custom dismissal time.** When a Live Activity ends, the system immediately removes it from the Dynamic Island and in CarPlay. On the Lock Screen, in the Mac menu bar, and the watchOS Smart Stack, it remains for up to four hours. Depending on the Live Activity, showing a summary may only be relevant for a brief time after it ends. Consider choosing a custom dismissal time that’s proportional to the duration of your Live Activity. In most cases, 15 to 30 minutes is adequate. For example, a rideshare app could end its Live Activity when a ride completes and remain visible for 30 minutes to allow people to view the ride summary and leave a tip. For developer guidance, refer to [Displaying live data with Live Activities](https://developer.apple.com/documentation/ActivityKit/displaying-live-data-with-live-activities#End-the-Live-Activity).
+**Always end a Live Activity immediately when the task or event ends, and consider setting a custom dismissal time.** When a Live Activity ends, the system immediately removes it from the Dynamic Island and in CarPlay. On the Lock Screen, in the Mac menu bar, and the watchOS Smart Stack, it remains for up to four hours. Depending on the Live Activity, showing a summary may only be relevant for a brief time after it ends. Consider choosing a custom dismissal time that’s proportional to the duration of your Live Activity. In most cases, 15 to 30 minutes is adequate. For example, a rideshare app could end its Live Activity when a ride completes and remain visible for 30 minutes to allow people to view the ride summary and leave a tip. For developer guidance, refer to [Displaying live data with Live Activities](https://developer.apple.com/documentation/activitykit/displaying-live-data-with-live-activities).
 
 ## Presentation
 
@@ -212,13 +212,13 @@ Your Live Activity needs to support all locations, devices, and their correspond
 
 **Keep content as narrow as possible and ensure it’s snug against the TrueDepth camera.** Try not to obscure key information in the status bar, and don’t add padding between content and the TrueDepth camera. Maintain a balanced layout with similarly sized views for both leading and trailing elements; for example, use shortened units or less precise data to maintain appropriate width and balance.
 
-![An illustration that shows a compact presentation that appears unbalanced and too wide because it uses padding around the TrueDepth camera.](https://docs-assets.developer.apple.com/published/51a8d7f39e6868d94bdc97170aaa48d2/live-activities-unbalanced-content%402x.png)
+![An illustration that shows a compact presentation that appears unbalanced and too wide because it uses padding around the TrueDepth camera.](/images/com.apple.HIG/live-activities-unbalanced-content@2x.png)
 
-![An X in a circle to indicate incorrect usage.](https://docs-assets.developer.apple.com/published/209f6f0fc8ad99d9bf59e12d82d06584/crossout%402x.png)
+![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
 
-![An illustration that shows a compact presentation that’s snug around the TrueDepth camera.](https://docs-assets.developer.apple.com/published/b8e383ef2dd391dab4fee6383311d9a5/live-activities-balanced-content%402x.png)
+![An illustration that shows a compact presentation that’s snug around the TrueDepth camera.](/images/com.apple.HIG/live-activities-balanced-content@2x.png)
 
-![A checkmark in a circle to indicate correct usage.](https://docs-assets.developer.apple.com/published/88662da92338267bb64cd2275c84e484/checkmark%402x.png)
+![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png)
 
 **Link to relevant app content.** When people tap a compact Live Activity, open your app directly to the related details. Ensure both leading and trailing elements link to the same screen.
 
@@ -232,13 +232,13 @@ Your Live Activity needs to support all locations, devices, and their correspond
 
 **Wrap content tightly around the TrueDepth camera.** Arrange content close to the TrueDepth camera, and try to avoid leaving too much room around it to use space more efficiently and to help diminish the camera’s presence.
 
-![An illustration that shows an expanded presentation of a Live Activity that leaves empty space next to the TrueDepth camera.](https://docs-assets.developer.apple.com/published/5e156a4d49df18dd990d45ba5f6e7f22/live-activities-layout-incorrect%402x.png)
+![An illustration that shows an expanded presentation of a Live Activity that leaves empty space next to the TrueDepth camera.](/images/com.apple.HIG/live-activities-layout-incorrect@2x.png)
 
-![An X in a circle to indicate incorrect usage.](https://docs-assets.developer.apple.com/published/209f6f0fc8ad99d9bf59e12d82d06584/crossout%402x.png)
+![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
 
-![An illustration that shows an expanded presentation of a Live Activity that uses the space next to the TrueDepth camera.](https://docs-assets.developer.apple.com/published/9bbe31974cd97e499ef7e6606e195bca/live-activities-layout-correct%402x.png)
+![An illustration that shows an expanded presentation of a Live Activity that uses the space next to the TrueDepth camera.](/images/com.apple.HIG/live-activities-layout-correct@2x.png)
 
-![A checkmark in a circle to indicate correct usage.](https://docs-assets.developer.apple.com/published/88662da92338267bb64cd2275c84e484/checkmark%402x.png)
+![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png)
 
 ### Lock Screen presentation
 
@@ -248,13 +248,13 @@ Your Live Activity needs to support all locations, devices, and their correspond
 
 **Make sure your design, assets, and colors look great and offer enough contrast in Dark Mode and on an Always-On display.** By default, a Live Activity on the Lock Screen uses a light background color in the light appearance and a dark background color in the dark appearance. If you use a custom background color, choose a color that works well in both modes or a different color for each appearance. Verify your choices on a device with an Always-On display with reduced luminance because the system adapts colors as needed in this appearance. For guidance, see [Dark Mode](../../Foundations/Dark%20Mode.md) and [Always On](../../Technologies/Always%20On.md); for developer guidance, see [About asset catalogs](https://help.apple.com/xcode/mac/current/#/dev10510b1f7).
 
-**Verify the generated color of the dismiss button.** The system automatically generates a matching dismiss button based on the background and foreground colors of your Live Activity.  Verify that the generated color matches your design and adjust it if needed using [activitySystemActionForegroundColor(_:)](https://developer.apple.com/documentation/SwiftUI/View/activitySystemActionForegroundColor(_:)).
+**Verify the generated color of the dismiss button.** The system automatically generates a matching dismiss button based on the background and foreground colors of your Live Activity.  Verify that the generated color matches your design and adjust it if needed using [activitySystemActionForegroundColor(_:)](https://developer.apple.com/documentation/swiftui/view/activitysystemactionforegroundcolor(_:)).
 
-**Use standard margins to align your design with notifications.** The standard layout margin for Live Activities on the Lock Screen is 14 points. While tighter margins may be appropriate for elements like graphics or buttons, avoid crowding the edges and creating a cluttered appearance. For developer guidance, see [padding(_:_:)](https://developer.apple.com/documentation/SwiftUI/View/padding(_:_:)).
+**Use standard margins to align your design with notifications.** The standard layout margin for Live Activities on the Lock Screen is 14 points. While tighter margins may be appropriate for elements like graphics or buttons, avoid crowding the edges and creating a cluttered appearance. For developer guidance, see [padding(_:_:)](https://developer.apple.com/documentation/swiftui/view/padding(_:_:)).
 
 ### StandBy presentation
 
-**Update your layout for StandBy.** Make sure assets look great at the larger scale, and consider creating a custom layout that makes use of the extra space. For developer guidance, see [Creating custom views for Live Activities](https://developer.apple.com/documentation/ActivityKit/creating-custom-views-for-live-activities).
+**Update your layout for StandBy.** Make sure assets look great at the larger scale, and consider creating a custom layout that makes use of the extra space. For developer guidance, see [Creating custom views for Live Activities](https://developer.apple.com/documentation/activitykit/creating-custom-views-for-live-activities).
 
 **Consider using the default background color in StandBy.** The default background color seamlessly blends your Live Activity with the device bezel, achieves a softer look that integrates with a person’s surroundings, and allows the system to scale the Live Activity slightly larger because it doesn’t need to account for the margins around the TrueDepth camera.
 
@@ -262,15 +262,15 @@ Your Live Activity needs to support all locations, devices, and their correspond
 
 **Verify your design in Night Mode.** In Night Mode, the system applies a red tint to your Live Activity. Check that your Live Activity design uses colors that provide enough contrast in Night Mode.
 
-![A Live Activity, scaled to fill the screen on iPhone in StandBy.](https://docs-assets.developer.apple.com/published/c7f65b20bec28281075a61264019fe50/live-activity-standby-night-mode%402x.png)
+![A Live Activity, scaled to fill the screen on iPhone in StandBy.](/images/com.apple.HIG/live-activity-standby-night-mode@2x.png)
 
 ## CarPlay
 
 In CarPlay, the system automatically combines the leading and trailing elements of the compact presentation into a single layout that appears on CarPlay Dashboard.
 
-Your Live Activity design applies to both CarPlay and Apple Watch, so design for both contexts. While Live Activities on Apple Watch can be interactive, the system deactivates interactive elements in CarPlay. For more information, refer to [watchOS](https://developer.apple.com/design/human-interface-guidelines/live-activities#watchOS) below. For developer guidance, refer to [Creating custom views for Live Activities](https://developer.apple.com/documentation/ActivityKit/creating-custom-views-for-live-activities).
+Your Live Activity design applies to both CarPlay and Apple Watch, so design for both contexts. While Live Activities on Apple Watch can be interactive, the system deactivates interactive elements in CarPlay. For more information, refer to [watchOS](https://developer.apple.com/design/human-interface-guidelines/live-activities#watchOS) below. For developer guidance, refer to [Creating custom views for Live Activities](https://developer.apple.com/documentation/activitykit/creating-custom-views-for-live-activities).
 
-**Consider creating a custom layout if your Live Activity would benefit from larger text or additional information.** Instead of using the default appearance in CarPlay, declare support for a [ActivityFamily.small](https://developer.apple.com/documentation/WidgetKit/ActivityFamily/small) supplemental activity family.
+**Consider creating a custom layout if your Live Activity would benefit from larger text or additional information.** Instead of using the default appearance in CarPlay, declare support for a [ActivityFamily.small](https://developer.apple.com/documentation/widgetkit/activityfamily/small) supplemental activity family.
 
 **Carefully consider including buttons or toggles in your custom layout.** In CarPlay, the system deactivates interactive elements in your Live Activity. If people are likely to start or observe your Live Activity while driving, prefer displaying timely content rather than buttons and toggles.
 
@@ -290,15 +290,15 @@ If you offer a watchOS app and someone taps the Live Activity in the Smart Stack
 
 **Consider creating a custom watchOS layout.** While the system provides a default view automatically, a custom layout designed for Apple Watch can show more information and add interactive functionality like a button or toggle.
 
-**Carefully consider including buttons or toggles in your custom layout.** The custom watchOS layout also applies to your Live Activity in CarPlay where the system deactivates interactive elements. If people are likely to start or observe your Live Activity while driving, don’t include buttons or toggles in your custom watchOS layout. For developer guidance, see [Creating custom views for Live Activities](https://developer.apple.com/documentation/ActivityKit/creating-custom-views-for-live-activities).
+**Carefully consider including buttons or toggles in your custom layout.** The custom watchOS layout also applies to your Live Activity in CarPlay where the system deactivates interactive elements. If people are likely to start or observe your Live Activity while driving, don’t include buttons or toggles in your custom watchOS layout. For developer guidance, see [Creating custom views for Live Activities](https://developer.apple.com/documentation/activitykit/creating-custom-views-for-live-activities).
 
-![An illustration that shows the compact presentation of a Live Activity in the Dynamic Island on iPhone.](https://docs-assets.developer.apple.com/published/3f81a5e4da2d3e59a8018a9e1d45f52e/live-activities-ios-dynamic-island-default%402x.png)  
+![An illustration that shows the compact presentation of a Live Activity in the Dynamic Island on iPhone.](/images/com.apple.HIG/live-activities-ios-dynamic-island-default@2x.png)  
 *iPhone compact view*
 
-![An illustration that shows the automatically generated default presentation of a Live Activity in a Smart Stack view, with the leading and trailing elements from the iPhone compact view spaced apart in the lower corners.](https://docs-assets.developer.apple.com/published/1441a47a3ba447c6ccbfbd8ba8565bd5/live-activity-watch-default-implementation%402x.png)  
+![An illustration that shows the automatically generated default presentation of a Live Activity in a Smart Stack view, with the leading and trailing elements from the iPhone compact view spaced apart in the lower corners.](/images/com.apple.HIG/live-activity-watch-default-implementation@2x.png)  
 *Default Smart Stack view*
 
-![An illustration that shows a custom presentation of a Live Activity in a Smart Stack view, with a balanced design that shows a graphical countdown timer balanced with explanatory text.](https://docs-assets.developer.apple.com/published/cd8ec7a71aab86b947906afbdd802f6b/live-activity-watch-custom-implementation%402x.png)  
+![An illustration that shows a custom presentation of a Live Activity in a Smart Stack view, with a balanced design that shows a graphical countdown timer balanced with explanatory text.](/images/com.apple.HIG/live-activity-watch-custom-implementation@2x.png)  
 *Custom Smart Stack view*
 
 **Focus on essential information and significant updates.** Use space in the Smart Stack as efficiently as possible and think of the most useful information that a Live Activity can convey:
@@ -403,13 +403,13 @@ Live Activities in the Smart Stack use the same dimensions as watchOS widgets.
 
 #### Developer documentation
 
-[ActivityKit](https://developer.apple.com/documentation/ActivityKit)
+[ActivityKit](https://developer.apple.com/documentation/activitykit)
 
-[SwiftUI](https://developer.apple.com/documentation/SwiftUI)
+[SwiftUI](https://developer.apple.com/documentation/swiftui)
 
-[WidgetKit](https://developer.apple.com/documentation/WidgetKit)
+[WidgetKit](https://developer.apple.com/documentation/widgetkit)
 
-[Developing a WidgetKit strategy](https://developer.apple.com/documentation/WidgetKit/Developing-a-WidgetKit-strategy) — WidgetKit
+[Developing a WidgetKit strategy](https://developer.apple.com/documentation/widgetkit/developing-a-widgetkit-strategy) — WidgetKit
 
 #### Videos
 

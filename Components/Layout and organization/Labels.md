@@ -8,7 +8,7 @@
 >
 > Updated guidance to reflect changes in watchOS 10.
 
-![A stylized representation of a text label. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/6374507693031544b6bd9a131736f560/components-label-intro%402x.png)
+![A stylized representation of a text label. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-label-intro@2x.png)
 
 Labels display text throughout the interface, in buttons, menu items, and views, helping people understand the current context and what they can do next.
 
@@ -20,7 +20,7 @@ The term *label* refers to uneditable text that can appear in various places. Fo
 
 > **Developer note**
 >
-> To display uneditable text, SwiftUI defines two components: [Label](https://developer.apple.com/documentation/SwiftUI/Label) and [Text](https://developer.apple.com/documentation/SwiftUI/Text).
+> To display uneditable text, SwiftUI defines two components: [Label](https://developer.apple.com/documentation/swiftui/label) and [Text](https://developer.apple.com/documentation/swiftui/text).
 
 The guidance below can help you use a label to display text. In some cases, guidance for specific components — such as [action buttons](../Menus%20and%20actions/Buttons.md), [menus](../Menus%20and%20actions/Menus.md), and [lists and tables](Lists%20and%20tables.md) — includes additional recommendations for using text.
 
@@ -34,10 +34,10 @@ The guidance below can help you use a label to display text. In some cases, guid
 
 | System color | Example usage | iOS, iPadOS, tvOS, visionOS | macOS |
 | --- | --- | --- | --- |
-| Label | Primary information | [label](https://developer.apple.com/documentation/UIKit/UIColor/label) | [labelColor](https://developer.apple.com/documentation/AppKit/NSColor/labelColor) |
-| Secondary label | A subheading or supplemental text | [secondaryLabel](https://developer.apple.com/documentation/UIKit/UIColor/secondaryLabel) | [secondaryLabelColor](https://developer.apple.com/documentation/AppKit/NSColor/secondaryLabelColor) |
-| Tertiary label | Text that describes an unavailable item or behavior | [tertiaryLabel](https://developer.apple.com/documentation/UIKit/UIColor/tertiaryLabel) | [tertiaryLabelColor](https://developer.apple.com/documentation/AppKit/NSColor/tertiaryLabelColor) |
-| Quaternary label | Watermark text | [quaternaryLabel](https://developer.apple.com/documentation/UIKit/UIColor/quaternaryLabel) | [quaternaryLabelColor](https://developer.apple.com/documentation/AppKit/NSColor/quaternaryLabelColor) |
+| Label | Primary information | [label](https://developer.apple.com/documentation/uikit/uicolor/label) | [labelColor](https://developer.apple.com/documentation/appkit/nscolor/labelcolor) |
+| Secondary label | A subheading or supplemental text | [secondaryLabel](https://developer.apple.com/documentation/uikit/uicolor/secondarylabel) | [secondaryLabelColor](https://developer.apple.com/documentation/appkit/nscolor/secondarylabelcolor) |
+| Tertiary label | Text that describes an unavailable item or behavior | [tertiaryLabel](https://developer.apple.com/documentation/uikit/uicolor/tertiarylabel) | [tertiaryLabelColor](https://developer.apple.com/documentation/appkit/nscolor/tertiarylabelcolor) |
+| Quaternary label | Watermark text | [quaternaryLabel](https://developer.apple.com/documentation/uikit/uicolor/quaternarylabel) | [quaternaryLabelColor](https://developer.apple.com/documentation/appkit/nscolor/quaternarylabelcolor) |
 
 **Make useful label text selectable.** If a label contains useful information — like an error message, a location, or an IP address — consider letting people select and copy it for pasting elsewhere.
 
@@ -49,21 +49,21 @@ The guidance below can help you use a label to display text. In some cases, guid
 
 > **Developer note**
 >
-> To display uneditable text in a label, use the [isEditable](https://developer.apple.com/documentation/AppKit/NSTextField/isEditable) property of [NSTextField](https://developer.apple.com/documentation/AppKit/NSTextField).
+> To display uneditable text in a label, use the [isEditable](https://developer.apple.com/documentation/appkit/nstextfield/iseditable) property of [NSTextField](https://developer.apple.com/documentation/appkit/nstextfield).
 
 ### watchOS
 
 Date and time text components (shown below on the left) display the current date, the current time, or a combination of both. You can configure a date text component to use a variety of formats, calendars, and time zones. A countdown timer text component (shown below on the right) displays a precise countdown or count-up timer. You can configure a timer text component to display its count value in a variety of formats.
 
-![An illustration of date and time text components on Apple Watch, with the date aligned to the leading edge and the time aligned to the trailing edge.](https://docs-assets.developer.apple.com/published/3cedf27f398b6683c78d37a325f26c33/labels-date-time-text-component%402x.png)  
+![An illustration of date and time text components on Apple Watch, with the date aligned to the leading edge and the time aligned to the trailing edge.](/images/com.apple.HIG/labels-date-time-text-component@2x.png)  
 *Date and time labels*
 
-![An illustration of a countdown timer text component on Apple Watch, with the time value at the center.](https://docs-assets.developer.apple.com/published/bc3014364c7bc508ff68d21d79c15441/labels-countdown-timer-text-component%402x.png)  
+![An illustration of a countdown timer text component on Apple Watch, with the time value at the center.](/images/com.apple.HIG/labels-countdown-timer-text-component@2x.png)  
 *Timer label*
 
 When you use the system-provided date and timer text components, watchOS automatically adjusts the label’s presentation to fit the available space. The system also updates the content without further input from your app.
 
-Consider using date and timer components in complications. For design guidance, see [Complications](../System%20experiences/Complications.md); for developer guidance, see [Text](https://developer.apple.com/documentation/SwiftUI/Text).
+Consider using date and timer components in complications. For design guidance, see [Complications](../System%20experiences/Complications.md); for developer guidance, see [Text](https://developer.apple.com/documentation/swiftui/text).
 
 ## Resources
 
@@ -75,13 +75,13 @@ Consider using date and timer components in complications. For design guidance, 
 
 #### Developer documentation
 
-[Label](https://developer.apple.com/documentation/SwiftUI/Label) — SwiftUI
+[Label](https://developer.apple.com/documentation/swiftui/label) — SwiftUI
 
-[Text](https://developer.apple.com/documentation/SwiftUI/Text) — SwiftUI
+[Text](https://developer.apple.com/documentation/swiftui/text) — SwiftUI
 
-[UILabel](https://developer.apple.com/documentation/UIKit/UILabel) — UIKit
+[UILabel](https://developer.apple.com/documentation/uikit/uilabel) — UIKit
 
-[NSTextField](https://developer.apple.com/documentation/AppKit/NSTextField) — AppKit
+[NSTextField](https://developer.apple.com/documentation/appkit/nstextfield) — AppKit
 
 ## Change log
 

@@ -8,7 +8,7 @@
 >
 > Updated to include guidance for visionOS.
 
-![A sketch of a pencil writing within a field, suggesting data entry. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/34d57a13e8fcf5f561a1d9c1eccf8e30/patterns-entering-data-intro%402x.png)
+![A sketch of a pencil writing within a field, suggesting data entry. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](/images/com.apple.HIG/patterns-entering-data-intro@2x.png)
 
 Entering information can be a tedious process regardless of the interaction methods people use. Improve the experience by:
 
@@ -21,7 +21,7 @@ Entering information can be a tedious process regardless of the interaction meth
 
 **Be clear about the data you need.** For example, you might display a prompt in a text field — like “username@company.com” — or provide an introductory label that describes the information, like “Email.” You can also prefill fields with reasonable default values, which can minimize decision making and speed data entry.
 
-**Use a secure text-entry field when appropriate.** If your app or game needs sensitive data, use a field that obscures people’s input as they enter it, typically by displaying a small filled circle symbol for each character. For developer guidance, see [SecureField](https://developer.apple.com/documentation/SwiftUI/SecureField). In tvOS, you can also configure a [digit entry view](../Components/Selection%20and%20input/Digit%20entry%20views.md) to obscure the numerals people enter (for developer guidance, see [isSecureDigitEntry](https://developer.apple.com/documentation/TVUIKit/TVDigitEntryViewController/isSecureDigitEntry)). When you use the system-provided text field in visionOS, the system shows the entered data to the wearer, but not to anyone else; for example, a secure text field automatically blurs when people use AirPlay to stream their content.
+**Use a secure text-entry field when appropriate.** If your app or game needs sensitive data, use a field that obscures people’s input as they enter it, typically by displaying a small filled circle symbol for each character. For developer guidance, see [SecureField](https://developer.apple.com/documentation/swiftui/securefield). In tvOS, you can also configure a [digit entry view](../Components/Selection%20and%20input/Digit%20entry%20views.md) to obscure the numerals people enter (for developer guidance, see [isSecureDigitEntry](https://developer.apple.com/documentation/tvuikit/tvdigitentryviewcontroller/issecuredigitentry)). When you use the system-provided text field in visionOS, the system shows the entered data to the wearer, but not to anyone else; for example, a secure text field automatically blurs when people use AirPlay to stream their content.
 
 **Never prepopulate a password field.** Always ask people to enter their password or use biometric or keychain authentication. For guidance, see [Managing accounts](Managing%20accounts.md).
 
@@ -53,7 +53,7 @@ Entering information can be a tedious process regardless of the interaction meth
 
 #### Developer documentation
 
-[Input events](https://developer.apple.com/documentation/SwiftUI/Input-events) — SwiftUI
+[Input events](https://developer.apple.com/documentation/swiftui/input-events) — SwiftUI
 
 #### Videos
 

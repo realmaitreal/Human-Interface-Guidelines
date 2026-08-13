@@ -4,7 +4,7 @@
 
 *A popover is a transient view that appears above other content when people click or tap a control or interactive area.*
 
-![A stylized representation of a popover view. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/e96917a44aa3ccdd2d1b4ddccf2a0e88/components-popover-intro%402x.png)
+![A stylized representation of a popover view. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-popover-intro@2x.png)
 
 ## Best practices
 
@@ -62,11 +62,11 @@ You can make a popover detachable in macOS, which becomes a separate panel when 
 
 #### Developer documentation
 
-[popover(isPresented:attachmentAnchor:arrowEdge:content:)](https://developer.apple.com/documentation/SwiftUI/View/popover(isPresented:attachmentAnchor:arrowEdge:content:)) — SwiftUI
+[popover(isPresented:attachmentAnchor:arrowEdge:content:)](https://developer.apple.com/documentation/swiftui/view/popover(ispresented:attachmentanchor:arrowedge:content:)) — SwiftUI
 
-[UIPopoverPresentationController](https://developer.apple.com/documentation/UIKit/UIPopoverPresentationController) — UIKit
+[UIPopoverPresentationController](https://developer.apple.com/documentation/uikit/uipopoverpresentationcontroller) — UIKit
 
-[NSPopover](https://developer.apple.com/documentation/AppKit/NSPopover) — AppKit
+[NSPopover](https://developer.apple.com/documentation/appkit/nspopover) — AppKit
 
 ---
 *Source: [https://developer.apple.com/design/human-interface-guidelines/popovers](https://developer.apple.com/design/human-interface-guidelines/popovers)*

@@ -8,11 +8,11 @@
 >
 > Updated terminology and refined guidance for search as a tab in iOS.
 
-![A stylized representation of a search field containing placeholder text and a dictation icon. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/a7ce70c3971cf13a1feb6dc857310eb0/components-search-field-intro%402x.png)
+![A stylized representation of a search field containing placeholder text and a dictation icon. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-search-field-intro@2x.png)
 
 A search field is an editable text field that displays a Search icon, a Clear button, and placeholder text where people can enter what they are searching for. Search fields can use a [Scope bars and tokens](https://developer.apple.com/design/human-interface-guidelines/search-fields#Scope-bars-and-tokens) as well as [Scope bars and tokens](https://developer.apple.com/design/human-interface-guidelines/search-fields#Scope-bars-and-tokens) to help filter and refine the scope of their search. Across each platform, there are different patterns for accessing search based on the goals and design of your app.
 
-For developer guidance, see [Adding a search interface to your app](https://developer.apple.com/documentation/SwiftUI/Adding-a-search-interface-to-your-app); for guidance related to systemwide search, see [Searching](../../Patterns/Searching.md).
+For developer guidance, see [Adding a search interface to your app](https://developer.apple.com/documentation/swiftui/adding-a-search-interface-to-your-app); for guidance related to systemwide search, see [Searching](../../Patterns/Searching.md).
 
 ## Best practices
 
@@ -33,9 +33,9 @@ Scope bars and tokens are components you can use to let someone narrow the param
 - A *scope bar* is a control for filtering and adjusting the scope of a search.
 - A *token* is a visual representation of a search term that someone can select and edit, and acts as a filter for any additional terms in the search.
 
-![A diagram of the Mail app on iPhone with the search field open above the keyboard and the word Design entered in the field. Callouts indicate a scope bar at the top of the screen to switch between searching all mailboxes and the current mailbox, and a list of tokens in a Suggestions area beneath the bar that represent different filters for the search.](https://docs-assets.developer.apple.com/published/896ba224eba267cfe326e50733db3ff0/search-fields-scope-control-tokens%402x.png)
+![A diagram of the Mail app on iPhone with the search field open above the keyboard and the word Design entered in the field. Callouts indicate a scope bar at the top of the screen to switch between searching all mailboxes and the current mailbox, and a list of tokens in a Suggestions area beneath the bar that represent different filters for the search.](/images/com.apple.HIG/search-fields-scope-control-tokens@2x.png)
 
-**Use a scope bar to filter among clearly defined search categories.** A scope bar can help someone move from a broader scope to a narrower one. For example, in Mail on iPhone, a scope bar helps people move from searching their entire mailbox to just the specific mailbox they’re viewing. For developer guidance, see [Scoping a search operation](https://developer.apple.com/documentation/SwiftUI/Scoping-a-search-operation).
+**Use a scope bar to filter among clearly defined search categories.** A scope bar can help someone move from a broader scope to a narrower one. For example, in Mail on iPhone, a scope bar helps people move from searching their entire mailbox to just the specific mailbox they’re viewing. For developer guidance, see [Scoping a search operation](https://developer.apple.com/documentation/swiftui/scoping-a-search-operation).
 
 **Default to a broader scope and let people refine it as they need.** A broader scope provides context for the full set of available results, which helps guide people in a useful direction when they choose to narrow the scope.
 
@@ -64,10 +64,10 @@ You can place search as a tab in a tab bar, which keeps search visible and alway
 - **Standard tab.** This style displays the search tab uniformly with the rest of the tab bar. Tapping the search tab navigates people to a search landing page with a search field at the top.
 - **Button appearance.** This style displays the search tab as a separate button and allows people to start searching immediately. Tapping the search tab brings focus to the search field and displays the keyboard.
 
-![An illustration of a tab bar at the bottom of an iPhone screen. A tab for search appears as part of the tab bar.](https://docs-assets.developer.apple.com/published/ceedd10e5714cf0b7354d5aac41540fc/search-fields-search-as-tab-standard%402x.png)  
+![An illustration of a tab bar at the bottom of an iPhone screen. A tab for search appears as part of the tab bar.](/images/com.apple.HIG/search-fields-search-as-tab-standard@2x.png)  
 *Standard tab*
 
-![An illustration of a tab bar at the bottom of an iPhone screen. A tab for search appears on the trailing edge as a separate button.](https://docs-assets.developer.apple.com/published/69e306ce727b65d8880c0ead03251499/search-fields-search-as-tab-prominent%402x.png)  
+![An illustration of a tab bar at the bottom of an iPhone screen. A tab for search appears on the trailing edge as a separate button.](/images/com.apple.HIG/search-fields-search-as-tab-prominent@2x.png)  
 *Button appearance*
 
 **Choose the standard tab style to provide suggestions, promote discovery, and encourage exploration.** This style of search tab creates a dedicated landing page for search, providing an opportunity to reveal any content or suggestions that might be helpful before someone taps the field to begin the search. This approach is great for an app with a variety of rich content that people might want to explore. For example, Apple TV uses this search tab style to present its various genres and categories, helping ground people in what’s available before they search.
@@ -81,10 +81,10 @@ As an alternative to search in a tab bar, you can also place search in a toolbar
 - You can include search in a bottom toolbar either as an expanded field or as a toolbar button, depending on how much space is available. When someone taps it, it animates into a search field above the keyboard so they can begin typing.
 - You can include search in a top toolbar, also called a navigation bar, where it appears as a toolbar button. When someone taps it, it animates into a search field that appears either above the keyboard or at the top if there isn’t space at the bottom.
 
-![An illustration of an iPhone screen with search in a bottom toolbar. The search field is positioned in an isolated group between a Filter button on the leading edge and a Compose button on the trailing edge.](https://docs-assets.developer.apple.com/published/508889e5f10444e6afc709d03a78099d/search-fields-ios-toolbar-with-items%402x.png)  
+![An illustration of an iPhone screen with search in a bottom toolbar. The search field is positioned in an isolated group between a Filter button on the leading edge and a Compose button on the trailing edge.](/images/com.apple.HIG/search-fields-ios-toolbar-with-items@2x.png)  
 *Search in a bottom toolbar*
 
-![An illustration of an iPhone screen with search in a top toolbar. A Back button appears on the leading edge, and an Add button appears on the trailing edge. A button group with Search and More appears next to the Add button.](https://docs-assets.developer.apple.com/published/dcc92f43473bbfbb718290667f6667cf/search-fields-ios-navigation-bar-item%402x.png)  
+![An illustration of an iPhone screen with search in a top toolbar. A Back button appears on the leading edge, and an Add button appears on the trailing edge. A button group with Search and More appears next to the Add button.](/images/com.apple.HIG/search-fields-ios-navigation-bar-item@2x.png)  
 *Search in a top toolbar*
 
 **Place search at the bottom if there’s room.** You can either add a search field to an existing toolbar, or as a new toolbar where search is the only item. Search at the bottom is useful in any situation where search is a priority, since it keeps the search experience easy to reach. Examples of apps with search at the bottom in various toolbar layouts include Settings, where it’s the only item, and Mail and Notes, where it fits alongside other important controls.
@@ -103,21 +103,21 @@ In some cases you might want your app to include a search field inline with cont
 
 The placement and behavior of the search field in iPadOS and macOS is similar. If your app is available on both iPad and Mac, try to keep the search experience as consistent as possible across both platforms.
 
-![An illustration of an iPad screen with a search field on the trailing edge of the top toolbar. The search field has the word Design entered into the field, and three search suggestions appear in a list beneath the field.](https://docs-assets.developer.apple.com/published/01e4b658632c116aba99bfab9116e252/search-fields-toolbar-search-ipad%402x.png)  
+![An illustration of an iPad screen with a search field on the trailing edge of the top toolbar. The search field has the word Design entered into the field, and three search suggestions appear in a list beneath the field.](/images/com.apple.HIG/search-fields-toolbar-search-ipad@2x.png)  
 *iPadOS*
 
-![An illustration of a Mac screen with a search field on the trailing edge of the toolbar. The search field has the word Design entered into the field, and three search suggestions appear in a list beneath the field.](https://docs-assets.developer.apple.com/published/7a365ba6d24529c8274e67933bc09cd2/search-fields-toolbar-search-mac%402x.png)  
+![An illustration of a Mac screen with a search field on the trailing edge of the toolbar. The search field has the word Design entered into the field, and three search suggestions appear in a list beneath the field.](/images/com.apple.HIG/search-fields-toolbar-search-mac@2x.png)  
 *macOS*
 
 **Put a search field at the trailing side of the toolbar for many common uses.** Many apps benefit from the familiar pattern of search in the toolbar, particularly apps with split views that need to search across multiple columns of information, like Mail, Notes, and Voice Memos. This placement makes great use of space because it lets people navigate results while keeping their selection visible in the detail view. Additionally, consider placing search in the toolbar if results appear in the detail view of your app, like in Freeform, where search in the toolbar filters the boards in the detail view below.
 
 **Include search at the top of the sidebar when filtering content or navigation there.** Apps such as Settings take advantage of search to quickly filter the sidebar and expose sections that may be multiple levels deep, providing a simple way for people to search, preview, and navigate to the section or setting they’re looking for. This approach is useful if your app has a rich detail view and you need to create a distinct separation between the sidebar you’re filtering and the adjacent view.
 
-![An illustration of an iPad screen with a search field at the top of the sidebar on the leading edge of the screen.](https://docs-assets.developer.apple.com/published/e4e1484edf725bbfd2b3c2b6914fe1b1/search-fields-ipad-search-in-sidebar%402x.png)
+![An illustration of an iPad screen with a search field at the top of the sidebar on the leading edge of the screen.](/images/com.apple.HIG/search-fields-ipad-search-in-sidebar@2x.png)
 
 **Include search as an item in the sidebar or tab bar when you want an area dedicated to discovery.** If your search is paired with rich suggestions, categories, or content that needs more space, it can be helpful to have a dedicated area for it. This is particularly useful for apps where browsing and search go hand in hand, like Music and TV, where it provides a unified location to highlight suggested content, categories, and recent searches. A dedicated area also ensures search is always available as people navigate and switch sections of your app.
 
-![An illustration of an iPad screen with a tab bar at the top edge. The trailing side of the tab bar includes a Search tab with a distinct background color to differentiate it from other tab areas.](https://docs-assets.developer.apple.com/published/b1d4ba4043901d200c27a038279109bc/search-fields-ipad-search-in-tab-bar%402x.png)
+![An illustration of an iPad screen with a tab bar at the top edge. The trailing side of the tab bar includes a Search tab with a distinct background color to differentiate it from other tab areas.](/images/com.apple.HIG/search-fields-ipad-search-in-tab-bar@2x.png)
 
 **In a search field in a dedicated area, consider immediately focusing the field when a person navigates to the area to help them search faster and locate the field more easily.** An exception to this is on iPad when only a virtual keyboard is available, in which case it’s better to leave the field unfocused to prevent the keyboard from unexpectedly covering the view.
 
@@ -125,11 +125,11 @@ The placement and behavior of the search field in iPadOS and macOS is similar. I
 
 ### tvOS
 
-A search screen is a specialized keyboard screen that helps people enter search text, displaying search results beneath the keyboard in a fully customizable view. For developer guidance, see [UISearchController](https://developer.apple.com/documentation/UIKit/UISearchController).
+A search screen is a specialized keyboard screen that helps people enter search text, displaying search results beneath the keyboard in a fully customizable view. For developer guidance, see [UISearchController](https://developer.apple.com/documentation/uikit/uisearchcontroller).
 
-![An illustration of a search screen in tvOS. The screen includes a field with a keyboard input area at the top, a scope bar, and a grid of top results at the bottom.](https://docs-assets.developer.apple.com/published/494283107367d7c6b1a652b047ab9431/search-fields-tvos-search%402x.png)
+![An illustration of a search screen in tvOS. The screen includes a field with a keyboard input area at the top, a scope bar, and a grid of top results at the bottom.](/images/com.apple.HIG/search-fields-tvos-search@2x.png)
 
-**Provide suggestions to make searching easier.** People typically don’t want to do a lot of typing in tvOS. To improve the search experience, provide popular and context-specific search suggestions, including recent searches when available. For developer guidance, see [Using suggested searches with a search controller](https://developer.apple.com/documentation/UIKit/using-suggested-searches-with-a-search-controller).
+**Provide suggestions to make searching easier.** People typically don’t want to do a lot of typing in tvOS. To improve the search experience, provide popular and context-specific search suggestions, including recent searches when available. For developer guidance, see [Using suggested searches with a search controller](https://developer.apple.com/documentation/uikit/using-suggested-searches-with-a-search-controller).
 
 ### watchOS
 
@@ -145,15 +145,15 @@ When someone taps the search field, the system displays a text-input control tha
 
 #### Developer documentation
 
-[Adding a search interface to your app](https://developer.apple.com/documentation/SwiftUI/Adding-a-search-interface-to-your-app) — SwiftUI
+[Adding a search interface to your app](https://developer.apple.com/documentation/swiftui/adding-a-search-interface-to-your-app) — SwiftUI
 
-[searchable(text:placement:prompt:)](https://developer.apple.com/documentation/SwiftUI/View/searchable(text:placement:prompt:)) — SwiftUI
+[searchable(text:placement:prompt:)](https://developer.apple.com/documentation/swiftui/view/searchable(text:placement:prompt:)) — SwiftUI
 
-[UISearchBar](https://developer.apple.com/documentation/UIKit/UISearchBar) — UIKit
+[UISearchBar](https://developer.apple.com/documentation/uikit/uisearchbar) — UIKit
 
-[UISearchTextField](https://developer.apple.com/documentation/UIKit/UISearchTextField) — UIKit
+[UISearchTextField](https://developer.apple.com/documentation/uikit/uisearchtextfield) — UIKit
 
-[NSSearchField](https://developer.apple.com/documentation/AppKit/NSSearchField) — AppKit
+[NSSearchField](https://developer.apple.com/documentation/appkit/nssearchfield) — AppKit
 
 #### Videos
 

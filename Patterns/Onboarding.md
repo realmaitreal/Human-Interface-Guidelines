@@ -8,7 +8,7 @@
 >
 > Clarified different approaches to onboarding and added a guideline on displaying a splash screen.
 
-![A sketch of a waving hand, suggesting a gesture of welcoming. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/044d56043e30ee77f306a8613041311b/patterns-onboarding-intro%402x.png)
+![A sketch of a waving hand, suggesting a gesture of welcoming. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](/images/com.apple.HIG/patterns-onboarding-intro@2x.png)
 
 Ideally, people can understand your app or game simply by experiencing it, but if onboarding is necessary, design a flow that’s fast, fun, and optional. When available, onboarding occurs after [Launching](Launching.md) is complete — it isn’t part of the launch experience.
 
@@ -16,7 +16,7 @@ Ideally, people can understand your app or game simply by experiencing it, but i
 
 **Teach through interactivity.** People tend to grasp and retain information better when they can actually perform the task they’re learning about instead of just viewing instructional material. As much as possible, provide an interactive onboarding experience where people can safely test an action, discover a feature, or try out a game mechanic.
 
-**Consider providing a collection of context-specific tips instead of a single onboarding flow.** Integrating contextually relevant tips into your experience can help people learn about their current task while they make progress in your app or game. A context-specific tip can also help people learn better because it lets them concentrate on a single action or task before encountering new information. When you have instructional content that refers to a specific area of the interface, display these instructions near that area. For developer guidance, see [TipKit](https://developer.apple.com/documentation/TipKit).
+**Consider providing a collection of context-specific tips instead of a single onboarding flow.** Integrating contextually relevant tips into your experience can help people learn about their current task while they make progress in your app or game. A context-specific tip can also help people learn better because it lets them concentrate on a single action or task before encountering new information. When you have instructional content that refers to a specific area of the interface, display these instructions near that area. For developer guidance, see [TipKit](https://developer.apple.com/documentation/tipkit).
 
 **If you need to present a prerequisite onboarding flow, design a brief, enjoyable experience that doesn’t require people to memorize a lot of information.** When onboarding is quick and entertaining, people are more likely to complete it. In contrast, if you try to teach too much, people can feel overwhelmed and may be less likely to remember what they learned.
 

@@ -8,9 +8,9 @@
 >
 > Updated watchOS platform considerations with guidance for presenting notification responses to double tap.
 
-![A stylized representation of a notification mockup. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/ca1bea1227325d8a13afc5f6b7989456/components-notification-intro%402x.png)
+![A stylized representation of a notification mockup. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-notification-intro@2x.png)
 
-Before you can send any notifications to people, you have to get their consent (for developer guidance, see [Asking permission to use notifications](https://developer.apple.com/documentation/UserNotifications/asking-permission-to-use-notifications)). After agreeing, people generally use settings to specify the styles of notification they want to receive, and to specify delivery times for notifications that have different levels of urgency. To learn more about the ways people can customize the notification experience, see [Managing notifications](../../Patterns/Managing%20notifications.md).
+Before you can send any notifications to people, you have to get their consent (for developer guidance, see [Asking permission to use notifications](https://developer.apple.com/documentation/usernotifications/asking-permission-to-use-notifications)). After agreeing, people generally use settings to specify the styles of notification they want to receive, and to specify delivery times for notifications that have different levels of urgency. To learn more about the ways people can customize the notification experience, see [Managing notifications](../../Patterns/Managing%20notifications.md).
 
 ## Anatomy
 
@@ -44,15 +44,15 @@ When a notification includes a title, the system displays it at the top where it
 
 **Write succinct, easy-to-read notification content.** Use complete sentences, sentence case, and proper punctuation, and don’t truncate your message — the system does this automatically when necessary.
 
-**Provide generically descriptive text to display when notification previews aren’t available.** In Settings, people can choose to hide notification previews for all apps. In this situation, the system shows only your app icon and the default title *Notification*. To give people sufficient context to know whether they want to view the full notification, write body text that succinctly describes the notification content without revealing too many details, like “Friend request,” “New comment,” “Reminder,” or “Shipment” (for developer guidance, see [hiddenPreviewsBodyPlaceholder](https://developer.apple.com/documentation/UserNotifications/UNNotificationCategory/hiddenPreviewsBodyPlaceholder)). Use sentence-style [capitalization](https://support.apple.com/guide/applestyleguide/c-apsgb744e4a3/web#apdca93e113f1d64) for this text.
+**Provide generically descriptive text to display when notification previews aren’t available.** In Settings, people can choose to hide notification previews for all apps. In this situation, the system shows only your app icon and the default title *Notification*. To give people sufficient context to know whether they want to view the full notification, write body text that succinctly describes the notification content without revealing too many details, like “Friend request,” “New comment,” “Reminder,” or “Shipment” (for developer guidance, see [hiddenPreviewsBodyPlaceholder](https://developer.apple.com/documentation/usernotifications/unnotificationcategory/hiddenpreviewsbodyplaceholder)). Use sentence-style [capitalization](https://support.apple.com/guide/applestyleguide/c-apsgb744e4a3/web#apdca93e113f1d64) for this text.
 
 **Avoid including your app name or icon.** The system automatically displays a large version of your app icon at the leading edge of each notification; in a communication notification, the system displays the sender’s contact image badged with a small version of your icon.
 
-**Consider providing a sound to supplement your notifications.** Sound can be a great way to distinguish your app’s notifications and get someone’s attention when they’re not looking at the device. You can create a custom sound that coordinates with the style of your app or use a system-provided alert sound. If you use a custom sound, make sure it’s short, distinctive, and professionally produced. A notification sound can enhance the user experience, but don’t rely on it to communicate important information, because people may not hear it. Although people might also want a vibration to accompany alert sounds, you can’t provide such a vibration programmatically. For developer guidance, see [UNNotificationSound](https://developer.apple.com/documentation/UserNotifications/UNNotificationSound).
+**Consider providing a sound to supplement your notifications.** Sound can be a great way to distinguish your app’s notifications and get someone’s attention when they’re not looking at the device. You can create a custom sound that coordinates with the style of your app or use a system-provided alert sound. If you use a custom sound, make sure it’s short, distinctive, and professionally produced. A notification sound can enhance the user experience, but don’t rely on it to communicate important information, because people may not hear it. Although people might also want a vibration to accompany alert sounds, you can’t provide such a vibration programmatically. For developer guidance, see [UNNotificationSound](https://developer.apple.com/documentation/usernotifications/unnotificationsound).
 
 ## Notification actions
 
-A notification can present a customizable detail view that contains up to four buttons people use to perform actions without opening your app. For example, a Calendar event notification provides a Snooze button that postpones the event’s alarm for a few minutes. For developer guidance, see [Handling notifications and notification-related actions](https://developer.apple.com/documentation/UserNotifications/handling-notifications-and-notification-related-actions).
+A notification can present a customizable detail view that contains up to four buttons people use to perform actions without opening your app. For example, a Calendar event notification provides a Snooze button that postpones the event’s alarm for a few minutes. For developer guidance, see [Handling notifications and notification-related actions](https://developer.apple.com/documentation/usernotifications/handling-notifications-and-notification-related-actions).
 
 **Provide beneficial actions that make sense in the context of your notification.** Prefer actions that let people perform common, time-saving tasks that eliminate the need to open your app. For each button, use a short, title-case term or phrase that clearly describes the result of the action. Don’t include your app name or any extraneous information in the button label, keep the text brief to avoid truncation, and take localization into account as you write it.
 
@@ -88,7 +88,7 @@ You can help people have a great notification experience by designing app-specif
 
 A short look appears when the wearer’s wrist is raised and disappears when it’s lowered.
 
-![An illustration that represents a short look notification from a generic app. It includes a large primary image in the center, a title, and a short preview of the notification content.](https://docs-assets.developer.apple.com/published/609f4ae816d78b5c87a340416f4874a9/notifications-short-looks%402x.png)
+![An illustration that represents a short look notification from a generic app. It includes a large primary image in the center, a title, and a short preview of the notification content.](/images/com.apple.HIG/notifications-short-looks@2x.png)
 
 **Avoid using a short look as the only way to communicate important information.** A short look appears only briefly, giving people just enough time to see what the notification is about and which app sent it. If your notification information is critical, make sure you deliver it in other ways, too.
 
@@ -98,13 +98,13 @@ A short look appears when the wearer’s wrist is raised and disappears when it�
 
 Long looks provide more detail about a notification. If necessary, people can swipe vertically or use the Digital Crown to scroll a long look. After viewing a long look, people can dismiss it by tapping it or simply by lowering their wrist.
 
-![An illustration that represents a long look notification from a generic app. It includes a small primary image in the upper left corner, badging a platter with the notification title and content. Beneath the notification are two full width action buttons, the second of which extends off the screen to indicate that the view is scrollable.](https://docs-assets.developer.apple.com/published/a48f434c960e0f14429018803ee4b180/notifications-long-looks%402x.png)
+![An illustration that represents a long look notification from a generic app. It includes a small primary image in the upper left corner, badging a platter with the notification title and content. Beneath the notification are two full width action buttons, the second of which extends off the screen to indicate that the view is scrollable.](/images/com.apple.HIG/notifications-long-looks@2x.png)
 
 A custom long-look interface can be static or dynamic. The *static* interface lets you display a notification’s message along with additional static text and images. The *dynamic* interface gives you access to the notification’s full content and offers more options for configuring the appearance of the interface.
 
 You can customize the content area for both static and dynamic long looks, but you can’t change the overall structure of the interface. The system-defined structure includes a *sash* at the top of the interface and a Dismiss button at the bottom, below all custom buttons.
 
-**Consider using a rich, custom long-look notification to let people get the information they need without launching your app.** You can use SwiftUI [Animations](https://developer.apple.com/documentation/SwiftUI/Animations) to create engaging, interruptible animations; alternatively, you can use [SpriteKit](https://developer.apple.com/documentation/SpriteKit) or [SceneKit](https://developer.apple.com/documentation/SceneKit).
+**Consider using a rich, custom long-look notification to let people get the information they need without launching your app.** You can use SwiftUI [Animations](https://developer.apple.com/documentation/swiftui/animations) to create engaging, interruptible animations; alternatively, you can use [SpriteKit](https://developer.apple.com/documentation/spritekit) or [SceneKit](https://developer.apple.com/documentation/scenekit).
 
 **At the minimum, provide a static interface; prefer providing a dynamic interface too.** The system defaults to the static interface when the dynamic interface is unavailable, such as when there is no network or the iPhone companion app is unreachable. Be sure to create the resources for your static interface in advance and package them with your app.
 
@@ -130,11 +130,11 @@ People can double-tap to respond to notifications on supported devices. When a p
 
 #### Developer documentation
 
-[Asking permission to use notifications](https://developer.apple.com/documentation/UserNotifications/asking-permission-to-use-notifications) — User Notifications
+[Asking permission to use notifications](https://developer.apple.com/documentation/usernotifications/asking-permission-to-use-notifications) — User Notifications
 
-[User Notifications UI](https://developer.apple.com/documentation/UserNotificationsUI)
+[User Notifications UI](https://developer.apple.com/documentation/usernotificationsui)
 
-[User Notifications](https://developer.apple.com/documentation/UserNotifications)
+[User Notifications](https://developer.apple.com/documentation/usernotifications)
 
 #### Videos
 

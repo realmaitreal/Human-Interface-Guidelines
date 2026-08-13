@@ -4,7 +4,7 @@
 
 *A collection manages an ordered set of content and presents it in a customizable and highly visual layout.*
 
-![A stylized representation of eight image icons, separated into two rows of four. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/c5fd03d4c68c0b728b102acc5a9c4782/components-collection-view-intro%402x.png)
+![A stylized representation of eight image icons, separated into two rows of four. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-collection-view-intro@2x.png)
 
 Generally speaking, collections are ideal for showing image-based content.
 
@@ -40,9 +40,9 @@ Generally speaking, collections are ideal for showing image-based content.
 
 #### Developer documentation
 
-[UICollectionView](https://developer.apple.com/documentation/UIKit/UICollectionView) — UIKit
+[UICollectionView](https://developer.apple.com/documentation/uikit/uicollectionview) — UIKit
 
-[NSCollectionView](https://developer.apple.com/documentation/AppKit/NSCollectionView) — AppKit
+[NSCollectionView](https://developer.apple.com/documentation/appkit/nscollectionview) — AppKit
 
 ---
 *Source: [https://developer.apple.com/design/human-interface-guidelines/collections](https://developer.apple.com/design/human-interface-guidelines/collections)*

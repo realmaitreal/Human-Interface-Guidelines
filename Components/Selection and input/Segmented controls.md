@@ -8,25 +8,25 @@
 >
 > Updated to include guidance for visionOS.
 
-![A stylized representation of a selected segment in a segmented control. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/89298764551d236435a7057412cf2e06/components-segmented-control-intro%402x.png)
+![A stylized representation of a selected segment in a segmented control. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-segmented-control-intro@2x.png)
 
 Within a segmented control, all segments are usually equal in width. Like [Buttons](../Menus%20and%20actions/Buttons.md), segments can contain text or images. Segments can also have text labels beneath them (or beneath the control as a whole).
 
 A segmented control offers a single choice from among a set of options, or in macOS, either a single choice or multiple choices. For example, in macOS Keynote people can select only one segment in the alignment options control to align selected text. In contrast, people can choose multiple segments in the font attributes control to combine styles like bold, italics, and underline. The toolbar of a Keynote window also uses a segmented control to let people show and hide various editing panes within the main window area.
 
-![A partial screenshot of a segmented control that consists of four text-alignment options. The center alignment option is selected.](https://docs-assets.developer.apple.com/published/7ed5112804ec078b8ba281e30a30ec85/segmented-control-one-choice%402x.png)  
+![A partial screenshot of a segmented control that consists of four text-alignment options. The center alignment option is selected.](/images/com.apple.HIG/segmented-control-one-choice@2x.png)  
 *Single choice*
 
-![A partial screenshot of a segmented control that consists of four font types. Three of the four options are selected.](https://docs-assets.developer.apple.com/published/0b1d550e9c4fc6e201d45640fad819eb/segmented-control-multiple-choices%402x.png)  
+![A partial screenshot of a segmented control that consists of four font types. Three of the four options are selected.](/images/com.apple.HIG/segmented-control-multiple-choices@2x.png)  
 *Multiple choices*
 
-In addition to representing the state of a single or multiple-choice selection, a segmented control can function as a set of buttons that perform actions without showing a selection state. For example, the Reply, Reply all, and Forward buttons in macOS Mail. For developer guidance, see [isMomentary](https://developer.apple.com/documentation/UIKit/UISegmentedControl/isMomentary) and [NSSegmentedControl.SwitchTracking.momentary](https://developer.apple.com/documentation/AppKit/NSSegmentedControl/SwitchTracking/momentary).
+In addition to representing the state of a single or multiple-choice selection, a segmented control can function as a set of buttons that perform actions without showing a selection state. For example, the Reply, Reply all, and Forward buttons in macOS Mail. For developer guidance, see [isMomentary](https://developer.apple.com/documentation/uikit/uisegmentedcontrol/ismomentary) and [NSSegmentedControl.SwitchTracking.momentary](https://developer.apple.com/documentation/appkit/nssegmentedcontrol/switchtracking/momentary).
 
 ## Best practices
 
 **Use a segmented control to provide closely related choices that affect an object, state, or view.** For example, a segmented control in an inspector could let people choose one or more attributes to apply to a selection, or a segmented control in a toolbar could offer a set of actions to perform on the current view.
 
-![A screenshot of the top half of the Activity screen in the iOS Health app, showing graphs of Move and Exercise activity. The segmented control above the graphs has D selected, indicating that the graphs show one day of activity.](https://docs-assets.developer.apple.com/published/f82bafe0f162b0181f6d50661109464b/segmented-controls-activity-charts%402x.png)  
+![A screenshot of the top half of the Activity screen in the iOS Health app, showing graphs of Move and Exercise activity. The segmented control above the graphs has D selected, indicating that the graphs show one day of activity.](/images/com.apple.HIG/segmented-controls-activity-charts@2x.png)  
 *In the iOS Health app, a segmented control provides a choice of time ranges for the activity graphs to display.*
 
 **Consider a segmented control when it’s important to group functions together, or to clearly show their selection state.** Unlike other button styles, segmented controls preserve their grouping regardless of the view size or where they appear. This grouping can also help people understand at a glance which controls are currently selected.
@@ -53,7 +53,7 @@ In addition to representing the state of a single or multiple-choice selection, 
 
 **Consider a segmented control to switch between closely related subviews.** A segmented control can be useful as a way to quickly switch between related subviews. For example, the segmented control in Calendar’s New Event sheet switches between the subviews for creating a new event and a new reminder. For switching between completely separate sections of an app, use a [Tab bars](../Navigation%20and%20search/Tab%20bars.md) instead.
 
-![A screenshot of the top half of the iOS Calendar app, showing the New Event sheet. A segmented control provides the ability to switch between adding a new event and a new reminder.](https://docs-assets.developer.apple.com/published/2438acc643ee037a518cad7a15b18709/segmented-controls-calendar-new-event%402x.png)
+![A screenshot of the top half of the iOS Calendar app, showing the New Event sheet. A segmented control provides the ability to switch between adding a new event and a new reminder.](/images/com.apple.HIG/segmented-controls-calendar-new-event@2x.png)
 
 ### macOS
 
@@ -61,7 +61,7 @@ In addition to representing the state of a single or multiple-choice selection, 
 
 **Use a tab view in the main window area — instead of a segmented control — for view switching.** A [Tab views](../Layout%20and%20organization/Tab%20views.md) supports efficient view switching and is similar in appearance to a [Boxes](../Layout%20and%20organization/Boxes.md) combined with a segmented control. Consider using a segmented control to help people switch views in a toolbar or inspector pane.
 
-![A screenshot of the macOS Calendar app. The main window area shows a tab view that contains four tabs: Day, Week, Month, and Year. The sidebar shows a segmented control that contains two segments: New and Replied.](https://docs-assets.developer.apple.com/published/e0a8dd930dcd6e099b72c643b6077a7b/macos-calendar-tab-view-segmented-control-comparison%402x.png)
+![A screenshot of the macOS Calendar app. The main window area shows a tab view that contains four tabs: Day, Week, Month, and Year. The sidebar shows a segmented control that contains two segments: New and Replied.](/images/com.apple.HIG/macos-calendar-tab-view-segmented-control-comparison@2x.png)
 
 **Consider supporting spring loading.** On a Mac equipped with a Magic Trackpad, spring loading lets people activate a segment by dragging selected items over it and force clicking without dropping the selected items. People can also continue dragging the items after a segment activates.
 
@@ -83,11 +83,11 @@ When people look at a segmented control that uses icons, the system displays a t
 
 #### Developer documentation
 
-[segmented](https://developer.apple.com/documentation/SwiftUI/PickerStyle/segmented) — SwiftUI
+[segmented](https://developer.apple.com/documentation/swiftui/pickerstyle/segmented) — SwiftUI
 
-[UISegmentedControl](https://developer.apple.com/documentation/UIKit/UISegmentedControl) — UIKit
+[UISegmentedControl](https://developer.apple.com/documentation/uikit/uisegmentedcontrol) — UIKit
 
-[NSSegmentedControl](https://developer.apple.com/documentation/AppKit/NSSegmentedControl) — AppKit
+[NSSegmentedControl](https://developer.apple.com/documentation/appkit/nssegmentedcontrol) — AppKit
 
 ## Change log
 

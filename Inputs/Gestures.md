@@ -8,7 +8,7 @@
 >
 > Added guidance for working with system overlays in visionOS and made organizational updates.
 
-![A sketch of a pointing hand swiping in a curved motion toward the right, suggesting touch interaction with a device. The image is overlaid with rectangular and circular grid lines and is tinted purple to subtly reflect the purple in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/21ef165b3e1da4255ee2a9a55796afc0/inputs-gestures-intro%402x.png)
+![A sketch of a pointing hand swiping in a curved motion toward the right, suggesting touch interaction with a device. The image is overlaid with rectangular and circular grid lines and is tinted purple to subtly reflect the purple in the original six-color Apple logo.](/images/com.apple.HIG/inputs-gestures-intro@2x.png)
 
 Depending on the device they’re using, people can make gestures on a touchscreen, in the air, or on a range of input devices such as a trackpad, mouse, remote, or game controller that includes a touch surface.
 
@@ -90,9 +90,9 @@ Here are the standard direct gestures people use in visionOS; see [Specification
 
 #### Designing custom gestures in visionOS
 
-If you want to offer a specific interaction for your experience that people can’t perform using an existing system gesture, consider designing a custom gesture. To offer this type of interaction, your app needs to be running in a Full Space, and you must request people’s permission to access information about their hands. For developer guidance, see [Setting up access to ARKit data](https://developer.apple.com/documentation/visionOS/setting-up-access-to-arkit-data).
+If you want to offer a specific interaction for your experience that people can’t perform using an existing system gesture, consider designing a custom gesture. To offer this type of interaction, your app needs to be running in a Full Space, and you must request people’s permission to access information about their hands. For developer guidance, see [Setting up access to ARKit data](https://developer.apple.com/documentation/visionos/setting-up-access-to-arkit-data).
 
-![A screenshot of a person's hands performing a custom gesture, placing the two hands together to form a heart, while playing a visionOS game.](https://docs-assets.developer.apple.com/published/363ecbc8eeb441809f62ae935e13fbdc/visionos-custom-spatial-gesture-happy-beam%402x.png)
+![A screenshot of a person's hands performing a custom gesture, placing the two hands together to form a heart, while playing a visionOS game.](/images/com.apple.HIG/visionos-custom-spatial-gesture-happy-beam@2x.png)
 
 **Prioritize comfort.** Continually test ergonomics of all interactions that require custom gestures. A custom interaction that requires people to keep their arms raised for even a little while can be physically tiring, and repeating very similar movements many times in succession can stress people’s muscles and joints.
 
@@ -112,24 +112,24 @@ When designing apps and games that use custom gestures or anchor content to a pe
 
 **Reserve the area around a person’s hand for system overlays and their related gestures.** If possible, don’t anchor content to a person’s hands or wrists. If you’re designing a game that involves hand-anchored content, place it outside of the immediate area of someone’s hand to avoid colliding with the Home indicator.
 
-![An illustration of a person's open hand with the palm facing upward. A dashed circular line above the hand indicates the area reserved for system overlays.](https://docs-assets.developer.apple.com/published/de8c04a523a3e225c723c5c09c458e1c/visionos-hand-area-of-focus%402x.png)  
+![An illustration of a person's open hand with the palm facing upward. A dashed circular line above the hand indicates the area reserved for system overlays.](/images/com.apple.HIG/visionos-hand-area-of-focus@2x.png)  
 *The area reserved for interacting with system overlays.*
 
-![An illustration of a person's open hand with the palm facing upward. A button with a circle icon representing the Home indicator appears above the palm.](https://docs-assets.developer.apple.com/published/961d33f07da24b20848f3502d2cea134/visionos-spatial-gesture-home-indicator%402x.png)  
+![An illustration of a person's open hand with the palm facing upward. A button with a circle icon representing the Home indicator appears above the palm.](/images/com.apple.HIG/visionos-spatial-gesture-home-indicator@2x.png)  
 *A person looks at their palm to reveal the Home indicator.*
 
-![An illustration of a person's open hand with the palm facing downward. An overlay with the status bar appears above the hand.](https://docs-assets.developer.apple.com/published/f1d5a8816f65f35853ccd513355272d8/visionos-spatial-gesture-control-center%402x.png)  
+![An illustration of a person's open hand with the palm facing downward. An overlay with the status bar appears above the hand.](/images/com.apple.HIG/visionos-spatial-gesture-control-center@2x.png)  
 *A person turns their hand to reveal the status bar, and can tap to open Control Center.*
 
-**Consider deferring the system overlay behavior when designing an immersive app or game.** In certain circumstances, you may not want the Home indicator to appear when someone looks at the palm of their hand. For example, a game that uses virtual hands or gloves may want to keep someone within the world of the story, even if they happen to look at their hands from different angles. In such cases, when your app is running in a Full Space, you can choose to require a tap to reveal the Home indicator instead. For developer guidance, see [persistentSystemOverlays(_:)](https://developer.apple.com/documentation/SwiftUI/View/persistentSystemOverlays(_:)).
+**Consider deferring the system overlay behavior when designing an immersive app or game.** In certain circumstances, you may not want the Home indicator to appear when someone looks at the palm of their hand. For example, a game that uses virtual hands or gloves may want to keep someone within the world of the story, even if they happen to look at their hands from different angles. In such cases, when your app is running in a Full Space, you can choose to require a tap to reveal the Home indicator instead. For developer guidance, see [persistentSystemOverlays(_:)](https://developer.apple.com/documentation/swiftui/view/persistentsystemoverlays(_:)).
 
-![An image of a person's open hand with the palm facing upward, shown from the person's perspective. A button with a circle icon representing the Home indicator appears above the palm. The image background shows the room that's the person's surroundings.](https://docs-assets.developer.apple.com/published/dc6b4a94633c063ddd432dcc8043cae3/gestures-default-home-indicator%402x.png)  
+![An image of a person's open hand with the palm facing upward, shown from the person's perspective. A button with a circle icon representing the Home indicator appears above the palm. The image background shows the room that's the person's surroundings.](/images/com.apple.HIG/gestures-default-home-indicator@2x.png)  
 *Default behavior in the Shared Space*
 
-![An image of a person's open hand with the palm facing upward, shown from the person's perspective. A button with a circle icon representing the Home indicator appears above the palm. The image background shows a forest in a fully immersive space.](https://docs-assets.developer.apple.com/published/96cb708d391f1ab78a77d23c7f2e0442/gestures-home-indicator-in-immersive-space%402x.png)  
+![An image of a person's open hand with the palm facing upward, shown from the person's perspective. A button with a circle icon representing the Home indicator appears above the palm. The image background shows a forest in a fully immersive space.](/images/com.apple.HIG/gestures-home-indicator-in-immersive-space@2x.png)  
 *Default behavior in a Full Space*
 
-![An image of a person's open hand wearing a bulky space suit glove, shown from the person's perspective. The palm faces upward, and no button appears above it. The image background shows a starry sky in a fully immersive space.](https://docs-assets.developer.apple.com/published/b978fe99b00df892890e1d194f704a83/gestures-fully-immersive-game-with-glove%402x.png)  
+![An image of a person's open hand wearing a bulky space suit glove, shown from the person's perspective. The palm faces upward, and no button appears above it. The image background shows a starry sky in a fully immersive space.](/images/com.apple.HIG/gestures-fully-immersive-game-with-glove@2x.png)  
 *Deferred behavior in a Full Space*
 
 > **Note**
@@ -146,13 +146,13 @@ In watchOS 11 and later, people can use the double-tap gesture to scroll through
 
 **Avoid setting a primary action in views with lists, scroll views, or vertical tabs.** This conflicts with the default navigation behaviors that people expect when they double-tap.
 
-**Choose the button that people use most commonly as the primary action in a view.** Double tap is helpful in a nonscrolling view when it performs the action that people use the most. For example, in a media controls view, you could assign the primary action to the play/pause button. For developer guidance, see [handGestureShortcut(_:isEnabled:)](https://developer.apple.com/documentation/SwiftUI/View/handGestureShortcut(_:isEnabled:)) and [primaryAction](https://developer.apple.com/documentation/SwiftUI/HandGestureShortcut/primaryAction).
+**Choose the button that people use most commonly as the primary action in a view.** Double tap is helpful in a nonscrolling view when it performs the action that people use the most. For example, in a media controls view, you could assign the primary action to the play/pause button. For developer guidance, see [handGestureShortcut(_:isEnabled:)](https://developer.apple.com/documentation/swiftui/view/handgestureshortcut(_:isenabled:)) and [primaryAction](https://developer.apple.com/documentation/swiftui/handgestureshortcut/primaryaction).
 
 ## Specifications
 
 ### Standard gestures
 
-The system provides APIs that support the familiar gestures people use with their devices, whether they use a touchscreen, an indirect gesture in visionOS, or an input device like a trackpad, mouse, remote, or game controller. For developer guidance, see [Gestures](https://developer.apple.com/documentation/SwiftUI/Gestures).
+The system provides APIs that support the familiar gestures people use with their devices, whether they use a touchscreen, an indirect gesture in visionOS, or an input device like a trackpad, mouse, remote, or game controller. For developer guidance, see [Gestures](https://developer.apple.com/documentation/swiftui/gestures).
 
 | Gesture | Supported in | Common action |
 | --- | --- | --- |
@@ -178,9 +178,9 @@ For guidance on supporting additional gestures and button presses on specific in
 
 #### Developer documentation
 
-[Gestures](https://developer.apple.com/documentation/SwiftUI/Gestures) — SwiftUI
+[Gestures](https://developer.apple.com/documentation/swiftui/gestures) — SwiftUI
 
-[UITouch](https://developer.apple.com/documentation/UIKit/UITouch) — UIKit
+[UITouch](https://developer.apple.com/documentation/uikit/uitouch) — UIKit
 
 #### Videos
 

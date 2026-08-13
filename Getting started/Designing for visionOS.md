@@ -8,7 +8,7 @@
 >
 > Included a link to Apple&nbsp;Vision&nbsp;Pro User Guide.
 
-![A stylized representation of Apple Vision Pro shown on top of a grid. The image is overlaid with rectangular and circular grid lines and is tinted green to subtly reflect the green in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/9d51f701c7321cced431aac9d5212b9e/platforms-visionOS-intro%402x.png)
+![A stylized representation of Apple Vision Pro shown on top of a grid. The image is overlaid with rectangular and circular grid lines and is tinted green to subtly reflect the green in the original six-color Apple logo.](/images/com.apple.HIG/platforms-visionOS-intro@2x.png)
 
 As you begin designing your app or game for visionOS, start by understanding the fundamental device characteristics and patterns that distinguish the platform. Use these characteristics and patterns to inform your design decisions and help you create immersive and engaging experiences.
 
@@ -60,7 +60,7 @@ Great visionOS apps and games are approachable and familiar, while offering extr
 
 [visionOS Pathway](https://developer.apple.com/visionos/get-started/)
 
-[Creating your first visionOS app](https://developer.apple.com/documentation/visionOS/creating-your-first-visionos-app)
+[Creating your first visionOS app](https://developer.apple.com/documentation/visionos/creating-your-first-visionos-app)
 
 #### Videos
 

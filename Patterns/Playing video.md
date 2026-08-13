@@ -8,14 +8,14 @@
 >
 > Corrected the recommended width for a thumbnail in visionOS.
 
-![A sketch of a play button, suggesting video playback. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/26e9c68a8a956a2f5ed6b1d9988c0dce/patterns-playing-video-intro%402x.png)
+![A sketch of a play button, suggesting video playback. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](/images/com.apple.HIG/patterns-playing-video-intro@2x.png)
 
 The system provides video players designed for you to use to embed playback experiences within your app or game in iOS, iPadOS, macOS, tvOS, and visionOS. You can also offer your content through the TV app in these platforms, which gives people a convenient and consistent viewing experience.
 
 The system-provided video players support different aspect-ratio playback modes and in most platforms, Picture in Picture (PiP) viewing mode. Although people can switch modes during playback, by default, the system selects one of the following playback modes based on a video’s aspect ratio:
 
-- In full-screen — or *aspect-fill* — mode, the video scales to fill the display, and some edge cropping may occur. This mode is the default for wide video (2:1 through 2.40:1). For developer guidance, see [resizeAspectFill](https://developer.apple.com/documentation/AVFoundation/AVLayerVideoGravity/resizeAspectFill).
-- In fit-to-screen — or *aspect* — mode, the entire video is visible onscreen, and letterboxing or pillarboxing occurs as needed. This mode is the default for standard video (4:3, 16:9, and anything up to 2:1) and ultrawide video (anything above 2.40:1). For developer guidance, see [resizeAspect](https://developer.apple.com/documentation/AVFoundation/AVLayerVideoGravity/resizeAspect).
+- In full-screen — or *aspect-fill* — mode, the video scales to fill the display, and some edge cropping may occur. This mode is the default for wide video (2:1 through 2.40:1). For developer guidance, see [resizeAspectFill](https://developer.apple.com/documentation/avfoundation/avlayervideogravity/resizeaspectfill).
+- In fit-to-screen — or *aspect* — mode, the entire video is visible onscreen, and letterboxing or pillarboxing occurs as needed. This mode is the default for standard video (4:3, 16:9, and anything up to 2:1) and ultrawide video (anything above 2.40:1). For developer guidance, see [resizeAspect](https://developer.apple.com/documentation/avfoundation/avlayervideogravity/resizeaspect).
 
 In visionOS and tvOS, the built-in video player also provides *transport controls,* which let people perform playback tasks, like turning on subtitles or changing the audio language, and actions, like adding a show to a library or favoriting a clip. Below the transport controls, the video player displays *content tabs*, like Info, Episodes, or Chapters, that can provide supporting information and help streamline navigation. In visionOS, the transport controls appear as an [Ornaments](../Components/Menus%20and%20actions/Ornaments.md).
 
@@ -27,13 +27,13 @@ In visionOS and tvOS, the built-in video player also provides *transport control
 
 Here are some examples that show how padding can affect video display on iPhone Xs.
 
-**Provide additional information when it adds value.** In iOS, iPadOS, tvOS, and visionOS, you can customize a video’s additional information by providing an image, title, description, and other useful information. In general, restrict this content so that it doesn’t obscure media playback. For developer guidance, see [externalMetadata](https://developer.apple.com/documentation/AVFoundation/AVPlayerItem/externalMetadata).
+**Provide additional information when it adds value.** In iOS, iPadOS, tvOS, and visionOS, you can customize a video’s additional information by providing an image, title, description, and other useful information. In general, restrict this content so that it doesn’t obscure media playback. For developer guidance, see [externalMetadata](https://developer.apple.com/documentation/avfoundation/avplayeritem/externalmetadata).
 
 **Support the interactions people expect, regardless of the input device they’re using to control playback.** For example, people expect to press Space on a connected keyboard to play or pause media playback on Apple Vision Pro, Mac, iPhone, iPad, and Apple TV. Similarly, people expect to move through their media on Apple TV by making familiar, intuitive gestures with the Siri Remote. For guidance, see Keyboards and Remotes.
 
 **If people need to access playback options or content-specific information in your tvOS app, consider adding a transport control or a custom content tab.** People typically open a transport control or content tab while they’re watching a video, so it’s essential to provide only the most useful actions and information. Help people return quickly to the viewing experience by making sure your actions don’t take more than a step or two and your content is succinct. Use a transport control to support a playback-related action like favoriting a video; use custom content tabs to display supplementary information or recommendations.
 
-**Avoid allowing audio from different sources to mix as viewers switch between modes.** Mixed audio is an unpleasant and frustrating user experience. In general, audio mixes when at least one of the audio sources fails to handle secondary audio correctly. Here is a typical scenario: While watching a full-screen video, the viewer moves it into the PiP window, where the system automatically mutes the video. In the full-screen window, the viewer starts a game that plays background music, then switches to the PiP window and unmutes the video. If the game doesn’t handle secondary audio appropriately, its audio mixes with the audio from the unmuted video. For developer guidance, see [silenceSecondaryAudioHintNotification](https://developer.apple.com/documentation/AVFAudio/AVAudioSession/silenceSecondaryAudioHintNotification).
+**Avoid allowing audio from different sources to mix as viewers switch between modes.** Mixed audio is an unpleasant and frustrating user experience. In general, audio mixes when at least one of the audio sources fails to handle secondary audio correctly. Here is a typical scenario: While watching a full-screen video, the viewer moves it into the PiP window, where the system automatically mutes the video. In the full-screen window, the viewer starts a game that plays background music, then switches to the PiP window and unmutes the video. If the game doesn’t handle secondary audio appropriately, its audio mixes with the audio from the unmuted video. For developer guidance, see [silenceSecondaryAudioHintNotification](https://developer.apple.com/documentation/avfaudio/avaudiosession/silencesecondaryaudiohintnotification).
 
 ## Integrating with the TV app
 
@@ -91,13 +91,13 @@ After exiting playback, people remain in your app rather than returning to the T
 
 **Create a thumbnail track if you want to support scrubbing.** The system displays thumbnails as people scrub to different times in the video, helping them choose the section they want. To improve performance, supply a set of thumbnails that each measure 160 px in width. For developer guidance, see [HTTP Live Streaming (HLS) Authoring Specification for Apple Devices > Trick Play](https://developer.apple.com/documentation/http-live-streaming/hls-authoring-specification-for-apple-devices#Trick-Play).
 
-**Avoid expanding an inline video player to fill a window.** When you display the system-provided player view in a window, playback controls appear in the same plane as the player view and not in an ornament that floats above the window. Inline video needs to be 2D and you want to make sure that window content remains visible around the player so people don’t expect a more immersive playback experience. For developer guidance, see [AVPlayerViewController](https://developer.apple.com/documentation/AVKit/AVPlayerViewController).
+**Avoid expanding an inline video player to fill a window.** When you display the system-provided player view in a window, playback controls appear in the same plane as the player view and not in an ornament that floats above the window. Inline video needs to be 2D and you want to make sure that window content remains visible around the player so people don’t expect a more immersive playback experience. For developer guidance, see [AVPlayerViewController](https://developer.apple.com/documentation/avkit/avplayerviewcontroller).
 
-**Use a RealityKit video player if you need to play video in a view like a splash screen or a transitional view.** In situations like these, people generally expect the video to lead into the next experience, so they don’t need playback controls or system-provided integration, like dimming and view anchoring. The RealityKit video player automatically uses the correct aspect ratio for both 2D and 3D video and supports closed captions. RealityKit can also help you play video as a special effect on the surface of a custom view or object. For developer guidance, see [RealityKit](https://developer.apple.com/documentation/RealityKit).
+**Use a RealityKit video player if you need to play video in a view like a splash screen or a transitional view.** In situations like these, people generally expect the video to lead into the next experience, so they don’t need playback controls or system-provided integration, like dimming and view anchoring. The RealityKit video player automatically uses the correct aspect ratio for both 2D and 3D video and supports closed captions. RealityKit can also help you play video as a special effect on the surface of a custom view or object. For developer guidance, see [RealityKit](https://developer.apple.com/documentation/realitykit).
 
 ### watchOS
 
-In watchOS, the system manages video playback. Apps can play short video clips while the app is active and running in the foreground. You can use a movie element to embed clips in your interface and play video inline, or you can play a clip in a separate interface. For developer guidance, see [VideoPlayer](https://developer.apple.com/documentation/AVKit/VideoPlayer).
+In watchOS, the system manages video playback. Apps can play short video clips while the app is active and running in the foreground. You can use a movie element to embed clips in your interface and play video inline, or you can play a clip in a separate interface. For developer guidance, see [VideoPlayer](https://developer.apple.com/documentation/avkit/videoplayer).
 
 **Keep video clips short.** Prefer shorter clips of no longer than 30 seconds. Long clips consume more disk space and require people to keep their wrists raised for longer periods of time, which can cause fatigue.
 
@@ -125,9 +125,9 @@ In watchOS, the system manages video playback. Apps can play short video clips w
 
 #### Developer documentation
 
-[Configuring your app for media playback](https://developer.apple.com/documentation/AVFoundation/configuring-your-app-for-media-playback) — AVFoundation
+[Configuring your app for media playback](https://developer.apple.com/documentation/avfoundation/configuring-your-app-for-media-playback) — AVFoundation
 
-[AVKit](https://developer.apple.com/documentation/AVKit)
+[AVKit](https://developer.apple.com/documentation/avkit)
 
 [HTTP Live Streaming](https://developer.apple.com/streaming/)
 

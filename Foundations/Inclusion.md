@@ -4,7 +4,7 @@
 
 *Inclusive apps and games put people first by prioritizing respectful communication and presenting content and functionality in ways that everyone can access and understand.*
 
-![A sketch of two people, suggesting inclusion. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/498c87708887321ec79abcf0c45abc66/foundations-inclusion-intro%402x.png)
+![A sketch of two people, suggesting inclusion. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo.](/images/com.apple.HIG/foundations-inclusion-intro@2x.png)
 
 To help you design an inclusive app or game, consider the following goals as you review the words and images you use and the experiences you offer.
 
@@ -64,13 +64,13 @@ In addition, you can often avoid referencing a specific gender in an avatar, emo
 
 If you need to depict a generic person or people, use a nongendered human image to reinforce the message that *generic person* means *human*, not *man* or *woman*. SF Symbols provides many nongendered glyphs you can use, such as the figure and person symbols shown here:
 
-![A solid silhouette of a person from the shoulders up, within a circle.](https://docs-assets.developer.apple.com/published/22f3909c1b433ca2181d2fdcf193fff7/person-crop-circle%402x.png)  
+![A solid silhouette of a person from the shoulders up, within a circle.](/images/com.apple.HIG/person-crop-circle@2x.png)  
 *person.crop.circle*
 
-![Solid silhouettes of three people, with the left silhouette in the foreground and the other two in the background, all from the shoulders up.](https://docs-assets.developer.apple.com/published/5edbc84a409deb59e72f4d780b8e7b94/person-3-fill%402x.png)  
+![Solid silhouettes of three people, with the left silhouette in the foreground and the other two in the background, all from the shoulders up.](/images/com.apple.HIG/person-3-fill@2x.png)  
 *person.3.fill*
 
-![A solid silhouette of a person standing with an arm raised high on the left side of the image.](https://docs-assets.developer.apple.com/published/ea7ebde0ec424a8dc74961a3670724b2/figure-wave%402x.png)  
+![A solid silhouette of a person standing with an arm raised high on the left side of the image.](/images/com.apple.HIG/figure-wave@2x.png)  
 *figure.wave*
 
 Most apps and games don’t need to know a person’s gender, but if you require this information — such as for health or legal reasons — consider providing inclusive options, such as *nonbinary*, *self-identify*, and *decline to state*. In this situation, you could also let people specify the pronouns they use so you can address them properly when necessary.
@@ -126,7 +126,7 @@ To learn more about making your app or game accessible, see [Accessibility](Acce
 
 ## Languages
 
-People expect to customize their device by choosing a language for text and a region for formatting values like date, time, and money. To welcome a global audience, first prepare your software to handle languages and regions other than your own — a process called *internationalization* — and provide translated text and resources for specific locales. For an overview of internationalization, see [Expanding your app to new markets](https://developer.apple.com/localization/); for developer guidance on localization, see [Localization](https://developer.apple.com/documentation/Xcode/localization).
+People expect to customize their device by choosing a language for text and a region for formatting values like date, time, and money. To welcome a global audience, first prepare your software to handle languages and regions other than your own — a process called *internationalization* — and provide translated text and resources for specific locales. For an overview of internationalization, see [Expanding your app to new markets](https://developer.apple.com/localization/); for developer guidance on localization, see [Localization](https://developer.apple.com/documentation/xcode/localization).
 
 Creating an inclusive experience can also help you prepare for localization. For example, using plain language, avoiding unnecessary gender references, representing a variety of people, and avoiding stereotypes and culture-specific content, can put you in a good position to create versions of your software localized into more languages. Using [SF Symbols](SF%20Symbols.md) for the glyphs in your app or game can also help streamline localization. In addition to providing many language-specific glyphs, SF Symbols includes glyphs you can use in both left-to-right and right-to-left contexts; for guidance, see [Right to left](Right%20to%20left.md).
 
@@ -146,7 +146,7 @@ As you localize your app or game and related content, also be aware of the ways 
 
 #### Developer documentation
 
-[Localization](https://developer.apple.com/documentation/Xcode/localization) — Xcode
+[Localization](https://developer.apple.com/documentation/xcode/localization) — Xcode
 
 #### Videos
 

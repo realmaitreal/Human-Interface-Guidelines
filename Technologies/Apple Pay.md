@@ -8,17 +8,17 @@
 >
 > Refined guidance to reflect the latest Apple Pay appearance and capabilities.
 
-![A sketch of a dollar sign, suggesting Apple Pay. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/4ae8b2e3b4d91aa604d2836031526f06/technologies-Apple-Pay-intro%402x.png)
+![A sketch of a dollar sign, suggesting Apple Pay. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](/images/com.apple.HIG/technologies-Apple-Pay-intro@2x.png)
 
 Use Apple Pay to sell physical goods like groceries, clothing, and appliances; for services such as club memberships, hotel reservations, and event tickets; and for donations. Apps and websites that accept Apple Pay display it as an available payment option and include an Apple Pay button in the purchasing flow that people use to bring up a payment sheet.
 
-![A screenshot of an Apple Pay payment sheet that displays details about a food truck purchase, including a payment method and the total amount.](https://docs-assets.developer.apple.com/published/411dc51a6a0f79df862a5338379230ff/apple-pay-sheet%402x.png)
+![A screenshot of an Apple Pay payment sheet that displays details about a food truck purchase, including a payment method and the total amount.](/images/com.apple.HIG/apple-pay-sheet@2x.png)
 
 During checkout, the payment sheet can show the credit or debit card linked to Apple Pay, purchase amount (including tax and fees), shipping options, contact information, and other relevant details. People make any necessary adjustments and then authorize payment and complete the purchase using credentials stored securely on the device.
 
 People pay using Face ID, Touch ID, or Optic ID on supported devices, or by double-clicking on Apple Watch. In browsers, they can also pay using a nearby iPhone or Apple Watch, or by scanning a code with an iPhone or iPad.
 
-For developer guidance, see [Apple Pay](https://developer.apple.com/documentation/PassKit/apple-pay) and [Apple Pay on the Web](https://developer.apple.com/documentation/ApplePayontheWeb). For a hands-on demo of Apple Pay on the web, see [Apple Pay on the web interactive demo](https://applepaydemo.apple.com).
+For developer guidance, see [Apple Pay](https://developer.apple.com/documentation/passkit/apple-pay) and [Apple Pay on the Web](https://developer.apple.com/documentation/applepayontheweb). For a hands-on demo of Apple Pay on the web, see [Apple Pay on the web interactive demo](https://applepaydemo.apple.com).
 
 > **Note**
 >
@@ -26,21 +26,21 @@ For developer guidance, see [Apple Pay](https://developer.apple.com/documentatio
 
 ## Offering Apple Pay
 
-**Offer Apple Pay on all devices and browsers that support it.** If the device doesn’t support Apple Pay, don’t present Apple Pay as a payment option. For developer guidance, see [PKPaymentAuthorizationController](https://developer.apple.com/documentation/PassKit/PKPaymentAuthorizationController) (iOS, watchOS) and [applePayCapabilities](https://developer.apple.com/documentation/ApplePayontheWeb/ApplePaySession/applePayCapabilities) (web).
+**Offer Apple Pay on all devices and browsers that support it.** If the device doesn’t support Apple Pay, don’t present Apple Pay as a payment option. For developer guidance, see [PKPaymentAuthorizationController](https://developer.apple.com/documentation/passkit/pkpaymentauthorizationcontroller) (iOS, watchOS) and [applePayCapabilities](https://developer.apple.com/documentation/applepayontheweb/applepaysession/applepaycapabilities) (web).
 
-**Make Apple Pay the primary payment option when credentials are available.** If you use Apple Pay APIs to find out whether someone has an active card in Wallet, you must make Apple Pay the primary — but not necessarily sole — payment option everywhere you use the APIs. Don’t separate Apple Pay into a different step or flow. For example, you might pre-select Apple Pay when displaying it alongside other options. For developer guidance, see [Offering Apple Pay in Your App](https://developer.apple.com/documentation/PassKit/offering-apple-pay-in-your-app) (iOS, watchOS) and [Checking for Apple Pay availability](https://developer.apple.com/documentation/ApplePayontheWeb/checking-for-apple-pay-availability) (web).
+**Make Apple Pay the primary payment option when credentials are available.** If you use Apple Pay APIs to find out whether someone has an active card in Wallet, you must make Apple Pay the primary — but not necessarily sole — payment option everywhere you use the APIs. Don’t separate Apple Pay into a different step or flow. For example, you might pre-select Apple Pay when displaying it alongside other options. For developer guidance, see [Offering Apple Pay in Your App](https://developer.apple.com/documentation/passkit/offering-apple-pay-in-your-app) (iOS, watchOS) and [Checking for Apple Pay availability](https://developer.apple.com/documentation/applepayontheweb/checking-for-apple-pay-availability) (web).
 
 **Use Apple Pay buttons only to initiate payment or, when appropriate, the Apple Pay setup process.** When people choose an Apple Pay button to make a purchase, but their device doesn’t have Apple Pay set up, they’re given the opportunity to set up Apple Pay. Don’t use Apple Pay buttons in any other way.
 
 **If you use a custom button to start the Apple Pay payment process, make sure your custom button doesn’t display “Apple Pay” or the Apple Pay logo.** In this scenario, you must let people know that you accept Apple Pay by displaying the [Apple Pay mark](https://developer.apple.com/design/human-interface-guidelines/apple-pay#Apple-Pay-mark) graphic or referencing Apple Pay in text on the same page that displays your payment button.
 
-![An illustration that shows the correct arrangement of the Apple Pay logo above a custom button titled 'Order Now'.](https://docs-assets.developer.apple.com/published/e50f8d4703c7a49e2100dc020d6babbc/custom-button-yes%402x.png)
+![An illustration that shows the correct arrangement of the Apple Pay logo above a custom button titled 'Order Now'.](/images/com.apple.HIG/custom-button-yes@2x.png)
 
-![Correct usage](https://docs-assets.developer.apple.com/published/88662da92338267bb64cd2275c84e484/checkmark%402x.png)
+![Correct usage](/images/com.apple.HIG/checkmark@2x.png)
 
-![An illustration that shows the incorrect arrangement of the Apple Pay logo above a custom button titled 'Apple Pay'.](https://docs-assets.developer.apple.com/published/674fb564528d746b204b229d7df9f095/custom-button-no%402x.png)
+![An illustration that shows the incorrect arrangement of the Apple Pay logo above a custom button titled 'Apple Pay'.](/images/com.apple.HIG/custom-button-no@2x.png)
 
-![Incorrect usage](https://docs-assets.developer.apple.com/published/209f6f0fc8ad99d9bf59e12d82d06584/crossout%402x.png)
+![Incorrect usage](/images/com.apple.HIG/crossout@2x.png)
 
 **Use the Apple Pay mark graphic only to communicate that you accept Apple Pay.** The Apple Pay mark doesn’t facilitate payment. Never use it as a payment button or position it as a button. When using the Apple Pay mark to indicate Apple Pay as the selected payment method, you can create a separate custom button that matches your app or website design to initiate the Apple Pay payment.
 
@@ -70,13 +70,13 @@ For developer guidance, see [Apple Pay](https://developer.apple.com/documentatio
 
 **Gather multiple shipping methods and destinations before showing the payment sheet.** The payment sheet lets people select a single shipping method and destination for an entire order. If people can choose different shipping methods and destinations for individual items in an order, collect those details before Apple Pay checkout.
 
-**For in-store pickup, help people choose a pickup location before displaying the payment sheet.** After someone chooses a pickup location, show the location’s address on the payment sheet. For developer guidance, see [Displaying a Read-Only Pickup Address](https://developer.apple.com/documentation/PassKit/displaying-a-read-only-pickup-address).
+**For in-store pickup, help people choose a pickup location before displaying the payment sheet.** After someone chooses a pickup location, show the location’s address on the payment sheet. For developer guidance, see [Displaying a Read-Only Pickup Address](https://developer.apple.com/documentation/passkit/displaying-a-read-only-pickup-address).
 
 **Prefer checkout information from Apple Pay.** Assume that Apple Pay information is complete and up to date. Even if your app or website has existing contact, shipping, and payment information, consider fetching the latest from Apple Pay during checkout to reduce potential corrections.
 
 **Avoid requiring account creation before purchase.** If you want people to register for an account, ask them to do so on the order confirmation page. Prepopulate as many registration fields as possible using information provided during checkout.
 
-![An illustration of an Apple Pay order confirmation screen on iPhone. The screen contains a button for creating an account, a button for signing up with Apple, and existing account login fields.](https://docs-assets.developer.apple.com/published/2415c82f3630c0e0f0600a0ea8614b82/payment-sheet-before-account%402x.png)
+![An illustration of an Apple Pay order confirmation screen on iPhone. The screen contains a button for creating an account, a button for signing up with Apple, and existing account login fields.](/images/com.apple.HIG/payment-sheet-before-account@2x.png)
 
 **Report transaction results in the payment sheet.** In failure cases, such as a bad address, provide error messages so people can take steps to fix the problem.
 
@@ -88,11 +88,11 @@ For developer guidance, see [Apple Pay](https://developer.apple.com/documentatio
 
 **Display the active coupon or promotional code, or let people enter one.** If people can enter a code before the payment sheet appears, show it on the sheet to reassure them that you applied the code. Consider allowing code entry on the payment sheet as well, particularly in an express checkout flow.
 
-**Let people choose the shipping method in the payment sheet.** To the extent space permits, show a clear description, a cost, and, optionally, an estimated delivery or pickup date — or range of dates — for each available option. Leverage the shipping method’s calendar and time-zone support to provide accurate delivery or pickup information, regardless of the person’s current location. For developer guidance, see [PKDateComponentsRange](https://developer.apple.com/documentation/PassKit/PKDateComponentsRange).
+**Let people choose the shipping method in the payment sheet.** To the extent space permits, show a clear description, a cost, and, optionally, an estimated delivery or pickup date — or range of dates — for each available option. Leverage the shipping method’s calendar and time-zone support to provide accurate delivery or pickup information, regardless of the person’s current location. For developer guidance, see [PKDateComponentsRange](https://developer.apple.com/documentation/passkit/pkdatecomponentsrange).
 
 **For in-store pickup, consider letting people choose a pickup window that works for them.** You can use the shipping method to supply a range of dates and times from which people can choose.
 
-**Use line items to explain additional charges, discounts, pending costs, add-on donations, recurring payments, and future payments.** A line item includes a label and cost; a line item for a recurring payment can also include a frequency. Don’t use line items to show an itemized list of products that make up the purchase. For developer guidance, see [paymentSummaryItems](https://developer.apple.com/documentation/PassKit/PKPaymentRequest/paymentSummaryItems); for guidance on donations, see [Supporting donations](https://developer.apple.com/design/human-interface-guidelines/apple-pay#Supporting-donations).
+**Use line items to explain additional charges, discounts, pending costs, add-on donations, recurring payments, and future payments.** A line item includes a label and cost; a line item for a recurring payment can also include a frequency. Don’t use line items to show an itemized list of products that make up the purchase. For developer guidance, see [paymentSummaryItems](https://developer.apple.com/documentation/passkit/pkpaymentrequest/paymentsummaryitems); for guidance on donations, see [Supporting donations](https://developer.apple.com/design/human-interface-guidelines/apple-pay#Supporting-donations).
 
 **Keep line items short.** Make line items specific and easily understandable at a glance. Whenever possible, fit line items on a single line.
 
@@ -116,7 +116,7 @@ If your website supports Apple Pay, provide an icon in the following sizes:
 | --- | --- |
 | 60x60 pt (120x120 px @2x) | 60x60 pt (180x180 px @3x) |
 
-![A screenshot of an Apple Pay payment sheet on iPhone, which shows a website icon above the payment details.](https://docs-assets.developer.apple.com/published/1fd558c8e5a23af9f10b8819606feee2/web-icon-payment%402x.png)
+![A screenshot of an Apple Pay payment sheet on iPhone, which shows a website icon above the payment details.](/images/com.apple.HIG/web-icon-payment@2x.png)
 
 ## Handling problems
 
@@ -128,7 +128,7 @@ Your app or website can respond to user input when the payment sheet appears, wh
 
 When data is invalid, system-provided error messages highlight relevant fields on the payment sheet. People can choose a field to view additional details and resolve the problem. Provide customized error messages for the detail view that appears when people choose a problematic field.
 
-For developer guidance, see [PKPaymentAuthorizationViewControllerDelegate](https://developer.apple.com/documentation/PassKit/PKPaymentAuthorizationViewControllerDelegate) (iOS, watchOS) and  [Apple Pay on the Web](https://developer.apple.com/documentation/ApplePayontheWeb) (web).
+For developer guidance, see [PKPaymentAuthorizationViewControllerDelegate](https://developer.apple.com/documentation/passkit/pkpaymentauthorizationviewcontrollerdelegate) (iOS, watchOS) and  [Apple Pay on the Web](https://developer.apple.com/documentation/applepayontheweb) (web).
 
 > **Note**
 >
@@ -136,13 +136,13 @@ For developer guidance, see [PKPaymentAuthorizationViewControllerDelegate](https
 
 **Avoid forcing compliance with your business logic.** Design a data validation process that’s intelligent enough to ignore irrelevant data and infer missing data whenever possible. For example, if your app requires a five-digit zip code but someone enters a Zip+4 code, ignore the additional digits rather than asking for a correction. Let people enter phone numbers in multiple formats — such as with and without dashes, and with and without a country code — without producing an error.
 
-**Accurately report problems to the system.** When a problem occurs, provide a custom error message and the correct status code so the system can show the most relevant error on the payment sheet. For developer guidance, see [PKPaymentError](https://developer.apple.com/documentation/PassKit/PKPaymentError) (iOS, watchOS) and [Apple Pay Status Codes](https://developer.apple.com/documentation/ApplePayontheWeb/apple-pay-status-codes) (web).
+**Accurately report problems to the system.** When a problem occurs, provide a custom error message and the correct status code so the system can show the most relevant error on the payment sheet. For developer guidance, see [PKPaymentError](https://developer.apple.com/documentation/passkit/pkpaymenterror) (iOS, watchOS) and [Apple Pay Status Codes](https://developer.apple.com/documentation/applepayontheweb/apple-pay-status-codes) (web).
 
 **Explain the problem clearly and succinctly when data is invalid or incorrectly formatted.** Reference the relevant field and indicate exactly what’s expected. For example, if people enter an invalid zip code, instead of showing “Address is invalid,” show a specific message like “Zip code doesn’t match city.” If the shipping address is unserviceable, indicate why with a message like “Shipping not available for this state.” Use noun phrases with sentence-style capitalization and no ending punctuation. Aim to keep messages at 128 characters or fewer to avoid truncation.
 
 ### Payment processing problems
 
-**Handle interruptions correctly.** An event like a cancellation or timeout might interrupt the payment flow, causing the payment sheet to dismiss. When such an event occurs, you must cancel any in-progress payment. After the payment sheet dismisses, people can restart the process by choosing the Apple Pay button again. For developer guidance, see [PKPaymentAuthorizationViewControllerDelegate](https://developer.apple.com/documentation/PassKit/PKPaymentAuthorizationViewControllerDelegate) (iOS, watchOS) and [oncancel](https://developer.apple.com/documentation/ApplePayontheWeb/ApplePaySession/oncancel) (web).
+**Handle interruptions correctly.** An event like a cancellation or timeout might interrupt the payment flow, causing the payment sheet to dismiss. When such an event occurs, you must cancel any in-progress payment. After the payment sheet dismisses, people can restart the process by choosing the Apple Pay button again. For developer guidance, see [PKPaymentAuthorizationViewControllerDelegate](https://developer.apple.com/documentation/passkit/pkpaymentauthorizationviewcontrollerdelegate) (iOS, watchOS) and [oncancel](https://developer.apple.com/documentation/applepayontheweb/applepaysession/oncancel) (web).
 
 ## Supporting subscriptions
 
@@ -180,7 +180,7 @@ Apple Pay buttons come in several types and styles to fit different contexts and
 - Corner radius customization to match your interface
 - Built-in VoiceOver support with automatic alternative text
 
-**Always use the Apple-provided API to display Apple Pay buttons.** Unlike button graphics, API-generated buttons always have the correct appearance and are localized automatically. Don’t create custom Apple Pay button designs or try to replicate the Apple-provided ones. For developer guidance, see [PKPaymentButtonType](https://developer.apple.com/documentation/PassKit/PKPaymentButtonType) and [PKPaymentButtonStyle](https://developer.apple.com/documentation/PassKit/PKPaymentButtonStyle) (iOS and macOS), [WKInterfacePaymentButton](https://developer.apple.com/documentation/WatchKit/WKInterfacePaymentButton) (watchOS), and [Apple Pay on the Web](https://developer.apple.com/documentation/ApplePayontheWeb) (web).
+**Always use the Apple-provided API to display Apple Pay buttons.** Unlike button graphics, API-generated buttons always have the correct appearance and are localized automatically. Don’t create custom Apple Pay button designs or try to replicate the Apple-provided ones. For developer guidance, see [PKPaymentButtonType](https://developer.apple.com/documentation/passkit/pkpaymentbuttontype) and [PKPaymentButtonStyle](https://developer.apple.com/documentation/passkit/pkpaymentbuttonstyle) (iOS and macOS), [WKInterfacePaymentButton](https://developer.apple.com/documentation/watchkit/wkinterfacepaymentbutton) (watchOS), and [Apple Pay on the Web](https://developer.apple.com/documentation/applepayontheweb) (web).
 
 > **Tip**
 >
@@ -194,114 +194,114 @@ Choose a button type that best fits the terminology and flow of your purchase or
 
 Use the buttons below to initiate payment. In some contexts, the system automatically displays an image of the default card on payment buttons, letting people know Apple Pay is set up and ready to use.
 
-![Apple Pay button displaying an image of someone's default payment card.](https://docs-assets.developer.apple.com/published/d415e6c18b2a7f84dded54581d91f56c/apple-pay-card-on-button%402x.png)
+![Apple Pay button displaying an image of someone's default payment card.](/images/com.apple.HIG/apple-pay-card-on-button@2x.png)
 
 | Payment button type | Example usage |
 | --- | --- |
-| ![Buy with Apple Pay button](https://docs-assets.developer.apple.com/published/c894edf74fcbaba45aff4b7d121807b6/button-buy-with%402x.png) | An area in an app or website where people can make a purchase, such as a product detail page or shopping cart page. |
-| ![Pay with Apple Pay button](https://docs-assets.developer.apple.com/published/2f1bccde69ae345a422f072f7d4705e7/button-pay-with%402x.png) | An app or website that lets people pay bills or invoices, such as those for a utility — like cable or electricity — or a service like plumbing or car repair. |
-| ![Check Out with Apple Pay button](https://docs-assets.developer.apple.com/published/a744b46624149b4803b81a14bc08baec/button-check-out-with%402x.png) | An app or website offering a shopping cart or purchase experience that includes other payment buttons that start with the text *Check Out*. |
-| ![Continue with Apple Pay button](https://docs-assets.developer.apple.com/published/b5afa02f95f34d22546e51cd4cc45922/button-continue-with%402x.png) | An app or website offering a shopping cart or purchase experience that includes other payment buttons that start with the text *Continue*. |
-| ![Book with Apple Pay button](https://docs-assets.developer.apple.com/published/46d754fbfdf40697a939f1fc3f70d392/button-book-with%402x.png) | An app or website that helps people book flights, trips, or other experiences. |
-| ![Donate with Apple Pay button](https://docs-assets.developer.apple.com/published/6b6b6ae930fed00474c73e525e4ea1af/button-donate-with%402x.png) | An app or website for an [Approved nonprofits](https://developer.apple.com/support/apple-pay-nonprofits/) that lets people make donations. |
-| ![Subscribe with Apple Pay button](https://docs-assets.developer.apple.com/published/80efddbfc3c52b169a693f5492052b5d/button-subscribe-with%402x.png) | An app or website that lets people purchase a subscription, such as a gym membership or a meal-kit delivery service. |
-| ![Reload with Apple Pay button](https://docs-assets.developer.apple.com/published/addc5e93e4dd2bc7794714173a80e0f4/button-reload-with%402x.png) | An app or website that uses the term *Reload* to help people add money to a card, account, or payment system associated with a service, such as transit or a prepaid phone plan. |
-| ![Add Money with Apple Pay button](https://docs-assets.developer.apple.com/published/ac870401688c4fa1f5524abbd614e447/button-add-money-with%402x.png) | An app or website that uses the term *Add Money* to help people add money to a card, account, or payment system associated with a service, such as transit or a prepaid phone plan. |
-| ![Top Up with Apple Pay button](https://docs-assets.developer.apple.com/published/55b3801b30bd11c13980339fefb2b0be/button-top-up-with%402x.png) | An app or website that uses the term *Top Up* to help people add money to a card, account, or payment system associated with a service, such as transit or a prepaid phone plan. |
-| ![Order with Apple Pay button](https://docs-assets.developer.apple.com/published/57e5ae10d04442792385593dd639f509/button-order-with%402x.png) | An app or website that lets people place orders for items like meals or flowers. |
-| ![Rent with Apple Pay button](https://docs-assets.developer.apple.com/published/9d2831852f2d1dfffa9cc159e28445bc/button-rent-with%402x.png) | An app or website that lets people rent items like cars or scooters. |
-| ![Support with Apple Pay button](https://docs-assets.developer.apple.com/published/730392669e891a485aa1eb0c586fb5c6/button-support-with%402x.png) | An app or website that uses the term *Support* to help people give money to projects, causes, organizations, and other entities. |
-| ![Contribute with Apple Pay button](https://docs-assets.developer.apple.com/published/7f4b2c01f50843b54ce2f5146dcd45af/button-contribute-with%402x.png) | An app or website that uses the term *Contribute* to help people give money to projects, causes, organizations, and other entities. |
-| ![Tip with Apple Pay button](https://docs-assets.developer.apple.com/published/c4825abdbb664be3487fdf9240337e65/button-tip-with%402x.png) | An app or website that lets people tip for goods or services. |
-| ![Apple Pay button](https://docs-assets.developer.apple.com/published/802e11e3163ce2d46187aebc00bbb730/ap-button%402x.png) | An app or website that has stylistic reasons to use a button that can have a smaller minimum width or that doesn’t specify a call to action. If you choose a payment button type that isn’t supported on the version of the operating system your app or website is running in, the system may replace it with this button. |
+| ![Buy with Apple Pay button](/images/com.apple.HIG/button-buy-with@2x.png) | An area in an app or website where people can make a purchase, such as a product detail page or shopping cart page. |
+| ![Pay with Apple Pay button](/images/com.apple.HIG/button-pay-with@2x.png) | An app or website that lets people pay bills or invoices, such as those for a utility — like cable or electricity — or a service like plumbing or car repair. |
+| ![Check Out with Apple Pay button](/images/com.apple.HIG/button-check-out-with@2x.png) | An app or website offering a shopping cart or purchase experience that includes other payment buttons that start with the text *Check Out*. |
+| ![Continue with Apple Pay button](/images/com.apple.HIG/button-continue-with@2x.png) | An app or website offering a shopping cart or purchase experience that includes other payment buttons that start with the text *Continue*. |
+| ![Book with Apple Pay button](/images/com.apple.HIG/button-book-with@2x.png) | An app or website that helps people book flights, trips, or other experiences. |
+| ![Donate with Apple Pay button](/images/com.apple.HIG/button-donate-with@2x.png) | An app or website for an [Approved nonprofits](https://developer.apple.com/support/apple-pay-nonprofits/) that lets people make donations. |
+| ![Subscribe with Apple Pay button](/images/com.apple.HIG/button-subscribe-with@2x.png) | An app or website that lets people purchase a subscription, such as a gym membership or a meal-kit delivery service. |
+| ![Reload with Apple Pay button](/images/com.apple.HIG/button-reload-with@2x.png) | An app or website that uses the term *Reload* to help people add money to a card, account, or payment system associated with a service, such as transit or a prepaid phone plan. |
+| ![Add Money with Apple Pay button](/images/com.apple.HIG/button-add-money-with@2x.png) | An app or website that uses the term *Add Money* to help people add money to a card, account, or payment system associated with a service, such as transit or a prepaid phone plan. |
+| ![Top Up with Apple Pay button](/images/com.apple.HIG/button-top-up-with@2x.png) | An app or website that uses the term *Top Up* to help people add money to a card, account, or payment system associated with a service, such as transit or a prepaid phone plan. |
+| ![Order with Apple Pay button](/images/com.apple.HIG/button-order-with@2x.png) | An app or website that lets people place orders for items like meals or flowers. |
+| ![Rent with Apple Pay button](/images/com.apple.HIG/button-rent-with@2x.png) | An app or website that lets people rent items like cars or scooters. |
+| ![Support with Apple Pay button](/images/com.apple.HIG/button-support-with@2x.png) | An app or website that uses the term *Support* to help people give money to projects, causes, organizations, and other entities. |
+| ![Contribute with Apple Pay button](/images/com.apple.HIG/button-contribute-with@2x.png) | An app or website that uses the term *Contribute* to help people give money to projects, causes, organizations, and other entities. |
+| ![Tip with Apple Pay button](/images/com.apple.HIG/button-tip-with@2x.png) | An app or website that lets people tip for goods or services. |
+| ![Apple Pay button](/images/com.apple.HIG/ap-button@2x.png) | An app or website that has stylistic reasons to use a button that can have a smaller minimum width or that doesn’t specify a call to action. If you choose a payment button type that isn’t supported on the version of the operating system your app or website is running in, the system may replace it with this button. |
 
 #### Set Up Apple Pay button
 
 When a device supports Apple Pay but the person hasn’t set it up yet, you can use the Set Up Apple Pay button to show that you accept Apple Pay, and to give the person an explicit opportunity to set it up. Display the Set Up Apple Pay button in Settings, a user profile, or an interstitial page.
 
-![Set Up Apple Pay button](https://docs-assets.developer.apple.com/published/1c3df6119a469235f1deba1c6c9f18c7/button-set-up%402x.png)
+![Set Up Apple Pay button](/images/com.apple.HIG/button-set-up@2x.png)
 
 ### Button styles
 
-Use the *automatic* style to let the current system appearance determine the appearance of Apple Pay buttons. For developer guidance, see [PKPaymentButtonStyle.automatic](https://developer.apple.com/documentation/PassKit/PKPaymentButtonStyle/automatic) (apps) and [ApplePayButtonStyle](https://developer.apple.com/documentation/ApplePayontheWeb/ApplePayButtonStyle) (web). To control button appearance yourself, choose from the following options.
+Use the *automatic* style to let the current system appearance determine the appearance of Apple Pay buttons. For developer guidance, see [PKPaymentButtonStyle.automatic](https://developer.apple.com/documentation/passkit/pkpaymentbuttonstyle/automatic) (apps) and [ApplePayButtonStyle](https://developer.apple.com/documentation/applepayontheweb/applepaybuttonstyle) (web). To control button appearance yourself, choose from the following options.
 
 #### Black
 
 Use on white or light-color backgrounds that provide sufficient contrast. Don’t use on black or dark backgrounds.
 
-![An illustration showing the correct placement of a black Apple Pay button over a light background.](https://docs-assets.developer.apple.com/published/42619c82c9b8b917de6139a2d489fc43/apple-pay-black-yes%402x.png)
+![An illustration showing the correct placement of a black Apple Pay button over a light background.](/images/com.apple.HIG/apple-pay-black-yes@2x.png)
 
-![Correct usage](https://docs-assets.developer.apple.com/published/88662da92338267bb64cd2275c84e484/checkmark%402x.png)
+![Correct usage](/images/com.apple.HIG/checkmark@2x.png)
 
-![An illustration showing the incorrect placement of a black Apple Pay button over a dark background.](https://docs-assets.developer.apple.com/published/9d1ab7e4ad4550b0810cc8a8458c6dcd/apple-pay-black-no%402x.png)
+![An illustration showing the incorrect placement of a black Apple Pay button over a dark background.](/images/com.apple.HIG/apple-pay-black-no@2x.png)
 
-![Incorrect usage](https://docs-assets.developer.apple.com/published/209f6f0fc8ad99d9bf59e12d82d06584/crossout%402x.png)
+![Incorrect usage](/images/com.apple.HIG/crossout@2x.png)
 
 #### White with outline
 
 Use on white or light-color backgrounds that don’t provide sufficient contrast. Don’t place on dark or saturated backgrounds.
 
-![An illustration showing the correct placement of a white, outlined Apple Pay button over a light background.](https://docs-assets.developer.apple.com/published/763004c3c677982aca6f7ffe17fb28e9/apple-pay-outline-yes%402x.png)
+![An illustration showing the correct placement of a white, outlined Apple Pay button over a light background.](/images/com.apple.HIG/apple-pay-outline-yes@2x.png)
 
-![Correct usage](https://docs-assets.developer.apple.com/published/88662da92338267bb64cd2275c84e484/checkmark%402x.png)
+![Correct usage](/images/com.apple.HIG/checkmark@2x.png)
 
-![An illustration showing the incorrect placement of a white, outlined Apple Pay button over a dark background.](https://docs-assets.developer.apple.com/published/75260d1d6044bd9ccafa2152c98cd867/apple-pay-outline-no%402x.png)
+![An illustration showing the incorrect placement of a white, outlined Apple Pay button over a dark background.](/images/com.apple.HIG/apple-pay-outline-no@2x.png)
 
-![Incorrect usage](https://docs-assets.developer.apple.com/published/209f6f0fc8ad99d9bf59e12d82d06584/crossout%402x.png)
+![Incorrect usage](/images/com.apple.HIG/crossout@2x.png)
 
 #### White
 
 Use on dark-color backgrounds that provide sufficient contrast.
 
-![An illustration showing the correct placement of a white Apple Pay button over a dark background.](https://docs-assets.developer.apple.com/published/cc5286593342974c94dd7d35d28d2e5a/apple-pay-white-yes%402x.png)
+![An illustration showing the correct placement of a white Apple Pay button over a dark background.](/images/com.apple.HIG/apple-pay-white-yes@2x.png)
 
-![Correct usage](https://docs-assets.developer.apple.com/published/88662da92338267bb64cd2275c84e484/checkmark%402x.png)
+![Correct usage](/images/com.apple.HIG/checkmark@2x.png)
 
-![An illustration showing the incorrect placement of a white Apple Pay button over a light background.](https://docs-assets.developer.apple.com/published/4c7ca3c92c0c49b5232e2288859deb96/apple-pay-white-no%402x.png)
+![An illustration showing the incorrect placement of a white Apple Pay button over a light background.](/images/com.apple.HIG/apple-pay-white-no@2x.png)
 
-![Incorrect usage](https://docs-assets.developer.apple.com/published/209f6f0fc8ad99d9bf59e12d82d06584/crossout%402x.png)
+![Incorrect usage](/images/com.apple.HIG/crossout@2x.png)
 
 ### Button size and position
 
 **Prominently display the Apple Pay button.** Make the Apple Pay button no smaller than other payment buttons, and avoid making people scroll to see it.
 
-![An illustration showing an Apple Pay button positioned correctly above a custom Add to Cart button. Both buttons are the same size.](https://docs-assets.developer.apple.com/published/8b8a5a82dba9d5eee38507a1bbfa69a4/ap-same-size-correct%402x.png)
+![An illustration showing an Apple Pay button positioned correctly above a custom Add to Cart button. Both buttons are the same size.](/images/com.apple.HIG/ap-same-size-correct@2x.png)
 
-![Correct usage](https://docs-assets.developer.apple.com/published/88662da92338267bb64cd2275c84e484/checkmark%402x.png)
+![Correct usage](/images/com.apple.HIG/checkmark@2x.png)
 
-![An illustration showing an Apple Pay button positioned incorrectly at a smaller size above a larger custom Add to Cart button.](https://docs-assets.developer.apple.com/published/10cd23b90fd1c116a2a579e49ad0f7b7/ap-smaller-incorrect%402x.png)
+![An illustration showing an Apple Pay button positioned incorrectly at a smaller size above a larger custom Add to Cart button.](/images/com.apple.HIG/ap-smaller-incorrect@2x.png)
 
-![Incorrect usage](https://docs-assets.developer.apple.com/published/209f6f0fc8ad99d9bf59e12d82d06584/crossout%402x.png)
+![Incorrect usage](/images/com.apple.HIG/crossout@2x.png)
 
 **Position the Apple Pay button correctly in relation to an Add to Cart button.** In a side-by-side layout, place the Apple Pay button to the right of an Add to Cart button.
 
-![An illustration showing a Check Out with Apple Pay button correctly positioned to the right of a custom Add to Cart button.](https://docs-assets.developer.apple.com/published/3baf9a1a208f5e23da719cf270880e9e/ap-right-side-correct%402x.png)
+![An illustration showing a Check Out with Apple Pay button correctly positioned to the right of a custom Add to Cart button.](/images/com.apple.HIG/ap-right-side-correct@2x.png)
 
-![Correct usage](https://docs-assets.developer.apple.com/published/88662da92338267bb64cd2275c84e484/checkmark%402x.png)
+![Correct usage](/images/com.apple.HIG/checkmark@2x.png)
 
-![An illustration showing a Check Out with Apple Pay button incorrectly positioned to the left of a custom Add to Cart button.](https://docs-assets.developer.apple.com/published/f7ec8780d2c925178e1c017fa96f657d/ap-left-side-incorrect%402x.png)
+![An illustration showing a Check Out with Apple Pay button incorrectly positioned to the left of a custom Add to Cart button.](/images/com.apple.HIG/ap-left-side-incorrect@2x.png)
 
-![Incorrect usage](https://docs-assets.developer.apple.com/published/209f6f0fc8ad99d9bf59e12d82d06584/crossout%402x.png)
+![Incorrect usage](/images/com.apple.HIG/crossout@2x.png)
 
 In a stacked layout, place the Apple Pay button above an Add to Cart button.
 
-![An illustration of a Check Out with Apple Pay button correctly positioned above a custom Add to Cart button.](https://docs-assets.developer.apple.com/published/8b8a5a82dba9d5eee38507a1bbfa69a4/ap-top-correct%402x.png)
+![An illustration of a Check Out with Apple Pay button correctly positioned above a custom Add to Cart button.](/images/com.apple.HIG/ap-top-correct@2x.png)
 
-![Correct usage](https://docs-assets.developer.apple.com/published/88662da92338267bb64cd2275c84e484/checkmark%402x.png)
+![Correct usage](/images/com.apple.HIG/checkmark@2x.png)
 
-![An illustration of a Check Out with Apple Pay button incorrectly positioned below a custom Add to Cart button.](https://docs-assets.developer.apple.com/published/71238a5bbc82c69c4a2f81d6d1f34903/ap-below-incorrect%402x.png)
+![An illustration of a Check Out with Apple Pay button incorrectly positioned below a custom Add to Cart button.](/images/com.apple.HIG/ap-below-incorrect@2x.png)
 
-![Incorrect usage](https://docs-assets.developer.apple.com/published/209f6f0fc8ad99d9bf59e12d82d06584/crossout%402x.png)
+![Incorrect usage](/images/com.apple.HIG/crossout@2x.png)
 
-**Adjust the corner radius to match the appearance of other buttons.** By default, an Apple Pay button has rounded corners. You can change the corner radius to produce a button with square corners or a capsule-shape button. For developer guidance, see [cornerRadius](https://developer.apple.com/documentation/PassKit/PKPaymentButton/cornerRadius).
+**Adjust the corner radius to match the appearance of other buttons.** By default, an Apple Pay button has rounded corners. You can change the corner radius to produce a button with square corners or a capsule-shape button. For developer guidance, see [cornerRadius](https://developer.apple.com/documentation/passkit/pkpaymentbutton/cornerradius).
 
-![An illustration showing a Check Out with Apple Pay button above a custom Add to Cart button. Both buttons have 90-degree corners.](https://docs-assets.developer.apple.com/published/ead271ef9746071e351d10e4dc700fa0/minimum-corner-radii%402x.png)  
+![An illustration showing a Check Out with Apple Pay button above a custom Add to Cart button. Both buttons have 90-degree corners.](/images/com.apple.HIG/minimum-corner-radii@2x.png)  
 *Minimum corner radius*
 
-![An illustration showing a Check Out with Apple Pay button above a custom Add to Cart button. Both buttons have the default corner radius.](https://docs-assets.developer.apple.com/published/fe69385e0f1adad379d7b35c41baa1fe/default-corner-radii%402x.png)  
+![An illustration showing a Check Out with Apple Pay button above a custom Add to Cart button. Both buttons have the default corner radius.](/images/com.apple.HIG/default-corner-radii@2x.png)  
 *Default corner radius*
 
-![An illustration showing a Check Out with Apple Pay button above a custom Add to Cart button. Both buttons have the maximum corner radius, which results in a capsule-shaped appearance.](https://docs-assets.developer.apple.com/published/bb9a0ab6b766393a5f7e5cbf880992e1/maximum-corner-radii%402x.png)  
+![An illustration showing a Check Out with Apple Pay button above a custom Add to Cart button. Both buttons have the maximum corner radius, which results in a capsule-shaped appearance.](/images/com.apple.HIG/maximum-corner-radii@2x.png)  
 *Maximum corner radius*
 
 **Maintain the minimum button size and margins around the button.** Be mindful that the button title may vary in length depending on the locale.
@@ -310,9 +310,9 @@ In a stacked layout, place the Apple Pay button above an Add to Cart button.
 >
 > If the size you specify doesn’t accommodate the translated title for the type of payment button you’re using, the system automatically replaces it with the plain Apple Pay button shown below on the left. There is no automatic replacement for the Set Up Apple Pay button.
 
-![An illustration of an Apple Pay button, labeled to indicate minimum margins of one-tenth the button’s height, a 100-point minimum width, and a 30-point minimum height.](https://docs-assets.developer.apple.com/published/b87d2cdec70ad67f8b095e47d7585ef5/minimum-apple-pay%402x.png)
+![An illustration of an Apple Pay button, labeled to indicate minimum margins of one-tenth the button’s height, a 100-point minimum width, and a 30-point minimum height.](/images/com.apple.HIG/minimum-apple-pay@2x.png)
 
-![An illustration of a Donate with Apple Pay button, labeled to indicate minimum margins of one-tenth the button’s height, a 140-point minimum width, and a 30-point minimum height.](https://docs-assets.developer.apple.com/published/e7aede97d7f6acfd2f5b097ce5850168/minimum-apple-pay-donate%402x.png)
+![An illustration of a Donate with Apple Pay button, labeled to indicate minimum margins of one-tenth the button’s height, a 140-point minimum width, and a 30-point minimum height.](/images/com.apple.HIG/minimum-apple-pay-donate@2x.png)
 
 Use the following values for guidance.
 
@@ -330,7 +330,7 @@ Use the following values for guidance.
 
 Use the Apple Pay mark graphic to show that Apple Pay is an available payment option when showing other available payment options. The Apple Pay mark isn’t a button; if you need an Apple Pay button, choose one of the buttons described in [Button types](https://developer.apple.com/design/human-interface-guidelines/apple-pay#Button-types). For design guidance related to showing Apple Pay as a payment option, see [Offering Apple Pay](https://developer.apple.com/design/human-interface-guidelines/apple-pay#Offering-Apple-Pay).
 
-![A row of four credit card logos, all of which are the same size and shape. The leftmost logo is the Apple Pay mark.](https://docs-assets.developer.apple.com/published/eb623bea0d2c8176ba590efef4493b9d/apple-pay-mark-with-payment-options%402x.png)
+![A row of four credit card logos, all of which are the same size and shape. The leftmost logo is the Apple Pay mark.](/images/com.apple.HIG/apple-pay-mark-with-payment-options@2x.png)
 
 **Use only the artwork provided by Apple, with no alterations other than height.** You can specify a height for the Apple Pay mark, but make sure that the height you use is equal to or larger than other payment brand marks in your payment flow. Don’t adjust the width, corner radius, or aspect ratio of the artwork; don’t add a trademark symbol or any other content; don’t remove the border; don’t add visual effects to the mark, such as shadows, glows, or reflections; and don’t flip, rotate, or animate the Apple Pay mark.
 
@@ -348,11 +348,11 @@ You can use plain text to promote Apple Pay and indicate that Apple Pay is a pay
 
 |  | Example text |
 | --- | --- |
-| ![Correct usage](https://docs-assets.developer.apple.com/published/88662da92338267bb64cd2275c84e484/checkmark%402x.png) | Purchase with Apple Pay |
-| ![Correct usage](https://docs-assets.developer.apple.com/published/88662da92338267bb64cd2275c84e484/checkmark%402x.png) | Purchase with Apple Pay® |
-| ![Incorrect usage](https://docs-assets.developer.apple.com/published/209f6f0fc8ad99d9bf59e12d82d06584/crossout%402x.png) | Purchase with ApplePay |
-| ![Incorrect usage](https://docs-assets.developer.apple.com/published/209f6f0fc8ad99d9bf59e12d82d06584/crossout%402x.png) | Purchase with  Pay |
-| ![Incorrect usage](https://docs-assets.developer.apple.com/published/209f6f0fc8ad99d9bf59e12d82d06584/crossout%402x.png) | Purchase with APPLE PAY (when not conforming to an interface style that uses only capital letters) |
+| ![Correct usage](/images/com.apple.HIG/checkmark@2x.png) | Purchase with Apple Pay |
+| ![Correct usage](/images/com.apple.HIG/checkmark@2x.png) | Purchase with Apple Pay® |
+| ![Incorrect usage](/images/com.apple.HIG/crossout@2x.png) | Purchase with ApplePay |
+| ![Incorrect usage](/images/com.apple.HIG/crossout@2x.png) | Purchase with  Pay |
+| ![Incorrect usage](/images/com.apple.HIG/crossout@2x.png) | Purchase with APPLE PAY (when not conforming to an interface style that uses only capital letters) |
 
 **Coordinate the font face and size with your app or website.** Don’t mimic Apple typography. Instead, use text attributes that are consistent with the rest of your app or website.
 
@@ -374,11 +374,11 @@ You can use plain text to promote Apple Pay and indicate that Apple Pay is a pay
 
 #### Developer documentation
 
-[Apple Pay](https://developer.apple.com/documentation/PassKit/apple-pay) — PassKit
+[Apple Pay](https://developer.apple.com/documentation/passkit/apple-pay) — PassKit
 
-[Apple Pay on the Web](https://developer.apple.com/documentation/ApplePayontheWeb)
+[Apple Pay on the Web](https://developer.apple.com/documentation/applepayontheweb)
 
-[WKInterfacePaymentButton](https://developer.apple.com/documentation/WatchKit/WKInterfacePaymentButton) — WatchKit
+[WKInterfacePaymentButton](https://developer.apple.com/documentation/watchkit/wkinterfacepaymentbutton) — WatchKit
 
 #### Videos
 

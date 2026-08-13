@@ -4,7 +4,7 @@
 
 *Apps and games express their unique brand identity in ways that make them instantly recognizable while feeling at home on the platform and giving people a consistent experience.*
 
-![A sketch of a megaphone, suggesting communication. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/8ea20e1bc15bc51d9242f39c27cbb0c6/foundations-branding-intro%402x.png)
+![A sketch of a megaphone, suggesting communication. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo.](/images/com.apple.HIG/foundations-branding-intro@2x.png)
 
 In addition to expressing your brand in your [app icon](App%20icons.md) and throughout your experience, you have several opportunities to highlight it within the App Store. For guidance, see [App Store Marketing Guidelines](https://developer.apple.com/app-store/marketing/guidelines/).
 

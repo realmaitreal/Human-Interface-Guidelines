@@ -8,7 +8,7 @@
 >
 > Added artwork for visionOS.
 
-![A sketch of the SharePlay icon. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/cd055a691d877485d819f837a6eb15a7/technologies-Share-Play-intro%402x.png)
+![A sketch of the SharePlay icon. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](/images/com.apple.HIG/technologies-Share-Play-intro@2x.png)
 
 The system synchronizes app playback on all participating devices to support seamless media and content sharing that lets everyone enjoy the experience simultaneously. In visionOS, SharePlay helps people enjoy these experiences while they’re together in the same virtual space.
 
@@ -26,15 +26,15 @@ When someone shares content during a FaceTime call, the system asks each partici
 
 ## Sharing activities
 
-An *activity* is an app-defined type of shareable experience. For example, an app that lets people view videos might define a separate activity for viewing each type of content — like movies, TV shows, and uploaded videos — and display a different description for each activity. You can define as many different activities as make sense in your app. For developer guidance, see [Defining your app’s SharePlay activities](https://developer.apple.com/documentation/GroupActivities/defining-your-apps-shareplay-activities).
+An *activity* is an app-defined type of shareable experience. For example, an app that lets people view videos might define a separate activity for viewing each type of content — like movies, TV shows, and uploaded videos — and display a different description for each activity. You can define as many different activities as make sense in your app. For developer guidance, see [Defining your app’s SharePlay activities](https://developer.apple.com/documentation/groupactivities/defining-your-apps-shareplay-activities).
 
 **Briefly describe each activity.** When people receive an invitation to participate in an activity, your description helps them understand the experience they’re about to share. For example, a video-viewing app might associate its descriptive movie view with a movie-viewing activity. In this case, the descriptive view might display a movie’s title, a plot summary, and a poster image. Write a simple, meaningful description that’s short enough to avoid truncation.
 
 **Make it easy to start sharing an activity.** If there’s no session available when people start a shareable activity, you can present UI that lets them start a group activity. In response, the system asks people if they want to share or continue the experience solo.
 
-![A screenshot of the TV app on iPhone. The screen shows an alert overlaid on a video and text. The alert includes buttons titled 'SharePlay', 'Start Only for Me', and 'Cancel'.](https://docs-assets.developer.apple.com/published/b49187e8ae95c92981bc07c390d8a8dc/shareplay-start-alert%402x.png)
+![A screenshot of the TV app on iPhone. The screen shows an alert overlaid on a video and text. The alert includes buttons titled 'SharePlay', 'Start Only for Me', and 'Cancel'.](/images/com.apple.HIG/shareplay-start-alert@2x.png)
 
-![A screenshot of the TV app on iPhone. The screen shows a video with SharePlay turned on. The area around the Dynamic Island includes an icon of the person being shared with, badged with the app logo, and the text 'Started A BOT-anist'.  A FaceTime call with the SharePlay recipient sits in an overlay in the lower right corner of the screen.](https://docs-assets.developer.apple.com/published/456da5b33017a74c5fa4f41ba03b1be8/shareplay-sharing-content%402x.png)
+![A screenshot of the TV app on iPhone. The screen shows a video with SharePlay turned on. The area around the Dynamic Island includes an icon of the person being shared with, badged with the app logo, and the text 'Started A BOT-anist'.  A FaceTime call with the SharePlay recipient sits in an overlay in the lower right corner of the screen.](/images/com.apple.HIG/shareplay-sharing-content@2x.png)
 
 **Help people prepare to join a session before displaying the activity.** For example, if people must log in, download content, or make a payment before they can participate, display views that help them perform these tasks before showing the activity UI. Make these tasks as simple and effortless as possible so people can join the group activity quickly.
 
@@ -62,17 +62,17 @@ When people feel that they’re truly sharing an experience, social dynamics can
 
 The side-by-side template places participants next to each other along a curved line segment, all facing the shared content. The side-by-side template gives everyone a great view of the content, making it a good choice for helping people watch media together. Because people aren’t facing each other in this arrangement, the side-by-side template can encourage less nonverbal interaction than other spatial Persona templates.
 
-![An illustration representing a side-by-side shared activity in visionOS. Participants are positioned next to one another and facing a shared screen.](https://docs-assets.developer.apple.com/published/165cd2e63eb739bc3209ac651d63b0d7/visionos-shareplay-side-by-side%402x.png)
+![An illustration representing a side-by-side shared activity in visionOS. Participants are positioned next to one another and facing a shared screen.](/images/com.apple.HIG/visionos-shareplay-side-by-side@2x.png)
 
 The system-applied surround template arranges participants all the way around the shared content in the center. This spatial Persona template works especially well when the content is 3D, because each participant views it from a different angle. In the surround template, participants face each other as if they were grouped around a table, promoting both verbal and nonverbal interactions.
 
-![An illustration representing a surround shared activity in visionOS. Participants are gathered in a circle around shared content.](https://docs-assets.developer.apple.com/published/a3653114364ca9d18cbaaec62c6d1cba/visionos-shareplay-surround%402x.png)
+![An illustration representing a surround shared activity in visionOS. Participants are gathered in a circle around shared content.](/images/com.apple.HIG/visionos-shareplay-surround@2x.png)
 
 The conversational template also groups participants around a center point, but places your content along the circle, not at its center. Because of this position, not everyone has the same view of your content, and it might not be convenient for everyone to interact with it. Consider using the conversational arrangement if your experience is more about people being together while your app performs a task in the background like playing music.
 
-![An illustration representing a conversational shared activity in visionOS. Participants are positioned in a semi-circle formation around shared content.](https://docs-assets.developer.apple.com/published/6606d08491fb7172de59f9f745c32b8f/visionos-shareplay-conversational%402x.png)
+![An illustration representing a conversational shared activity in visionOS. Participants are positioned in a semi-circle formation around shared content.](/images/com.apple.HIG/visionos-shareplay-conversational@2x.png)
 
-For developer guidance, see [SystemCoordinator](https://developer.apple.com/documentation/GroupActivities/SystemCoordinator) and [SpatialTemplatePreference](https://developer.apple.com/documentation/GroupActivities/SpatialTemplatePreference).
+For developer guidance, see [SystemCoordinator](https://developer.apple.com/documentation/groupactivities/systemcoordinator) and [SpatialTemplatePreference](https://developer.apple.com/documentation/groupactivities/spatialtemplatepreference).
 
 **Be prepared to launch directly into your shared activity.** When one person shares your activity with others on a FaceTime call, the system minimizes friction by automatically launching your app for everyone. In this scenario, you want to avoid displaying any windows that aren’t related to the shared activity. For example, if people need to sign in before joining the activity, be sure to present this task in an autodismissible window that disappears as soon as people finish providing the required input.
 
@@ -98,7 +98,7 @@ Sometimes, it makes sense to adjust the shared context of a shared activity so e
 
 **Let people personalize their experience without changing the experience for others.** For example, people might need to adjust various settings, like volume or subtitles, to make views and interactions accessible or make themselves more comfortable.
 
-![An image of a TV window in visionOS. The image is split down the center to contrast the personalized experiences of two people: Person 1 has subtitles turned on, while Person 2 has subtitles turned off.](https://docs-assets.developer.apple.com/published/adc28b9c915736776dbb296379be01b9/visionos-shareplay-subtitles-personalization%402x.png)  
+![An image of a TV window in visionOS. The image is split down the center to contrast the personalized experiences of two people: Person 1 has subtitles turned on, while Person 2 has subtitles turned off.](/images/com.apple.HIG/visionos-shareplay-subtitles-personalization@2x.png)  
 *When sharing, two people watching the same video can choose separately whether to turn subtitles on or off.*
 
 **Consider when to give each participant a unique view of the shared content.** Some content looks best when people view it from a specific perspective. For example, people can share a Spatial Capture in a standard window with other people’s spatial Personas visible around it. However, to perceive the depth in a Spatial Capture, each person needs to view it from the right angle. In this scenario, a person could temporarily transition to a Full Space that hides other participants and ensures the right viewing angle for them, even while everyone else continues to view the standard window and each other. If it makes sense to provide per-person versions of your shared content, be sure to continue synchronizing people’s positions and your app context to maintain the shared experience.
@@ -113,7 +113,7 @@ Sometimes, it makes sense to adjust the shared context of a shared activity so e
 
 #### Developer documentation
 
-[Group Activities](https://developer.apple.com/documentation/GroupActivities)
+[Group Activities](https://developer.apple.com/documentation/groupactivities)
 
 #### Videos
 

@@ -4,7 +4,7 @@
 
 *Notifications can give people timely and important information, whether the device is locked or in use.*
 
-![A sketch of bell with a small overlapping circle, suggesting a notification sound. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/ba0d1e169421e490842a4009ee7d09e5/patterns-managing-notifications-intro%402x.png)
+![A sketch of bell with a small overlapping circle, suggesting a notification sound. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](/images/com.apple.HIG/patterns-managing-notifications-intro@2x.png)
 
 You need to get permission before sending any notification. The system lets people change this decision in settings, where they can also silence all notifications (except for government alerts in some locales).
 
@@ -21,7 +21,7 @@ People identify the contacts and apps that can break through a Focus to deliver 
 >
 > Even though a Focus might delay the delivery of a notification alert, the notification itself is available as soon as it arrives.
 
-To support these behavior customizations, you first identify the types of notifications your app or game can send. If you support direct communications — like phone calls and messages — you use *communication* notifications; for all other types of tasks, you use *noncommunication* notifications. To support communication notifications, you adopt SiriKit intents, which means people can use Siri to customize notification behaviors; for developer guidance, see [INSendMessageIntent](https://developer.apple.com/documentation/Intents/INSendMessageIntent) and [UNNotificationContentProviding](https://developer.apple.com/documentation/UserNotifications/UNNotificationContentProviding).
+To support these behavior customizations, you first identify the types of notifications your app or game can send. If you support direct communications — like phone calls and messages — you use *communication* notifications; for all other types of tasks, you use *noncommunication* notifications. To support communication notifications, you adopt SiriKit intents, which means people can use Siri to customize notification behaviors; for developer guidance, see [INSendMessageIntent](https://developer.apple.com/documentation/intents/insendmessageintent) and [UNNotificationContentProviding](https://developer.apple.com/documentation/usernotifications/unnotificationcontentproviding).
 
 You need to specify a system-defined interruption level for each noncommunication notification you send. The system uses the interruption level to help determine when to deliver the alert; when a communication notification arrives, the system uses the sender to determine when to deliver the alert.
 
@@ -49,7 +49,7 @@ Notification alerts in each system-defined interruption level can behave in the 
 
 **Build trust by accurately representing the urgency of each notification.** People have several ways to adjust how they receive your notifications — including turning off all notifications — so it’s essential to be as realistic as possible when assigning an interruption level. You don’t want people to feel that a notification uses a high level of urgency to interrupt them with low-priority information.
 
-**Use the Time Sensitive interruption level only for notifications that are relevant in the moment.** To help people understand the benefits of letting Time Sensitive notifications break through a Focus or scheduled delivery, make sure the notification is about an event that’s happening now or will happen within an hour. The first time a Time Sensitive notification arrives from your app, the system describes how such a notification works and gives people a way to turn it off if they don’t agree that the information requires their immediate attention. Going forward, the system periodically gives people additional opportunities to evaluate how your Time Sensitive notification is working for them. For developer guidance, see [UNNotificationInterruptionLevel](https://developer.apple.com/documentation/UserNotifications/UNNotificationInterruptionLevel).
+**Use the Time Sensitive interruption level only for notifications that are relevant in the moment.** To help people understand the benefits of letting Time Sensitive notifications break through a Focus or scheduled delivery, make sure the notification is about an event that’s happening now or will happen within an hour. The first time a Time Sensitive notification arrives from your app, the system describes how such a notification works and gives people a way to turn it off if they don’t agree that the information requires their immediate attention. Going forward, the system periodically gives people additional opportunities to evaluate how your Time Sensitive notification is working for them. For developer guidance, see [UNNotificationInterruptionLevel](https://developer.apple.com/documentation/usernotifications/unnotificationinterruptionlevel).
 
 ## Sending marketing notifications
 
@@ -77,7 +77,7 @@ By default, the notification settings people use for apps on their iPhone apply 
 
 #### Developer documentation
 
-[User Notifications](https://developer.apple.com/documentation/UserNotifications)
+[User Notifications](https://developer.apple.com/documentation/usernotifications)
 
 #### Videos
 

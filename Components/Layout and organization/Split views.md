@@ -8,7 +8,7 @@
 >
 > Added iOS and iPadOS platform considerations.
 
-![A stylized representation of a window consisting of three areas: a sidebar, a canvas, and an inspector. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/b80f6c72db7a03355200ae52f7fe6574/components-split-view-intro%402x.png)
+![A stylized representation of a window consisting of three areas: a sidebar, a canvas, and an inspector. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-split-view-intro@2x.png)
 
 Typically, you use a split view to show multiple levels of your app’s hierarchy at once and support navigation between them. In this scenario, selecting an item in the view’s primary pane displays the item’s contents in the secondary pane. Similarly, a split view can display a tertiary pane if items in the secondary pane contain additional content.
 
@@ -30,11 +30,11 @@ It’s common to use a split view to display a [Sidebars](../Navigation%20and%20
 
 In iPadOS, a split view can include either two vertical panes, like Mail, or three vertical panes, like Keynote.
 
-**Account for narrow, compact, and intermediate window widths.** Since iPad windows are fluidly resizable, it’s important to consider the design of a split view layout at multiple widths. In particular, ensure that it’s possible to navigate between the various panes in a logical way. For guidance, see [Layout](../../Foundations/Layout.md). For developer guidance, see [NavigationSplitView](https://developer.apple.com/documentation/SwiftUI/NavigationSplitView) and [UISplitViewController](https://developer.apple.com/documentation/UIKit/UISplitViewController).
+**Account for narrow, compact, and intermediate window widths.** Since iPad windows are fluidly resizable, it’s important to consider the design of a split view layout at multiple widths. In particular, ensure that it’s possible to navigate between the various panes in a logical way. For guidance, see [Layout](../../Foundations/Layout.md). For developer guidance, see [NavigationSplitView](https://developer.apple.com/documentation/swiftui/navigationsplitview) and [UISplitViewController](https://developer.apple.com/documentation/uikit/uisplitviewcontroller).
 
 ### macOS
 
-In macOS, you can arrange the panes of a split view vertically, horizontally, or both. A split view includes dividers between panes that can support dragging to resize them. For developer guidance, see [VSplitView](https://developer.apple.com/documentation/SwiftUI/VSplitView) and [HSplitView](https://developer.apple.com/documentation/SwiftUI/HSplitView).
+In macOS, you can arrange the panes of a split view vertically, horizontally, or both. A split view includes dividers between panes that can support dragging to resize them. For developer guidance, see [VSplitView](https://developer.apple.com/documentation/swiftui/vsplitview) and [HSplitView](https://developer.apple.com/documentation/swiftui/hsplitview).
 
 **Set reasonable defaults for minimum and maximum pane sizes.** If people can resize the panes in your app’s split view, make sure to use sizes that keep the divider visible. If a pane gets too small, the divider can seem to disappear, becoming difficult to use.
 
@@ -42,7 +42,7 @@ In macOS, you can arrange the panes of a split view vertically, horizontally, or
 
 **Provide multiple ways to reveal hidden panes.** For example, you might provide a toolbar button or a menu command — including a keyboard shortcut — that people can use to restore a hidden pane.
 
-**Prefer the thin divider style.** The thin divider measures one point in width, giving you maximum space for content while remaining easy for people to use. Avoid using thicker divider styles unless you have a specific need. For example, if both sides of a divider present table rows that use strong linear elements that might make a thin divider hard to distinguish, it might work to use a thicker divider. For developer guidance, see [NSSplitView.DividerStyle](https://developer.apple.com/documentation/AppKit/NSSplitView/DividerStyle-swift.enum).
+**Prefer the thin divider style.** The thin divider measures one point in width, giving you maximum space for content while remaining easy for people to use. Avoid using thicker divider styles unless you have a specific need. For example, if both sides of a divider present table rows that use strong linear elements that might make a thin divider hard to distinguish, it might work to use a thicker divider. For developer guidance, see [NSSplitView.DividerStyle](https://developer.apple.com/documentation/appkit/nssplitview/dividerstyle-swift.enum).
 
 ### tvOS
 
@@ -66,7 +66,7 @@ In watchOS, the split view displays either the list view or a detail view as a f
 
 **If your app displays multiple detail pages, place the detail views in a vertical [Tab views](Tab%20views.md).** People can then use the Digital Crown to scroll between the detail view’s tabs. watchOS also displays a page indicator next to the Digital Crown, indicating the number of tabs and the currently selected tab.
 
-![A screenshot showing a detail view with a vertical tab on Apple Watch. The page indicator next to the Digital Crown shows that the fifth tab is currently selected.](https://docs-assets.developer.apple.com/published/3f36258648d54880e800568e88b5076b/split-view-watch-vertical-tab%402x.png)
+![A screenshot showing a detail view with a vertical tab on Apple Watch. The page indicator next to the Digital Crown shows that the fifth tab is currently selected.](/images/com.apple.HIG/split-view-watch-vertical-tab@2x.png)
 
 ## Resources
 
@@ -80,11 +80,11 @@ In watchOS, the split view displays either the list view or a detail view as a f
 
 #### Developer documentation
 
-[NavigationSplitView](https://developer.apple.com/documentation/SwiftUI/NavigationSplitView) — SwiftUI
+[NavigationSplitView](https://developer.apple.com/documentation/swiftui/navigationsplitview) — SwiftUI
 
-[UISplitViewController](https://developer.apple.com/documentation/UIKit/UISplitViewController) — UIKit
+[UISplitViewController](https://developer.apple.com/documentation/uikit/uisplitviewcontroller) — UIKit
 
-[NSSplitViewController](https://developer.apple.com/documentation/AppKit/NSSplitViewController) — AppKit
+[NSSplitViewController](https://developer.apple.com/documentation/appkit/nssplitviewcontroller) — AppKit
 
 #### Videos
 

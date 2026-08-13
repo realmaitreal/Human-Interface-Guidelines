@@ -8,7 +8,7 @@
 >
 > Updated guidance for using pickers in watchOS.
 
-![A stylized representation of a selected item in a scrollable list. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/b9bc1a62539a570d25eb225b825d2437/components-pickers-intro%402x.png)
+![A stylized representation of a selected item in a scrollable list. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-pickers-intro@2x.png)
 
 The system provides several styles of pickers, each of which offers different types of selectable values and has a different appearance. The exact values shown in a picker, and their order, depend on the device language.
 
@@ -54,31 +54,31 @@ Here are several examples of date pickers showing different combinations of styl
 
 **Choose a date picker style that suits your app.** There are two styles of date pickers in macOS: textual and graphical. The textual style is useful when you’re working with limited space and you expect people to make specific date and time selections. The graphical style is useful when you want to give people the option of browsing through days in a calendar or selecting a range of dates, or when the look of a clock face is appropriate for your app.
 
-For developer guidance, see [NSDatePicker](https://developer.apple.com/documentation/AppKit/NSDatePicker).
+For developer guidance, see [NSDatePicker](https://developer.apple.com/documentation/appkit/nsdatepicker).
 
 ### tvOS
 
-Pickers are available in tvOS with SwiftUI. For developer guidance, see [Picker](https://developer.apple.com/documentation/SwiftUI/Picker).
+Pickers are available in tvOS with SwiftUI. For developer guidance, see [Picker](https://developer.apple.com/documentation/swiftui/picker).
 
 ### watchOS
 
 Pickers display lists of items that people navigate using the Digital Crown, which helps people manage selections in a precise and engaging way.
 
-A picker can display a list of items using the wheels style. watchOS can also display date and time pickers using the wheels style. For developer guidance, see [Picker](https://developer.apple.com/documentation/SwiftUI/Picker) and [DatePicker](https://developer.apple.com/documentation/SwiftUI/DatePicker).
+A picker can display a list of items using the wheels style. watchOS can also display date and time pickers using the wheels style. For developer guidance, see [Picker](https://developer.apple.com/documentation/swiftui/picker) and [DatePicker](https://developer.apple.com/documentation/swiftui/datepicker).
 
-![An illustration representing a screen containing a picker view on Apple Watch, showing three items in a list. The center item is highlighted.](https://docs-assets.developer.apple.com/published/00d1eeb88cc503430767c2318605a71d/pickers-wheel-watch%402x.png)
+![An illustration representing a screen containing a picker view on Apple Watch, showing three items in a list. The center item is highlighted.](/images/com.apple.HIG/pickers-wheel-watch@2x.png)
 
-![An illustration representing a screen containing a date picker on Apple Watch, with the day highlighted.](https://docs-assets.developer.apple.com/published/30053c6f5cb2c0246e5ebecbd8ad70c3/pickers-date-watch%402x.png)
+![An illustration representing a screen containing a date picker on Apple Watch, with the day highlighted.](/images/com.apple.HIG/pickers-date-watch@2x.png)
 
-![An illustration representing a screen containing a time picker on Apple Watch, with the minutes highlighted.](https://docs-assets.developer.apple.com/published/842ba89f2c3fdb2894949dee31bf8849/pickers-time-watch%402x.png)
+![An illustration representing a screen containing a time picker on Apple Watch, with the minutes highlighted.](/images/com.apple.HIG/pickers-time-watch@2x.png)
 
 You can configure a picker to display an outline, caption, and scrolling indicator.
 
-For longer lists, the navigation link displays the picker as a button. When someone taps the button, the system shows the list of options. The person can also scrub through the options using the Digital Crown without tapping the button. For developer guidance, see [navigationLink](https://developer.apple.com/documentation/SwiftUI/PickerStyle/navigationLink).
+For longer lists, the navigation link displays the picker as a button. When someone taps the button, the system shows the list of options. The person can also scrub through the options using the Digital Crown without tapping the button. For developer guidance, see [navigationLink](https://developer.apple.com/documentation/swiftui/pickerstyle/navigationlink).
 
-![An illustration representing a screen that contains a picker button on Apple Watch. The button’s text denotes that the second item is selected.](https://docs-assets.developer.apple.com/published/657d90a59d600e7eee70effde6784e45/pickers-navigation-button-watch%402x.png)
+![An illustration representing a screen that contains a picker button on Apple Watch. The button’s text denotes that the second item is selected.](/images/com.apple.HIG/pickers-navigation-button-watch@2x.png)
 
-![An illustration representing a screen showing a list of items on Apple Watch. The second item in the list is selected.](https://docs-assets.developer.apple.com/published/1e533809fb6fc291a53fd12ff0ec41f4/pickers-navigation-list-watch%402x.png)
+![An illustration representing a screen showing a list of items on Apple Watch. The second item in the list is selected.](/images/com.apple.HIG/pickers-navigation-list-watch@2x.png)
 
 ## Resources
 
@@ -90,13 +90,13 @@ For longer lists, the navigation link displays the picker as a button. When some
 
 #### Developer documentation
 
-[Picker](https://developer.apple.com/documentation/SwiftUI/Picker) — SwiftUI
+[Picker](https://developer.apple.com/documentation/swiftui/picker) — SwiftUI
 
-[UIDatePicker](https://developer.apple.com/documentation/UIKit/UIDatePicker) — UIKit
+[UIDatePicker](https://developer.apple.com/documentation/uikit/uidatepicker) — UIKit
 
-[UIPickerView](https://developer.apple.com/documentation/UIKit/UIPickerView) — UIKit
+[UIPickerView](https://developer.apple.com/documentation/uikit/uipickerview) — UIKit
 
-[NSDatePicker](https://developer.apple.com/documentation/AppKit/NSDatePicker) — AppKit
+[NSDatePicker](https://developer.apple.com/documentation/appkit/nsdatepicker) — AppKit
 
 ## Change log
 

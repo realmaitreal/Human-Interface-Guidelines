@@ -8,7 +8,7 @@
 >
 > Updated guidance for scroll edge effects.
 
-![A stylized representation of a scrollable image view. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/e2b814efab83900282f34c04306401c1/components-scroll-view-intro%402x.png)
+![A stylized representation of a scrollable image view. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-scroll-view-intro@2x.png)
 
 The scroll view itself has no appearance, but it can display a translucent *scroll indicator* that typically appears after people begin scrolling the view’s content. Although the appearance and behavior of scroll indicators can vary per platform, all indicators provide visual feedback about the scrolling action. For example, in iOS, iPadOS, macOS, visionOS, and watchOS, the indicator shows whether the currently visible content is near the beginning, middle, or end of the view.
 
@@ -20,7 +20,7 @@ The scroll view itself has no appearance, but it can display a translucent *scro
 
 **Avoid putting a scroll view inside another scroll view with the same orientation.** Nesting scroll views that have the same orientation can create an unpredictable interface that’s difficult to control. It’s alright to place a horizontal scroll view inside a vertical scroll view (or vice versa), however.
 
-**Consider supporting page-by-page scrolling if it makes sense for your content.** In some situations, people appreciate scrolling by a fixed amount of content per interaction instead of scrolling continuously. On most platforms, you can define the size of such a *page* — typically the current height or width of the view — and define an interaction that scrolls one page at a time. To help maintain context during page-by-page scrolling, you can define a unit of overlap, such as a line of text, a row of glyphs, or part of a picture, and subtract the unit from the page size. For developer guidance, see [PagingScrollTargetBehavior](https://developer.apple.com/documentation/SwiftUI/PagingScrollTargetBehavior).
+**Consider supporting page-by-page scrolling if it makes sense for your content.** In some situations, people appreciate scrolling by a fixed amount of content per interaction instead of scrolling continuously. On most platforms, you can define the size of such a *page* — typically the current height or width of the view — and define an interaction that scrolls one page at a time. To help maintain context during page-by-page scrolling, you can define a unit of overlap, such as a line of text, a row of glyphs, or part of a picture, and subtract the unit from the page size. For developer guidance, see [PagingScrollTargetBehavior](https://developer.apple.com/documentation/swiftui/pagingscrolltargetbehavior).
 
 **In some cases, scroll automatically to help people find their place.** Although people initiate almost all scrolling, automatic scrolling can be helpful when relevant content is no longer in view, such as when:
 
@@ -37,19 +37,19 @@ In all cases, automatically scroll the content only as much as necessary to help
 
 In iOS, iPadOS, and macOS, a *scroll edge effect* provides a visual separation between certain interface elements, such as [Toolbars](../Menus%20and%20actions/Toolbars.md), and the scrolling content area behind them. If you use custom bars, you might want to add this effect manually if the top layer of your interface needs extra clarity, or adjust its style from automatic to the hard or soft style.
 
-![A screenshot of the top half of an iPhone app, with a photograph of a palm tree as the background and a top toolbar with a Back button, title label, and Add button. The transition between the toolbar and background uses a hard scroll edge effect, which applies a more opaque blur with a defined edge at the bottom of the bar.](https://docs-assets.developer.apple.com/published/82a59338e82cc9dea4063790f53e2e13/scroll-views-scroll-edge-effect-hard%402x.png)  
+![A screenshot of the top half of an iPhone app, with a photograph of a palm tree as the background and a top toolbar with a Back button, title label, and Add button. The transition between the toolbar and background uses a hard scroll edge effect, which applies a more opaque blur with a defined edge at the bottom of the bar.](/images/com.apple.HIG/scroll-views-scroll-edge-effect-hard@2x.png)  
 *Hard scroll edge effect*
 
-![A screenshot of the top half of an iPhone app, with a photograph of a palm tree as the background and a top toolbar with a Back button, title label, and Add button. The transition between the toolbar and background uses a soft scroll edge effect, which applies a variable blur that provides a softer fade toward the bottom of the bar.](https://docs-assets.developer.apple.com/published/efdf39bd6f191c814326f8340c85955f/scroll-views-scroll-edge-effect-soft%402x.png)  
+![A screenshot of the top half of an iPhone app, with a photograph of a palm tree as the background and a top toolbar with a Back button, title label, and Add button. The transition between the toolbar and background uses a soft scroll edge effect, which applies a variable blur that provides a softer fade toward the bottom of the bar.](/images/com.apple.HIG/scroll-views-scroll-edge-effect-soft@2x.png)  
 *Soft scroll edge effect*
 
-**Prefer the automatic scroll edge effect style.** Where possible, use the default [automatic](https://developer.apple.com/documentation/SwiftUI/ScrollEdgeEffectStyle/automatic) style of the scroll edge effect. This style provides a more opaque visual separation for top toolbars that contain a large number of controls, text that appears outside of [Liquid Glass](https://developer.apple.com/design/human-interface-guidelines/materials#Liquid-Glass) controls, and pinned table headers. If you use the soft scroll edge effect style instead, thoroughly test your interface to ensure your controls maintain legibility in a variety of contexts.
+**Prefer the automatic scroll edge effect style.** Where possible, use the default [automatic](https://developer.apple.com/documentation/swiftui/scrolledgeeffectstyle/automatic) style of the scroll edge effect. This style provides a more opaque visual separation for top toolbars that contain a large number of controls, text that appears outside of [Liquid Glass](https://developer.apple.com/design/human-interface-guidelines/materials#Liquid-Glass) controls, and pinned table headers. If you use the soft scroll edge effect style instead, thoroughly test your interface to ensure your controls maintain legibility in a variety of contexts.
 
 **Only use a scroll edge effect when a scroll view is behind floating interface elements.** Scroll edge effects aren’t decorative. They don’t block or darken like overlays; they exist to ensure controls stay visually distinct.
 
 **Apply one scroll edge effect per view.** In split view layouts on iPad and Mac, each pane can have its own scroll edge effect; in this case, keep them consistent in height to maintain alignment.
 
-For developer guidance, see [ScrollEdgeEffectStyle](https://developer.apple.com/documentation/SwiftUI/ScrollEdgeEffectStyle), [UIScrollEdgeEffect.Style](https://developer.apple.com/documentation/UIKit/UIScrollEdgeEffect/Style-swift.class), and [NSScrollEdgeEffectStyle](https://developer.apple.com/documentation/AppKit/NSScrollEdgeEffectStyle).
+For developer guidance, see [ScrollEdgeEffectStyle](https://developer.apple.com/documentation/swiftui/scrolledgeeffectstyle), [UIScrollEdgeEffect.Style](https://developer.apple.com/documentation/uikit/uiscrolledgeeffect/style-swift.class), and [NSScrollEdgeEffectStyle](https://developer.apple.com/documentation/appkit/nsscrolledgeeffectstyle).
 
 ## Platform considerations
 
@@ -77,9 +77,9 @@ When people begin swiping content in the direction they want it to scroll, the s
 
 #### Look to Scroll
 
-In views that support Look to Scroll, people can scroll using only their eyes. Scrolling starts when people look near the boundary of the scroll view — along the top and bottom for vertical scroll views, or along the sides for horizontal scroll views. For example, a person can look at the bottom edge of a Safari window to scroll the page down, or look at an album on the trailing edge in the Music app to scroll it horizontally toward the center of the page. Look to Scroll works in conjunction with existing behavior, so someone can choose whether to use a gesture or their eyes to scroll. For developer guidance, see [look](https://developer.apple.com/documentation/SwiftUI/ScrollInputKind/look).
+In views that support Look to Scroll, people can scroll using only their eyes. Scrolling starts when people look near the boundary of the scroll view — along the top and bottom for vertical scroll views, or along the sides for horizontal scroll views. For example, a person can look at the bottom edge of a Safari window to scroll the page down, or look at an album on the trailing edge in the Music app to scroll it horizontally toward the center of the page. Look to Scroll works in conjunction with existing behavior, so someone can choose whether to use a gesture or their eyes to scroll. For developer guidance, see [look](https://developer.apple.com/documentation/swiftui/scrollinputkind/look).
 
-**Support Look to Scroll for reading or browsing views.** Because Look to Scroll doesn’t work by default, you need to add support for it to each individual scroll view. If your app contains reading or browsing views, add support for Look to Scroll to provide a comfortable and hands-free experience. For developer guidance, see [ScrollInputKind](https://developer.apple.com/documentation/SwiftUI/ScrollInputKind).
+**Support Look to Scroll for reading or browsing views.** Because Look to Scroll doesn’t work by default, you need to add support for it to each individual scroll view. If your app contains reading or browsing views, add support for Look to Scroll to provide a comfortable and hands-free experience. For developer guidance, see [ScrollInputKind](https://developer.apple.com/documentation/swiftui/scrollinputkind).
 
 **Avoid using Look to Scroll for secondary content.** In general, support standard gestures — but not Look to Scroll — in views that contain UI controls or dense information that requires quick, precise scrolling. For example, the Notes app offers Look to Scroll within the main view to let people easily read their content, but doesn’t support it for the list of notes.
 
@@ -109,15 +109,15 @@ In views that support Look to Scroll, people can scroll using only their eyes. S
 
 #### Developer documentation
 
-[ScrollView](https://developer.apple.com/documentation/SwiftUI/ScrollView) — SwiftUI
+[ScrollView](https://developer.apple.com/documentation/swiftui/scrollview) — SwiftUI
 
-[UIScrollView](https://developer.apple.com/documentation/UIKit/UIScrollView) — UIKit
+[UIScrollView](https://developer.apple.com/documentation/uikit/uiscrollview) — UIKit
 
-[NSScrollView](https://developer.apple.com/documentation/AppKit/NSScrollView) — AppKit
+[NSScrollView](https://developer.apple.com/documentation/appkit/nsscrollview) — AppKit
 
-[WKPageOrientation](https://developer.apple.com/documentation/WatchKit/WKPageOrientation) — WatchKit
+[WKPageOrientation](https://developer.apple.com/documentation/watchkit/wkpageorientation) — WatchKit
 
-[look](https://developer.apple.com/documentation/SwiftUI/ScrollInputKind/look) — SwiftUI
+[look](https://developer.apple.com/documentation/swiftui/scrollinputkind/look) — SwiftUI
 
 ## Change log
 

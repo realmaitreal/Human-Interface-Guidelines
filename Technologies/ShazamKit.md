@@ -4,7 +4,7 @@
 
 *ShazamKit supports audio recognition by matching an audio sample against the ShazamKit catalog or a custom audio catalog.*
 
-![A sketch of the ShazamKit icon. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/74c2e960c2dd11cd7352fb44d0f703aa/technologies-ShazamKit-intro%402x.png)
+![A sketch of the ShazamKit icon. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](/images/com.apple.HIG/technologies-ShazamKit-intro@2x.png)
 
 You can use ShazamKit to provide features like:
 
@@ -14,7 +14,7 @@ You can use ShazamKit to provide features like:
 
 If you need the device microphone to get audio samples for your app to recognize, you must request access to it. As with all types of permission requests, it’s important to help people understand why you’re asking for access. For guidance, see [Privacy](../Foundations/Privacy.md).
 
-![A screenshot of the Math School app’s permission alert on iPhone. The alert reads 'Math School would like to access your microphone. Synchronize reading and math exercises with videos played by your teacher.' There are two buttons available: Not Now and Allow.](https://docs-assets.developer.apple.com/published/b79bf93e025e4493d87cb274a21a8c97/shazamkit-mic-permission%402x.png)
+![A screenshot of the Math School app’s permission alert on iPhone. The alert reads 'Math School would like to access your microphone. Synchronize reading and math exercises with videos played by your teacher.' There are two buttons available: Not Now and Allow.](/images/com.apple.HIG/shazamkit-mic-permission@2x.png)
 
 ## Best practices
 
@@ -32,7 +32,7 @@ After you receive permission to access the microphone for features that use Shaz
 
 #### Developer documentation
 
-[ShazamKit](https://developer.apple.com/documentation/ShazamKit)
+[ShazamKit](https://developer.apple.com/documentation/shazamkit)
 
 #### Videos
 

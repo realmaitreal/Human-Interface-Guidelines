@@ -4,7 +4,7 @@
 
 *A rating indicator uses a series of horizontally arranged graphical symbols — by default, stars — to communicate a ranking level.*
 
-![A stylized representation of a rating indicator denoting a ranking of three out of five stars. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/c5c136d8e23e34e9ab46c3c242ebad63/components-rating-indicators-intro%402x.png)
+![A stylized representation of a rating indicator denoting a ranking of three out of five stars. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-rating-indicators-intro@2x.png)
 
 A rating indicator doesn’t display partial symbols; it rounds the value to display complete symbols only. Within a rating indicator, symbols are always the same distance apart and don’t expand or shrink to fit the component’s width.
 
@@ -26,7 +26,7 @@ A rating indicator doesn’t display partial symbols; it rounds the value to dis
 
 #### Developer documentation
 
-[NSLevelIndicator.Style.rating](https://developer.apple.com/documentation/AppKit/NSLevelIndicator/Style/rating) — AppKit
+[NSLevelIndicator.Style.rating](https://developer.apple.com/documentation/appkit/nslevelindicator/style/rating) — AppKit
 
 ## Change log
 

@@ -4,7 +4,7 @@
 
 *A pull-down button displays a menu of items or actions that directly relate to the button’s purpose.*
 
-![A stylized representation of a pull-down menu displaying a set of items. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/9badccc4e72ebe1fb37b4cc691d431cd/components-pull-down-button-intro%402x.png)
+![A stylized representation of a pull-down menu displaying a set of items. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-pull-down-button-intro@2x.png)
 
 After people choose an item in a pull-down button’s menu, the menu closes, and the app performs the chosen action.
 
@@ -40,9 +40,9 @@ If you need to provide a list of mutually exclusive choices that aren’t comman
 
 **Consider using a More pull-down button to present items that don’t need prominent positions in the main interface.** A More button can help you offer a range of items where space is constrained, but it can also hinder discoverability. Although people generally understand that a More button offers additional functionality related to the current context, the ellipsis icon doesn’t necessarily help them predict its contents. To design an effective More button, weigh the convenience of its size against its impact on discoverability to find a balance that works in your app.
 
-![A screenshot of the Notes app on iPhone, open to a Notes document titled Nature Walks. The top toolbar includes a More button on the trailing edge.](https://docs-assets.developer.apple.com/published/5cdc980290422f59da0f79ab5f5efd13/menu-secondary-actions-collapsed%402x.png)
+![A screenshot of the Notes app on iPhone, open to a Notes document titled Nature Walks. The top toolbar includes a More button on the trailing edge.](/images/com.apple.HIG/menu-secondary-actions-collapsed@2x.png)
 
-![A screenshot of the Notes app on iPhone, open to a Notes document titled Nature Walks. The More button in the top toolbar is expanded, revealing the More menu with additional funtionality.](https://docs-assets.developer.apple.com/published/0d263e9b8df2b3f1e989a6383ebfaf5d/menu-secondary-actions-expanded%402x.png)
+![A screenshot of the Notes app on iPhone, open to a Notes document titled Nature Walks. The More button in the top toolbar is expanded, revealing the More menu with additional funtionality.](/images/com.apple.HIG/menu-secondary-actions-expanded@2x.png)
 
 ## Resources
 
@@ -56,11 +56,11 @@ If you need to provide a list of mutually exclusive choices that aren’t comman
 
 #### Developer documentation
 
-[MenuPickerStyle](https://developer.apple.com/documentation/SwiftUI/MenuPickerStyle) — SwiftUI
+[MenuPickerStyle](https://developer.apple.com/documentation/swiftui/menupickerstyle) — SwiftUI
 
-[showsMenuAsPrimaryAction](https://developer.apple.com/documentation/UIKit/UIControl/showsMenuAsPrimaryAction) — UIKit
+[showsMenuAsPrimaryAction](https://developer.apple.com/documentation/uikit/uicontrol/showsmenuasprimaryaction) — UIKit
 
-[pullsDown](https://developer.apple.com/documentation/AppKit/NSPopUpButton/pullsDown) — AppKit
+[pullsDown](https://developer.apple.com/documentation/appkit/nspopupbutton/pullsdown) — AppKit
 
 ## Change log
 

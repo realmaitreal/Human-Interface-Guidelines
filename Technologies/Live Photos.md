@@ -4,7 +4,7 @@
 
 *Live Photos lets people capture favorite memories in a sound- and motion-rich interactive experience that adds vitality to traditional still photos.*
 
-![A sketch of the Live Photos icon. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/dc6a4a0eb43d1336511cf15379c03a04/technologies-Live-Photos-intro%402x.png)
+![A sketch of the Live Photos icon. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](/images/com.apple.HIG/technologies-Live-Photos-intro@2x.png)
 
 When Live Photos is available, the Camera app captures additional content — including audio and extra frames — before and after people take a photo. People press a Live Photo to see it spring to life.
 
@@ -24,9 +24,9 @@ When Live Photos is available, the Camera app captures additional content — in
 
 In cases where movement isn’t possible, show a system-provided badge above the photo, either with or without text. Never include a playback button that a viewer can interpret as a video playback button.
 
-![A nighttime photo of an alpine lake with a system-provided Live Photo badge with the text Live in the upper left corner.](https://docs-assets.developer.apple.com/published/a87d82a66bbb1352833d3bf3deb1e325/live-photo-badge-with-text%402x.png)
+![A nighttime photo of an alpine lake with a system-provided Live Photo badge with the text Live in the upper left corner.](/images/com.apple.HIG/live-photo-badge-with-text@2x.png)
 
-![A nighttime photo of an alpine lake with a system-provided Live Photo badge without text in the upper left corner.](https://docs-assets.developer.apple.com/published/912dc316a86639661c2f1758145e55db/live-photo-badge%402x.png)
+![A nighttime photo of an alpine lake with a system-provided Live Photo badge without text in the upper left corner.](/images/com.apple.HIG/live-photo-badge@2x.png)
 
 **Keep badge placement consistent.** If you show a badge, put it in the same location on every photo. Typically, a badge looks best in a corner of a photo.
 
@@ -42,9 +42,9 @@ In visionOS, people can view a Live Photo, but they can’t capture one.
 
 #### Developer documentation
 
-[PHLivePhoto](https://developer.apple.com/documentation/Photos/PHLivePhoto) — PhotoKit
+[PHLivePhoto](https://developer.apple.com/documentation/photos/phlivephoto) — PhotoKit
 
-[LivePhotosKit JS](https://developer.apple.com/documentation/LivePhotosKitJS) — LivePhotosKit JS
+[LivePhotosKit JS](https://developer.apple.com/documentation/livephotoskitjs) — LivePhotosKit JS
 
 #### Videos
 

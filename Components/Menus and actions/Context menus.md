@@ -8,7 +8,7 @@
 >
 > Added guidance on hiding unavailable menu items.
 
-![A stylized representation of a contextual menu beneath a clicking pointer. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/a330aca1a1e1f0dc65837ecb74014561/components-context-menu-intro%402x.png)
+![A stylized representation of a contextual menu beneath a clicking pointer. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-context-menu-intro@2x.png)
 
 Although a context menu provides convenient access to frequently used items, it’s hidden by default, so people might not know it’s there. To reveal a context menu, people generally choose a view or select some content and then perform an action, using the input modes their current configuration supports. For example:
 
@@ -36,7 +36,7 @@ Although a context menu provides convenient access to frequently used items, it�
 
 **Follow best practices for using separators.** As with other types of menus, you can use separators to group items in a context menu and help people scan the menu more quickly. In general, you don’t want more than about three groups in a context menu. For guidance, see [Menus](Menus.md).
 
-**In iOS, iPadOS, and visionOS, warn people about context menu items that can destroy data.** If you need to include potentially destructive items in your context menu — such as Delete or Remove — list them at the end of the menu and identify them as destructive (for developer guidance, see [destructive](https://developer.apple.com/documentation/UIKit/UIMenuElement/Attributes/destructive)). The system can display a destructive menu item using a red text color.
+**In iOS, iPadOS, and visionOS, warn people about context menu items that can destroy data.** If you need to include potentially destructive items in your context menu — such as Delete or Remove — list them at the end of the menu and identify them as destructive (for developer guidance, see [destructive](https://developer.apple.com/documentation/uikit/uimenuelement/attributes/destructive)). The system can display a destructive menu item using a red text color.
 
 ## Content
 
@@ -60,7 +60,7 @@ In iOS and iPadOS, a context menu can display a preview of the current content n
 
 **Prefer a graphical preview that clarifies the target of a context menu’s commands.** For example, when people reveal a context menu on a list item in Notes or Mail, the preview shows a condensed version of the actual content to help people confirm that they’re working with the item they intend.
 
-**Ensure that your preview looks good as it animates.** As people reveal a context menu on an onscreen object, the system animates the preview image as it emerges from the content, dimming the screen behind the preview and the menu. It’s important to adjust the preview’s clipping path to match the shape of the preview image so that its contours, such as the rounded corners, don’t appear to change during animation. For developer guidance, see [UIContextMenuInteractionDelegate](https://developer.apple.com/documentation/UIKit/UIContextMenuInteractionDelegate).
+**Ensure that your preview looks good as it animates.** As people reveal a context menu on an onscreen object, the system animates the preview image as it emerges from the content, dimming the screen behind the preview and the menu. It’s important to adjust the preview’s clipping path to match the shape of the preview image so that its contours, such as the rounded corners, don’t appear to change during animation. For developer guidance, see [UIContextMenuInteractionDelegate](https://developer.apple.com/documentation/uikit/uicontextmenuinteractiondelegate).
 
 ### macOS
 
@@ -86,11 +86,11 @@ On a Mac, a context menu is sometimes called a *contextual* menu.
 
 #### Developer documentation
 
-[contextMenu(menuItems:)](https://developer.apple.com/documentation/SwiftUI/View/contextMenu(menuItems:)) — SwiftUI
+[contextMenu(menuItems:)](https://developer.apple.com/documentation/swiftui/view/contextmenu(menuitems:)) — SwiftUI
 
-[UIContextMenuInteraction](https://developer.apple.com/documentation/UIKit/UIContextMenuInteraction) — UIKit
+[UIContextMenuInteraction](https://developer.apple.com/documentation/uikit/uicontextmenuinteraction) — UIKit
 
-[popUpContextMenu(_:with:for:)](https://developer.apple.com/documentation/AppKit/NSMenu/popUpContextMenu(_:with:for:)) — AppKit
+[popUpContextMenu(_:with:for:)](https://developer.apple.com/documentation/appkit/nsmenu/popupcontextmenu(_:with:for:)) — AppKit
 
 ## Change log
 

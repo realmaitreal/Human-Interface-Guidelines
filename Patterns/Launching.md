@@ -8,7 +8,7 @@
 >
 > Added guidance on displaying a splash screen.
 
-![A sketch of a square containing an arrow pointing to the upper-right corner, suggesting a transition to a new state. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/5ef419551a96fe1df7df2bd5d610b5dc/patterns-launching-intro%402x.png)
+![A sketch of a square containing an arrow pointing to the upper-right corner, suggesting a transition to a new state. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](/images/com.apple.HIG/patterns-launching-intro@2x.png)
 
 Launching begins when someone opens your app or game, includes an initial download, and ends when the first screen is ready. After launching completes, you might offer an [Onboarding](Onboarding.md) experience, which can give people a high-level view of your app or game.
 
@@ -64,9 +64,9 @@ Launching begins when someone opens your app or game, includes an initial downlo
 
 #### Developer documentation
 
-[Specifying your app’s launch screen](https://developer.apple.com/documentation/Xcode/specifying-your-apps-launch-screen) — Xcode
+[Specifying your app’s launch screen](https://developer.apple.com/documentation/xcode/specifying-your-apps-launch-screen) — Xcode
 
-[Responding to the launch of your app](https://developer.apple.com/documentation/UIKit/responding-to-the-launch-of-your-app) — UIKit
+[Responding to the launch of your app](https://developer.apple.com/documentation/uikit/responding-to-the-launch-of-your-app) — UIKit
 
 #### Videos
 

@@ -8,7 +8,7 @@
 >
 > Added guidance for Liquid Glass.
 
-![A sketch of three overlapping diamonds, suggesting the movement of an element from left to right. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/1a0efd7807cfcba7a5821be86b20bafc/foundations-motion-intro%402x.png)
+![A sketch of three overlapping diamonds, suggesting the movement of an element from left to right. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo.](/images/com.apple.HIG/foundations-motion-intro@2x.png)
 
 Many system components automatically include motion, letting you offer familiar and consistent experiences throughout your app or game. System components might also adjust their motion in response to factors like accessibility settings or different input methods. For example, the movement of [Liquid Glass](https://developer.apple.com/design/human-interface-guidelines/materials#Liquid-Glass) responds to direct touch interaction with greater emphasis to reinforce the feeling of a tactile experience, but produces a more subdued effect when a person interacts using a trackpad.
 
@@ -64,7 +64,7 @@ In addition to subtly communicating context, drawing attention to information, a
 
 ### watchOS
 
-SwiftUI provides a powerful and streamlined way to add motion to your app. If you need to use WatchKit to animate layout and appearance changes — or create animated image sequences — see [WKInterfaceImage](https://developer.apple.com/documentation/WatchKit/WKInterfaceImage#1652345).
+SwiftUI provides a powerful and streamlined way to add motion to your app. If you need to use WatchKit to animate layout and appearance changes — or create animated image sequences — see [WKInterfaceImage](https://developer.apple.com/documentation/watchkit/wkinterfaceimage).
 
 > **Note**
 >
@@ -84,7 +84,7 @@ SwiftUI provides a powerful and streamlined way to add motion to your app. If yo
 
 #### Developer documentation
 
-[Animating views and transitions](https://developer.apple.com/tutorials/SwiftUI/animating-views-and-transitions) — SwiftUI
+[Animating views and transitions](https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions) — SwiftUI
 
 #### Videos
 

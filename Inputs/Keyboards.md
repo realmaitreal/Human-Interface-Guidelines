@@ -8,7 +8,7 @@
 >
 > Moved game-specific key bindings guidance to the Game controls page.
 
-![A sketch of a keyboard, suggesting keyboard input. The image is overlaid with rectangular and circular grid lines and is tinted purple to subtly reflect the purple in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/041dcf36a378d11a3727a6ff04989365/inputs-keyboard-intro%402x.png)
+![A sketch of a keyboard, suggesting keyboard input. The image is overlaid with rectangular and circular grid lines and is tinted purple to subtly reflect the purple in the original six-color Apple logo.](/images/com.apple.HIG/inputs-keyboard-intro@2x.png)
 
 People can connect a physical keyboard to any device except Apple Watch. Mac users tend to use a physical keyboard all the time and iPad users often do. Many games work well with a physical keyboard, and people can prefer using one instead of a [Virtual keyboards](../Components/Selection%20and%20input/Virtual%20keyboards.md) when entering a lot of text.
 
@@ -18,7 +18,7 @@ Apple defines standard keyboard shortcuts to work consistently across the system
 
 ## Best practices
 
-**Support Full Keyboard Access when possible.** Available in iOS, iPadOS, macOS, and visionOS, Full Keyboard Access lets people navigate and activate windows, menus, controls, and system features using only the keyboard. To test Full Keyboard Access in your app or game, turn it on in the Accessibility area of the system-supplied Settings app. For developer guidance, see [Support Full Keyboard Access in your iOS app](https://developer.apple.com/videos/play/wwdc2021/10120/) and [isFullKeyboardAccessEnabled](https://developer.apple.com/documentation/AppKit/NSApplication/isFullKeyboardAccessEnabled).
+**Support Full Keyboard Access when possible.** Available in iOS, iPadOS, macOS, and visionOS, Full Keyboard Access lets people navigate and activate windows, menus, controls, and system features using only the keyboard. To test Full Keyboard Access in your app or game, turn it on in the Accessibility area of the system-supplied Settings app. For developer guidance, see [Support Full Keyboard Access in your iOS app](https://developer.apple.com/videos/play/wwdc2021/10120/) and [isFullKeyboardAccessEnabled](https://developer.apple.com/documentation/appkit/nsapplication/isfullkeyboardaccessenabled).
 
 > **Important**
 >
@@ -171,10 +171,10 @@ Here are the modifier keys and the symbols that represent them.
 
 | Modifier key | Symbol | Recommended usage |
 | --- | --- | --- |
-| Command | ![Outline of a stylized clover shape.](https://docs-assets.developer.apple.com/published/43dd468e7f303fbaa3abbf3935292ae2/Keyboard_Command.svg) | Prefer the Command key as the main modifier key in a custom keyboard shortcut. |
-| Shift | ![Outline of an upward-pointing arrow.](https://docs-assets.developer.apple.com/published/3a7e5aed7275031a8c41a7fb7789e41f/Keyboard_Shift.svg) | Prefer the Shift key as a secondary modifier that complements a related shortcut. |
-| Option | ![Line segments that suggest a horizontally transformed Z shape combined with a short horizontal segment aligned with the top of the Z.](https://docs-assets.developer.apple.com/published/8b064ad029d2012128a6aaeb1322b290/Keyboard_Option.svg) | Use the Option modifier sparingly for less-common commands or power features. |
-| Control | ![A shallow, upside-down V shape.](https://docs-assets.developer.apple.com/published/5c92c8350588d52ff786bf763b18e9e7/Keyboard_Control.svg) | Avoid using the Control key as a modifier. The system uses Control in many systemwide features and shortcuts, like moving focus or capturing screenshots. |
+| Command | ![Outline of a stylized clover shape.](/images/com.apple.HIG/Keyboard_Command.svg) | Prefer the Command key as the main modifier key in a custom keyboard shortcut. |
+| Shift | ![Outline of an upward-pointing arrow.](/images/com.apple.HIG/Keyboard_Shift.svg) | Prefer the Shift key as a secondary modifier that complements a related shortcut. |
+| Option | ![Line segments that suggest a horizontally transformed Z shape combined with a short horizontal segment aligned with the top of the Z.](/images/com.apple.HIG/Keyboard_Option.svg) | Use the Option modifier sparingly for less-common commands or power features. |
+| Control | ![A shallow, upside-down V shape.](/images/com.apple.HIG/Keyboard_Control.svg) | Avoid using the Control key as a modifier. The system uses Control in many systemwide features and shortcuts, like moving focus or capturing screenshots. |
 
 > **Tip**
 >
@@ -196,7 +196,7 @@ Here are the modifier keys and the symbols that represent them.
 
 In visionOS, an app’s keyboard shortcuts appear in the shortcut interface that displays when people hold the Command key on a connected keyboard. Similar in organization to an app’s [The menu bar](../Components/Menus%20and%20actions/The%20menu%20bar.md) on iPad or Mac, the shortcut interface on Apple Vision Pro displays app commands in familiar system-defined menu categories such as File, Edit, and View. Unlike menu bar menus, the shortcut interface displays all relevant categories in one view, listing within each category only available commands that also have shortcuts.
 
-**Write descriptive shortcut titles.** Because the shortcut interface displays a flat list of all items in each category, submenu titles aren’t available to provide context for their child items. Make sure each shortcut title is descriptive enough to convey its action without the additional context a submenu title might provide. For developer guidance, see [discoverabilityTitle](https://developer.apple.com/documentation/UIKit/UIKeyCommand/discoverabilityTitle).
+**Write descriptive shortcut titles.** Because the shortcut interface displays a flat list of all items in each category, submenu titles aren’t available to provide context for their child items. Make sure each shortcut title is descriptive enough to convey its action without the additional context a submenu title might provide. For developer guidance, see [discoverabilityTitle](https://developer.apple.com/documentation/uikit/uikeycommand/discoverabilitytitle).
 
 **Recognize that people see an overlay when they use a physical keyboard with your visionOS app or game.** When people connect a physical keyboard while using your visionOS app or game, the system displays a virtual keyboard overlay that provides typing completion and other controls.
 
@@ -212,13 +212,13 @@ In visionOS, an app’s keyboard shortcuts appear in the shortcut interface that
 
 #### Developer documentation
 
-[KeyboardShortcut](https://developer.apple.com/documentation/SwiftUI/KeyboardShortcut) — SwiftUI
+[KeyboardShortcut](https://developer.apple.com/documentation/swiftui/keyboardshortcut) — SwiftUI
 
-[Input events](https://developer.apple.com/documentation/SwiftUI/Input-events) — SwiftUI
+[Input events](https://developer.apple.com/documentation/swiftui/input-events) — SwiftUI
 
-[Handling key presses made on a physical keyboard](https://developer.apple.com/documentation/UIKit/handling-key-presses-made-on-a-physical-keyboard) — UIKit
+[Handling key presses made on a physical keyboard](https://developer.apple.com/documentation/uikit/handling-key-presses-made-on-a-physical-keyboard) — UIKit
 
-[Mouse, Keyboard, and Trackpad](https://developer.apple.com/documentation/AppKit/mouse-keyboard-and-trackpad) — AppKit
+[Mouse, Keyboard, and Trackpad](https://developer.apple.com/documentation/appkit/mouse-keyboard-and-trackpad) — AppKit
 
 ## Change log
 

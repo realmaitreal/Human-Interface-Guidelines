@@ -4,7 +4,7 @@
 
 *A column view — also called a *browser* — lets people view and navigate a data hierarchy using a series of vertical columns.*
 
-![A stylized representation of three columns containing a list of folders, images, and file information. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/8d03dc6cfdadf1b3ac5984277762e6fe/components-column-view-intro%402x.png)
+![A stylized representation of three columns containing a list of folders, images, and file information. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-column-view-intro@2x.png)
 
 Each column represents one level of the hierarchy and contains horizontal rows of data items. Within a column, any parent item that contains nested child items is marked with a triangle icon. When people select a parent, the next column displays its children. People can continue navigating in this way until they reach an item with no children, and can also navigate back up the hierarchy to explore other branches of data.
 
@@ -38,7 +38,7 @@ Consider using a column view when you have a deep data hierarchy in which people
 
 #### Developer documentation
 
-[NSBrowser](https://developer.apple.com/documentation/AppKit/NSBrowser) — AppKit
+[NSBrowser](https://developer.apple.com/documentation/appkit/nsbrowser) — AppKit
 
 ---
 *Source: [https://developer.apple.com/design/human-interface-guidelines/column-views](https://developer.apple.com/design/human-interface-guidelines/column-views)*

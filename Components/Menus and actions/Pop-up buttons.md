@@ -8,13 +8,13 @@
 >
 > Added artwork.
 
-![A stylized representation of a pop-up button displaying a set of options. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/6b9dc6a6527fa5413fee7ecc2828dbab/components-pop-up-button-intro%402x.png)
+![A stylized representation of a pop-up button displaying a set of options. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-pop-up-button-intro@2x.png)
 
 After people choose an item from a pop-up button’s menu, the menu closes, and the button can update its content to indicate the current selection.
 
-![A screenshot of Calendar on iPhone, with a new calendar event open for editing. The editing screen contains controls for setting the details of the event, including its start and end dates, travel time, repeat interval, calendar, invitees, alert options, and attachments.](https://docs-assets.developer.apple.com/published/519951a89c3c840e87eca8c5760f4d90/pop-up-button-closed%402x.png)
+![A screenshot of Calendar on iPhone, with a new calendar event open for editing. The editing screen contains controls for setting the details of the event, including its start and end dates, travel time, repeat interval, calendar, invitees, alert options, and attachments.](/images/com.apple.HIG/pop-up-button-closed@2x.png)
 
-![A screenshot of Calendar on iPhone, with a new calendar event open for editing. A pop-up button menu emerges from the Repeat button, with options for choosing a repeat interval from a list of preset options, or creating a custom one.](https://docs-assets.developer.apple.com/published/61386d60280871ab2649bc5b2020aab5/pop-up-button-open%402x.png)
+![A screenshot of Calendar on iPhone, with a new calendar event open for editing. A pop-up button menu emerges from the Repeat button, with options for choosing a repeat interval from a list of preset options, or creating a custom one.](/images/com.apple.HIG/pop-up-button-open@2x.png)
 
 ## Best practices
 
@@ -52,11 +52,11 @@ After people choose an item from a pop-up button’s menu, the menu closes, and 
 
 #### Developer documentation
 
-[MenuPickerStyle](https://developer.apple.com/documentation/SwiftUI/MenuPickerStyle)  — SwiftUI
+[MenuPickerStyle](https://developer.apple.com/documentation/swiftui/menupickerstyle)  — SwiftUI
 
-[changesSelectionAsPrimaryAction](https://developer.apple.com/documentation/UIKit/UIButton/changesSelectionAsPrimaryAction) — UIKit
+[changesSelectionAsPrimaryAction](https://developer.apple.com/documentation/uikit/uibutton/changesselectionasprimaryaction) — UIKit
 
-[NSPopUpButton](https://developer.apple.com/documentation/AppKit/NSPopUpButton) — AppKit
+[NSPopUpButton](https://developer.apple.com/documentation/appkit/nspopupbutton) — AppKit
 
 ## Change log
 

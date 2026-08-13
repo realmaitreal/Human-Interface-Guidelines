@@ -8,7 +8,7 @@
 >
 > Clarified guidance and noted the availability of portrait-oriented progressive immersion.
 
-![A sketch that suggests Apple Vision Pro. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/63fd96e56c2b19f4451f688728f0b013/foundations-immersive-experiences-intro%402x.png)
+![A sketch that suggests Apple Vision Pro. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo.](/images/com.apple.HIG/foundations-immersive-experiences-intro@2x.png)
 
 You can choose whether your visionOS app or game launches in the Shared Space or in a Full Space. In the *Shared Space*, your software runs alongside other experiences, and people can switch between them much as they do on a Mac; in a *Full Space*, your app or game runs alone, hiding other experiences and helping people immerse themselves in your content. Apps and games can support different types of immersion, and can transition fluidly between the Shared Space and a Full Space at any time.
 
@@ -22,16 +22,16 @@ The system also helps people remain comfortable by automatically changing the op
 
 ### Immersion styles
 
-When your app or game transitions to a Full Space, the system hides other apps so people can focus on yours. In a Full Space, you can display 3D content that isn’t bound by a window, in addition to content in standard windows and volumes. For developer guidance, see [automatic](https://developer.apple.com/documentation/SwiftUI/ImmersionStyle/automatic).
+When your app or game transitions to a Full Space, the system hides other apps so people can focus on yours. In a Full Space, you can display 3D content that isn’t bound by a window, in addition to content in standard windows and volumes. For developer guidance, see [automatic](https://developer.apple.com/documentation/swiftui/immersionstyle/automatic).
 
 visionOS offers several ways to immerse people in your content in the Shared Space as well as when you transition to a Full Space. For example, you can:
 
-- **Use dimmed passthrough to bring attention to your content.** You can subtly dim or tint passthrough and other visible content to bring attention to your app in the Shared Space without hiding other apps and games, or create a more focused experience in a Full Space. While passthrough is tinted black by default, you can apply a custom tint color to create a dynamic experience in your app. For developer guidance, see [SurroundingsEffect](https://developer.apple.com/documentation/SwiftUI/SurroundingsEffect).
+- **Use dimmed passthrough to bring attention to your content.** You can subtly dim or tint passthrough and other visible content to bring attention to your app in the Shared Space without hiding other apps and games, or create a more focused experience in a Full Space. While passthrough is tinted black by default, you can apply a custom tint color to create a dynamic experience in your app. For developer guidance, see [SurroundingsEffect](https://developer.apple.com/documentation/swiftui/surroundingseffect).
 
-- **Create unbounded 3D experiences.** Use the `mixed` immersion style in a Full Space to blend your content with passthrough. When your app or game runs in a Full Space, you can request access to information about nearby physical objects and room layout, helping you display virtual content in a person’s surroundings. The `mixed` immersion style doesn’t define a boundary. Instead, when a person gets too close to a physical object, the system automatically makes nearby content semi-opaque to help them remain aware of their surroundings. For developer guidance, see [mixed](https://developer.apple.com/documentation/SwiftUI/ImmersionStyle/mixed) and [ARKit](https://developer.apple.com/documentation/ARKit).
-- **Use `progressive` immersion to blend your custom environment with a person’s surroundings.** You can use the `progressive` style in a Full Space to display a custom environment that partially replaces passthrough. You can also define a specific range of immersion that works best with your app or game, and display content in portrait or landscape orientation. While in your immersive experience, people can use the Digital Crown to adjust the amount of immersion within either the default range of 120- to 360-degrees or a custom range, if you specify one. The system automatically defines an approximately 1.5-meter boundary when an experience transitions to the `progressive` style. For developer guidance, see [progressive](https://developer.apple.com/documentation/SwiftUI/ImmersionStyle/progressive).
+- **Create unbounded 3D experiences.** Use the `mixed` immersion style in a Full Space to blend your content with passthrough. When your app or game runs in a Full Space, you can request access to information about nearby physical objects and room layout, helping you display virtual content in a person’s surroundings. The `mixed` immersion style doesn’t define a boundary. Instead, when a person gets too close to a physical object, the system automatically makes nearby content semi-opaque to help them remain aware of their surroundings. For developer guidance, see [mixed](https://developer.apple.com/documentation/swiftui/immersionstyle/mixed) and [ARKit](https://developer.apple.com/documentation/arkit).
+- **Use `progressive` immersion to blend your custom environment with a person’s surroundings.** You can use the `progressive` style in a Full Space to display a custom environment that partially replaces passthrough. You can also define a specific range of immersion that works best with your app or game, and display content in portrait or landscape orientation. While in your immersive experience, people can use the Digital Crown to adjust the amount of immersion within either the default range of 120- to 360-degrees or a custom range, if you specify one. The system automatically defines an approximately 1.5-meter boundary when an experience transitions to the `progressive` style. For developer guidance, see [progressive](https://developer.apple.com/documentation/swiftui/immersionstyle/progressive).
 
-- **Use `full` immersion to create a fully immersive experience.** You can use the `full` style in a Full Space to display a 360-degree custom environment that completely replaces passthrough and transports people to a new place. As with the `progressive` style, the system defines an approximately 1.5-meter boundary when a fully immersive experience starts. For developer guidance, see [full](https://developer.apple.com/documentation/SwiftUI/ImmersionStyle/full).
+- **Use `full` immersion to create a fully immersive experience.** You can use the `full` style in a Full Space to display a 360-degree custom environment that completely replaces passthrough and transports people to a new place. As with the `progressive` style, the system defines an approximately 1.5-meter boundary when a fully immersive experience starts. For developer guidance, see [full](https://developer.apple.com/documentation/swiftui/immersionstyle/full).
 
 ## Best practices
 
@@ -43,7 +43,7 @@ visionOS offers several ways to immerse people in your content in the Shared Spa
 
 **Help people engage with key moments in your app or game, regardless of the level of immersion.** Cues like dimming, tinting, [Motion](Motion.md), [Scale](https://developer.apple.com/design/human-interface-guidelines/spatial-layout#Scale), and [visionOS](https://developer.apple.com/design/human-interface-guidelines/playing-audio#visionOS) can help draw people’s attention to a specific area of content, whether it’s in a window in the Shared Space or in a completely immersive experience in a Full Space. Start with subtle cues that gently guide people’s attention, strengthening the cues only when there’s a good reason to do so.
 
-**Prefer subtle tint colors for passthrough.** In visionOS 2 and later, you can tint passthrough to help a person’s surroundings visually coordinate with your content, while also making their hands look like they belong in your experience. Avoid bright or dramatic tints that can distract people and diminish the sense of immersion. For developer guidance, see [SurroundingsEffect](https://developer.apple.com/documentation/SwiftUI/SurroundingsEffect).
+**Prefer subtle tint colors for passthrough.** In visionOS 2 and later, you can tint passthrough to help a person’s surroundings visually coordinate with your content, while also making their hands look like they belong in your experience. Avoid bright or dramatic tints that can distract people and diminish the sense of immersion. For developer guidance, see [SurroundingsEffect](https://developer.apple.com/documentation/swiftui/surroundingseffect).
 
 ## Promoting comfort
 
@@ -55,11 +55,11 @@ visionOS offers several ways to immerse people in your content in the Shared Spa
 
 **If you use the `mixed` immersion style, avoid obscuring passthrough too much.** People use passthrough to help them understand and navigate their physical surroundings, so it’s important to avoid displaying virtual objects that block too much of their view. If your app or game displays virtual objects that could substantially obscure passthrough, use the `full` or `progressive` immersion styles instead of `mixed`.
 
-**Adopt ARKit if you want to blend custom content with someone’s surroundings.** For example, you might want to integrate virtual content into someone’s surroundings or use the wearer’s hand positions to inform your experience. If you need access to these types of sensitive data, you must request people’s permission. For guidance, see [Privacy](Privacy.md); for developer guidance, see [SceneReconstructionProvider](https://developer.apple.com/documentation/ARKit/SceneReconstructionProvider).
+**Adopt ARKit if you want to blend custom content with someone’s surroundings.** For example, you might want to integrate virtual content into someone’s surroundings or use the wearer’s hand positions to inform your experience. If you need access to these types of sensitive data, you must request people’s permission. For guidance, see [Privacy](Privacy.md); for developer guidance, see [SceneReconstructionProvider](https://developer.apple.com/documentation/arkit/scenereconstructionprovider).
 
 ## Transitioning between immersive styles
 
-**Design smooth, predictable transitions when changing immersion.** Help people prepare for different experiences by providing gentle transitions that let people visually track changes. Avoid sudden, jarring transitions that might be disorienting or uncomfortable. For developer guidance, see [CoordinateSpaceProtocol](https://developer.apple.com/documentation/SwiftUI/CoordinateSpaceProtocol).
+**Design smooth, predictable transitions when changing immersion.** Help people prepare for different experiences by providing gentle transitions that let people visually track changes. Avoid sudden, jarring transitions that might be disorienting or uncomfortable. For developer guidance, see [CoordinateSpaceProtocol](https://developer.apple.com/documentation/swiftui/coordinatespaceprotocol).
 
 **Let people choose when to enter or exit a more immersive experience.** It can be disorienting for someone to suddenly enter a more immersive experience when they’re not expecting it. Instead, provide a clear action to enter or exit immersion so people can decide when to be more immersed in your content, and when to leave. For example, Keynote provides a prominent Exit button in its fully immersive Rehearsal environment to help people return to the slide-viewing window. Avoid requiring people to use system controls to reduce immersion in your experience.
 
@@ -109,13 +109,13 @@ When your app or game transitions to a Full Space, you can replace passthrough w
 
 #### Developer documentation
 
-[Creating fully immersive experiences in your app](https://developer.apple.com/documentation/visionOS/creating-fully-immersive-experiences) — visionOS
+[Creating fully immersive experiences in your app](https://developer.apple.com/documentation/visionos/creating-fully-immersive-experiences) — visionOS
 
-[Incorporating real-world surroundings in an immersive experience](https://developer.apple.com/documentation/visionOS/incorporating-real-world-surroundings-in-an-immersive-experience) — visionOS
+[Incorporating real-world surroundings in an immersive experience](https://developer.apple.com/documentation/visionos/incorporating-real-world-surroundings-in-an-immersive-experience) — visionOS
 
-[ImmersionStyle](https://developer.apple.com/documentation/SwiftUI/ImmersionStyle) — visionOS
+[ImmersionStyle](https://developer.apple.com/documentation/swiftui/immersionstyle) — visionOS
 
-[Immersive spaces](https://developer.apple.com/documentation/SwiftUI/Immersive-spaces) — SwiftUI
+[Immersive spaces](https://developer.apple.com/documentation/swiftui/immersive-spaces) — SwiftUI
 
 #### Videos
 

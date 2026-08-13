@@ -8,7 +8,7 @@
 >
 > Added guidance on using multiple ornaments.
 
-![A stylized representation of an ornament at the bottom of a window shown on top of a grid that suggests the canvas of a design tool. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/7fd3b2f7436ecb34d926ac0cbc556100/components-ornaments-intro%402x.png)
+![A stylized representation of an ornament at the bottom of a window shown on top of a grid that suggests the canvas of a design tool. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-ornaments-intro@2x.png)
 
 An ornament floats in a plane that’s parallel to its associated window and slightly in front of it along the z-axis. If the associated window moves, the ornament moves with it, maintaining its relative position; if the window’s contents scroll, the controls or information in the ornament remain unchanged.
 
@@ -24,9 +24,9 @@ Ornaments can appear on any edge of a window and can contain UI components like 
 
 **Aim to keep an ornament’s width the same or narrower than the width of the associated window.** If an ornament is wider than its window, it can interfere with a tab bar or other vertical content on the window’s side.
 
-**Consider using borderless buttons in an ornament.** By default, an ornament’s background is [visionOS](https://developer.apple.com/design/human-interface-guidelines/materials#visionOS), so if you place a button directly on the background, it may not need a visible border. When people look at a borderless button in an ornament, the system automatically applies the hover affect to it (for guidance, see [Eyes](../../Inputs/Eyes.md)).
+**Consider using borderless buttons in an ornament.** By default, an ornament’s background is [visionOS](https://developer.apple.com/design/human-interface-guidelines/materials#visionOS), so if you place a button directly on the background, it may not need a visible border. When people look at a borderless button in an ornament, the system automatically applies the hover effect to it (for guidance, see [Eyes](../../Inputs/Eyes.md)).
 
-**Use system-provided toolbars and tab bars unless you need to create custom components.** In visionOS, toolbars and tab bars automatically appear as ornaments, so you don’t need to use an ornament to create these components. For developer guidance, see [Toolbars](https://developer.apple.com/documentation/SwiftUI/Toolbars) and [TabView](https://developer.apple.com/documentation/SwiftUI/TabView).
+**Use system-provided toolbars and tab bars unless you need to create custom components.** In visionOS, toolbars and tab bars automatically appear as ornaments, so you don’t need to use an ornament to create these components. For developer guidance, see [Toolbars](https://developer.apple.com/documentation/swiftui/toolbars) and [TabView](https://developer.apple.com/documentation/swiftui/tabview).
 
 ## Platform considerations
 
@@ -42,7 +42,7 @@ Ornaments can appear on any edge of a window and can contain UI components like 
 
 #### Developer documentation
 
-[ornament(visibility:attachmentAnchor:contentAlignment:ornament:)](https://developer.apple.com/documentation/SwiftUI/View/ornament(visibility:attachmentAnchor:contentAlignment:ornament:)) — SwiftUI
+[ornament(visibility:attachmentAnchor:contentAlignment:ornament:)](https://developer.apple.com/documentation/swiftui/view/ornament(visibility:attachmentanchor:contentalignment:ornament:)) — SwiftUI
 
 #### Videos
 

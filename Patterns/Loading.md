@@ -8,7 +8,7 @@
 >
 > Revised guidance for storing downloads to reflect downloading large assets in the background.
 
-![A sketch of a spinning indeterminate activity indicator, suggesting data loading. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/cfdf824156ed794426ac55a2cb38ec15/patterns-loading-intro%402x.png)
+![A sketch of a spinning indeterminate activity indicator, suggesting data loading. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](/images/com.apple.HIG/patterns-loading-intro@2x.png)
 
 If your app or game loads assets, levels, or other content, design the behavior so it doesn’t disrupt or negatively impact the user experience.
 
@@ -16,11 +16,11 @@ If your app or game loads assets, levels, or other content, design the behavior 
 
 **Show something as soon as possible.** If you make people wait for loading to complete before displaying anything, they can interpret the lack of content as a problem with your app or game. Instead, consider showing placeholder text, graphics, or animations as content loads, replacing these elements as content becomes available.
 
-**Let people do other things in your app or game while they wait for content to load.** Loading content in the background helps give people access to other actions. For example, a game could load content in the background while players learn about the next level or view an in-game menu. For developer guidance, see [Improving the player experience for games with large downloads](https://developer.apple.com/documentation/GameKit/improving-the-player-experience-for-games-with-large-downloads).
+**Let people do other things in your app or game while they wait for content to load.** Loading content in the background helps give people access to other actions. For example, a game could load content in the background while players learn about the next level or view an in-game menu. For developer guidance, see [Improving the player experience for games with large downloads](https://developer.apple.com/documentation/gamekit/improving-the-player-experience-for-games-with-large-downloads).
 
 **If loading takes an unavoidably long time, give people something interesting to view while they wait.** For example, you might provide gameplay hints, display tips, or introduce people to new features. Gauge the remaining loading time as accurately as possible to help you avoid giving people too little time to enjoy your placeholder content or having so much time that you need to repeat it.
 
-**Improve installation and launch time by downloading large assets in the background.** Consider using the [Background Assets](https://developer.apple.com/documentation/BackgroundAssets) framework to schedule asset downloads — like game level packs, 3D character models, and textures — to occur immediately after installation, during updates, or at other nondisruptive times.
+**Improve installation and launch time by downloading large assets in the background.** Consider using the [Background Assets](https://developer.apple.com/documentation/backgroundassets) framework to schedule asset downloads — like game level packs, 3D character models, and textures — to occur immediately after installation, during updates, or at other nondisruptive times.
 
 ## Showing progress
 
@@ -46,7 +46,7 @@ If your app or game loads assets, levels, or other content, design the behavior 
 
 #### Developer documentation
 
-[Background Assets](https://developer.apple.com/documentation/BackgroundAssets)
+[Background Assets](https://developer.apple.com/documentation/backgroundassets)
 
 #### Videos
 

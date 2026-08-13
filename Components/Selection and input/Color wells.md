@@ -4,7 +4,7 @@
 
 *A color well lets people adjust the color of text, shapes, guides, and other onscreen elements.*
 
-![A stylized representation of a color-selection popover extending down from an expanded button. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/e681f39f8be7d52884f6e79d2a69e80a/components-color-well-intro%402x.png)
+![A stylized representation of a color-selection popover extending down from an expanded button. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-color-well-intro@2x.png)
 
 A color well displays a color picker when people tap or click it. This color picker can be the system-provided one or a custom interface that you design.
 
@@ -30,11 +30,11 @@ Color wells also support drag and drop, so people can drag colors from one color
 
 #### Developer documentation
 
-[UIColorWell](https://developer.apple.com/documentation/UIKit/UIColorWell) — UIKit
+[UIColorWell](https://developer.apple.com/documentation/uikit/uicolorwell) — UIKit
 
-[UIColorPickerViewController](https://developer.apple.com/documentation/UIKit/UIColorPickerViewController) — UIKit
+[UIColorPickerViewController](https://developer.apple.com/documentation/uikit/uicolorpickerviewcontroller) — UIKit
 
-[NSColorWell](https://developer.apple.com/documentation/AppKit/NSColorWell) — AppKit
+[NSColorWell](https://developer.apple.com/documentation/appkit/nscolorwell) — AppKit
 
 [Color Programming Topics](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/DrawColor/DrawColor.html)
 

@@ -8,7 +8,7 @@
 >
 > Added guidelines for using the document launcher in iOS and iPadOS.
 
-![A sketch of a document with the upper right corner folded in, suggesting interaction with files. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/c753c4f8870e5c729becf174c1f0c5e5/patterns-file-management-intro%402x.png)
+![A sketch of a document with the upper right corner folded in, suggesting interaction with files. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](/images/com.apple.HIG/patterns-file-management-intro@2x.png)
 
 Document-based apps — such as Pages, Keynote, Photos, and Preview — help people create, edit, and save documents and files, often providing customized ways for people to browse for content they want to open in the app.
 
@@ -42,7 +42,7 @@ Quick Look helps you create previews of the files your app handles so that peopl
 
 #### Document launcher
 
-Starting in iOS 18 and iPadOS 18, document-based apps can use the system’s document launcher to give people a consistent, highly graphical way to browse, open, and create files. The document launcher presents a full-screen experience that highlights key elements of your app’s theme, while making it easy for people to create new documents. For developer guidance, see [DocumentGroupLaunchScene](https://developer.apple.com/documentation/SwiftUI/DocumentGroupLaunchScene).
+Starting in iOS 18 and iPadOS 18, document-based apps can use the system’s document launcher to give people a consistent, highly graphical way to browse, open, and create files. The document launcher presents a full-screen experience that highlights key elements of your app’s theme, while making it easy for people to create new documents. For developer guidance, see [DocumentGroupLaunchScene](https://developer.apple.com/documentation/swiftui/documentgrouplaunchscene).
 
 The document launcher consists of three main parts:
 
@@ -52,7 +52,7 @@ The document launcher consists of three main parts:
 
 You can customize all three parts of the document launcher. Although the system automatically displays your app name in the title card, you specify the text and functions of the card’s primary and secondary buttons. You can also create a custom background image, one or more accessory images to surround the title card, and provide some custom controls that can appear in the file browser’s toolbar.
 
-![A screenshot of a writing app's document launcher on iPad in landscape orientation. The document launcher displays a custom background and two accessory images. At the bottom, the file browser sheet provides 3 tabs: Recents, Shared, and Browse.](https://docs-assets.developer.apple.com/published/5c3d3fe966c8f4d89b462856bec0ed24/file-management-document-launcher%402x.png)
+![A screenshot of a writing app's document launcher on iPad in landscape orientation. The document launcher displays a custom background and two accessory images. At the bottom, the file browser sheet provides 3 tabs: Recents, Shared, and Browse.](/images/com.apple.HIG/file-management-document-launcher@2x.png)
 
 **Assign the title card’s buttons to your app’s most important functions.** The primary button typically creates a new document, and the secondary button can provide additional options. For example, the primary button in Numbers is Start Writing and the secondary button is Choose a Template.
 
@@ -64,7 +64,7 @@ You can customize all three parts of the document launcher. Although the system 
 
 #### File provider app extension
 
-If your app can share its files with other apps, you can create a file provider app extension that displays a custom interface for importing, exporting, opening, and moving your app’s documents. For developer guidance, see [File Provider](https://developer.apple.com/documentation/FileProvider). An *app extension* is code you provide that people can install and use to extend the functionality of a specific area of the system; to learn more, see [App extensions](https://developer.apple.com/app-extensions/).
+If your app can share its files with other apps, you can create a file provider app extension that displays a custom interface for importing, exporting, opening, and moving your app’s documents. For developer guidance, see [File Provider](https://developer.apple.com/documentation/fileprovider). An *app extension* is code you provide that people can install and use to extend the functionality of a specific area of the system; to learn more, see [App extensions](https://developer.apple.com/app-extensions/).
 
 **When someone uses your file provider extension to open or import documents, display only documents that are appropriate in the current context.** For example, if a PDF-editing app loads your extension, only list PDF files for opening or import. You might also want to display additional information, such as modification dates, sizes, and whether documents are local or remote.
 
@@ -72,7 +72,7 @@ If your app can share its files with other apps, you can create a file provider 
 
 **Avoid including a custom top toolbar.** Your extension loads within a modal view that already includes a toolbar. Providing a second toolbar is confusing and takes space away from your content.
 
-Your app can also let people browse and open files from other apps. For developer guidance, see [Adding a document browser to your app](https://developer.apple.com/documentation/UIKit/adding-a-document-browser-to-your-app).
+Your app can also let people browse and open files from other apps. For developer guidance, see [Adding a document browser to your app](https://developer.apple.com/documentation/uikit/adding-a-document-browser-to-your-app).
 
 ### macOS
 
@@ -88,7 +88,7 @@ People have strong associations with the familiar file browsing experience of th
 
 #### Finder Sync extensions
 
-If your app syncs local and remote files, you can create a Finder Sync app extension to express file synchronization status and control within the Finder. For developer guidance, see [Finder Sync](https://developer.apple.com/documentation/FinderSync).
+If your app syncs local and remote files, you can create a Finder Sync app extension to express file synchronization status and control within the Finder. For developer guidance, see [Finder Sync](https://developer.apple.com/documentation/findersync).
 
 For example, you can use a Finder Sync extension to:
 
@@ -112,7 +112,7 @@ For example, you can use a Finder Sync extension to:
 
 #### Developer documentation
 
-[Documents](https://developer.apple.com/documentation/SwiftUI/Documents) — SwiftUI
+[Documents](https://developer.apple.com/documentation/swiftui/documents) — SwiftUI
 
 #### Videos
 

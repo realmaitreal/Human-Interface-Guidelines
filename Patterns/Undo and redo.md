@@ -4,7 +4,7 @@
 
 *Undo and redo gives people easy ways to reverse many types of actions, which can also help people explore and experiment safely as they learn a new interface or task.*
 
-![A sketch of an arrow that starts right, curves upward, and points to the left, suggesting a return to the start. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/768e64b5954af63fd6f4e9e4a3c5275a/patterns-undo-redo-intro%402x.png)
+![A sketch of an arrow that starts right, curves upward, and points to the left, suggesting a return to the start. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](/images/com.apple.HIG/patterns-undo-redo-intro@2x.png)
 
 People expect undo and redo to let them reverse their recent actions, so they’re likely to try undoing — often multiple times — until something changes. In a situation like this, people might not remember which of their previous actions an undo is targeting, which can lead to unintended changes and frustration. To help people remain in control, it’s essential to help people predict the outcome of undoing and redoing and to highlight the results.
 
@@ -48,7 +48,7 @@ People expect undo and redo to let them reverse their recent actions, so they’
 
 #### Developer documentation
 
-[UndoManager](https://developer.apple.com/documentation/Foundation/UndoManager) — Foundation
+[UndoManager](https://developer.apple.com/documentation/foundation/undomanager) — Foundation
 
 #### Videos
 

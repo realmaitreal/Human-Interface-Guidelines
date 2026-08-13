@@ -8,7 +8,7 @@
 >
 > Added guidance for synchronizing game data through iCloud.
 
-![A sketch of the iCloud icon. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/928d419006d55a9003163836f73f4339/technologies-iCloud-intro%402x.png)
+![A sketch of the iCloud icon. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](/images/com.apple.HIG/technologies-iCloud-intro@2x.png)
 
 A fundamental aspect of iCloud is transparency. People don’t need to know where content resides. They can just assume they’re always accessing the latest version.
 
@@ -32,7 +32,7 @@ A fundamental aspect of iCloud is transparency. People don’t need to know wher
 
 **Include iCloud content in search results.** People with iCloud accounts assume their content is universally available, and they expect search results to reflect this perspective.
 
-**For games, consider saving player progress in iCloud.** Although you can implement this functionality yourself, the GameSave framework offers an efficient solution. It synchronizes save data across devices and offers built-in alerts you can use to help players handle syncing issues during offline play or when conflicts arise. Alternatively, you can implement custom UI that uses GameSave data to resolve these situations. For developer guidance, see [GameSave](https://developer.apple.com/documentation/GameSave).
+**For games, consider saving player progress in iCloud.** Although you can implement this functionality yourself, the GameSave framework offers an efficient solution. It synchronizes save data across devices and offers built-in alerts you can use to help players handle syncing issues during offline play or when conflicts arise. Alternatively, you can implement custom UI that uses GameSave data to resolve these situations. For developer guidance, see [GameSave](https://developer.apple.com/documentation/gamesave).
 
 ## Platform considerations
 
@@ -42,9 +42,9 @@ A fundamental aspect of iCloud is transparency. People don’t need to know wher
 
 #### Developer documentation
 
-[CloudKit](https://developer.apple.com/documentation/CloudKit)
+[CloudKit](https://developer.apple.com/documentation/cloudkit)
 
-[GameSave](https://developer.apple.com/documentation/GameSave)
+[GameSave](https://developer.apple.com/documentation/gamesave)
 
 ## Change log
 

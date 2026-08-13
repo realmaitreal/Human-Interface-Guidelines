@@ -8,7 +8,7 @@
 >
 > Reorganized guidance in platform considerations, and added guidance for multitasking with multiple windows in iPadOS.
 
-![A sketch of two side-by-side windows in a split view arrangement, suggesting multitasking. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/94f1391bf700ee7af09ad0f966dd7b36/patterns-multitasking-intro%402x.png)
+![A sketch of two side-by-side windows in a split view arrangement, suggesting multitasking. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](/images/com.apple.HIG/patterns-multitasking-intro@2x.png)
 
 People expect to use multitasking on their devices, and they may think something is wrong if your app doesn’t allow it. With rare exceptions — such as some games, and Apple Vision Pro apps running in a Full Space — every app needs to work well with multitasking.
 
@@ -39,10 +39,10 @@ For guidance, see [Playing audio](Playing%20audio.md).
 
 On iPhone, multitasking lets people use FaceTime or watch a video in Picture in Picture while they also use a different app.
 
-![A screenshot of the app switcher on iPhone, showing four open apps.](https://docs-assets.developer.apple.com/published/519ce5b2d1298e573aab62d4ea3427c9/multitasking-app-switcher-iphone%402x.png)  
+![A screenshot of the app switcher on iPhone, showing four open apps.](/images/com.apple.HIG/multitasking-app-switcher-iphone@2x.png)  
 *The app switcher displays all currently open apps.*
 
-![A screenshot of Mail on iPhone, showing an individual email. On top of the email body content, a small image in the bottom-left corner shows the person currently in a FaceTime call.](https://docs-assets.developer.apple.com/published/f68005bf620706a5d6c6c03d09af37f4/multitasking-pip-iphone%402x.png)  
+![A screenshot of Mail on iPhone, showing an individual email. On top of the email body content, a small image in the bottom-left corner shows the person currently in a FaceTime call.](/images/com.apple.HIG/multitasking-pip-iphone@2x.png)  
 *A current FaceTime call can continue while people use another app.*
 
 ### iPadOS
@@ -51,11 +51,11 @@ On iPad, people can view and interact with the [Windows](../Components/Presentat
 
 People can use iPad with either full-screen or windowed apps. When full screen, apps occupy the full screen, and people can switch between individual app windows using the app switcher.
 
-![A screenshot of the iPad app switcher in landscape orientation, showing five open apps. Thumbnail representations of the apps are arranged in a grid.](https://docs-assets.developer.apple.com/published/b1c2946808ad75c7036af18706a55b79/multitasking-ipad-app-switcher%402x.png)
+![A screenshot of the iPad app switcher in landscape orientation, showing five open apps. Thumbnail representations of the apps are arranged in a grid.](/images/com.apple.HIG/multitasking-ipad-app-switcher@2x.png)
 
 When using windowed apps, app windows are resizable, and people can arrange them to suit their needs with behavior similar to macOS. The system provides window controls for common tiling configurations, entering full screen, minimizing, and closing windows. The system identifies the frontmost window by coloring its window controls and casting a drop shadow on windows behind it. For guidance, see [iPadOS](https://developer.apple.com/design/human-interface-guidelines/windows#iPadOS).
 
-![A screenshot of two windowed apps on iPad in landscape orientation. The frontmost app window overlaps and casts a shadow on the one behind it, and has colored window controls to indicate that the window is active. Both windows sit atop the Home Screen background, and the Dock appears at the bottom.](https://docs-assets.developer.apple.com/published/433d49d66e117152f7cca9605ebe9628/multitasking-ipad-windows-maps-landmarks%402x.png)
+![A screenshot of two windowed apps on iPad in landscape orientation. The frontmost app window overlaps and casts a shadow on the one behind it, and has colored window controls to indicate that the window is active. Both windows sit atop the Home Screen background, and the Dock appears at the bottom.](/images/com.apple.HIG/multitasking-ipad-windows-maps-landmarks@2x.png)
 
 Additionally, videos and FaceTime calls can also play in a Picture in Picture overlay above other content regardless of whether apps are full screen or windowed.
 
@@ -63,7 +63,7 @@ Additionally, videos and FaceTime calls can also play in a Picture in Picture ov
 >
 > Apps don’t control multitasking configurations or receive any indication of the ones that people choose.
 
-To help your app respond correctly when people open it while windowed, make sure it adapts gracefully to different screen sizes. For guidance, see [Layout](../Foundations/Layout.md) and [Windows](../Components/Presentation/Windows.md); for developer guidance, see [Multitasking on iPad, Mac, and Apple Vision Pro](https://developer.apple.com/documentation/UIKit/multitasking-on-ipad-mac-and-apple-vision-pro). To learn more about how people use iPad multitasking features, see [Use multitasking on your iPad](https://support.apple.com/en-us/HT207582).
+To help your app respond correctly when people open it while windowed, make sure it adapts gracefully to different screen sizes. For guidance, see [Layout](../Foundations/Layout.md) and [Windows](../Components/Presentation/Windows.md); for developer guidance, see [Multitasking on iPad, Mac, and Apple Vision Pro](https://developer.apple.com/documentation/uikit/multitasking-on-ipad-mac-and-apple-vision-pro). To learn more about how people use iPad multitasking features, see [Use multitasking on your iPad](https://support.apple.com/en-us/HT207582).
 
 ### macOS
 
@@ -101,9 +101,9 @@ Only one window is active at a time in the Shared Space. When people look from o
 
 #### Developer documentation
 
-[Responding to the launch of your app](https://developer.apple.com/documentation/UIKit/responding-to-the-launch-of-your-app) — UIKit
+[Responding to the launch of your app](https://developer.apple.com/documentation/uikit/responding-to-the-launch-of-your-app) — UIKit
 
-[Multitasking on iPad, Mac, and Apple Vision Pro](https://developer.apple.com/documentation/UIKit/multitasking-on-ipad-mac-and-apple-vision-pro) — UIKit
+[Multitasking on iPad, Mac, and Apple Vision Pro](https://developer.apple.com/documentation/uikit/multitasking-on-ipad-mac-and-apple-vision-pro) — UIKit
 
 #### Videos
 

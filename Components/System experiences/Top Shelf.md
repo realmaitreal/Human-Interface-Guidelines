@@ -4,7 +4,7 @@
 
 *The Apple TV Home Screen provides an area called Top Shelf, which showcases your content in a rich, engaging way while also giving people access to their favorite apps in the Dock.*
 
-![A stylized representation of a horizontal list of media previews above rows of Apple TV apps. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/feb7331773e04034ca9c80272d2da636/components-top-shelf-intro%402x.png)
+![A stylized representation of a horizontal list of media previews above rows of Apple TV apps. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-top-shelf-intro@2x.png)
 
 When you support full-screen Top Shelf, people can swipe through multiple full-screen content views, play trailers and previews, and get more information about your content.
 
@@ -62,7 +62,7 @@ You can use the following image sizes in a sectioned content row.
 
 #### Poster (2:3)
 
-![An illustration showing an outlined rectangle that contains a slightly smaller rectangle, which contains a slight narrower rectangle. The outermost rectangle represents the actual size, the middle rectangle represents the visible or safe zone, and the innermost rectangle represents the unfocused size.](https://docs-assets.developer.apple.com/published/13d162f243a286d45bb107b4a7cb799b/icons-and-images-content-layout-2x3%402x.png)
+![An illustration showing an outlined rectangle that contains a slightly smaller rectangle, which contains a slight narrower rectangle. The outermost rectangle represents the actual size, the middle rectangle represents the visible or safe zone, and the innermost rectangle represents the unfocused size.](/images/com.apple.HIG/icons-and-images-content-layout-2x3@2x.png)
 
 | Aspect | Image size |
 | --- | --- |
@@ -72,7 +72,7 @@ You can use the following image sizes in a sectioned content row.
 
 #### Square (1:1)
 
-![An illustration showing an outlined square that contains a slightly smaller square, which contains a slightly smaller square. The outermost  square represents the actual size, the middle square represents the visible or safe zone, and the innermost square represents the unfocused size.](https://docs-assets.developer.apple.com/published/eba53b409d9ed6226c9b1e965dc17033/icons-and-images-content-layout-1x1%402x.png)
+![An illustration showing an outlined square that contains a slightly smaller square, which contains a slightly smaller square. The outermost  square represents the actual size, the middle square represents the visible or safe zone, and the innermost square represents the unfocused size.](/images/com.apple.HIG/icons-and-images-content-layout-1x1@2x.png)
 
 | Aspect | Image size |
 | --- | --- |
@@ -82,7 +82,7 @@ You can use the following image sizes in a sectioned content row.
 
 #### 16:9
 
-![An illustration showing an outlined rectangle that contains a slightly smaller rectangle, which contains a slightly smaller rectangle. The outermost rectangle represents the actual size, the middle rectangle represents the visible or safe zone, and the innermost rectangle represents the unfocused size.](https://docs-assets.developer.apple.com/published/2b45c73a75fdeafef21cbb3c2923259a/icons-and-images-content-layout-16x9%402x.png)
+![An illustration showing an outlined rectangle that contains a slightly smaller rectangle, which contains a slightly smaller rectangle. The outermost rectangle represents the actual size, the middle rectangle represents the visible or safe zone, and the innermost rectangle represents the unfocused size.](/images/com.apple.HIG/icons-and-images-content-layout-16x9@2x.png)
 
 | Aspect | Image size |
 | --- | --- |
@@ -102,7 +102,7 @@ When a banner is in focus, a small, circular gesture on the remote’s Touch sur
 
 **If you need text, add it to your image.** This layout style doesn’t show labels under content, so all text must be part of the image itself. In layered images, consider elevating text by placing it on a dedicated layer above the others. Add the text to the accessibility label of the image too, so [VoiceOver](../../Technologies/VoiceOver.md) can read it.
 
-![An illustration showing a wide rectangle that contains of a smaller rectangle, which contains a slightly narrower rectangle. The outermost rectangle represents the actual size, the middle rectangle represents the visible or safe zone, and the innermost rectangle represents the unfocused size.](https://docs-assets.developer.apple.com/published/e7ca852b559e9d981c968703dbad0315/icons-and-images-content-layout-extra-wide%402x.png)
+![An illustration showing a wide rectangle that contains of a smaller rectangle, which contains a slightly narrower rectangle. The outermost rectangle represents the actual size, the middle rectangle represents the visible or safe zone, and the innermost rectangle represents the unfocused size.](/images/com.apple.HIG/icons-and-images-content-layout-extra-wide@2x.png)
 
 Use the following size for a scrolling inset banner image:
 

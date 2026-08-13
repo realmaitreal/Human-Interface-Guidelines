@@ -8,7 +8,7 @@
 >
 > Reorganized some guidance into new topics and added game-specific examples.
 
-![A sketch of a gear, suggesting configuration. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://docs-assets.developer.apple.com/published/38706162753c93aa16bfa6295987c33a/patterns-settings-intro%402x.png)
+![A sketch of a gear, suggesting configuration. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](/images/com.apple.HIG/patterns-settings-intro@2x.png)
 
 On all Apple platforms, the system-provided Settings app lets people adjust things like the overall appearance of the system, network connections, account details, accessibility requirements, and language and region settings. On some platforms, the system-provided Settings app can also include settings for specific apps and games, often letting people adjust whether the app or game can access location information, use device features like microphone or camera, and integrate with system features like notifications, Siri, or Search.
 
@@ -16,7 +16,7 @@ When necessary, you can provide a custom settings area within your app or game t
 
 ## Best practices
 
-**Aim to provide default settings that give the best experience to the largest number of people.** For example, you can automatically maximize performance for the device your game is running on instead of asking players to make this choice after your game launches (for developer guidance, see [Improving your game’s graphics performance and settings](https://developer.apple.com/documentation/Metal/improving-your-games-graphics-performance-and-settings)). When you choose appropriate default settings, people may not have to make any adjustments before they can start enjoying your app or game.
+**Aim to provide default settings that give the best experience to the largest number of people.** For example, you can automatically maximize performance for the device your game is running on instead of asking players to make this choice after your game launches (for developer guidance, see [Improving your game’s graphics performance and settings](https://developer.apple.com/documentation/metal/improving-your-games-graphics-performance-and-settings)). When you choose appropriate default settings, people may not have to make any adjustments before they can start enjoying your app or game.
 
 **Minimize the number of settings you offer.** Although people appreciate having control over an app or game, too many settings can make the experience feel less approachable, while also making it hard to find a particular setting.
 
@@ -72,11 +72,11 @@ In watchOS, apps and games don’t add custom settings to the system-provided Se
 
 #### Developer documentation
 
-[Settings](https://developer.apple.com/documentation/SwiftUI/Settings) — SwiftUI
+[Settings](https://developer.apple.com/documentation/swiftui/settings) — SwiftUI
 
-[UserDefaults](https://developer.apple.com/documentation/Foundation/UserDefaults) — Foundation
+[UserDefaults](https://developer.apple.com/documentation/foundation/userdefaults) — Foundation
 
-[Preference Panes](https://developer.apple.com/documentation/PreferencePanes)
+[Preference Panes](https://developer.apple.com/documentation/preferencepanes)
 
 ## Change log
 
