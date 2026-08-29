@@ -72,8 +72,24 @@ For guidance on presenting other 3D content in a window or volume, see [visionOS
 
 #### Videos
 
-- <a href="https://developer.apple.com/videos/play/wwdc2023/10181"><img src="https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/8226C70F-64DC-4FF1-9956-2DC0751A2143/8241_wide_250x141_2x.jpg" alt="8226c70f 64dc 4ff1 9956 2dc0751a2143" width="64"></a> [Support HDR images in your app](https://developer.apple.com/videos/play/wwdc2023/10181) — Learn how to identify, load, display, and create High Dynamic Range (HDR) still images in your app. Explore common HDR concepts and find out about the latest updates to the ISO specification. Learn how to identify and display HDR images with SwiftUI and UIKit, create them from ProRAW and RAW captures, and display them in CALayers. We’ll also take you through CoreGraphics support for ISO HDR and share best practices for HDR adoption.
-- <a href="https://developer.apple.com/videos/play/wwdc2021/10021"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/5A5D0136-1D36-4754-9603-E9C2B459ECB7/4887_wide_250x141_2x.jpg" alt="5a5d0136 1d36 4754 9603 e9c2b459ecb7" width="64"></a> [Add rich graphics to your SwiftUI app](https://developer.apple.com/videos/play/wwdc2021/10021) — Learn how you can bring your graphics to life with SwiftUI. We’ll begin by working with safe areas, including the keyboard safe area, and learn how to design beautiful, edge-to-edge graphics that won’t underlap the on-screen keyboard. We’ll also explore the materials and vibrancy you can use in SwiftUI to create easily customizable backgrounds and controls, and go over graphics APIs like drawingGroup and the all new canvas. With these tools, it’s simpler than ever to design fully interactive and interruptible animations and graphics in SwiftUI.
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2023/10181"><img src="https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/8226C70F-64DC-4FF1-9956-2DC0751A2143/8241_wide_250x141_2x.jpg" alt="8226c70f 64dc 4ff1 9956 2dc0751a2143" width="64"></a>  
+**[Support HDR images in your app](https://developer.apple.com/videos/play/wwdc2023/10181)**  
+Learn how to identify, load, display, and create High Dynamic Range (HDR) still images in your app. Explore common HDR concepts and find out about the latest updates to the ISO specification. Learn how to identify and display HDR images with SwiftUI and UIKit, create them from ProRAW and RAW captures, and display them in CALayers. We’ll also take you through CoreGraphics support for ISO HDR and share best practices for HDR adoption.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2021/10021"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/5A5D0136-1D36-4754-9603-E9C2B459ECB7/4887_wide_250x141_2x.jpg" alt="5a5d0136 1d36 4754 9603 e9c2b459ecb7" width="64"></a>  
+**[Add rich graphics to your SwiftUI app](https://developer.apple.com/videos/play/wwdc2021/10021)**  
+Learn how you can bring your graphics to life with SwiftUI. We’ll begin by working with safe areas, including the keyboard safe area, and learn how to design beautiful, edge-to-edge graphics that won’t underlap the on-screen keyboard. We’ll also explore the materials and vibrancy you can use in SwiftUI to create easily customizable backgrounds and controls, and go over graphics APIs like drawingGroup and the all new canvas. With these tools, it’s simpler than ever to design fully interactive and interruptible animations and graphics in SwiftUI.
+
+</td>
+</tr>
+</table>
 
 ## Change log
 

@@ -166,11 +166,33 @@ The following guidelines can help you write useful accessibility labels for char
 
 #### Videos
 
-- <a href="https://developer.apple.com/videos/play/wwdc2025/313"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/89D5888B-58DA-4F47-8E3C-998253F6BA98/9954_wide_250x141_2x.jpg" alt="89d5888b 58da 4f47 8e3c 998253f6ba98" width="64"></a> [Bring Swift Charts to the third dimension](https://developer.apple.com/videos/play/wwdc2025/313) — Learn how to bring your 2D Swift Charts to the third dimension with Chart3D and visualize your data sets from completely new perspectives. Plot your data in 3D, visualize mathematical surfaces, and customize everything from the camera to the materials to make your 3D charts more intuitive and delightful. 
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2025/313"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/89D5888B-58DA-4F47-8E3C-998253F6BA98/9954_wide_250x141_2x.jpg" alt="89d5888b 58da 4f47 8e3c 998253f6ba98" width="64"></a>  
+**[Bring Swift Charts to the third dimension](https://developer.apple.com/videos/play/wwdc2025/313)**  
+Learn how to bring your 2D Swift Charts to the third dimension with Chart3D and visualize your data sets from completely new perspectives. Plot your data in 3D, visualize mathematical surfaces, and customize everything from the camera to the materials to make your 3D charts more intuitive and delightful. 
 
 To get the most out of this session, we recommend being familiar with creating 2D Swift Charts.
-- <a href="https://developer.apple.com/videos/play/wwdc2022/110342"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/FA764D2D-4E15-4E91-91BA-BDAC80FB901B/6694_wide_250x141_2x.jpg" alt="fa764d2d 4e15 4e91 91ba bdac80fb901b" width="64"></a> [Design app experiences with charts](https://developer.apple.com/videos/play/wwdc2022/110342) — Learn how you can enhance your app with charts to communicate data with more clarity and appeal. We'll show you when to use charts, how to use them and how they work together in a chart design system.
-- <a href="https://developer.apple.com/videos/play/wwdc2022/110340"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/4BBCB61E-65ED-43FE-8F7B-81524E0C96BE/6692_wide_250x141_2x.jpg" alt="4bbcb61e 65ed 43fe 8f7b 81524e0c96be" width="64"></a> [Design an effective chart](https://developer.apple.com/videos/play/wwdc2022/110340) — Learn how to design focused, approachable, and accessible charts. We'll show you how to design great charts with clear marks, axes, descriptions, interaction, and color and help you create useful experiences for everyone.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2022/110342"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/FA764D2D-4E15-4E91-91BA-BDAC80FB901B/6694_wide_250x141_2x.jpg" alt="fa764d2d 4e15 4e91 91ba bdac80fb901b" width="64"></a>  
+**[Design app experiences with charts](https://developer.apple.com/videos/play/wwdc2022/110342)**  
+Learn how you can enhance your app with charts to communicate data with more clarity and appeal. We'll show you when to use charts, how to use them and how they work together in a chart design system.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2022/110340"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/4BBCB61E-65ED-43FE-8F7B-81524E0C96BE/6692_wide_250x141_2x.jpg" alt="4bbcb61e 65ed 43fe 8f7b 81524e0c96be" width="64"></a>  
+**[Design an effective chart](https://developer.apple.com/videos/play/wwdc2022/110340)**  
+Learn how to design focused, approachable, and accessible charts. We'll show you how to design great charts with clear marks, axes, descriptions, interaction, and color and help you create useful experiences for everyone.
+
+</td>
+</tr>
+</table>
 
 ## Change log
 

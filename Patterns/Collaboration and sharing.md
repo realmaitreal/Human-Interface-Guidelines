@@ -83,13 +83,35 @@ In your SwiftUI app running in watchOS, use [ShareLink](https://developer.apple.
 
 #### Videos
 
-- <a href="https://developer.apple.com/videos/play/wwdc2022/10015"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/74342B30-92E9-48F3-B0F2-6E42C8FD9391/6506_wide_250x141_2x.jpg" alt="74342b30 92e9 48f3 b0f2 6e42c8fd9391" width="64"></a> [Design for Collaboration with Messages](https://developer.apple.com/videos/play/wwdc2022/10015) — Discover how you can design great collaboration experiences using Apple platforms. We’ll show you how to combine the Share Sheet, live editing notifications, Messages, FaceTime, and your app’s existing collaboration features to help people connect and collaborate effortlessly.
-- <a href="https://developer.apple.com/videos/play/wwdc2022/10095"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/9785075B-13E9-4631-AD74-77B814019BF4/6589_wide_250x141_2x.jpg" alt="9785075b 13e9 4631 ad74 77b814019bf4" width="64"></a> [Enhance collaboration experiences with Messages](https://developer.apple.com/videos/play/wwdc2022/10095) — Discover how you can help improve communication and collaboration in your app with Collaboration in Messages. Learn how to tie a document to Messages conversations for simple sharing and discussion. Explore how you can keep everyone in the conversation up to date on the latest activity in the document. And find out how you can add customizable UI in your app to manage collaboration details and connect documents to Messages conversations and FaceTime calls. 
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2022/10015"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/74342B30-92E9-48F3-B0F2-6E42C8FD9391/6506_wide_250x141_2x.jpg" alt="74342b30 92e9 48f3 b0f2 6e42c8fd9391" width="64"></a>  
+**[Design for Collaboration with Messages](https://developer.apple.com/videos/play/wwdc2022/10015)**  
+Discover how you can design great collaboration experiences using Apple platforms. We’ll show you how to combine the Share Sheet, live editing notifications, Messages, FaceTime, and your app’s existing collaboration features to help people connect and collaborate effortlessly.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2022/10095"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/9785075B-13E9-4631-AD74-77B814019BF4/6589_wide_250x141_2x.jpg" alt="9785075b 13e9 4631 ad74 77b814019bf4" width="64"></a>  
+**[Enhance collaboration experiences with Messages](https://developer.apple.com/videos/play/wwdc2022/10095)**  
+Discover how you can help improve communication and collaboration in your app with Collaboration in Messages. Learn how to tie a document to Messages conversations for simple sharing and discussion. Explore how you can keep everyone in the conversation up to date on the latest activity in the document. And find out how you can add customizable UI in your app to manage collaboration details and connect documents to Messages conversations and FaceTime calls. 
 
 To learn more about the SharedWithYou framework, we recommend watching "Add Shared with You to your app.” For more information on adding collaboration APIs to apps that have custom collaboration infrastructure, check out "Integrate your custom collaboration app with Messages.”
-- <a href="https://developer.apple.com/videos/play/wwdc2022/10093"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/39FE3E81-AB11-4FEE-AE05-37951E2ADB12/6587_wide_250x141_2x.jpg" alt="39fe3e81 ab11 4fee ae05 37951e2adb12" width="64"></a> [Integrate your custom collaboration app with Messages](https://developer.apple.com/videos/play/wwdc2022/10093) — Discover how the SharedWithYou framework can augment your app's collaboration infrastructure. We'll show you how to send secure invitations to collaborative content and synchronize participant changes. We'll also cover displaying content updates within the relevant conversation.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2022/10093"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/39FE3E81-AB11-4FEE-AE05-37951E2ADB12/6587_wide_250x141_2x.jpg" alt="39fe3e81 ab11 4fee ae05 37951e2adb12" width="64"></a>  
+**[Integrate your custom collaboration app with Messages](https://developer.apple.com/videos/play/wwdc2022/10093)**  
+Discover how the SharedWithYou framework can augment your app's collaboration infrastructure. We'll show you how to send secure invitations to collaborative content and synchronize participant changes. We'll also cover displaying content updates within the relevant conversation.
 
 For an introduction to SharedWithYou, watch "Add Shared with You to your app" from WWDC22. For an overview of the collaboration UI APIs, watch "Enhance collaboration experiences with Messages" from WWDC22.
+
+</td>
+</tr>
+</table>
 
 ## Change log
 

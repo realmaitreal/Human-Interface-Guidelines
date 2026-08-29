@@ -91,9 +91,31 @@ If you need to direct someone to a setting, provide a direct link or button, rat
 
 #### Videos
 
-- <a href="https://developer.apple.com/videos/play/wwdc2026/290"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/0D5455B4-E5C7-4D30-918C-06AD589E3C6D/10829_wide_250x141_2x.jpg" alt="0d5455b4 e5c7 4d30 918c 06ad589e3c6d" width="64"></a> [Craft clear names for features and labels in your app](https://developer.apple.com/videos/play/wwdc2026/290) — The names of your products, features, and labels can determine how people understand and navigate your app. Explore the principles behind thoughtful naming in app design, examine the patterns used across Apple apps, and learn how to make naming decisions with intention.
-- <a href="https://developer.apple.com/videos/play/wwdc2025/404"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/B533077E-165E-43D5-98B8-DBF95101C0B2/10001_wide_250x141_2x.jpg" alt="b533077e 165e 43d5 98b8 dbf95101c0b2" width="64"></a> [Make a big impact with small writing changes](https://developer.apple.com/videos/play/wwdc2025/404) — With the new design system across platforms, now’s a perfect time to revisit the writing in your UI too. Learn how a few small changes, like removing repetition and leading with benefits, can quickly enhance the usability and clarity of your app.
-- <a href="https://developer.apple.com/videos/play/wwdc2022/10037"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/E58B8A59-15C1-4FB4-B61A-23DBA2AF6D28/6530_wide_250x141_2x.jpg" alt="e58b8a59 15c1 4fb4 b61a 23dba2af6d28" width="64"></a> [Writing for interfaces](https://developer.apple.com/videos/play/wwdc2022/10037) — The words and phrases you choose for your app matter. Whether you’re writing an alert, building an onboarding experience, or describing an image for accessibility, learn how you can design through the lens of language and help people get the most from your app. We'll show you how to create clear, conversational, and helpful writing and provide tips for applying these techniques to your work.
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2026/290"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/0D5455B4-E5C7-4D30-918C-06AD589E3C6D/10829_wide_250x141_2x.jpg" alt="0d5455b4 e5c7 4d30 918c 06ad589e3c6d" width="64"></a>  
+**[Craft clear names for features and labels in your app](https://developer.apple.com/videos/play/wwdc2026/290)**  
+The names of your products, features, and labels can determine how people understand and navigate your app. Explore the principles behind thoughtful naming in app design, examine the patterns used across Apple apps, and learn how to make naming decisions with intention.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2025/404"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/B533077E-165E-43D5-98B8-DBF95101C0B2/10001_wide_250x141_2x.jpg" alt="b533077e 165e 43d5 98b8 dbf95101c0b2" width="64"></a>  
+**[Make a big impact with small writing changes](https://developer.apple.com/videos/play/wwdc2025/404)**  
+With the new design system across platforms, now’s a perfect time to revisit the writing in your UI too. Learn how a few small changes, like removing repetition and leading with benefits, can quickly enhance the usability and clarity of your app.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2022/10037"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/E58B8A59-15C1-4FB4-B61A-23DBA2AF6D28/6530_wide_250x141_2x.jpg" alt="e58b8a59 15c1 4fb4 b61a 23dba2af6d28" width="64"></a>  
+**[Writing for interfaces](https://developer.apple.com/videos/play/wwdc2022/10037)**  
+The words and phrases you choose for your app matter. Whether you’re writing an alert, building an onboarding experience, or describing an image for accessibility, learn how you can design through the lens of language and help people get the most from your app. We'll show you how to create clear, conversational, and helpful writing and provide tips for applying these techniques to your work.
+
+</td>
+</tr>
+</table>
 
 ## Change log
 

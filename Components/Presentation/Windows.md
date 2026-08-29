@@ -172,7 +172,17 @@ You can use a volume to display 2D or 3D content that people can view from any a
 
 #### Videos
 
-- <a href="https://developer.apple.com/videos/play/wwdc2025/208"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/873F40BE-101A-4C0D-99F0-F5C7CE7B47A3/10046_wide_250x141_2x.jpg" alt="873f40be 101a 4c0d 99f0 f5c7ce7b47a3" width="64"></a> [Elevate the design of your iPad app](https://developer.apple.com/videos/play/wwdc2025/208) — Make your app look and feel great on iPadOS. Learn best practices for designing a responsive layout for resizable app windows. Get familiar with window controls and explore the best ways to accommodate them. Discover the building blocks of a great menu bar. And meet the new pointer and its updated effects.
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2025/208"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/873F40BE-101A-4C0D-99F0-F5C7CE7B47A3/10046_wide_250x141_2x.jpg" alt="873f40be 101a 4c0d 99f0 f5c7ce7b47a3" width="64"></a>  
+**[Elevate the design of your iPad app](https://developer.apple.com/videos/play/wwdc2025/208)**  
+Make your app look and feel great on iPadOS. Learn best practices for designing a responsive layout for resizable app windows. Get familiar with window controls and explore the best ways to accommodate them. Discover the building blocks of a great menu bar. And meet the new pointer and its updated effects.
+
+</td>
+</tr>
+</table>
 
 ## Change log
 

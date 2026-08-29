@@ -42,7 +42,17 @@ In addition to expressing your brand in your [app icon](App%20icons.md) and thro
 
 #### Videos
 
-- <a href="https://developer.apple.com/videos/play/wwdc2026/251"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/6FEC9174-21F2-4CEC-9151-427D8CCB7470/10774_wide_250x141_2x.jpg" alt="6fec9174 21f2 4cec 9151 427d8ccb7470" width="64"></a> [Communicate your brand identity on iOS](https://developer.apple.com/videos/play/wwdc2026/251) — Explore practical approaches to branding using typography, color, components, and interactions that balance the familiar with the unique.
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2026/251"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/6FEC9174-21F2-4CEC-9151-427D8CCB7470/10774_wide_250x141_2x.jpg" alt="6fec9174 21f2 4cec 9151 427d8ccb7470" width="64"></a>  
+**[Communicate your brand identity on iOS](https://developer.apple.com/videos/play/wwdc2026/251)**  
+Explore practical approaches to branding using typography, color, components, and interactions that balance the familiar with the unique.
+
+</td>
+</tr>
+</table>
 
 ---
 *Source: [https://developer.apple.com/design/human-interface-guidelines/branding](https://developer.apple.com/design/human-interface-guidelines/branding)*

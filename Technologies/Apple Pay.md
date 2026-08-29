@@ -473,8 +473,18 @@ You can use plain text to promote Apple Pay and indicate that Apple Pay is a pay
 
 #### Videos
 
-- <a href="https://developer.apple.com/videos/play/wwdc2025/201"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/FC715972-F367-4C86-A291-5C0358E5E230/9873_wide_250x141_2x.jpg" alt="fc715972 f367 4c86 a291 5c0358e5e230" width="64"></a> [What’s new in Apple Pay](https://developer.apple.com/videos/play/wwdc2025/201) — Discover the latest improvements and new APIs in Apple Pay. You’ll discover enhancements to the Apple Pay eCommerce experience, like the new dynamic payment button, and learn how to take advantage of enhanced support for preauthorized payments. We’ll cover brand-new features coming to order tracking in Wallet, and recommendations to help your orders look their best.
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2025/201"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/FC715972-F367-4C86-A291-5C0358E5E230/9873_wide_250x141_2x.jpg" alt="fc715972 f367 4c86 a291 5c0358e5e230" width="64"></a>  
+**[What’s new in Apple Pay](https://developer.apple.com/videos/play/wwdc2025/201)**  
+Discover the latest improvements and new APIs in Apple Pay. You’ll discover enhancements to the Apple Pay eCommerce experience, like the new dynamic payment button, and learn how to take advantage of enhanced support for preauthorized payments. We’ll cover brand-new features coming to order tracking in Wallet, and recommendations to help your orders look their best.
 We’ll also dive into FinanceKit’s new background delivery APIs, allowing financial management apps to get the latest data, even when they’re not active.
+
+</td>
+</tr>
+</table>
 
 ## Change log
 

@@ -628,13 +628,35 @@ As you design icons and images for an extra large complication, use the followin
 
 #### Videos
 
-- <a href="https://developer.apple.com/videos/play/wwdc2023/10309"><img src="https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/56D03FE8-0566-429A-81D2-2F6566031498/8390_wide_250x141_2x.jpg" alt="56d03fe8 0566 429a 81d2 2f6566031498" width="64"></a> [Design widgets for the Smart Stack on Apple Watch](https://developer.apple.com/videos/play/wwdc2023/10309) — Bring your widgets to watchOS with the new Smart Stack. We’ll show you how to use standard design layouts, color and iconography, and signal-based relevancy to ensure your app’s widgets are glanceable, distinctive and smart.
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2023/10309"><img src="https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/56D03FE8-0566-429A-81D2-2F6566031498/8390_wide_250x141_2x.jpg" alt="56d03fe8 0566 429a 81d2 2f6566031498" width="64"></a>  
+**[Design widgets for the Smart Stack on Apple Watch](https://developer.apple.com/videos/play/wwdc2023/10309)**  
+Bring your widgets to watchOS with the new Smart Stack. We’ll show you how to use standard design layouts, color and iconography, and signal-based relevancy to ensure your app’s widgets are glanceable, distinctive and smart.
 
 When you’re ready to make your own, watch this code-along: "Build widgets for the Smart Stack on watchOS"
-- <a href="https://developer.apple.com/videos/play/wwdc2022/10051"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/34240770-1E20-456E-907F-3D06D6C87AFE/6544_wide_250x141_2x.jpg" alt="34240770 1e20 456e 907f 3d06d6c87afe" width="64"></a> [Go further with Complications in WidgetKit](https://developer.apple.com/videos/play/wwdc2022/10051) — Discover how you can use WidgetKit to create beautiful complications on watch faces. We'll introduce you to the watchOS-specific features found in WidgetKit, and help you migrate from existing ClockKit complications.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2022/10051"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/34240770-1E20-456E-907F-3D06D6C87AFE/6544_wide_250x141_2x.jpg" alt="34240770 1e20 456e 907f 3d06d6c87afe" width="64"></a>  
+**[Go further with Complications in WidgetKit](https://developer.apple.com/videos/play/wwdc2022/10051)**  
+Discover how you can use WidgetKit to create beautiful complications on watch faces. We'll introduce you to the watchOS-specific features found in WidgetKit, and help you migrate from existing ClockKit complications.
 
 For more on WidgetKit, watch “Complications and Widgets: Reloaded” from WWDC22.
-- <a href="https://developer.apple.com/videos/play/wwdc2022/10050"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/A37E04FC-826F-44B5-A5D8-36B41E5F73E5/6543_wide_250x141_2x.jpg" alt="a37e04fc 826f 44b5 a5d8 36b41e5f73e5" width="64"></a> [Complications and widgets: Reloaded](https://developer.apple.com/videos/play/wwdc2022/10050) — Our widgets code-along returns as we adventure onto the watchOS and iOS Lock Screen. Learn about the latest improvements to WidgetKit that help power complex complications on watchOS and can help you create Lock Screen widgets for iPhone. We’ll show you how to incorporate the latest SwiftUI views to provide great glanceable data, explore how each platform renders content, and learn how you can customize the design and feel of your content within a widget or complication.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2022/10050"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/A37E04FC-826F-44B5-A5D8-36B41E5F73E5/6543_wide_250x141_2x.jpg" alt="a37e04fc 826f 44b5 a5d8 36b41e5f73e5" width="64"></a>  
+**[Complications and widgets: Reloaded](https://developer.apple.com/videos/play/wwdc2022/10050)**  
+Our widgets code-along returns as we adventure onto the watchOS and iOS Lock Screen. Learn about the latest improvements to WidgetKit that help power complex complications on watchOS and can help you create Lock Screen widgets for iPhone. We’ll show you how to incorporate the latest SwiftUI views to provide great glanceable data, explore how each platform renders content, and learn how you can customize the design and feel of your content within a widget or complication.
+
+</td>
+</tr>
+</table>
 
 ## Change log
 

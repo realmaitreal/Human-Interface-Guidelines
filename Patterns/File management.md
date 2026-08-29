@@ -116,9 +116,19 @@ For example, you can use a Finder Sync extension to:
 
 #### Videos
 
-- <a href="https://developer.apple.com/videos/play/wwdc2020/10039"><img src="https://devimages-cdn.apple.com/wwdc-services/images/49/68960E87-E488-40C3-90E3-A820B5119FF0/3727_wide_250x141_2x.jpg" alt="68960e87 e488 40c3 90e3 a820b5119ff0" width="64"></a> [Build document-based apps in SwiftUI](https://developer.apple.com/videos/play/wwdc2020/10039) — Learn how to build a document-based app entirely in SwiftUI! We’ll walk you through the DocumentGroup API and how it composes with your App and Scenes, allowing you to add out-of-the-box support for document management — such as document browsing and standard commands — no heavy lifting required. You’ll learn to set up Universal Type Identifiers as well as gain understanding into what makes a top-notch document-based app.
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2020/10039"><img src="https://devimages-cdn.apple.com/wwdc-services/images/49/68960E87-E488-40C3-90E3-A820B5119FF0/3727_wide_250x141_2x.jpg" alt="68960e87 e488 40c3 90e3 a820b5119ff0" width="64"></a>  
+**[Build document-based apps in SwiftUI](https://developer.apple.com/videos/play/wwdc2020/10039)**  
+Learn how to build a document-based app entirely in SwiftUI! We’ll walk you through the DocumentGroup API and how it composes with your App and Scenes, allowing you to add out-of-the-box support for document management — such as document browsing and standard commands — no heavy lifting required. You’ll learn to set up Universal Type Identifiers as well as gain understanding into what makes a top-notch document-based app.
 
 To get the most out of this session, you should first familiarize yourself with building apps in SwiftUI. Check out "App essentials in SwiftUI" to learn more.
+
+</td>
+</tr>
+</table>
 
 ## Change log
 

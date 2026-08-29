@@ -50,7 +50,17 @@ If your app or game loads assets, levels, or other content, design the behavior 
 
 #### Videos
 
-- <a href="https://developer.apple.com/videos/play/wwdc2025/325"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/A51258F3-769A-4301-BE75-0DDE23322569/9860_wide_250x141_2x.jpg" alt="a51258f3 769a 4301 be75 0dde23322569" width="64"></a> [Discover Apple-Hosted Background Assets](https://developer.apple.com/videos/play/wwdc2025/325) — Building on Background Assets, this session will introduce the new capability to download asset packs of content for games and other applications. Learn how Apple can host these asset packs for you or how to manage self-hosting options. We’ll delve into the native API integration and the corresponding App Store implementations, providing you with the tools to enhance your app’s content delivery and user experience.
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2025/325"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/A51258F3-769A-4301-BE75-0DDE23322569/9860_wide_250x141_2x.jpg" alt="a51258f3 769a 4301 be75 0dde23322569" width="64"></a>  
+**[Discover Apple-Hosted Background Assets](https://developer.apple.com/videos/play/wwdc2025/325)**  
+Building on Background Assets, this session will introduce the new capability to download asset packs of content for games and other applications. Learn how Apple can host these asset packs for you or how to manage self-hosting options. We’ll delve into the native API integration and the corresponding App Store implementations, providing you with the tools to enhance your app’s content delivery and user experience.
+
+</td>
+</tr>
+</table>
 
 ## Change log
 

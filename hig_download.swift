@@ -610,22 +610,58 @@ func linkThumbnailHTML(_ ref: JSONDict, _ ctx: Context, pageUrl: String) -> Stri
     return pageUrl.isEmpty ? img : "<a href=\"\(htmlEscapeAttr(pageUrl))\">\(img)</a>"
 }
 
+private let linkCardGridColumns = 3
+
+/// Lays out thumbnailed entries as an HTML table grid, `columns` per row —
+/// the closest plain-Markdown analogue of Apple's own tile grid (no CSS,
+/// so no gradient tile backgrounds, but the side-by-side card shape reads
+/// the same). Reuses the blank-line-after-<td> convention already used for
+/// multi-column "row" blocks so titles/links/descriptions parse as normal
+/// Markdown inside each cell.
+func renderCardGrid(_ items: [(thumb: String?, title: String, desc: String)]) -> String {
+    func cell(_ item: (thumb: String?, title: String, desc: String)) -> String {
+        var content = item.thumb.map { "\($0)  \n" } ?? ""
+        content += "**\(item.title)**"
+        if !item.desc.isEmpty { content += "  \n\(item.desc)" }
+        return "<td valign=\"top\">\n\n\(content)\n\n</td>"
+    }
+    var rows: [String] = []
+    var i = 0
+    while i < items.count {
+        let chunk = items[i..<min(i + linkCardGridColumns, items.count)]
+        rows.append("<tr>\n\(chunk.map(cell).joined(separator: "\n"))\n</tr>")
+        i += linkCardGridColumns
+    }
+    return "<table>\n\(rows.joined(separator: "\n"))\n</table>\n\n"
+}
+
 func renderLinksBlock(_ b: JSONDict, _ ctx: Context) -> String {
-    var lines: [String] = []
-    for identAny in jArr(b, "items") {
-        guard let ident = identAny as? String else { continue }
+    struct Item { let title: String; let desc: String; let thumb: String? }
+
+    let parsed: [Item] = jStrArr(b, "items").map { ident in
         let ref = jDict(ctx.refs, ident)
         let text = orDefault(jStrOpt(ref, "title"), slugOf(ident).replacingOccurrences(of: "-", with: " "))
         let url = localOrExternal(ident, ctx)
-        var body = url.isEmpty ? esc(text) : "[\(esc(text))](\(url))"
+        let title = url.isEmpty ? esc(text) : "[\(esc(text))](\(url))"
+        var desc = ""
         if let abstract = ref["abstract"] as? [Any] {
-            let a = strip(renderInline(abstract, ctx))
-            if !a.isEmpty { body += " — \(a)" }
+            desc = strip(renderInline(abstract, ctx))
         }
-        let prefix = linkThumbnailHTML(ref, ctx, pageUrl: url).map { "\($0) " } ?? ""
-        lines.append("- \(prefix)\(body)")
+        let thumb = linkThumbnailHTML(ref, ctx, pageUrl: url)
+        return Item(title: title, desc: desc, thumb: thumb)
     }
-    return lines.isEmpty ? "" : lines.joined(separator: "\n") + "\n\n"
+    guard !parsed.isEmpty else { return "" }
+
+    // Topic indexes (category pages, the root README) carry a thumbnail per
+    // entry — lay those out as a card grid, closer to Apple's own tile
+    // grid. Plain reference lists without thumbnails (e.g. "Videos") stay
+    // a simple bullet list.
+    if parsed.contains(where: { $0.thumb != nil }) {
+        return renderCardGrid(parsed.map { ($0.thumb, $0.title, $0.desc) })
+    }
+
+    let lines = parsed.map { $0.desc.isEmpty ? "- \($0.title)" : "- \($0.title) — \($0.desc)" }
+    return lines.joined(separator: "\n") + "\n\n"
 }
 
 func renderTermList(_ b: JSONDict, _ ctx: Context) -> String {

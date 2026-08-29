@@ -52,7 +52,17 @@ People expect undo and redo to let them reverse their recent actions, so they’
 
 #### Videos
 
-- <a href="https://developer.apple.com/videos/play/wwdc2017/802"><img src="https://devimages-cdn.apple.com/wwdc-services/images/7/2546ECBD-6443-41EC-921D-6429026F8B67/1700_wide_250x141_2x.jpg" alt="2546ecbd 6443 41ec 921d 6429026f8b67" width="64"></a> [Essential Design Principles](https://developer.apple.com/videos/play/wwdc2017/802) — Design principles are the key to understanding how design serves human needs for safety, meaning, achievement and beauty. Learn what these principles are and how they can help you design more welcoming, understandable, empowering and gratifying user experiences.
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2017/802"><img src="https://devimages-cdn.apple.com/wwdc-services/images/7/2546ECBD-6443-41EC-921D-6429026F8B67/1700_wide_250x141_2x.jpg" alt="2546ecbd 6443 41ec 921d 6429026f8b67" width="64"></a>  
+**[Essential Design Principles](https://developer.apple.com/videos/play/wwdc2017/802)**  
+Design principles are the key to understanding how design serves human needs for safety, meaning, achievement and beauty. Learn what these principles are and how they can help you design more welcoming, understandable, empowering and gratifying user experiences.
+
+</td>
+</tr>
+</table>
 
 ---
 *Source: [https://developer.apple.com/design/human-interface-guidelines/undo-and-redo](https://developer.apple.com/design/human-interface-guidelines/undo-and-redo)*

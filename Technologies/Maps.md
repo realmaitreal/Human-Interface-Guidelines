@@ -185,8 +185,24 @@ For developer guidance, see [WKInterfaceMap](https://developer.apple.com/documen
 
 #### Videos
 
-- <a href="https://developer.apple.com/videos/play/wwdc2025/204"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/33B45785-076C-43F4-85FC-8D11F70E7A57/9878_wide_250x141_2x.jpg" alt="33b45785 076c 43f4 85fc 8d11f70e7a57" width="64"></a> [Go further with MapKit](https://developer.apple.com/videos/play/wwdc2025/204) — Discover the latest updates to MapKit and MapKit JS. We’ll introduce a new type of directions — cycling — and show you how to enable 3D Look Around imagery on the web.  Learn how the new Geocoding API supports conversion between coordinates and addresses, and how to use the Address Representations API to get the most appropriate address for a region. Then we’ll wrap it up with a new way of referencing places that ensures your app will work seamlessly with App Intents.
-- <a href="https://developer.apple.com/videos/play/wwdc2024/10097"><img src="https://devimages-cdn.apple.com/wwdc-services/images/C03E6E6D-A32A-41D0-9E50-C3C6059820AA/04977BF3-7B89-4A9E-AE42-79BD268F4684/9212_wide_250x141_2x.jpg" alt="04977bf3 7b89 4a9e ae42 79bd268f4684" width="64"></a> [Unlock the power of places with MapKit](https://developer.apple.com/videos/play/wwdc2024/10097) — Discover powerful new ways to integrate maps into your apps and websites with MapKit and MapKit JS.  Learn how to save and reference unique places using Place ID. Check out improvements to search that make it more efficient to find relevant places.  Get introduced to the new Place Card API that lets you display rich information about places so customers can explore destinations right in your app. And, we’ll show you quick ways to embed maps in your website with our simplified token provisioning and Web Embed API.
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2025/204"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/33B45785-076C-43F4-85FC-8D11F70E7A57/9878_wide_250x141_2x.jpg" alt="33b45785 076c 43f4 85fc 8d11f70e7a57" width="64"></a>  
+**[Go further with MapKit](https://developer.apple.com/videos/play/wwdc2025/204)**  
+Discover the latest updates to MapKit and MapKit JS. We’ll introduce a new type of directions — cycling — and show you how to enable 3D Look Around imagery on the web.  Learn how the new Geocoding API supports conversion between coordinates and addresses, and how to use the Address Representations API to get the most appropriate address for a region. Then we’ll wrap it up with a new way of referencing places that ensures your app will work seamlessly with App Intents.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2024/10097"><img src="https://devimages-cdn.apple.com/wwdc-services/images/C03E6E6D-A32A-41D0-9E50-C3C6059820AA/04977BF3-7B89-4A9E-AE42-79BD268F4684/9212_wide_250x141_2x.jpg" alt="04977bf3 7b89 4a9e ae42 79bd268f4684" width="64"></a>  
+**[Unlock the power of places with MapKit](https://developer.apple.com/videos/play/wwdc2024/10097)**  
+Discover powerful new ways to integrate maps into your apps and websites with MapKit and MapKit JS.  Learn how to save and reference unique places using Place ID. Check out improvements to search that make it more efficient to find relevant places.  Get introduced to the new Place Card API that lets you display rich information about places so customers can explore destinations right in your app. And, we’ll show you quick ways to embed maps in your website with our simplified token provisioning and Web Embed API.
+
+</td>
+</tr>
+</table>
 
 ## Change log
 

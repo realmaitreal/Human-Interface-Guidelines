@@ -114,9 +114,31 @@ In watchOS, the system manages audio playback. An app can play short audio clips
 
 #### Videos
 
-- <a href="https://developer.apple.com/videos/play/wwdc2026/254"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/B8490021-03D2-483F-B1A9-A5018E2AE932/10777_wide_250x141_2x.jpg" alt="b8490021 03d2 483f b1a9 a5018e2ae932" width="64"></a> [Integrate MusicKit into your app](https://developer.apple.com/videos/play/wwdc2026/254) — Bring the power of Apple Music into your app using MusicKit. We’ll cover authorization, subscription-status checks, music selection, playback control, and cross-storefront song sharing. Learn how to use the new Music Picker to let people browse the Apple Music catalog and their personal libraries. We’ll also break down the differences between SystemMusicPlayer and ApplicationMusicPlayer, and show you how to observe playback state.
-- <a href="https://developer.apple.com/videos/play/wwdc2023/10271"><img src="https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/FAD92809-C8B7-4968-802C-C662B1AF6C94/8340_wide_250x141_2x.jpg" alt="fad92809 c8b7 4968 802c c662b1af6c94" width="64"></a> [Explore immersive sound design](https://developer.apple.com/videos/play/wwdc2023/10271) — Discover how you can use sound to enhance the experience of your visionOS apps and games. Learn how Apple designers select sounds and build soundscapes to create textural, immersive experiences. We’ll share how you can enrich basic interactions in your app with sound when you place audio cues spatially, vary repetitive sounds, and build moments of sonic delight into your app.
-- <a href="https://developer.apple.com/videos/play/wwdc2021/10265"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/28DB1BEB-3F4F-4418-ACD3-779DBFB889CB/5196_wide_250x141_2x.jpg" alt="28db1beb 3f4f 4418 acd3 779dbfb889cb" width="64"></a> [Immerse your app in Spatial Audio](https://developer.apple.com/videos/play/wwdc2021/10265) — Discover how spatial audio can help you provide a theater-like experience for media in your apps and on the web. We’ll show you how you can easily bring immersive audio to those listening with compatible hardware, and how to automatically deliver different listening experiences depending on someone’s bandwidth or connection — all with little to no change to your code. And gain recommendations on how you can tailor the experience in your app and use spatial audio to tell stories in new, exciting ways.
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2026/254"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/B8490021-03D2-483F-B1A9-A5018E2AE932/10777_wide_250x141_2x.jpg" alt="b8490021 03d2 483f b1a9 a5018e2ae932" width="64"></a>  
+**[Integrate MusicKit into your app](https://developer.apple.com/videos/play/wwdc2026/254)**  
+Bring the power of Apple Music into your app using MusicKit. We’ll cover authorization, subscription-status checks, music selection, playback control, and cross-storefront song sharing. Learn how to use the new Music Picker to let people browse the Apple Music catalog and their personal libraries. We’ll also break down the differences between SystemMusicPlayer and ApplicationMusicPlayer, and show you how to observe playback state.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2023/10271"><img src="https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/FAD92809-C8B7-4968-802C-C662B1AF6C94/8340_wide_250x141_2x.jpg" alt="fad92809 c8b7 4968 802c c662b1af6c94" width="64"></a>  
+**[Explore immersive sound design](https://developer.apple.com/videos/play/wwdc2023/10271)**  
+Discover how you can use sound to enhance the experience of your visionOS apps and games. Learn how Apple designers select sounds and build soundscapes to create textural, immersive experiences. We’ll share how you can enrich basic interactions in your app with sound when you place audio cues spatially, vary repetitive sounds, and build moments of sonic delight into your app.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2021/10265"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/28DB1BEB-3F4F-4418-ACD3-779DBFB889CB/5196_wide_250x141_2x.jpg" alt="28db1beb 3f4f 4418 acd3 779dbfb889cb" width="64"></a>  
+**[Immerse your app in Spatial Audio](https://developer.apple.com/videos/play/wwdc2021/10265)**  
+Discover how spatial audio can help you provide a theater-like experience for media in your apps and on the web. We’ll show you how you can easily bring immersive audio to those listening with compatible hardware, and how to automatically deliver different listening experiences depending on someone’s bandwidth or connection — all with little to no change to your code. And gain recommendations on how you can tailor the experience in your app and use spatial audio to tell stories in new, exciting ways.
+
+</td>
+</tr>
+</table>
 
 ## Change log
 

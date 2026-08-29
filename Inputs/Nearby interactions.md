@@ -60,8 +60,24 @@ On Apple Watch, Nearby Interaction APIs provide a peer device’s distance. Also
 
 #### Videos
 
-- <a href="https://developer.apple.com/videos/play/wwdc2021/10245"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/0F487599-C14E-48B0-AEB0-A752DFF26E95/5165_wide_250x141_2x.jpg" alt="0f487599 c14e 48b0 aeb0 a752dff26e95" width="64"></a> [Design for spatial interaction](https://developer.apple.com/videos/play/wwdc2021/10245) — Discover the principles for creating intuitive physical interactions between two or more devices, as demonstrated by Apple designers who worked on features for iPhone, HomePod mini, and AirTag. Explore how you can apply these patterns to your own app when designing features for Apple platforms, and help people using your app interact more directly with their surroundings.
-- <a href="https://developer.apple.com/videos/play/wwdc2020/10668"><img src="https://devimages-cdn.apple.com/wwdc-services/images/49/E6812719-14BF-4392-84FC-E1CFC1650B71/3558_wide_250x141_2x.jpg" alt="e6812719 14bf 4392 84fc e1cfc1650b71" width="64"></a> [Meet Nearby Interaction](https://developer.apple.com/videos/play/wwdc2020/10668) — The Nearby Interaction framework streams distance and direction between opted-in Apple devices containing the U1 chip. Discover how this powerful combination of hardware and software allow you to create intuitive spatial interactions based on the relative position of two or more devices. We'll walk you through this session-based API and show you how to deliver entirely new interactive experiences — all with privacy in mind.
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2021/10245"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/0F487599-C14E-48B0-AEB0-A752DFF26E95/5165_wide_250x141_2x.jpg" alt="0f487599 c14e 48b0 aeb0 a752dff26e95" width="64"></a>  
+**[Design for spatial interaction](https://developer.apple.com/videos/play/wwdc2021/10245)**  
+Discover the principles for creating intuitive physical interactions between two or more devices, as demonstrated by Apple designers who worked on features for iPhone, HomePod mini, and AirTag. Explore how you can apply these patterns to your own app when designing features for Apple platforms, and help people using your app interact more directly with their surroundings.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2020/10668"><img src="https://devimages-cdn.apple.com/wwdc-services/images/49/E6812719-14BF-4392-84FC-E1CFC1650B71/3558_wide_250x141_2x.jpg" alt="e6812719 14bf 4392 84fc e1cfc1650b71" width="64"></a>  
+**[Meet Nearby Interaction](https://developer.apple.com/videos/play/wwdc2020/10668)**  
+The Nearby Interaction framework streams distance and direction between opted-in Apple devices containing the U1 chip. Discover how this powerful combination of hardware and software allow you to create intuitive spatial interactions based on the relative position of two or more devices. We'll walk you through this session-based API and show you how to deliver entirely new interactive experiences — all with privacy in mind.
+
+</td>
+</tr>
+</table>
 
 ## Change log
 

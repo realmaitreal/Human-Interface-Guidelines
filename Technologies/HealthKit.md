@@ -110,9 +110,31 @@ The Apple Health icon shows that an app works with HealthKit and the Health app.
 
 #### Videos
 
-- <a href="https://developer.apple.com/videos/play/wwdc2026/207"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/8DB078C5-365C-4584-85B4-F6F97EACBC68/10717_wide_250x141_2x.jpg" alt="8db078c5 365c 4584 85b4 f6f97eacbc68" width="64"></a> [Deliver workout insights with HealthKit workout zones](https://developer.apple.com/videos/play/wwdc2026/207) — HealthKit makes it easier to provide workout insights — like heart rate and cycling power zones — in your app. Learn to leverage the built-in, personalized zones or create custom ones. Discover how to use the current zone and time spent in each zone to provide meaningful guidance during and after workouts.
-- <a href="https://developer.apple.com/videos/play/wwdc2025/321"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/7DE5718A-6B6C-41A6-A60B-2C9A6D7B7CE1/9855_wide_250x141_2x.jpg" alt="7de5718a 6b6c 41a6 a60b 2c9a6d7b7ce1" width="64"></a> [Meet the HealthKit Medications API](https://developer.apple.com/videos/play/wwdc2025/321) — Discover the new Medications API in HealthKit. Explore an example app that uses the new API, learn how to access medications and doses, and find out how your app will manage authorization for this new kind of data.
-- <a href="https://developer.apple.com/videos/play/wwdc2025/322"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/12499BF9-8217-4A56-81CA-5E7CB66904DD/9856_wide_250x141_2x.jpg" alt="12499bf9 8217 4a56 81ca 5e7cb66904dd" width="64"></a> [Track workouts with HealthKit on iOS and iPadOS](https://developer.apple.com/videos/play/wwdc2025/322) — Learn best practices for building a great workout experience for iOS. Review the life cycle of a workout session, explore the differences between workouts on Apple Watch and iPhone, and find out how to use Live Activities and Siri to pump up your app’s Lock Screen experience.
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2026/207"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/8DB078C5-365C-4584-85B4-F6F97EACBC68/10717_wide_250x141_2x.jpg" alt="8db078c5 365c 4584 85b4 f6f97eacbc68" width="64"></a>  
+**[Deliver workout insights with HealthKit workout zones](https://developer.apple.com/videos/play/wwdc2026/207)**  
+HealthKit makes it easier to provide workout insights — like heart rate and cycling power zones — in your app. Learn to leverage the built-in, personalized zones or create custom ones. Discover how to use the current zone and time spent in each zone to provide meaningful guidance during and after workouts.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2025/321"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/7DE5718A-6B6C-41A6-A60B-2C9A6D7B7CE1/9855_wide_250x141_2x.jpg" alt="7de5718a 6b6c 41a6 a60b 2c9a6d7b7ce1" width="64"></a>  
+**[Meet the HealthKit Medications API](https://developer.apple.com/videos/play/wwdc2025/321)**  
+Discover the new Medications API in HealthKit. Explore an example app that uses the new API, learn how to access medications and doses, and find out how your app will manage authorization for this new kind of data.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2025/322"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/12499BF9-8217-4A56-81CA-5E7CB66904DD/9856_wide_250x141_2x.jpg" alt="12499bf9 8217 4a56 81ca 5e7cb66904dd" width="64"></a>  
+**[Track workouts with HealthKit on iOS and iPadOS](https://developer.apple.com/videos/play/wwdc2025/322)**  
+Learn best practices for building a great workout experience for iOS. Review the life cycle of a workout session, explore the differences between workouts on Apple Watch and iPhone, and find out how to use Live Activities and Siri to pump up your app’s Lock Screen experience.
+
+</td>
+</tr>
+</table>
 
 ---
 *Source: [https://developer.apple.com/design/human-interface-guidelines/healthkit](https://developer.apple.com/design/human-interface-guidelines/healthkit)*

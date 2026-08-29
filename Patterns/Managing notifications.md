@@ -81,10 +81,26 @@ By default, the notification settings people use for apps on their iPhone apply 
 
 #### Videos
 
-- <a href="https://developer.apple.com/videos/play/wwdc2021/10091"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/B63A08EA-8856-4C77-9E1B-EA1CAD990619/4986_wide_250x141_2x.jpg" alt="b63a08ea 8856 4c77 9e1b ea1cad990619" width="64"></a> [Send communication and Time Sensitive notifications](https://developer.apple.com/videos/play/wwdc2021/10091) — Learn more about the evolution of notifications on Apple platforms. We’ll explore how you can help people manage notifications within your app, including how you can craft meaningful moments with interruption levels and Time Sensitive notifications. And we’ll introduce you to communication notifications, providing a richer experience for calls and messages in your app through SiriKit.
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2021/10091"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/B63A08EA-8856-4C77-9E1B-EA1CAD990619/4986_wide_250x141_2x.jpg" alt="b63a08ea 8856 4c77 9e1b ea1cad990619" width="64"></a>  
+**[Send communication and Time Sensitive notifications](https://developer.apple.com/videos/play/wwdc2021/10091)**  
+Learn more about the evolution of notifications on Apple platforms. We’ll explore how you can help people manage notifications within your app, including how you can craft meaningful moments with interruption levels and Time Sensitive notifications. And we’ll introduce you to communication notifications, providing a richer experience for calls and messages in your app through SiriKit.
 
 To get the most out of this session, we recommend having experience creating local and remote notifications, as well as some familiarity with SiriKit intents.
-- <a href="https://developer.apple.com/videos/play/wwdc2020/10095"><img src="https://devimages-cdn.apple.com/wwdc-services/images/49/3D8237BC-06E3-4711-8552-7008A5D5BAAD/3764_wide_250x141_2x.jpg" alt="3d8237bc 06e3 4711 8552 7008a5d5baad" width="64"></a> [The Push Notifications primer](https://developer.apple.com/videos/play/wwdc2020/10095) — Help people get the most out of your app with push notifications for important events and updates — and by delivering up-to-date data in the background, so that it is ready when they open your app. Discover how you can use notifications and alert people to timely and relevant information. Learn the differences between alert and background notifications, how to adopt them in your apps, and avoid mistakes by using the right APIs for the job.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2020/10095"><img src="https://devimages-cdn.apple.com/wwdc-services/images/49/3D8237BC-06E3-4711-8552-7008A5D5BAAD/3764_wide_250x141_2x.jpg" alt="3d8237bc 06e3 4711 8552 7008a5d5baad" width="64"></a>  
+**[The Push Notifications primer](https://developer.apple.com/videos/play/wwdc2020/10095)**  
+Help people get the most out of your app with push notifications for important events and updates — and by delivering up-to-date data in the background, so that it is ready when they open your app. Discover how you can use notifications and alert people to timely and relevant information. Learn the differences between alert and background notifications, how to adopt them in your apps, and avoid mistakes by using the right APIs for the job.
+
+</td>
+</tr>
+</table>
 
 ---
 *Source: [https://developer.apple.com/design/human-interface-guidelines/managing-notifications](https://developer.apple.com/design/human-interface-guidelines/managing-notifications)*

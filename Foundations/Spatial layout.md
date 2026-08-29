@@ -94,9 +94,31 @@ To learn more about windows and volumes in visionOS, see [visionOS](https://deve
 
 #### Videos
 
-- <a href="https://developer.apple.com/videos/play/wwdc2025/273"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/2EFC2AAC-0656-4A18-B4C9-8E23CCD81E90/9989_wide_250x141_2x.jpg" alt="2efc2aac 0656 4a18 b4c9 8e23ccd81e90" width="64"></a> [Meet SwiftUI spatial layout](https://developer.apple.com/videos/play/wwdc2025/273) — Explore new tools for building spatial experiences using SwiftUI. Learn the basics of 3D SwiftUI views on visionOS, customize existing layouts with depth alignments, and use modifiers to rotate and position views in space. Discover how to use spatial containers to align views in the same 3D space, helping you create immersive and engaging apps.
-- <a href="https://developer.apple.com/videos/play/wwdc2023/10072"><img src="https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/15489B11-8744-483D-AD38-EF78D8962FF4/8126_wide_250x141_2x.jpg" alt="15489b11 8744 483d ad38 ef78d8962ff4" width="64"></a> [Principles of spatial design](https://developer.apple.com/videos/play/wwdc2023/10072) — Discover the fundamentals of spatial design. Learn how to design with depth, scale, windows, and immersion, and apply best practices for creating comfortable, human-centered experiences that transform reality. Find out how you can use these spatial design principles to extend your existing app or bring a new idea to life.
-- <a href="https://developer.apple.com/videos/play/wwdc2023/10076"><img src="https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/38E4EE32-29B5-4478-B8B6-35B8ACA67B16/8130_wide_250x141_2x.jpg" alt="38e4ee32 29b5 4478 b8b6 35b8aca67b16" width="64"></a> [Design for spatial user interfaces](https://developer.apple.com/videos/play/wwdc2023/10076) — Learn how to design great interfaces for spatial computing apps. We’ll share how your existing screen-based knowledge easily translates into creating great experiences for visionOS. Explore guidelines for UI components, materials, and typography and find out how you can design experiences that are familiar, legible, and easy to use.
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2025/273"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/2EFC2AAC-0656-4A18-B4C9-8E23CCD81E90/9989_wide_250x141_2x.jpg" alt="2efc2aac 0656 4a18 b4c9 8e23ccd81e90" width="64"></a>  
+**[Meet SwiftUI spatial layout](https://developer.apple.com/videos/play/wwdc2025/273)**  
+Explore new tools for building spatial experiences using SwiftUI. Learn the basics of 3D SwiftUI views on visionOS, customize existing layouts with depth alignments, and use modifiers to rotate and position views in space. Discover how to use spatial containers to align views in the same 3D space, helping you create immersive and engaging apps.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2023/10072"><img src="https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/15489B11-8744-483D-AD38-EF78D8962FF4/8126_wide_250x141_2x.jpg" alt="15489b11 8744 483d ad38 ef78d8962ff4" width="64"></a>  
+**[Principles of spatial design](https://developer.apple.com/videos/play/wwdc2023/10072)**  
+Discover the fundamentals of spatial design. Learn how to design with depth, scale, windows, and immersion, and apply best practices for creating comfortable, human-centered experiences that transform reality. Find out how you can use these spatial design principles to extend your existing app or bring a new idea to life.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2023/10076"><img src="https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/38E4EE32-29B5-4478-B8B6-35B8ACA67B16/8130_wide_250x141_2x.jpg" alt="38e4ee32 29b5 4478 b8b6 35b8aca67b16" width="64"></a>  
+**[Design for spatial user interfaces](https://developer.apple.com/videos/play/wwdc2023/10076)**  
+Learn how to design great interfaces for spatial computing apps. We’ll share how your existing screen-based knowledge easily translates into creating great experiences for visionOS. Explore guidelines for UI components, materials, and typography and find out how you can design experiences that are familiar, legible, and easy to use.
+
+</td>
+</tr>
+</table>
 
 ## Change log
 

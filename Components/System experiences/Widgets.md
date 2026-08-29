@@ -491,9 +491,31 @@ As you design your widgets, use the following values for guidance.
 
 #### Videos
 
-- <a href="https://developer.apple.com/videos/play/wwdc2026/277"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/C841E94B-3DBA-464C-A751-43F15ADC12A5/10804_wide_250x141_2x.jpg" alt="c841e94b 3dba 464c a751 43f15adc12a5" width="64"></a> [WidgetKit foundations](https://developer.apple.com/videos/play/wwdc2026/277) — Widgets highlight your app’s most important content across the system, providing people with another opportunity to engage. Discover the different types of widgets and explore the qualities that make them memorable. Learn how to create widgets, keep them up to date, and offer ways for people to customize them through App Intents and dynamic styling.
-- <a href="https://developer.apple.com/videos/play/wwdc2025/278"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/126547AE-9E47-4E15-AC05-5C50AB08CBEE/9952_wide_250x141_2x.jpg" alt="126547ae 9e47 4e15 ac05 5c50ab08cbee" width="64"></a> [What’s new in widgets](https://developer.apple.com/videos/play/wwdc2025/278) — WidgetKit elevates your app with updates to widgets, Live Activities, and controls. Learn how to bring your widgets to visionOS, take them on the road with CarPlay, and make them look their best with accented rendering modes. Plus, find out how relevant widgets can be surfaced in the Smart Stack on watchOS, and discover how push notifications can be used to keep your widgets up to date.
-- <a href="https://developer.apple.com/videos/play/wwdc2025/255"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/4D354E1F-5016-49F7-9296-3D3722626480/9957_wide_250x141_2x.jpg" alt="4d354e1f 5016 49f7 9296 3d3722626480" width="64"></a> [Design widgets for visionOS](https://developer.apple.com/videos/play/wwdc2025/255) — Learn how you can design beautiful widgets for visionOS 26 that blend effortlessly into someone’s surroundings. Discover how you can add depth to your widget design and customize materials, sizes, and styles for spatial computing. We’ll share how to adapt your existing widgets for visionOS, or design new widgets that feel like real objects.
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2026/277"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/C841E94B-3DBA-464C-A751-43F15ADC12A5/10804_wide_250x141_2x.jpg" alt="c841e94b 3dba 464c a751 43f15adc12a5" width="64"></a>  
+**[WidgetKit foundations](https://developer.apple.com/videos/play/wwdc2026/277)**  
+Widgets highlight your app’s most important content across the system, providing people with another opportunity to engage. Discover the different types of widgets and explore the qualities that make them memorable. Learn how to create widgets, keep them up to date, and offer ways for people to customize them through App Intents and dynamic styling.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2025/278"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/126547AE-9E47-4E15-AC05-5C50AB08CBEE/9952_wide_250x141_2x.jpg" alt="126547ae 9e47 4e15 ac05 5c50ab08cbee" width="64"></a>  
+**[What’s new in widgets](https://developer.apple.com/videos/play/wwdc2025/278)**  
+WidgetKit elevates your app with updates to widgets, Live Activities, and controls. Learn how to bring your widgets to visionOS, take them on the road with CarPlay, and make them look their best with accented rendering modes. Plus, find out how relevant widgets can be surfaced in the Smart Stack on watchOS, and discover how push notifications can be used to keep your widgets up to date.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2025/255"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/4D354E1F-5016-49F7-9296-3D3722626480/9957_wide_250x141_2x.jpg" alt="4d354e1f 5016 49f7 9296 3d3722626480" width="64"></a>  
+**[Design widgets for visionOS](https://developer.apple.com/videos/play/wwdc2025/255)**  
+Learn how you can design beautiful widgets for visionOS 26 that blend effortlessly into someone’s surroundings. Discover how you can add depth to your widget design and customize materials, sizes, and styles for spatial computing. We’ll share how to adapt your existing widgets for visionOS, or design new widgets that feel like real objects.
+
+</td>
+</tr>
+</table>
 
 ## Change log
 

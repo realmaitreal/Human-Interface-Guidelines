@@ -285,7 +285,17 @@ The sign-up screen in your watchOS app needs to display the same set of informat
 
 #### Videos
 
-- <a href="https://developer.apple.com/videos/play/wwdc2026/210"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/60AD843F-4A38-4D0D-A6EA-4B9C8F85495A/10720_wide_250x141_2x.jpg" alt="60ad843f 4a38 4d0d a6ea 4b9c8f85495a" width="64"></a> [What’s new in Apple In-App Purchase](https://developer.apple.com/videos/play/wwdc2026/210) — Discover how monthly subscriptions with a 12-month commitment give people a more affordable option to pay for your subscription and secure a longer-term commitment. Explore how to configure and test this new payment option using App Store Connect, StoreKit APIs, Xcode testing, and more. Plus, learn about improvements to offer code redemption APIs, and enhancements to the App Review submission experience.
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2026/210"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/60AD843F-4A38-4D0D-A6EA-4B9C8F85495A/10720_wide_250x141_2x.jpg" alt="60ad843f 4a38 4d0d a6ea 4b9c8f85495a" width="64"></a>  
+**[What’s new in Apple In-App Purchase](https://developer.apple.com/videos/play/wwdc2026/210)**  
+Discover how monthly subscriptions with a 12-month commitment give people a more affordable option to pay for your subscription and secure a longer-term commitment. Explore how to configure and test this new payment option using App Store Connect, StoreKit APIs, Xcode testing, and more. Plus, learn about improvements to offer code redemption APIs, and enhancements to the App Review submission experience.
+
+</td>
+</tr>
+</table>
 
 ## Change log
 

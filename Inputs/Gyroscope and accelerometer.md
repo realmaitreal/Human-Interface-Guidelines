@@ -34,7 +34,17 @@ You can use accelerometer and gyroscope data to provide experiences based on rea
 
 #### Videos
 
-- <a href="https://developer.apple.com/videos/play/wwdc2021/10287"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/5077B5B0-643B-4E31-9C5E-6E766326D3F3/5225_wide_250x141_2x.jpg" alt="5077b5b0 643b 4e31 9c5e 6e766326d3f3" width="64"></a> [Measure health with motion](https://developer.apple.com/videos/play/wwdc2021/10287) — Discover how you can take your app’s health monitoring to the next level with motion data. Meet Walking Steadiness for iPhone and the six-minute-walk metric for Apple Watch: Walking Steadiness can help your app interpret someone’s quality of walking and risk of falling, while the six-minute-walk metric — along with the HealthKit estimate recalibration API — can track changes to walking endurance following acute events like surgery. We’ll show you how you can support these metrics and help provide actionable health data to people who use your app, helping improve patient care and clinical trials, especially as more services must be delivered remotely.
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2021/10287"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/5077B5B0-643B-4E31-9C5E-6E766326D3F3/5225_wide_250x141_2x.jpg" alt="5077b5b0 643b 4e31 9c5e 6e766326d3f3" width="64"></a>  
+**[Measure health with motion](https://developer.apple.com/videos/play/wwdc2021/10287)**  
+Discover how you can take your app’s health monitoring to the next level with motion data. Meet Walking Steadiness for iPhone and the six-minute-walk metric for Apple Watch: Walking Steadiness can help your app interpret someone’s quality of walking and risk of falling, while the six-minute-walk metric — along with the HealthKit estimate recalibration API — can track changes to walking endurance following acute events like surgery. We’ll show you how you can support these metrics and help provide actionable health data to people who use your app, helping improve patient care and clinical trials, especially as more services must be delivered remotely.
+
+</td>
+</tr>
+</table>
 
 ---
 *Source: [https://developer.apple.com/design/human-interface-guidelines/gyro-and-accelerometer](https://developer.apple.com/design/human-interface-guidelines/gyro-and-accelerometer)*

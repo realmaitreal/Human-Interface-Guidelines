@@ -182,9 +182,31 @@ Developer access to device cameras works differently in visionOS than it does in
 
 #### Videos
 
-- <a href="https://developer.apple.com/videos/play/wwdc2026/379"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/91B79F23-C28F-4E46-A066-887CB2AD6EE2/10943_wide_250x141_2x.jpg" alt="91b79f23 c28f 4e46 a066 887cb2ad6ee2" width="64"></a> [Meet Trust Insights](https://developer.apple.com/videos/play/wwdc2026/379) — Uncover how Trust Insights can help protect people from social scams and coercion. Explore how this new framework uses privacy-preserving machine learning to detect when someone may be coached into risky actions. Find out how to integrate Trust Insights into your app, interpret its signals, and design thoughtful interventions that safeguard people while respecting their privacy.
-- <a href="https://developer.apple.com/videos/play/wwdc2025/246"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/0A08BD06-2B59-45BA-AA75-C9206946195D/9945_wide_250x141_2x.jpg" alt="0a08bd06 2b59 45ba aa75 c9206946195d" width="64"></a> [Integrate privacy into your development process](https://developer.apple.com/videos/play/wwdc2025/246) — Learn how to build privacy into your apps from the planning stages through deployment. We’ll cover practical ways to integrate privacy at each step of the development lifecycle, focusing on data minimization, on-device processing, and transparency and control. You’ll discover how to use Apple’s tools and frameworks to protect user data and create a privacy-respecting app experience.
-- <a href="https://developer.apple.com/videos/play/wwdc2025/279"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/473C8E4A-1764-482D-BE24-B3A7BBDBD526/9996_wide_250x141_2x.jpg" alt="473c8e4a 1764 482d be24 b3a7bbdbd526" width="64"></a> [What’s new in passkeys](https://developer.apple.com/videos/play/wwdc2025/279) — Discover how iOS, iPadOS, macOS, and visionOS 26 enhance passkeys. We’ll explore key updates including: the new account creation API for streamlined sign-up, keeping passkeys up-to-date, new ways to drive passkey upgrades through automatic passkey upgrades and passkey management endpoints, and the secure import/export of passkeys. Learn how these improvements enhance user experience and security, and how to implement these updates in your apps to provide a smoother, more secure authentication experience. To get the most out of this video, first watch “Meet passkeys” from WWDC22.
+<table>
+<tr>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2026/379"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/91B79F23-C28F-4E46-A066-887CB2AD6EE2/10943_wide_250x141_2x.jpg" alt="91b79f23 c28f 4e46 a066 887cb2ad6ee2" width="64"></a>  
+**[Meet Trust Insights](https://developer.apple.com/videos/play/wwdc2026/379)**  
+Uncover how Trust Insights can help protect people from social scams and coercion. Explore how this new framework uses privacy-preserving machine learning to detect when someone may be coached into risky actions. Find out how to integrate Trust Insights into your app, interpret its signals, and design thoughtful interventions that safeguard people while respecting their privacy.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2025/246"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/0A08BD06-2B59-45BA-AA75-C9206946195D/9945_wide_250x141_2x.jpg" alt="0a08bd06 2b59 45ba aa75 c9206946195d" width="64"></a>  
+**[Integrate privacy into your development process](https://developer.apple.com/videos/play/wwdc2025/246)**  
+Learn how to build privacy into your apps from the planning stages through deployment. We’ll cover practical ways to integrate privacy at each step of the development lifecycle, focusing on data minimization, on-device processing, and transparency and control. You’ll discover how to use Apple’s tools and frameworks to protect user data and create a privacy-respecting app experience.
+
+</td>
+<td valign="top">
+
+<a href="https://developer.apple.com/videos/play/wwdc2025/279"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/473C8E4A-1764-482D-BE24-B3A7BBDBD526/9996_wide_250x141_2x.jpg" alt="473c8e4a 1764 482d be24 b3a7bbdbd526" width="64"></a>  
+**[What’s new in passkeys](https://developer.apple.com/videos/play/wwdc2025/279)**  
+Discover how iOS, iPadOS, macOS, and visionOS 26 enhance passkeys. We’ll explore key updates including: the new account creation API for streamlined sign-up, keeping passkeys up-to-date, new ways to drive passkey upgrades through automatic passkey upgrades and passkey management endpoints, and the secure import/export of passkeys. Learn how these improvements enhance user experience and security, and how to implement these updates in your apps to provide a smoother, more secure authentication experience. To get the most out of this video, first watch “Meet passkeys” from WWDC22.
+
+</td>
+</tr>
+</table>
 
 ## Change log
 
