@@ -1,4 +1,4 @@
-<!-- Auto-generated from Apple's Human Interface Guidelines by hig_download.py — do not edit by hand; this file is overwritten on each run. -->
+<!-- Auto-generated from Apple's Human Interface Guidelines by hig_download.swift — do not edit by hand; this file is overwritten on each run. -->
 
 # Human Interface Guidelines
 

@@ -34,6 +34,9 @@
 // No third-party dependencies — Foundation only.
 
 import Foundation
+#if canImport(FoundationNetworking)
+import FoundationNetworking  // URLSession lives here on Linux
+#endif
 
 let BASE = "https://developer.apple.com"
 let DATA_PREFIX = "/tutorials/data"

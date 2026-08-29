@@ -17,18 +17,13 @@ concurrency:
 
 jobs:
   update:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest # Swift toolchain is preinstalled here
     steps:
       - name: Check out repository
         uses: actions/checkout@v5
 
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.12"
-
       - name: Regenerate HIG Markdown
-        run: python3 hig_download.py --out . --readme --images remote --workers 12
+        run: swift hig_download.swift --out . --readme --images remote --workers 12
 
       - name: Commit and push if changed
         run: |
