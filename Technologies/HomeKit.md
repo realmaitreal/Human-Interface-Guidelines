@@ -353,7 +353,8 @@ See [Guidelines for Using Apple Trademarks](https://www.apple.com/legal/intellec
 
 #### Videos
 
-- [Add support for Matter in your smart home app](https://developer.apple.com/videos/play/wwdc2021/10298) — The enhanced and new APIs in HomeKit enable smart home developers to integrate with the new Matter protocol in the most convenient way. Tour the Matter protocol, and discover how to set up and manage Matter accessories on our platforms and within your smart home apps.
+- ![8c81f0e7 2e4c 4f4f 82fe a9ebc73a913d](https://devimages-cdn.apple.com/wwdc-services/images/119/8C81F0E7-2E4C-4F4F-82FE-A9EBC73A913D/5239_wide_250x141_2x.jpg)  
+  [Add support for Matter in your smart home app](https://developer.apple.com/videos/play/wwdc2021/10298) — The enhanced and new APIs in HomeKit enable smart home developers to integrate with the new Matter protocol in the most convenient way. Tour the Matter protocol, and discover how to set up and manage Matter accessories on our platforms and within your smart home apps.
 
 ## Change log
 

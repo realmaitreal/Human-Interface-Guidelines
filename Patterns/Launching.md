@@ -70,8 +70,10 @@ Launching begins when someone opens your app or game, includes an initial downlo
 
 #### Videos
 
-- [Optimizing App Launch](https://developer.apple.com/videos/play/wwdc2019/423) — Slow app launches are frustrating. Learn about the new app launch instrument and discover how to make your app launch fast. Gain insights into what happens during app launch and how to minimize, prioritize, and optimize work at this critical time. Hear tips and tricks from the engineers making iOS apps launch fast.
-- [Love at First Launch](https://developer.apple.com/videos/play/wwdc2017/816) — Engage people from the first moment they open your app, and keep them coming back for more. Learn tips on how to make a compelling first impression, methods for teaching new users about your app, and best practices when asking users for more information.
+- ![38776a03 1056 4a47 9ab0 e4a8652ad5c4](https://devimages-cdn.apple.com/wwdc-services/images/48/38776A03-1056-4A47-9AB0-E4A8652AD5C4/2662_wide_250x141_2x.jpg)  
+  [Optimizing App Launch](https://developer.apple.com/videos/play/wwdc2019/423) — Slow app launches are frustrating. Learn about the new app launch instrument and discover how to make your app launch fast. Gain insights into what happens during app launch and how to minimize, prioritize, and optimize work at this critical time. Hear tips and tricks from the engineers making iOS apps launch fast.
+- ![2c48f507 180b 4858 bb26 488c234b067f](https://devimages-cdn.apple.com/wwdc-services/images/7/2C48F507-180B-4858-BB26-488C234B067F/1920_wide_250x141_2x.jpg)  
+  [Love at First Launch](https://developer.apple.com/videos/play/wwdc2017/816) — Engage people from the first moment they open your app, and keep them coming back for more. Learn tips on how to make a compelling first impression, methods for teaching new users about your app, and best practices when asking users for more information.
 
 ## Change log
 

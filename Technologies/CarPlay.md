@@ -111,8 +111,10 @@ A CarPlay app needs to handle errors gracefully and report them to people only w
 
 #### Videos
 
-- [Rev up your CarPlay app](https://developer.apple.com/videos/play/wwdc2026/212) — Explore new features for your CarPlay audio, navigation, voice-based conversational apps, and more. Discover how to create CarPlay video apps so people can browse and watch their favorite videos in supported vehicles when parked. Learn how to integrate thumbnails, media information, and voice controls in your CarPlay app.
-- [Turbocharge your app for CarPlay](https://developer.apple.com/videos/play/wwdc2025/216) — Learn how to bring your Live Activities and widgets to CarPlay and CarPlay Ultra so people can view progress of their activities and see relevant information at a glance. Explore new template options available to all CarPlay apps, and learn how navigation apps can provide turn-by-turn metadata for display in the car’s instrument cluster or HUD.
+- ![41f1b2c2 aa24 42b1 87ca 03bc7e635cc4](https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/41F1B2C2-AA24-42B1-87CA-03BC7E635CC4/10722_wide_250x141_2x.jpg)  
+  [Rev up your CarPlay app](https://developer.apple.com/videos/play/wwdc2026/212) — Explore new features for your CarPlay audio, navigation, voice-based conversational apps, and more. Discover how to create CarPlay video apps so people can browse and watch their favorite videos in supported vehicles when parked. Learn how to integrate thumbnails, media information, and voice controls in your CarPlay app.
+- ![3ae21c44 8831 4c0a bcbe 68c437fb8fc8](https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/3AE21C44-8831-4C0A-BCBE-68C437FB8FC8/9903_wide_250x141_2x.jpg)  
+  [Turbocharge your app for CarPlay](https://developer.apple.com/videos/play/wwdc2025/216) — Learn how to bring your Live Activities and widgets to CarPlay and CarPlay Ultra so people can view progress of their activities and see relevant information at a glance. Explore new template options available to all CarPlay apps, and learn how navigation apps can provide turn-by-turn metadata for display in the car’s instrument cluster or HUD.
 
 ## Change log
 

@@ -105,9 +105,12 @@ As an example that shows what a custom hover effect can and can’t do, consider
 
 #### Videos
 
-- [Design hover interactions for visionOS](https://developer.apple.com/videos/play/wwdc2025/303) — Discover how to create advanced interactions for your visionOS apps. We’ll explore how you can design compelling custom hover effects and animations, avoid common mistakes, take advantage of interactions like Look to Scroll, and build intuitive media controls with persistence effects.
-- [Design for spatial input](https://developer.apple.com/videos/play/wwdc2023/10073) — Learn how to design great interactions for eyes and hands. We’ll share the design principles for spatial input, explore best practices around input methods, and help you create spatial experiences that are comfortable, intuitive, and satisfying.
-- [Design considerations for vision and motion](https://developer.apple.com/videos/play/wwdc2023/10078) — Learn how to design engaging immersive experiences for visionOS that respect the limitations of human vision and motion perception. We’ll show you how you can use depth cues, contrast, focus, and motion to keep people comfortable as they enjoy your apps and games.
+- ![ca8ce5a1 b113 403f bcb7 87871b4bbb52](https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/CA8CE5A1-B113-403F-BCB7-87871B4BBB52/10053_wide_250x141_2x.jpg)  
+  [Design hover interactions for visionOS](https://developer.apple.com/videos/play/wwdc2025/303) — Discover how to create advanced interactions for your visionOS apps. We’ll explore how you can design compelling custom hover effects and animations, avoid common mistakes, take advantage of interactions like Look to Scroll, and build intuitive media controls with persistence effects.
+- ![c6cdcc79 ccd0 4d2f a4d1 8fc70dc663db](https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/C6CDCC79-CCD0-4D2F-A4D1-8FC70DC663DB/8127_wide_250x141_2x.jpg)  
+  [Design for spatial input](https://developer.apple.com/videos/play/wwdc2023/10073) — Learn how to design great interactions for eyes and hands. We’ll share the design principles for spatial input, explore best practices around input methods, and help you create spatial experiences that are comfortable, intuitive, and satisfying.
+- ![2c47b638 090d 4cbb 9e9e ebe8114536d9](https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/2C47B638-090D-4CBB-9E9E-EBE8114536D9/8132_wide_250x141_2x.jpg)  
+  [Design considerations for vision and motion](https://developer.apple.com/videos/play/wwdc2023/10078) — Learn how to design engaging immersive experiences for visionOS that respect the limitations of human vision and motion perception. We’ll show you how you can use depth cues, contrast, focus, and motion to keep people comfortable as they enjoy your apps and games.
 
 ## Change log
 

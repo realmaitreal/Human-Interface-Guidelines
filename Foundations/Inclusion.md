@@ -164,9 +164,12 @@ As you localize your app or game and related content, also be aware of the ways 
 
 #### Videos
 
-- [Principles of inclusive app design](https://developer.apple.com/videos/play/wwdc2025/316) — Discover how understanding disability can help you create better apps for everyone. Find out how to make your apps more inclusive by supporting multiple types of interaction, providing customization, and adopting accessibility APIs.
-- [The practice of inclusive design](https://developer.apple.com/videos/play/wwdc2021/10275) — An inclusive app or game is not only usable by different people, but also welcomes people from diverse backgrounds and perspectives. Discover how you can design inclusive content for your interface, language, imagery, and marketing materials and support the broadest possible range of people with your app or game.
-- [The process of inclusive design](https://developer.apple.com/videos/play/wwdc2021/10304) — Discover how you can deliver inclusive apps that can foster amazing experiences for everyone who uses your software. We’ll take you through best practices for creating and empowering diverse teams and explore how inclusivity influences every stage of the design and development process.
+- ![f5aeb5b6 ff48 4201 b110 a0eda465f3b4](https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/F5AEB5B6-FF48-4201-B110-A0EDA465F3B4/9961_wide_250x141_2x.jpg)  
+  [Principles of inclusive app design](https://developer.apple.com/videos/play/wwdc2025/316) — Discover how understanding disability can help you create better apps for everyone. Find out how to make your apps more inclusive by supporting multiple types of interaction, providing customization, and adopting accessibility APIs.
+- ![90b67086 3a99 49a5 965a d35db6552ae0](https://devimages-cdn.apple.com/wwdc-services/images/119/90B67086-3A99-49A5-965A-D35DB6552AE0/5206_wide_250x141_2x.jpg)  
+  [The practice of inclusive design](https://developer.apple.com/videos/play/wwdc2021/10275) — An inclusive app or game is not only usable by different people, but also welcomes people from diverse backgrounds and perspectives. Discover how you can design inclusive content for your interface, language, imagery, and marketing materials and support the broadest possible range of people with your app or game.
+- ![30932e3e c589 4804 b16e d0003def0f02](https://devimages-cdn.apple.com/wwdc-services/images/119/30932E3E-C589-4804-B16E-D0003DEF0F02/5247_wide_250x141_2x.jpg)  
+  [The process of inclusive design](https://developer.apple.com/videos/play/wwdc2021/10304) — Discover how you can deliver inclusive apps that can foster amazing experiences for everyone who uses your software. We’ll take you through best practices for creating and empowering diverse teams and explore how inclusivity influences every stage of the design and development process.
 
 ---
 *Source: [https://developer.apple.com/design/human-interface-guidelines/inclusion](https://developer.apple.com/design/human-interface-guidelines/inclusion)*

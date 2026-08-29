@@ -178,9 +178,12 @@ Using [PencilKit](https://developer.apple.com/documentation/pencilkit), you can 
 
 #### Videos
 
-- [Read between the strokes with PencilKit](https://developer.apple.com/videos/play/wwdc2026/203) — Unlock handwriting recognition in your apps using the same powerful technology behind Apple apps like Freeform and Notes. Discover how to use handwriting recognition across a wide range of alphabets and languages, and explore new capabilities for integrating PencilKit into a wider variety of apps.
-- [Unwrap PaperKit](https://developer.apple.com/videos/play/wwdc2026/372) — Craft a canvas-based application with PaperKit. Explore the new data model APIs that let you access, create, and modify markup elements. Learn how to add custom controls and annotations, and discover best practices for integrating these features into your app to build a fully featured creative canvas.
-- [Meet PaperKit](https://developer.apple.com/videos/play/wwdc2025/285) — Discover how to bring PaperKit to your iOS, iPadOS, macOS, and visionOS apps. We’ll cover how to seamlessly integrate PencilKit drawing with markup features like shapes and images, and how to customize the user interface. Learn best practices for forward compatibility, and discover advanced customization options to create truly unique markup experiences in your apps.
+- ![6ed9bc5c e7ff 430b 9baf aa46710565a4](https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/6ED9BC5C-E7FF-430B-9BAF-AA46710565A4/10705_wide_250x141_2x.jpg)  
+  [Read between the strokes with PencilKit](https://developer.apple.com/videos/play/wwdc2026/203) — Unlock handwriting recognition in your apps using the same powerful technology behind Apple apps like Freeform and Notes. Discover how to use handwriting recognition across a wide range of alphabets and languages, and explore new capabilities for integrating PencilKit into a wider variety of apps.
+- ![4c1f7c67 d2d9 437d 996e 09de396732dc](https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/4C1F7C67-D2D9-437D-996E-09DE396732DC/10929_wide_250x141_2x.jpg)  
+  [Unwrap PaperKit](https://developer.apple.com/videos/play/wwdc2026/372) — Craft a canvas-based application with PaperKit. Explore the new data model APIs that let you access, create, and modify markup elements. Learn how to add custom controls and annotations, and discover best practices for integrating these features into your app to build a fully featured creative canvas.
+- ![be1c66c1 9d8c 4ef7 be9a a36251a00b86](https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/BE1C66C1-9D8C-4EF7-BE9A-A36251A00B86/10006_wide_250x141_2x.jpg)  
+  [Meet PaperKit](https://developer.apple.com/videos/play/wwdc2025/285) — Discover how to bring PaperKit to your iOS, iPadOS, macOS, and visionOS apps. We’ll cover how to seamlessly integrate PencilKit drawing with markup features like shapes and images, and how to customize the user interface. Learn best practices for forward compatibility, and discover advanced customization options to create truly unique markup experiences in your apps.
 
 ## Change log
 

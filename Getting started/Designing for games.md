@@ -22,9 +22,12 @@ As you create or adapt a game for Apple platforms, learn how to integrate the fu
 
 **Defer requests until the right time.**  You don’t want to bombard people with too many requests before they start playing, but if your game uses certain sensors on an Apple device or personalizes gameplay by accessing data like hand-tracking, you must first get the player’s permission (for guidance, see [Privacy](../Foundations/Privacy.md)). To help people understand why you’re making such a request, integrate it into the scenario that requires the data. For example, you could ask permission to track a player’s hands between an initial cutscene and the first time they can use their hands to control the action. Also, make sure people spend quality time with your game before you ask them for a rating or review (for guidance, see [Ratings and reviews](../Patterns/Ratings%20and%20reviews.md)).
 
-- [Launching](../Patterns/Launching.md) — A streamlined launch experience helps people start using your app or game immediately.
-- [Onboarding](../Patterns/Onboarding.md) — Onboarding can help people get a quick start using your app or game.
-- [Loading](../Patterns/Loading.md) — The best content-loading experience finishes before people become aware of it.
+- ![A sketch of a square containing an arrow pointing to the upper-right corner, suggesting a transition to a new state. The image is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-launching-thumbnail@2x.png)  
+  [Launching](../Patterns/Launching.md) — A streamlined launch experience helps people start using your app or game immediately.
+- ![A sketch of a waving hand, suggesting a gesture of welcoming. The image is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-onboarding-thumbnail@2x.png)  
+  [Onboarding](../Patterns/Onboarding.md) — Onboarding can help people get a quick start using your app or game.
+- ![A sketch of a spinning indeterminate activity indicator, suggesting data loading. The image is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-loading-thumbnail@2x.png)  
+  [Loading](../Patterns/Loading.md) — The best content-loading experience finishes before people become aware of it.
 
 ## Look stunning on every display
 
@@ -56,9 +59,12 @@ As you create or adapt a game for Apple platforms, learn how to integrate the fu
 
 **Design for the full-screen experience.**  People often enjoy playing a game in a distraction-free, full-screen context. In macOS, iOS, and iPadOS, full-screen mode lets people hide other apps and parts of the system UI; in visionOS, a game running in a Full Space can completely surround people, transporting them somewhere else. For guidance, see [Going full screen](../Patterns/Going%20full%20screen.md).
 
-- [Layout](../Foundations/Layout.md) — A consistent layout that adapts to various contexts makes your experience more approachable and helps people enjoy their favorite apps and games on all their devices.
-- [Typography](../Foundations/Typography.md) — Your typographic choices can help you display legible text, convey an information hierarchy, communicate important content, and express your brand or style.
-- [Going full screen](../Patterns/Going%20full%20screen.md) — iPhone, iPad, and Mac offer full-screen modes that let people expand a window to fill the screen, hiding system controls and providing a distraction-free environment.
+- ![A sketch of a small rectangle in the upper-left quadrant of a larger rectangle, suggesting the position of a user interface element within a window. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-layout-thumbnail@2x.png)  
+  [Layout](../Foundations/Layout.md) — A consistent layout that adapts to various contexts makes your experience more approachable and helps people enjoy their favorite apps and games on all their devices.
+- ![A sketch of a small letter A to the left of a large letter A, suggesting the use of typography to convey hierarchical information. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-typography-thumbnail@2x.png)  
+  [Typography](../Foundations/Typography.md) — Your typographic choices can help you display legible text, convey an information hierarchy, communicate important content, and express your brand or style.
+- ![A sketch of two outward-pointing arrows arranged in a vertical line extending from the upper-left to the bottom-right, suggesting expansion. The image is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-going-full-screen-thumbnail@2x.png)  
+  [Going full screen](../Patterns/Going%20full%20screen.md) — iPhone, iPad, and Mac offer full-screen modes that let people expand a window to fill the screen, hiding system controls and providing a distraction-free environment.
 
 ## Enable intuitive interactions
 
@@ -77,9 +83,12 @@ As you create or adapt a game for Apple platforms, learn how to integrate the fu
 
 **Offer touch-based game controls that embrace the touchscreen experience on iPhone and iPad.**  In iOS and iPadOS, your game can allow players to interact directly with game elements, and to control the game using virtual controls that appear on top of your game content. For design guidance, see [Touch controls](https://developer.apple.com/design/human-interface-guidelines/game-controls#Touch-controls).
 
-- [Game controls](../Inputs/Game%20controls.md) — Precise, intuitive game controls enhance gameplay and can increase a player’s immersion in the game.
-- [Gestures](../Inputs/Gestures.md) — A gesture is a physical motion that a person uses to directly affect an object in an app or game on their device.
-- [Pointing devices](../Inputs/Pointing%20devices.md) — People can use a pointing device like a trackpad or mouse to navigate the interface and initiate actions.
+- ![A sketch of a D-pad control from a game controller, suggesting gameplay. The image is tinted purple to subtly reflect the purple in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/inputs-game-controls-thumbnail@2x.png)  
+  [Game controls](../Inputs/Game%20controls.md) — Precise, intuitive game controls enhance gameplay and can increase a player’s immersion in the game.
+- ![A sketch of a pointing hand swiping in a curved motion toward the right, suggesting touch interaction with a device. The image is tinted purple to subtly reflect the purple in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/inputs-gestures-thumbnail@2x.png)  
+  [Gestures](../Inputs/Gestures.md) — A gesture is a physical motion that a person uses to directly affect an object in an app or game on their device.
+- ![A sketch of an arrow-shaped pointer, suggesting use of a mouse or trackpad. The image is tinted purple to subtly reflect the purple in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/inputs-pointing-devices-thumbnail@2x.png)  
+  [Pointing devices](../Inputs/Pointing%20devices.md) — People can use a pointing device like a trackpad or mouse to navigate the interface and initiate actions.
 
 ## Welcome everyone
 
@@ -97,8 +106,10 @@ As you create or adapt a game for Apple platforms, learn how to integrate the fu
 
 **Avoid stereotypes in your stories and characters.**  Ask yourself whether you’re depicting game characters and scenarios in a way that perpetuates real-life stereotypes. For example, does your game depict enemies as having a certain race, gender, or cultural heritage? Review your game to uncover and remove biases and stereotypes and — if references to real-life cultures and languages are necessary — be sure they’re respectful.
 
-- [Accessibility](../Foundations/Accessibility.md) — Accessible user interfaces empower everyone to have a great experience with your app or game.
-- [Inclusion](../Foundations/Inclusion.md) — Inclusive apps and games put people first by prioritizing respectful communication and presenting content and functionality in ways that everyone can access and understand.
+- ![A sketch of the Accessibility icon. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-accessibility-thumbnail@2x.png)  
+  [Accessibility](../Foundations/Accessibility.md) — Accessible user interfaces empower everyone to have a great experience with your app or game.
+- ![A sketch of two people, suggesting inclusion. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-inclusion-thumbnail@2x.png)  
+  [Inclusion](../Foundations/Inclusion.md) — Inclusive apps and games put people first by prioritizing respectful communication and presenting content and functionality in ways that everyone can access and understand.
 
 ## Adopt Apple technologies
 
@@ -112,9 +123,12 @@ As you create or adapt a game for Apple platforms, learn how to integrate the fu
 
 **Take advantage of Apple technologies to enable unique gameplay mechanics.**  For example, you can integrate technologies like augmented reality, machine learning, and [HealthKit](https://developer.apple.com/documentation/healthkit), and request access to location data and functionality like camera and microphone. For a full list of Apple technologies, features, and services, see [Technologies](../Technologies.md).
 
-- [Game Center](../Technologies/Game%20Center.md) — Game Center is Apple’s social gaming network, which lets players track their progress and connect with friends across Apple platforms, and boosts the discovery of your game across players’ devices.
-- [iCloud](../Technologies/iCloud.md) — iCloud is a service that lets people seamlessly access the content they care about — photos, videos, documents, and more — from any device, without performing explicit synchronization.
-- [In-app purchase](../Technologies/In-app%20purchase.md) — People can use in-app purchase to pay for virtual goods — like premium content, digital goods, and subscriptions — securely within your app.
+- ![A sketch of the Game Center icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-game-center-thumbnail@2x.png)  
+  [Game Center](../Technologies/Game%20Center.md) — Game Center is Apple’s social gaming network, which lets players track their progress and connect with friends across Apple platforms, and boosts the discovery of your game across players’ devices.
+- ![A sketch of the iCloud icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-icloud-thumbnail@2x.png)  
+  [iCloud](../Technologies/iCloud.md) — iCloud is a service that lets people seamlessly access the content they care about — photos, videos, documents, and more — from any device, without performing explicit synchronization.
+- ![A sketch of an add button, suggesting the purchase of additional digital assets within an app. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-in-app-purchase-thumbnail@2x.png)  
+  [In-app purchase](../Technologies/In-app%20purchase.md) — People can use in-app purchase to pay for virtual goods — like premium content, digital goods, and subscriptions — securely within your app.
 
 ## Resources
 
@@ -132,9 +146,12 @@ As you create or adapt a game for Apple platforms, learn how to integrate the fu
 
 #### Videos
 
-- [Bringing Cyberpunk 2077 to Mac](https://developer.apple.com/videos/play/wwdc2026/356) — Go behind the scenes and learn from CD PROJEKT RED how Cyberpunk 2077 came to Mac, setting a new standard for AAA gaming on macOS. Explore how the team leveraged Apple’s robust hardware, software, and development tools to bring this high-fidelity experience to life. Learn how you can apply similar techniques to your games. Find out how the innovative ‘For this Mac’ preset automatically optimizes graphical settings to balance visual fidelity and frame rate across the Mac lineup.
-- [Design no-code games with Reality Composer Pro 3](https://developer.apple.com/videos/play/wwdc2026/252) — Discover how you can use ScriptGraph in Reality Composer Pro 3 to create no-code 3D content for your apps and games. Learn how to take advantage of visual nodes to build animations, create interactive moments, and incorporate SwiftUI elements to add speech bubbles and other UI to your experience.
-- [Level up your games](https://developer.apple.com/videos/play/wwdc2025/209) — Learn how to make your games shine on the unified gaming platform. We’ll give you a map of the technologies you can use to level up your game and further improve your player experience. Get an overview of the fundamental tools essential to build, debug, and profile your game.
+- ![47be2f6c 78e8 4af4 9318 9ff3edb1a049](https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/47BE2F6C-78E8-4AF4-9318-9FF3EDB1A049/10906_wide_250x141_2x.jpg)  
+  [Bringing Cyberpunk 2077 to Mac](https://developer.apple.com/videos/play/wwdc2026/356) — Go behind the scenes and learn from CD PROJEKT RED how Cyberpunk 2077 came to Mac, setting a new standard for AAA gaming on macOS. Explore how the team leveraged Apple’s robust hardware, software, and development tools to bring this high-fidelity experience to life. Learn how you can apply similar techniques to your games. Find out how the innovative ‘For this Mac’ preset automatically optimizes graphical settings to balance visual fidelity and frame rate across the Mac lineup.
+- ![dabc6bcf 5a35 4b9c 9217 200576ead404](https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/DABC6BCF-5A35-4B9C-9217-200576EAD404/10775_wide_250x141_2x.jpg)  
+  [Design no-code games with Reality Composer Pro 3](https://developer.apple.com/videos/play/wwdc2026/252) — Discover how you can use ScriptGraph in Reality Composer Pro 3 to create no-code 3D content for your apps and games. Learn how to take advantage of visual nodes to build animations, create interactive moments, and incorporate SwiftUI elements to add speech bubbles and other UI to your experience.
+- ![6c097d36 be91 4b04 854a e6264da86f15](https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/6C097D36-BE91-4B04-854A-E6264DA86F15/9890_wide_250x141_2x.jpg)  
+  [Level up your games](https://developer.apple.com/videos/play/wwdc2025/209) — Learn how to make your games shine on the unified gaming platform. We’ll give you a map of the technologies you can use to level up your game and further improve your player experience. Get an overview of the fundamental tools essential to build, debug, and profile your game.
 
 ## Change log
 

@@ -125,9 +125,12 @@ Keyboard players appreciate using keyboard bindings to speed up their interactio
 
 #### Videos
 
-- [Make your game great with touch](https://developer.apple.com/videos/play/wwdc2026/358) — Dive deeper into the techniques you can use to create compelling touch experiences for your games. We’ll share expert insights from indie to AAA game development, explore best practices for intuitive touch controls, and show you how to take advantage of Apple technologies like Touch Controller framework and Metal for great performance.
-- [Design advanced games for Apple platforms](https://developer.apple.com/videos/play/wwdc2024/10085) — Learn how to adapt your high-end game so it feels at home on Mac, iPad, and iPhone. We’ll go over how to make your game look stunning on different displays, tailor your input and controls to be intuitive on each device, and take advantage of Apple technologies that deliver great player experiences.
-- [Explore game input in visionOS](https://developer.apple.com/videos/play/wwdc2024/10094) — Discover how to design and implement great input for your game in visionOS. Learn how system gestures let you provide frictionless ways for players to interact with your games. And explore best practices for supporting custom gestures and game controllers.
+- ![7a9c7d51 def9 4c8e a2b1 e771a34910a7](https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/7A9C7D51-DEF9-4C8E-A2B1-E771A34910A7/10908_wide_250x141_2x.jpg)  
+  [Make your game great with touch](https://developer.apple.com/videos/play/wwdc2026/358) — Dive deeper into the techniques you can use to create compelling touch experiences for your games. We’ll share expert insights from indie to AAA game development, explore best practices for intuitive touch controls, and show you how to take advantage of Apple technologies like Touch Controller framework and Metal for great performance.
+- ![2db746b8 e0b0 4ed1 b250 902db7a0f3e7](https://devimages-cdn.apple.com/wwdc-services/images/C03E6E6D-A32A-41D0-9E50-C3C6059820AA/2DB746B8-E0B0-4ED1-B250-902DB7A0F3E7/9196_wide_250x141_2x.jpg)  
+  [Design advanced games for Apple platforms](https://developer.apple.com/videos/play/wwdc2024/10085) — Learn how to adapt your high-end game so it feels at home on Mac, iPad, and iPhone. We’ll go over how to make your game look stunning on different displays, tailor your input and controls to be intuitive on each device, and take advantage of Apple technologies that deliver great player experiences.
+- ![51863c09 0e96 4230 91a3 b85e950fbf3d](https://devimages-cdn.apple.com/wwdc-services/images/C03E6E6D-A32A-41D0-9E50-C3C6059820AA/51863C09-0E96-4230-91A3-B85E950FBF3D/9205_wide_250x141_2x.jpg)  
+  [Explore game input in visionOS](https://developer.apple.com/videos/play/wwdc2024/10094) — Discover how to design and implement great input for your game in visionOS. Learn how system gestures let you provide frictionless ways for players to interact with your games. And explore best practices for supporting custom gestures and game controllers.
 
 ## Change log
 

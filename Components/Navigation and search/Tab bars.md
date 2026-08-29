@@ -155,8 +155,10 @@ In visionOS, a tab bar is always vertical, floating in a position that’s fixed
 
 #### Videos
 
-- [Get to know the new design system](https://developer.apple.com/videos/play/wwdc2025/356) — Dive deeper into the new design system to explore key changes to visual design, information architecture, and core system components. Learn how the system reshapes the relationship between interface and content, enabling you to create designs that are dynamic, harmonious, and consistent across devices, screen sizes, and input modes.
-- [Elevate the design of your iPad app](https://developer.apple.com/videos/play/wwdc2025/208) — Make your app look and feel great on iPadOS. Learn best practices for designing a responsive layout for resizable app windows. Get familiar with window controls and explore the best ways to accommodate them. Discover the building blocks of a great menu bar. And meet the new pointer and its updated effects.
+- ![1aaa030e 2eca 47d8 ae09 6d7b72a840f6](https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/1AAA030E-2ECA-47D8-AE09-6D7B72A840F6/10044_wide_250x141_2x.jpg)  
+  [Get to know the new design system](https://developer.apple.com/videos/play/wwdc2025/356) — Dive deeper into the new design system to explore key changes to visual design, information architecture, and core system components. Learn how the system reshapes the relationship between interface and content, enabling you to create designs that are dynamic, harmonious, and consistent across devices, screen sizes, and input modes.
+- ![873f40be 101a 4c0d 99f0 f5c7ce7b47a3](https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/873F40BE-101A-4C0D-99F0-F5C7CE7B47A3/10046_wide_250x141_2x.jpg)  
+  [Elevate the design of your iPad app](https://developer.apple.com/videos/play/wwdc2025/208) — Make your app look and feel great on iPadOS. Learn best practices for designing a responsive layout for resizable app windows. Get familiar with window controls and explore the best ways to accommodate them. Discover the building blocks of a great menu bar. And meet the new pointer and its updated effects.
 
 ## Change log
 

@@ -46,7 +46,8 @@ Ornaments can appear on any edge of a window and can contain UI components like 
 
 #### Videos
 
-- [Design for spatial user interfaces](https://developer.apple.com/videos/play/wwdc2023/10076) — Learn how to design great interfaces for spatial computing apps. We’ll share how your existing screen-based knowledge easily translates into creating great experiences for visionOS. Explore guidelines for UI components, materials, and typography and find out how you can design experiences that are familiar, legible, and easy to use.
+- ![38e4ee32 29b5 4478 b8b6 35b8aca67b16](https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/38E4EE32-29B5-4478-B8B6-35B8ACA67B16/8130_wide_250x141_2x.jpg)  
+  [Design for spatial user interfaces](https://developer.apple.com/videos/play/wwdc2023/10076) — Learn how to design great interfaces for spatial computing apps. We’ll share how your existing screen-based knowledge easily translates into creating great experiences for visionOS. Explore guidelines for UI components, materials, and typography and find out how you can design experiences that are familiar, legible, and easy to use.
 
 ## Change log
 

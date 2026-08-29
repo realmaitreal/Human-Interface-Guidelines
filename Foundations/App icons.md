@@ -180,8 +180,10 @@ App icons support the following color spaces:
 
 #### Videos
 
-- [Say hello to the new look of app icons](https://developer.apple.com/videos/play/wwdc2025/220) — Get an overview of the new app icon appearances for iOS, iPadOS, and macOS, including light and dark tints, and clear options. Learn how to use frostiness and translucency to make your app icon more vibrant, dynamic, and expressive, and find out how to ensure your icon works well with specular highlights.
-- [Create icons with Icon Composer](https://developer.apple.com/videos/play/wwdc2025/361) — Learn how to use Icon Composer to make updated app icons for iOS, iPadOS, macOS, and watchOS. Find out how to export assets from your design tool of choice, add them to Icon Composer, apply real-time glass properties and other effects, and preview and adjust for different platforms and appearance modes.
+- ![2c0f206d 6728 49f7 940e dc5bc5c51b54](https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/2C0F206D-6728-49F7-940E-DC5BC5C51B54/9911_wide_250x141_2x.jpg)  
+  [Say hello to the new look of app icons](https://developer.apple.com/videos/play/wwdc2025/220) — Get an overview of the new app icon appearances for iOS, iPadOS, and macOS, including light and dark tints, and clear options. Learn how to use frostiness and translucency to make your app icon more vibrant, dynamic, and expressive, and find out how to ensure your icon works well with specular highlights.
+- ![93aa149b 9acf 4281 8baf 5aff7cfa1cf0](https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/93AA149B-9ACF-4281-8BAF-5AFF7CFA1CF0/10087_wide_250x141_2x.jpg)  
+  [Create icons with Icon Composer](https://developer.apple.com/videos/play/wwdc2025/361) — Learn how to use Icon Composer to make updated app icons for iOS, iPadOS, macOS, and watchOS. Find out how to export assets from your design tool of choice, add them to Icon Composer, apply real-time glass properties and other effects, and preview and adjust for different platforms and appearance modes.
 
 ## Change log
 

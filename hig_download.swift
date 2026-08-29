@@ -569,6 +569,20 @@ func renderTable(_ b: JSONDict, _ ctx: Context) -> String {
     return out.joined(separator: "\n") + "\n\n"
 }
 
+/// Topic references carry their own tile thumbnail/icon (`images: [{type:
+/// "card"|"icon", identifier: ...}]`), separate from the inline images used
+/// in prose. Reuses renderImage so remote/local/none modes, alt text, and
+/// dedup-by-filename all behave identically to any other image.
+func linkThumbnailMarkdown(_ ref: JSONDict, _ ctx: Context) -> String? {
+    let images = jDictArr(ref, "images")
+    guard !images.isEmpty else { return nil }
+    let card = images.first { jStrOpt($0, "type") == "card" }
+    let icon = images.first { jStrOpt($0, "type") == "icon" }
+    guard let chosen = card ?? icon, let imgIdent = jStrOpt(chosen, "identifier") else { return nil }
+    let rendered = renderImage(["identifier": imgIdent, "type": "image"], ctx)
+    return rendered.isEmpty ? nil : rendered
+}
+
 func renderLinksBlock(_ b: JSONDict, _ ctx: Context) -> String {
     var lines: [String] = []
     for identAny in jArr(b, "items") {
@@ -576,12 +590,16 @@ func renderLinksBlock(_ b: JSONDict, _ ctx: Context) -> String {
         let ref = jDict(ctx.refs, ident)
         let text = orDefault(jStrOpt(ref, "title"), slugOf(ident).replacingOccurrences(of: "-", with: " "))
         let url = localOrExternal(ident, ctx)
-        var line = url.isEmpty ? "- \(esc(text))" : "- [\(esc(text))](\(url))"
+        var body = url.isEmpty ? esc(text) : "[\(esc(text))](\(url))"
         if let abstract = ref["abstract"] as? [Any] {
             let a = strip(renderInline(abstract, ctx))
-            if !a.isEmpty { line += " — \(a)" }
+            if !a.isEmpty { body += " — \(a)" }
         }
-        lines.append(line)
+        if let thumb = linkThumbnailMarkdown(ref, ctx) {
+            lines.append("- \(thumb)  \n  \(body)")
+        } else {
+            lines.append("- \(body)")
+        }
     }
     return lines.isEmpty ? "" : lines.joined(separator: "\n") + "\n\n"
 }

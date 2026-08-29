@@ -262,7 +262,8 @@ For guidance, see [Icons](Icons.md).
 
 #### Videos
 
-- [What’s new in SF Symbols 7](https://developer.apple.com/videos/play/wwdc2025/337) — Explore the latest updates to SF Symbols, Apple’s library of iconography. Meet Draw, a new animation system that allows symbols to imitate the organic flow of a handwritten stroke, and Variable Draw, which can be used to convey strength or progress. Discover Gradients, which add dimension and visual interest to symbols, and Magic Replace enhancements, which offer greater continuity between related symbols. And learn how to preview and integrate these features into your own apps.
+- ![4f1e5bc7 921e 46c0 927a d84295787a94](https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/4F1E5BC7-921E-46C0-927A-D84295787A94/9994_wide_250x141_2x.jpg)  
+  [What’s new in SF Symbols 7](https://developer.apple.com/videos/play/wwdc2025/337) — Explore the latest updates to SF Symbols, Apple’s library of iconography. Meet Draw, a new animation system that allows symbols to imitate the organic flow of a handwritten stroke, and Variable Draw, which can be used to convey strength or progress. Discover Gradients, which add dimension and visual interest to symbols, and Magic Replace enhancements, which offer greater continuity between related symbols. And learn how to preview and integrate these features into your own apps.
 
 ## Change log
 

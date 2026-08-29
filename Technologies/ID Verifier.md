@@ -57,7 +57,8 @@ Depending on the needs of your app, you can use ID Verifier to make the followin
 
 #### Videos
 
-- [What’s new in Wallet and Apple Pay](https://developer.apple.com/videos/play/wwdc2023/10114) — Discover the latest updates to Wallet and Apple Pay. Learn how to take advantage of preauthorized payments, funds transfer, and Apple Pay Later merchandising to create great Apple Pay experiences in your app or for the web. Explore improved support for Mail, Messages, Safari, and third-party apps in Wallet Order Tracking, and find out how you can add more information to an order’s transaction or receipt details. And we’ll introduce you to Tap to Present ID on iPhone (or ID Verifier), a new way to accept IDs in Wallet using iPhone — no additional hardware needed.
+- ![0f2b5692 7e7d 4716 9e5f 63e4a4fa13ed](https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/0F2B5692-7E7D-4716-9E5F-63E4A4FA13ED/8168_wide_250x141_2x.jpg)  
+  [What’s new in Wallet and Apple Pay](https://developer.apple.com/videos/play/wwdc2023/10114) — Discover the latest updates to Wallet and Apple Pay. Learn how to take advantage of preauthorized payments, funds transfer, and Apple Pay Later merchandising to create great Apple Pay experiences in your app or for the web. Explore improved support for Mail, Messages, Safari, and third-party apps in Wallet Order Tracking, and find out how you can add more information to an order’s transaction or receipt details. And we’ll introduce you to Tap to Present ID on iPhone (or ID Verifier), a new way to accept IDs in Wallet using iPhone — no additional hardware needed.
 
 ## Change log
 

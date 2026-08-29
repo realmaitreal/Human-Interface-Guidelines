@@ -141,7 +141,8 @@ A *tooltip* (called a *help tag* in user documentation) displays a small, transi
 
 #### Videos
 
-- [Make features discoverable with TipKit](https://developer.apple.com/videos/play/wwdc2023/10229) — Teach people how to use your app with TipKit! Learn how you can create effective educational moments through tips. We’ll share how you can build eligibility rules to reach the ideal audience, control tip frequency, and strategies for testing to ensure successful interactions.
+- ![7bcb7d16 5d51 419d b332 e008219fb631](https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/7BCB7D16-5D51-419D-B332-E008219FB631/8293_wide_250x141_2x.jpg)  
+  [Make features discoverable with TipKit](https://developer.apple.com/videos/play/wwdc2023/10229) — Teach people how to use your app with TipKit! Learn how you can create effective educational moments through tips. We’ll share how you can build eligibility rules to reach the ideal audience, control tip frequency, and strategies for testing to ensure successful interactions.
 
 ## Change log
 

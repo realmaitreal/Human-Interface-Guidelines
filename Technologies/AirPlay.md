@@ -117,7 +117,8 @@ Use a custom color when other technology icons also appear in the same color.
 
 #### Videos
 
-- [Reaching the Big Screen with AirPlay 2](https://developer.apple.com/videos/play/wwdc2019/501) — AirPlay lets you share videos, photos, music, and more from Apple devices to your Apple TV, favorite speakers, and popular smart TVs. Learn how to deliver the best possible experience for AirPlay video, including automatic route selection for long form content, remote control, now playing metadata, and video quality considerations.
+- ![8fcad355 e1a3 4407 9261 95a3d6026de8](https://devimages-cdn.apple.com/wwdc-services/images/48/8FCAD355-E1A3-4407-9261-95A3D6026DE8/2661_wide_250x141_2x.jpg)  
+  [Reaching the Big Screen with AirPlay 2](https://developer.apple.com/videos/play/wwdc2019/501) — AirPlay lets you share videos, photos, music, and more from Apple devices to your Apple TV, favorite speakers, and popular smart TVs. Learn how to deliver the best possible experience for AirPlay video, including automatic route selection for long form content, remote control, now playing metadata, and video quality considerations.
 
 ## Change log
 

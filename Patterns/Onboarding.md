@@ -56,9 +56,12 @@ Ideally, people can understand your app or game simply by experiencing it, but i
 
 #### Videos
 
-- [Discoverable design](https://developer.apple.com/videos/play/wwdc2021/10126) — Discover how you can create interactive, memorable experiences to onboard people into your app. We’ll take you through discoverable design practices and learn how you can craft explorable, fun interfaces that help people grasp the possibilities of your app at a glance. We’ll also show you how to apply this methodology to personalize your content and make your app easy to customize.
-- [Designing Award Winning Apps and Games](https://developer.apple.com/videos/play/wwdc2019/802) — Through stories, interviews, and artifacts we will uncover valuable design processes, techniques, and best practices of Apple Design Award winning apps and games.
-- [Love at First Launch](https://developer.apple.com/videos/play/wwdc2017/816) — Engage people from the first moment they open your app, and keep them coming back for more. Learn tips on how to make a compelling first impression, methods for teaching new users about your app, and best practices when asking users for more information.
+- ![be8ff113 0fe1 40fc 86bf fe95be2ff7a5](https://devimages-cdn.apple.com/wwdc-services/images/119/BE8FF113-0FE1-40FC-86BF-FE95BE2FF7A5/5027_wide_250x141_2x.jpg)  
+  [Discoverable design](https://developer.apple.com/videos/play/wwdc2021/10126) — Discover how you can create interactive, memorable experiences to onboard people into your app. We’ll take you through discoverable design practices and learn how you can craft explorable, fun interfaces that help people grasp the possibilities of your app at a glance. We’ll also show you how to apply this methodology to personalize your content and make your app easy to customize.
+- ![b27c091c cf5c 4e42 b1e2 9172615462ab](https://devimages-cdn.apple.com/wwdc-services/images/48/B27C091C-CF5C-4E42-B1E2-9172615462AB/2724_wide_250x141_2x.jpg)  
+  [Designing Award Winning Apps and Games](https://developer.apple.com/videos/play/wwdc2019/802) — Through stories, interviews, and artifacts we will uncover valuable design processes, techniques, and best practices of Apple Design Award winning apps and games.
+- ![2c48f507 180b 4858 bb26 488c234b067f](https://devimages-cdn.apple.com/wwdc-services/images/7/2C48F507-180B-4858-BB26-488C234B067F/1920_wide_250x141_2x.jpg)  
+  [Love at First Launch](https://developer.apple.com/videos/play/wwdc2017/816) — Engage people from the first moment they open your app, and keep them coming back for more. Learn tips on how to make a compelling first impression, methods for teaching new users about your app, and best practices when asking users for more information.
 
 ## Change log
 

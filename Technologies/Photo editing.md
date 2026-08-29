@@ -34,7 +34,8 @@ To access a photo editing extension, a photo must be in edit mode. While in edit
 
 #### Videos
 
-- [Introducing Photo Segmentation Mattes](https://developer.apple.com/videos/play/wwdc2019/260) — Photos captured in Portrait Mode on iOS 12 contain an embedded person segmentation matte that made it easy to create creative visual effects like background replacement. iOS 13 leverages on-device machine learning to provide new segmentation mattes for any captured photo. Learn about the new semantic segmentation mattes available to you from both AVCapture and Core Image to isolate a person's hair, skin, and teeth. Using any of these individual mattes or combining all of them, your app can now offer a tremendous amount of photo editing control.
+- ![022ccfa2 c212 48db a086 2068695d160d](https://devimages-cdn.apple.com/wwdc-services/images/48/022CCFA2-C212-48DB-A086-2068695D160D/2961_wide_250x141_2x.jpg)  
+  [Introducing Photo Segmentation Mattes](https://developer.apple.com/videos/play/wwdc2019/260) — Photos captured in Portrait Mode on iOS 12 contain an embedded person segmentation matte that made it easy to create creative visual effects like background replacement. iOS 13 leverages on-device machine learning to provide new segmentation mattes for any captured photo. Learn about the new semantic segmentation mattes available to you from both AVCapture and Core Image to isolate a person's hair, skin, and teeth. Using any of these individual mattes or combining all of them, your app can now offer a tremendous amount of photo editing control.
 
 ---
 *Source: [https://developer.apple.com/design/human-interface-guidelines/photo-editing](https://developer.apple.com/design/human-interface-guidelines/photo-editing)*

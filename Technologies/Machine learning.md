@@ -312,8 +312,10 @@ An important part of the design process is to identify the scenarios where limit
 
 #### Videos
 
-- [Explore prompt design & safety for on-device foundation models](https://developer.apple.com/videos/play/wwdc2025/248) — Design generative AI experiences that leverage the strengths of the Foundation Models framework. We’ll start by showing how to design prompts for the on-device large language model at the core of Apple Intelligence. Then, we’ll introduce key ideas around AI safety, and offer concrete strategies to make your generative AI features safe, reliable, and delightful.
-- [Discover machine learning & AI frameworks on Apple platforms](https://developer.apple.com/videos/play/wwdc2025/360) — Tour the latest updates to machine learning and AI frameworks available on Apple platforms. Whether you are an app developer ready to tap into Apple Intelligence, an ML engineer optimizing models for on-device deployment, or an AI enthusiast exploring the frontier of what is possible, we’ll offer guidance to help select the right tools for your needs.
+- ![6f92e66e 52a5 4289 9f76 a3e6983f9250](https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/6F92E66E-52A5-4289-9F76-A3E6983F9250/10049_wide_250x141_2x.jpg)  
+  [Explore prompt design & safety for on-device foundation models](https://developer.apple.com/videos/play/wwdc2025/248) — Design generative AI experiences that leverage the strengths of the Foundation Models framework. We’ll start by showing how to design prompts for the on-device large language model at the core of Apple Intelligence. Then, we’ll introduce key ideas around AI safety, and offer concrete strategies to make your generative AI features safe, reliable, and delightful.
+- ![51620fba 75c7 46b5 bcba 800f38aee3a5](https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/51620FBA-75C7-46B5-BCBA-800F38AEE3A5/10048_wide_250x141_2x.jpg)  
+  [Discover machine learning & AI frameworks on Apple platforms](https://developer.apple.com/videos/play/wwdc2025/360) — Tour the latest updates to machine learning and AI frameworks available on Apple platforms. Whether you are an app developer ready to tap into Apple Intelligence, an ML engineer optimizing models for on-device deployment, or an AI enthusiast exploring the frontier of what is possible, we’ll offer guidance to help select the right tools for your needs.
 
 ## Change log
 
