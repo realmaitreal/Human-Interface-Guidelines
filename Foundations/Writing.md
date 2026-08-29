@@ -8,7 +8,7 @@
 >
 > Clarified guidance on language patterns, and added guidance for possessive pronouns.
 
-![A sketch of a document and pencil, suggesting written content. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo.](/images/com.apple.HIG/foundations-writing-intro@2x.png)
+![A sketch of a document and pencil, suggesting written content. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-writing-intro@2x.png)
 
 Whether you’re building an onboarding experience, writing an alert, or describing an image for accessibility, designing through the lens of language will help people get the most from your app or game.
 
@@ -20,9 +20,9 @@ Whether you’re building an onboarding experience, writing an alert, or describ
 
 Compare the tone of these two examples from Apple Watch. In the first, the tone is straightforward and direct, reflecting the seriousness of the situation. In the second, the tone is light and congratulatory.
 
-![A screenshot of a Fall Detection message that reads: it looks like you've taken a hard fall.](/images/com.apple.HIG/writing-fall-detection-message@2x.png)
+![A screenshot of a Fall Detection message that reads: it looks like you've taken a hard fall.](https://developer.apple.com/tutorials/images/com.apple.HIG/writing-fall-detection-message@2x.png)
 
-![A screenshot of an Activity message that reads: you set a personal record for your longest daily Move streak, 35 days!](/images/com.apple.HIG/writing-move-streak-message@2x.png)
+![A screenshot of an Activity message that reads: you set a personal record for your longest daily Move streak, 35 days!](https://developer.apple.com/tutorials/images/com.apple.HIG/writing-move-streak-message@2x.png)
 
 **Be clear.** Choose words that are easily understood and convey the right thing. Check each word to be sure it needs to be there. If you can use fewer words, do so. When in doubt, read your writing out loud.
 
@@ -54,7 +54,7 @@ Where and how people use a device, its screen size, and its location all affect 
 
 **Keep settings labels clear and simple.** Help people easily find the settings they need by labeling them as practically as possible. If the setting label isn’t enough, add an explanation. Describe what it does when turned on, and people can infer the opposite. In the Handwashing Timer setting for Apple Watch, for example, the description explains that a timer can start when you’re washing your hands. It isn’t necessary to tell you that a timer won’t start when this setting is off.
 
-![A partial screenshot showing the Handwashing Timer description, which reads: Apple Watch can detect when you're washing your hands and start a 20-second timer.](/images/com.apple.HIG/writing-handwashing-settings@2x.png)
+![A partial screenshot showing the Handwashing Timer description, which reads: Apple Watch can detect when you're washing your hands and start a 20-second timer.](https://developer.apple.com/tutorials/images/com.apple.HIG/writing-handwashing-settings@2x.png)
 
 If you need to direct someone to a setting, provide a direct link or button, rather than trying to describe its location. For guidance, see [Settings](../Patterns/Settings.md).
 

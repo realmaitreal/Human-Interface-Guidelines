@@ -4,7 +4,7 @@
 
 *An image well is an editable version of an image view.*
 
-![A stylized representation of an image well. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-image-well-intro@2x.png)
+![A stylized representation of an image well. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-image-well-intro@2x.png)
 
 After selecting an image well, people can copy and paste its image or delete it. People can also drag a new image into an image well without selecting it first.
 

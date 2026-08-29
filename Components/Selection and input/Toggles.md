@@ -8,7 +8,7 @@
 >
 > Enhanced guidance for using switches in macOS apps, clarified when a checkbox has a title, and added artwork for radio buttons.
 
-![A stylized representation of two labeled switch controls. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-toggles-intro@2x.png)
+![A stylized representation of two labeled switch controls. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-toggles-intro@2x.png)
 
 A toggle can have various styles, such as switch and checkbox, and different platforms can use these styles in different ways. For guidance, see [Platform considerations](https://developer.apple.com/design/human-interface-guidelines/toggles#Platform-considerations).
 
@@ -32,18 +32,18 @@ In addition to toggles, all platforms also support buttons that behave like togg
 
 **Change the default color of a switch only if necessary.** The default green color tends to work well in most cases, but you might want to use your app’s accent color instead. Be sure to use a color that provides enough contrast with the uncolored appearance to be perceptible.
 
-![An illustration of two list rows, one with an active switch toggle and one with an inactive switch toggle. The active toggle is tinted green with the standard switch color.](/images/com.apple.HIG/toggles-ios-default-color@2x.png)  
+![An illustration of two list rows, one with an active switch toggle and one with an inactive switch toggle. The active toggle is tinted green with the standard switch color.](https://developer.apple.com/tutorials/images/com.apple.HIG/toggles-ios-default-color@2x.png)  
 *Standard switch color*
 
-![An illustration of two list rows, one with an active switch toggle and one with an inactive switch toggle. The active toggle is tinted purple with a custom switch color.](/images/com.apple.HIG/toggles-ios-custom-color@2x.png)  
+![An illustration of two list rows, one with an active switch toggle and one with an inactive switch toggle. The active toggle is tinted purple with a custom switch color.](https://developer.apple.com/tutorials/images/com.apple.HIG/toggles-ios-custom-color@2x.png)  
 *Custom switch color*
 
 **Outside of a list, use a button that behaves like a toggle, not a switch.** For example, the Phone app uses a toggle on the filter button to let users filter their recent calls.  The app adds a blue highlight to indicate when the toggle is active, and removes it when the toggle is inactive.
 
-![A screenshot of the top half of the Phone app on iPhone, showing the filtered list of recent missed calls. The filter button in the top trailing corner has a blue highlight, indicating that the toggle is active.](/images/com.apple.HIG/toggles-ios-phone-filter-on@2x.png)  
+![A screenshot of the top half of the Phone app on iPhone, showing the filtered list of recent missed calls. The filter button in the top trailing corner has a blue highlight, indicating that the toggle is active.](https://developer.apple.com/tutorials/images/com.apple.HIG/toggles-ios-phone-filter-on@2x.png)  
 *The Phone app uses a toggle to switch between all recent calls and various filter options. When someone chooses a filter, the toggle appears with a custom background drawn behind the symbol.*
 
-![A screenshot of the top half of the Phone app on iPhone, showing all recent calls. The filter button in the top trailing corner has no highlight, indicating that the toggle is inactive.](/images/com.apple.HIG/toggles-ios-phone-filter-off@2x.png)  
+![A screenshot of the top half of the Phone app on iPhone, showing all recent calls. The filter button in the top trailing corner has no highlight, indicating that the toggle is inactive.](https://developer.apple.com/tutorials/images/com.apple.HIG/toggles-ios-phone-filter-off@2x.png)  
 *When someone returns to the main Recents view, the toggle appears without anything behind the symbol.*
 
 **Avoid supplying a label that explains the button’s purpose.** The interface icon you create — combined with the alternative background appearances you supply — help people understand what the button does. For developer guidance, see [changesSelectionAsPrimaryAction](https://developer.apple.com/documentation/uikit/uibutton/changesselectionasprimaryaction).
@@ -68,7 +68,7 @@ A checkbox is a small, square button that’s empty when the button is off, cont
 
 **Use a checkbox instead of a switch if you need to present a hierarchy of settings.** The visual style of checkboxes helps them align well and communicate grouping. By using alignment — generally along the leading edge of the checkboxes — and indentation, you can show dependencies, such as when the state of a checkbox governs the state of subordinate checkboxes.
 
-![An illustration showing a layout that includes two levels of checkboxes.](/images/com.apple.HIG/checkbox-alignment@2x.png)
+![An illustration showing a layout that includes two levels of checkboxes.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkbox-alignment@2x.png)
 
 **Consider using radio buttons if you need to present a set of more than two mutually exclusive options.** When people need to choose from options in addition to just “on” or “off,” using multiple radio buttons can help you clarify each option with a unique label.
 
@@ -76,27 +76,27 @@ A checkbox is a small, square button that’s empty when the button is off, cont
 
 **Accurately reflect a checkbox’s state in its appearance.** A checkbox’s state can be on, off, or mixed. If you use a checkbox to globally turn on and off multiple subordinate checkboxes, show a mixed state when the subordinate checkboxes have different states. For example, you might need to present a text-style setting that turns all styles on or off, but also lets people choose a subset of individual style settings like bold, italic, or underline. For developer guidance, see [allowsMixedState](https://developer.apple.com/documentation/appkit/nsbutton/allowsmixedstate).
 
-![An illustration that shows a checkbox with the on state, which looks like a small rounded square with blue fill and a white checkmark.](/images/com.apple.HIG/checkbox-selected@2x.png)  
+![An illustration that shows a checkbox with the on state, which looks like a small rounded square with blue fill and a white checkmark.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkbox-selected@2x.png)  
 *On*
 
-![An illustration that shows a checkbox with the off state, which looks like a small rounded square with no fill.](/images/com.apple.HIG/checkbox-deselected@2x.png)  
+![An illustration that shows a checkbox with the off state, which looks like a small rounded square with no fill.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkbox-deselected@2x.png)  
 *Off*
 
-![An illustration that shows a checkbox with the mixed state, which looks like a small rounded square with blue fill and a white hyphen.](/images/com.apple.HIG/checkbox-mixed@2x.png)  
+![An illustration that shows a checkbox with the mixed state, which looks like a small rounded square with blue fill and a white hyphen.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkbox-mixed@2x.png)  
 *Mixed*
 
 #### Radio buttons
 
 A radio button is a small, circular button followed by a label. Typically displayed in groups of two to five, radio buttons present a set of mutually exclusive choices.
 
-![An illustration that shows five items in a column, each with a radio button preceding the text Radio Button Label. The radio button for the third item is filled, indicating that it's selected.](/images/com.apple.HIG/radio-button-example@2x.png)
+![An illustration that shows five items in a column, each with a radio button preceding the text Radio Button Label. The radio button for the third item is filled, indicating that it's selected.](https://developer.apple.com/tutorials/images/com.apple.HIG/radio-button-example@2x.png)
 
 A radio button’s state is either selected (a filled circle) or deselected (an empty circle). Although a radio button can also display a mixed state (indicated by a dash), this state is rarely useful because you can communicate multiple states by using additional radio buttons. If you need to show that a setting or item has a mixed state, consider using a checkbox instead.
 
-![An illustration that shows a selected radio button, which looks like a white dot centered in a small circle with a dark fill.](/images/com.apple.HIG/radio-button-selected@2x.png)  
+![An illustration that shows a selected radio button, which looks like a white dot centered in a small circle with a dark fill.](https://developer.apple.com/tutorials/images/com.apple.HIG/radio-button-selected@2x.png)  
 *Selected*
 
-![An illustration that shows a deselected radio button, which looks like a small, empty circle.](/images/com.apple.HIG/radio-button-deselected@2x.png)  
+![An illustration that shows a deselected radio button, which looks like a small, empty circle.](https://developer.apple.com/tutorials/images/com.apple.HIG/radio-button-deselected@2x.png)  
 *Deselected*
 
 **Prefer a set of radio buttons to present mutually exclusive options.** If you need to let people choose multiple options in a set, use checkboxes instead.
@@ -107,7 +107,7 @@ A radio button’s state is either selected (a filled circle) or deselected (an 
 
 **Use consistent spacing when you display radio buttons horizontally.** Measure the space needed to accommodate the longest button label, and use that measurement consistently.
 
-![An illustration that shows three items in a row, with a radio button preceding each item. The first and third items have long text labels, while the second has a short label. The horizontal space each item occupies is equal. A filled radio button precedes the second item, indicating that it's selected.](/images/com.apple.HIG/radio-button-equal-spacing@2x.png)
+![An illustration that shows three items in a row, with a radio button preceding each item. The first and third items have long text labels, while the second has a short label. The horizontal space each item occupies is equal. A filled radio button precedes the second item, indicating that it's selected.](https://developer.apple.com/tutorials/images/com.apple.HIG/radio-button-equal-spacing@2x.png)
 
 ## Resources
 

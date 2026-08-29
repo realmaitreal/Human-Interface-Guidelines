@@ -8,7 +8,7 @@
 >
 > Updated to include guidance for visionOS.
 
-![A stylized representation of a brightness slider. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-slider-intro@2x.png)
+![A stylized representation of a brightness slider. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-slider-intro@2x.png)
 
 As a slider’s value changes, the portion of track between the minimum value and the thumb fills with color. A slider can optionally display left and right icons that illustrate the meaning of the minimum and maximum values.
 
@@ -20,7 +20,7 @@ As a slider’s value changes, the portion of track between the minimum value an
 
 **Consider supplementing a slider with a corresponding text field and stepper.** Especially when a slider represents a wide range of values, people may appreciate seeing the exact slider value and having the ability to enter a specific value in a text field. Adding a stepper provides a convenient way for people to increment in whole values. For related guidance, see [Text fields](Text%20fields.md) and [Steppers](Steppers.md).
 
-![An illustration of a horizontal linear slider without tick marks, followed by a text field and a stepper. The thumb is in the center of the slider and the text field displays 50%.](/images/com.apple.HIG/sliders-text-field@2x.png)
+![An illustration of a horizontal linear slider without tick marks, followed by a text field and a stepper. The thumb is in the center of the slider and the text field displays 50%.](https://developer.apple.com/tutorials/images/com.apple.HIG/sliders-text-field@2x.png)
 
 ## Platform considerations
 
@@ -38,13 +38,13 @@ In a linear slider either with or without tick marks, the thumb is a narrow loze
 
 In a circular slider, the thumb appears as a small circle. Tick marks, when present, appear as evenly spaced dots around the circumference of the slider.
 
-![An illustration of a horizontal slider with the thumb in the middle. The leading portion of the track up to the thumb is filled with a blue highlight color.](/images/com.apple.HIG/sliders-no-tick-marks@2x.png)  
+![An illustration of a horizontal slider with the thumb in the middle. The leading portion of the track up to the thumb is filled with a blue highlight color.](https://developer.apple.com/tutorials/images/com.apple.HIG/sliders-no-tick-marks@2x.png)  
 *Linear slider without tick marks*
 
-![An illustration of a horizontal slider with the thumb between two tick marks in the middle of the slider. The leading portion of the track up to the thumb is filled with a blue highlight color.](/images/com.apple.HIG/sliders-tick-marks@2x.png)  
+![An illustration of a horizontal slider with the thumb between two tick marks in the middle of the slider. The leading portion of the track up to the thumb is filled with a blue highlight color.](https://developer.apple.com/tutorials/images/com.apple.HIG/sliders-tick-marks@2x.png)  
 *Linear slider with tick marks*
 
-![An illustration of a circular slider with the thumb at the 12 o'clock position.](/images/com.apple.HIG/sliders-circular@2x.png)  
+![An illustration of a circular slider with the thumb at the 12 o'clock position.](https://developer.apple.com/tutorials/images/com.apple.HIG/sliders-circular@2x.png)  
 *Circular slider*
 
 **Consider giving live feedback as the value of a slider changes.** Live feedback shows people results in real time. For example, your Dock icons are dynamically scaled when adjusting the Size slider in Dock settings.
@@ -55,7 +55,7 @@ In a circular slider, the thumb appears as a small circle. Tick marks, when pres
 
 **Use tick marks to increase clarity and accuracy.** Tick marks help people understand the scale of measurements and make it easier to locate specific values.
 
-![A partial screenshot of the Energy Saver settings pane in macOS, cropped to show the slider that controls how long the display remains on after inactivity.](/images/com.apple.HIG/sliders-labels@2x.png)
+![A partial screenshot of the Energy Saver settings pane in macOS, cropped to show the slider that controls how long the display remains on after inactivity.](https://developer.apple.com/tutorials/images/com.apple.HIG/sliders-labels@2x.png)
 
 **Consider adding labels to tick marks for even greater clarity.** Labels can be numbers or words, depending on the slider’s values. It’s unnecessary to label every tick mark unless doing so is needed to reduce confusion. In many cases, labeling only the minimum and maximum values is sufficient. When the values of the slider are nonlinear, like in the Energy Saver settings pane, periodic labels provide context. It’s also a good idea to provide a [tooltip](https://developer.apple.com/design/human-interface-guidelines/offering-help#macOS-visionOS) that displays the value of the thumb when people hold their pointer over it.
 
@@ -67,10 +67,10 @@ In a circular slider, the thumb appears as a small circle. Tick marks, when pres
 
 A slider is a horizontal track — appearing as a set of discrete steps or as a continuous bar — that represents a finite range of values. People can tap buttons on the sides of the slider to increase or decrease its value by a predefined amount.
 
-![An illustration of a watchOS volume slider with discrete steps. The first two of three steps are filled with a green highlight color, indicating the volume level.](/images/com.apple.HIG/sliders-watchos-discrete@2x.png)  
+![An illustration of a watchOS volume slider with discrete steps. The first two of three steps are filled with a green highlight color, indicating the volume level.](https://developer.apple.com/tutorials/images/com.apple.HIG/sliders-watchos-discrete@2x.png)  
 *Discrete*
 
-![An illustration of a watchOS volume slider with a continuous bar. Two-thirds of the bar is filled with a green highlight color, indicating the volume level.](/images/com.apple.HIG/sliders-watchos-continuous@2x.png)  
+![An illustration of a watchOS volume slider with a continuous bar. Two-thirds of the bar is filled with a green highlight color, indicating the volume level.](https://developer.apple.com/tutorials/images/com.apple.HIG/sliders-watchos-continuous@2x.png)  
 *Continuous*
 
 **If necessary, create custom glyphs to communicate what the slider does.** The system displays plus and minus signs by default.

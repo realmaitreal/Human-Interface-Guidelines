@@ -8,7 +8,7 @@
 >
 > Updated to include guidance for iOS.
 
-![A sketch of an arrow pointing toward the Action button on Apple Watch, suggesting initiating an action. The image is overlaid with rectangular and circular grid lines and is tinted purple to subtly reflect the purple in the original six-color Apple logo.](/images/com.apple.HIG/inputs-action-button-intro@2x.png)
+![A sketch of an arrow pointing toward the Action button on Apple Watch, suggesting initiating an action. The image is overlaid with rectangular and circular grid lines and is tinted purple to subtly reflect the purple in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/inputs-action-button-intro@2x.png)
 
 On a supported device, people can use the Action button to run [App Shortcuts](../Components/System%20experiences/App%20Shortcuts.md) or access system-provided functionality, like turning the flashlight on or off. On Apple Watch Ultra, the Action button supports activity-related actions, including workouts and dives.
 

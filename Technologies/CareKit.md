@@ -8,7 +8,7 @@
 >
 > Consolidated guidance into one page.
 
-![A sketch of the CareKit icon. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](/images/com.apple.HIG/technologies-CareKit-intro@2x.png)
+![A sketch of the CareKit icon. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-CareKit-intro@2x.png)
 
 To learn more about CareKit, see [Research & Care > CareKit](https://www.researchandcare.org/carekit/).
 
@@ -66,15 +66,15 @@ Each view category is designed to support specific types of content and interact
 | [Charts](https://developer.apple.com/design/human-interface-guidelines/carekit#Charts) | Display graphical data that can help people understand how their treatment is progressing. |
 | [Contact views](https://developer.apple.com/design/human-interface-guidelines/carekit#Contact-views) | Display contact information. Support communication through phone, message, and email, and link to a map of the contact’s location. |
 
-![A screenshot of a CareKit app screen on iPhone that shows completed and uncompleted days, a medication task, a chart that compares the patient's nausea with their medication intake, and a logging task the patient can use to log each occurrence of nausea.](/images/com.apple.HIG/carekit-tasks-and-charts@2x.png)  
+![A screenshot of a CareKit app screen on iPhone that shows completed and uncompleted days, a medication task, a chart that compares the patient's nausea with their medication intake, and a logging task the patient can use to log each occurrence of nausea.](https://developer.apple.com/tutorials/images/com.apple.HIG/carekit-tasks-and-charts@2x.png)  
 *Tasks and charts*
 
-![A screenshot of a CareKit app screen on iPhone that shows contact information for two doctors, including buttons for phone, message, email, and map directions.](/images/com.apple.HIG/carekit-contacts@2x.png)  
+![A screenshot of a CareKit app screen on iPhone that shows contact information for two doctors, including buttons for phone, message, email, and map directions.](https://developer.apple.com/tutorials/images/com.apple.HIG/carekit-contacts@2x.png)  
 *Contacts*
 
 A CareKit UI view consists of a header and may include a stack of content subviews. Located at the top of the view, the header can display text, a symbol, and a disclosure indicator, and can include a separator at its bottom edge. The content stack appears below the header and displays your content subviews in a vertical arrangement.
 
-![An illustration of a CareKit task view. Callouts indicate the header area at the top of the view, which contains the title on the left and an optional disclosure indicator on the right. A subview area below the header includes circular checkmark buttons for marking off medication intake at different times of the day. Additional callouts point to the subview area and the horizontal separator between the header and the subview.](/images/com.apple.HIG/carekit-view-components@2x.png)
+![An illustration of a CareKit task view. Callouts indicate the header area at the top of the view, which contains the title on the left and an optional disclosure indicator on the right. A subview area below the header includes circular checkmark buttons for marking off medication intake at different times of the day. Additional callouts point to the subview area and the horizontal separator between the header and the subview.](https://developer.apple.com/tutorials/images/com.apple.HIG/carekit-view-components@2x.png)
 
 CareKit UI takes care of all the layout constraints within a view, so you don’t have to worry about breaking existing constraints when you add new subviews to the stack.
 
@@ -95,23 +95,23 @@ In CareKit 2.0, CareKit UI defines five styles of task views: simple, instructio
 
 **Use the simple style for a one-step task.** The default simple-style view consists of a header area that contains a title, subtitle, and button. You provide the title and subtitle, and you can provide a custom image to display in the button when the task is complete. If you don’t supply an image, CareKit shows that a task is complete by filling in the button and displaying a checkmark. Because the default simple-style view doesn’t include a content stack, consider using a different task style if you need to display additional content.
 
-![An illustration of a task for taking a single dose of medicine at a specific time of day. The filled-in circle and checkmark indicate that the task is complete.](/images/com.apple.HIG/carekit-simple-task@2x.png)
+![An illustration of a task for taking a single dose of medicine at a specific time of day. The filled-in circle and checkmark indicate that the task is complete.](https://developer.apple.com/tutorials/images/com.apple.HIG/carekit-simple-task@2x.png)
 
 **Use the instructions style when you need to add informative text to a simple task.** For example, if a single-step medication task needs to include additional information — such as “Take on an empty stomach” or “Take at bedtime” — you can use an instructions-style task to display it.
 
-![An illustration of a task for taking a single dose of medicine at a specific time of day. The task includes instructions for how to take the dose. Below the instructions, the task shows the word completed and a checkmark to indicate that the task is complete.](/images/com.apple.HIG/carekit-instructions-task@2x.png)
+![An illustration of a task for taking a single dose of medicine at a specific time of day. The task includes instructions for how to take the dose. Below the instructions, the task shows the word completed and a checkmark to indicate that the task is complete.](https://developer.apple.com/tutorials/images/com.apple.HIG/carekit-instructions-task@2x.png)
 
 **Use the log style to help people log events.** For example, you could use this task style to display a button people can tap whenever they feel nauseated. The log-style task can automatically display a timestamp every time the patient logs an event.
 
-![An illustration of a task for logging incidents of nausea. The task's header area includes a title, a time range, and a disclosure button to display additional details. The subview area includes instructions, a Log button, and a time completed.](/images/com.apple.HIG/carekit-log-task@2x.png)
+![An illustration of a task for logging incidents of nausea. The task's header area includes a title, a time range, and a disclosure button to display additional details. The subview area includes instructions, a Log button, and a time completed.](https://developer.apple.com/tutorials/images/com.apple.HIG/carekit-log-task@2x.png)
 
 **Use the checklist style to display a list of actions or steps in a multistep task.** For example, if people must take a medication three times per day, you could display the three scheduled times in a checklist. Each checklist item can include a text description and a button that people can tap to mark the item as done. By default, a checklist task can also display instructional text below the list.
 
-![An illustration of a task that directs the patient to take a medicine at breakfast, lunch, and dinner. Filled-in circles containing checkmarks next to breakfast and lunch show that the patient has taken the first two doses.](/images/com.apple.HIG/carekit-checklist-task@2x.png)
+![An illustration of a task that directs the patient to take a medicine at breakfast, lunch, and dinner. Filled-in circles containing checkmarks next to breakfast and lunch show that the patient has taken the first two doses.](https://developer.apple.com/tutorials/images/com.apple.HIG/carekit-checklist-task@2x.png)
 
 **Use the grid style to display a grid of buttons in a multistep task.** Like the checklist style, the grid style also supports a multistep task, but it displays the steps in a more compact arrangement. You can supply a succinct title for each button (if you need to provide additional description for each button, you might want to use the checklist style instead). By default, a grid-style task can also display instructional text below the grid of buttons. Unlike other task styles, the grid style gives you access to its underlying collection view, which means that you can display custom UI elements in the grid layout.
 
-![An illustration of a task that consists of three circles that represent three doses of a medicine. The first two circles are filled in and contain checkmarks, indicating that the patient has already taken two doses.](/images/com.apple.HIG/carekit-grid-task@2x.png)
+![An illustration of a task that consists of three circles that represent three doses of a medicine. The first two circles are filled in and contain checkmarks, indicating that the patient has already taken two doses.](https://developer.apple.com/tutorials/images/com.apple.HIG/carekit-grid-task@2x.png)
 
 **Consider using color to reinforce the meaning of task items.** Color can be a good way to help people understand information at a glance. For example, you could use one color for medications and a different color for physical activities. Always avoid using color as the only way to convey information. For guidance, see [Color](../Foundations/Color.md).
 
@@ -125,13 +125,13 @@ Chart views let you present data and trends in graphical ways that can help peop
 
 In CareKit 2.0, CareKit UI provides three chart styles: bar, scatter, and line. For each style, you provide a descriptive title and subtitle, supply axis markers — like days of the week — and specify the data set.
 
-![An illustration of a bar chart with days of the week on the x-axis and dosage numbers on the y-axis. The bar on Thursday reaches a value of two on the y-axis, indicating that the medicine was taken twice that day.](/images/com.apple.HIG/carekit-bar-chart@2x.png)  
+![An illustration of a bar chart with days of the week on the x-axis and dosage numbers on the y-axis. The bar on Thursday reaches a value of two on the y-axis, indicating that the medicine was taken twice that day.](https://developer.apple.com/tutorials/images/com.apple.HIG/carekit-bar-chart@2x.png)  
 *Bar chart*
 
-![An illustration of a scatter chart with days of the week on the x-axis and dosage numbers on the y-axis. A dot on Thursday reaches a value of two on the y-axis, indicating that the medicine was taken twice that day.](/images/com.apple.HIG/carekit-scatter-chart@2x.png)  
+![An illustration of a scatter chart with days of the week on the x-axis and dosage numbers on the y-axis. A dot on Thursday reaches a value of two on the y-axis, indicating that the medicine was taken twice that day.](https://developer.apple.com/tutorials/images/com.apple.HIG/carekit-scatter-chart@2x.png)  
 *Scatter chart*
 
-![An illustration of a line chart with days of the week on the x-axis and dosage numbers on the y-axis. The line is at zero on the y-axis for all days but Thursday, where it reaches a value of two, indicating that the medicine was taken twice that day.](/images/com.apple.HIG/carekit-line-chart@2x.png)  
+![An illustration of a line chart with days of the week on the x-axis and dosage numbers on the y-axis. The line is at zero on the y-axis for all days but Thursday, where it reaches a value of two, indicating that the medicine was taken twice that day.](https://developer.apple.com/tutorials/images/com.apple.HIG/carekit-line-chart@2x.png)  
 *Line chart*
 
 **Consider highlighting narratives and trends to illustrate progress.** For example, your app could display a bar chart that shows a correlation between the number of times people took medication and their level of pain. Displaying such data can encourage better adherence to a care plan.
@@ -156,10 +156,10 @@ A care plan typically includes a care team and other trusted individuals who can
 
 In CareKit 2.0, CareKit UI provides two styles of the contact view: simple and detailed.
 
-![An illustration of a simple contact view that displays a person glyph, followed by a doctor's name and practice type, and a disclosure button to display additional information.](/images/com.apple.HIG/carekit-simple-contact@2x.png)  
+![An illustration of a simple contact view that displays a person glyph, followed by a doctor's name and practice type, and a disclosure button to display additional information.](https://developer.apple.com/tutorials/images/com.apple.HIG/carekit-simple-contact@2x.png)  
 *Simple*
 
-![An illustration of a detailed contact view that displays a person glyph, followed by a doctor's name and practice type in a header area. In a subview area, the view displays information about the doctor, and buttons for calling, messaging, emailing, and navigating to the doctor's physical address.](/images/com.apple.HIG/carekit-detailed-contact@2x.png)  
+![An illustration of a detailed contact view that displays a person glyph, followed by a doctor's name and practice type in a header area. In a subview area, the view displays information about the doctor, and buttons for calling, messaging, emailing, and navigating to the doctor's physical address.](https://developer.apple.com/tutorials/images/com.apple.HIG/carekit-detailed-contact@2x.png)  
 *Detailed*
 
 **Consider using color to categorize care team members.** Color can help people identify care team members at a glance.

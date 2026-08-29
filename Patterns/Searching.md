@@ -8,7 +8,7 @@
 >
 > Updated terminology and refined best practices.
 
-![A sketch of a magnifying glass, suggesting the search for information. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](/images/com.apple.HIG/patterns-searching-intro@2x.png)
+![A sketch of a magnifying glass, suggesting the search for information. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-searching-intro@2x.png)
 
 To search for content within an app, people generally expect to use a [Search fields](../Components/Navigation%20and%20search/Search%20fields.md). When it makes sense, you can personalize the search experience by using what you know about how people interact with your app. For example, you might display recent searches, search suggestions, completions, or corrections based on terms people searched earlier in your app.
 

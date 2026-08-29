@@ -8,7 +8,7 @@
 >
 > Added guidance for using tab views in watchOS.
 
-![A stylized representation of a view with three labeled tabs, the first of which is selected. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-tab-view-intro@2x.png)
+![A stylized representation of a view with three labeled tabs, the first of which is selected. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-tab-view-intro@2x.png)
 
 ## Best practices
 
@@ -28,7 +28,7 @@ For developer guidance, see [NSTabView](https://developer.apple.com/documentatio
 
 The tabbed control appears on the top edge of the content area. You can choose to hide the control, which is appropriate for an app that switches between panes programmatically.
 
-![An illustration of a window in which a three-tab tabbed control is centered on the top edge of the content view.](/images/com.apple.HIG/tab-views-top@2x.png)
+![An illustration of a window in which a three-tab tabbed control is centered on the top edge of the content view.](https://developer.apple.com/tutorials/images/com.apple.HIG/tab-views-top@2x.png)
 
 When you hide the tabbed control, the content area can be borderless, bezeled, or bordered with a line. A borderless view can be solid or transparent.
 
@@ -46,7 +46,7 @@ For similar functionality, consider using a [segmented control](../Selection%20a
 
 watchOS displays tab views using [page controls](../Presentation/Page%20controls.md). For developer guidance, see [TabView](https://developer.apple.com/documentation/swiftui/tabview).
 
-![An illustration showing the page control next to the Digital Crown on Apple Watch. The current dot is enlarged, indicating that people can scroll through the current content, as well as scroll between pages.](/images/com.apple.HIG/tab-view-watch-vertical@2x.png)
+![An illustration showing the page control next to the Digital Crown on Apple Watch. The current dot is enlarged, indicating that people can scroll through the current content, as well as scroll between pages.](https://developer.apple.com/tutorials/images/com.apple.HIG/tab-view-watch-vertical@2x.png)
 
 ## Resources
 

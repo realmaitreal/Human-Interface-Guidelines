@@ -8,7 +8,7 @@
 >
 > Reorganized guidance in platform considerations, and added guidance for multitasking with multiple windows in iPadOS.
 
-![A sketch of two side-by-side windows in a split view arrangement, suggesting multitasking. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](/images/com.apple.HIG/patterns-multitasking-intro@2x.png)
+![A sketch of two side-by-side windows in a split view arrangement, suggesting multitasking. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-multitasking-intro@2x.png)
 
 People expect to use multitasking on their devices, and they may think something is wrong if your app doesn’t allow it. With rare exceptions — such as some games, and Apple Vision Pro apps running in a Full Space — every app needs to work well with multitasking.
 
@@ -39,10 +39,10 @@ For guidance, see [Playing audio](Playing%20audio.md).
 
 On iPhone, multitasking lets people use FaceTime or watch a video in Picture in Picture while they also use a different app.
 
-![A screenshot of the app switcher on iPhone, showing four open apps.](/images/com.apple.HIG/multitasking-app-switcher-iphone@2x.png)  
+![A screenshot of the app switcher on iPhone, showing four open apps.](https://developer.apple.com/tutorials/images/com.apple.HIG/multitasking-app-switcher-iphone@2x.png)  
 *The app switcher displays all currently open apps.*
 
-![A screenshot of Mail on iPhone, showing an individual email. On top of the email body content, a small image in the bottom-left corner shows the person currently in a FaceTime call.](/images/com.apple.HIG/multitasking-pip-iphone@2x.png)  
+![A screenshot of Mail on iPhone, showing an individual email. On top of the email body content, a small image in the bottom-left corner shows the person currently in a FaceTime call.](https://developer.apple.com/tutorials/images/com.apple.HIG/multitasking-pip-iphone@2x.png)  
 *A current FaceTime call can continue while people use another app.*
 
 ### iPadOS
@@ -51,11 +51,11 @@ On iPad, people can view and interact with the [Windows](../Components/Presentat
 
 People can use iPad with either full-screen or windowed apps. When full screen, apps occupy the full screen, and people can switch between individual app windows using the app switcher.
 
-![A screenshot of the iPad app switcher in landscape orientation, showing five open apps. Thumbnail representations of the apps are arranged in a grid.](/images/com.apple.HIG/multitasking-ipad-app-switcher@2x.png)
+![A screenshot of the iPad app switcher in landscape orientation, showing five open apps. Thumbnail representations of the apps are arranged in a grid.](https://developer.apple.com/tutorials/images/com.apple.HIG/multitasking-ipad-app-switcher@2x.png)
 
 When using windowed apps, app windows are resizable, and people can arrange them to suit their needs with behavior similar to macOS. The system provides window controls for common tiling configurations, entering full screen, minimizing, and closing windows. The system identifies the frontmost window by coloring its window controls and casting a drop shadow on windows behind it. For guidance, see [iPadOS](https://developer.apple.com/design/human-interface-guidelines/windows#iPadOS).
 
-![A screenshot of two windowed apps on iPad in landscape orientation. The frontmost app window overlaps and casts a shadow on the one behind it, and has colored window controls to indicate that the window is active. Both windows sit atop the Home Screen background, and the Dock appears at the bottom.](/images/com.apple.HIG/multitasking-ipad-windows-maps-landmarks@2x.png)
+![A screenshot of two windowed apps on iPad in landscape orientation. The frontmost app window overlaps and casts a shadow on the one behind it, and has colored window controls to indicate that the window is active. Both windows sit atop the Home Screen background, and the Dock appears at the bottom.](https://developer.apple.com/tutorials/images/com.apple.HIG/multitasking-ipad-windows-maps-landmarks@2x.png)
 
 Additionally, videos and FaceTime calls can also play in a Picture in Picture overlay above other content regardless of whether apps are full screen or windowed.
 

@@ -8,7 +8,7 @@
 >
 > Updated guidance for touch-based controls and Game Center.
 
-![A stylized representation of a game controller shown on top of a grid. The image is overlaid with rectangular and circular grid lines and is tinted green to subtly reflect the green in the original six-color Apple logo.](/images/com.apple.HIG/platforms-games-intro@2x.png)
+![A stylized representation of a game controller shown on top of a grid. The image is overlaid with rectangular and circular grid lines and is tinted green to subtly reflect the green in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-games-intro@2x.png)
 
 As you create or adapt a game for Apple platforms, learn how to integrate the fundamental platform characteristics and patterns that help your game feel at home on all Apple devices. To learn what makes each platform unique, see [Designing for iOS](Designing%20for%20iOS.md), [Designing for iPadOS](Designing%20for%20iPadOS.md), [Designing for macOS](Designing%20for%20macOS.md), [Designing for tvOS](Designing%20for%20tvOS.md), [Designing for visionOS](Designing%20for%20visionOS.md), and [Designing for watchOS](Designing%20for%20watchOS.md). For developer guidance, see [Games Pathway](https://developer.apple.com/games/pathway/).
 

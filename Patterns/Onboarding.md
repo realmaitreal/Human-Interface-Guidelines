@@ -8,7 +8,7 @@
 >
 > Clarified different approaches to onboarding and added a guideline on displaying a splash screen.
 
-![A sketch of a waving hand, suggesting a gesture of welcoming. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](/images/com.apple.HIG/patterns-onboarding-intro@2x.png)
+![A sketch of a waving hand, suggesting a gesture of welcoming. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-onboarding-intro@2x.png)
 
 Ideally, people can understand your app or game simply by experiencing it, but if onboarding is necessary, design a flow that’s fast, fun, and optional. When available, onboarding occurs after [Launching](Launching.md) is complete — it isn’t part of the launch experience.
 

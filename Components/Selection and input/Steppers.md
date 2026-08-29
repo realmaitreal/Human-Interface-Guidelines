@@ -4,7 +4,7 @@
 
 *A stepper is a two-segment control that people use to increase or decrease an incremental value.*
 
-![A stylized representation of a stepper control. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-stepper-intro@2x.png)
+![A stylized representation of a stepper control. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-stepper-intro@2x.png)
 
 A stepper sits next to a field that displays its current value, because the stepper itself doesn’t display a value.
 

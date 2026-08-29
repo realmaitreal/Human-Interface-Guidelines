@@ -8,7 +8,7 @@
 >
 > Updated guidance to reflect changes in watchOS 10.
 
-![A stylized representation of a text field containing a value. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-text-field-intro@2x.png)
+![A stylized representation of a text field containing a value. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-text-field-intro@2x.png)
 
 ## Best practices
 
@@ -28,18 +28,18 @@
 
 **Use a number formatter to help with numeric data.** A number formatter automatically configures the text field to accept only numeric values. It can also display the value in a specific way, such as with a certain number of decimal places, as a percentage, or as currency. Don’t assume the actual presentation of data, however, as formatting can vary significantly based on people’s locale.
 
-![A partial screenshot of two stacked text fields. The top field contains a number with four decimal places. The bottom field contains a currency value.](/images/com.apple.HIG/text-fields-formatted-text@2x.png)  
+![A partial screenshot of two stacked text fields. The top field contains a number with four decimal places. The bottom field contains a currency value.](https://developer.apple.com/tutorials/images/com.apple.HIG/text-fields-formatted-text@2x.png)  
 *Formatted text*
 
 **Adjust line breaks according to the needs of the field.** By default, the system clips any text extending beyond the bounds of a text field. Alternatively, you can set up a text field to wrap text to a new line at the character or word level, or to truncate (indicated by an ellipsis) at the beginning, middle, or end.
 
-![A partial screenshot of a text field that contains a sentence that is cut off before its end.](/images/com.apple.HIG/text-fields-clipped-text@2x.png)  
+![A partial screenshot of a text field that contains a sentence that is cut off before its end.](https://developer.apple.com/tutorials/images/com.apple.HIG/text-fields-clipped-text@2x.png)  
 *Clipped text*
 
-![A partial screenshot of a text field that contains a sentence that wraps to two lines.](/images/com.apple.HIG/text-fields-wrapped-text@2x.png)  
+![A partial screenshot of a text field that contains a sentence that wraps to two lines.](https://developer.apple.com/tutorials/images/com.apple.HIG/text-fields-wrapped-text@2x.png)  
 *Wrapped text*
 
-![A partial screenshot of a text field that contains a sentence that includes an ellipsis in place of the last few words.](/images/com.apple.HIG/text-fields-truncated-text@2x.png)  
+![A partial screenshot of a text field that contains a sentence that includes an ellipsis in place of the last few words.](https://developer.apple.com/tutorials/images/com.apple.HIG/text-fields-truncated-text@2x.png)  
 *Truncated text*
 
 **Consider using an expansion tooltip to show the full version of clipped or truncated text.** An expansion tooltip behaves like a regular [tooltip](https://developer.apple.com/design/human-interface-guidelines/offering-help#macOS-visionOS) and appears when someone places the pointer over the field.

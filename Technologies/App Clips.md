@@ -8,7 +8,7 @@
 >
 > Updated guidance to include demo App Clips.
 
-![A sketch of an app icon surrounded by a dashed line, suggesting an App Clip. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](/images/com.apple.HIG/technologies-app-clips-intro@2x.png)
+![A sketch of an app icon surrounded by a dashed line, suggesting an App Clip. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-app-clips-intro@2x.png)
 
 App Clips deliver an experience from your app or game without requiring people to download the full app from the App Store. App Clips focus on a fast solution to a task or contain a demo that showcases the full app or game, and they remain on the device for a limited amount of time while preserving people’s privacy.
 
@@ -16,9 +16,9 @@ People discover and launch App Clips in a variety of situations and contexts. At
 
 On their device, people launch an App Clip from location-based suggestions they permit in Siri Suggestions, the Maps app, Smart App Banners on websites, App Clip cards in Safari, and by tapping links others share with them in the Messages app. Starting with iOS 17, an app can include links and App Clip previews that people tap to launch another app’s App Clip.
 
-![A screenshot of an iPhone Lock Screen. The bottom half of the screen shows the App Clip card for a food truck’s App Clip as it appears when the person invokes the App Clip.](/images/com.apple.HIG/app-clips-hero-1@2x.png)
+![A screenshot of an iPhone Lock Screen. The bottom half of the screen shows the App Clip card for a food truck’s App Clip as it appears when the person invokes the App Clip.](https://developer.apple.com/tutorials/images/com.apple.HIG/app-clips-hero-1@2x.png)
 
-![A screenshot of a food truck’s App Clip on iPhone as it appears when a person confirms the App Clip’s launch on the App Clip card. The App Clip displays a list with various donuts the person can order.](/images/com.apple.HIG/app-clips-hero-2@2x.png)
+![A screenshot of a food truck’s App Clip on iPhone as it appears when a person confirms the App Clip’s launch on the App Clip card. The App Clip displays a list with various donuts the person can order.](https://developer.apple.com/tutorials/images/com.apple.HIG/app-clips-hero-2@2x.png)
 
 Consider creating an App Clip if your app provides an in-the-moment experience that helps people perform a task over a finite amount of time. For example:
 
@@ -129,16 +129,16 @@ The system-provided App Clip card is people’s first interaction with your App 
 
 **Pick a verb for the action button that best fits your App Clip.** Possible verbs are *View*, *Play*, or *Open*. Pick *View* for media, or if your App Clip provides informational or educational content. Pick *Play* for games. Choose *Open* for all other App Clips.
 
-![A horizontal row of two App Clip cards. The left App Clip card is for a game and uses Play as the verb for the action button. The right App Clip card is for an app and uses Open as the verb for the action button.](/images/com.apple.HIG/app-clips-card@2x.png)
+![A horizontal row of two App Clip cards. The left App Clip card is for a game and uses Play as the verb for the action button. The right App Clip card is for an app and uses Open as the verb for the action button.](https://developer.apple.com/tutorials/images/com.apple.HIG/app-clips-card@2x.png)
 
 ## App Clip Codes
 
 App Clip Codes are the best way for people to discover your App Clip. Their distinct design is immediately recognizable, and they offer a fast, secure way to launch your App Clip.
 
-![An App Clip Code that uses a badge design with the App Clip logo.](/images/com.apple.HIG/with-appclip-logo@2x.png)  
+![An App Clip Code that uses a badge design with the App Clip logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/with-appclip-logo@2x.png)  
 *App Clip Code with the App Clip logo*
 
-![An App Clip Code that uses a design without the App Clip logo.](/images/com.apple.HIG/without-appclip-logo@2x.png)  
+![An App Clip Code that uses a design without the App Clip logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/without-appclip-logo@2x.png)  
 *App Clip Code without the App Clip logo*
 
 App Clip Codes always use the designs Apple provides and follow size, placement, and printing guidelines. Choose between the badge design that uses the App Clip logo ( App Clip) or, when space is at a premium, a design without it. Create App Clip Codes that use a default color pair, or choose custom foreground and background colors. For developer guidance, see [Creating App Clip Codes](https://developer.apple.com/documentation/appclip/creating-app-clip-codes).
@@ -147,7 +147,7 @@ App Clip Codes always use the designs Apple provides and follow size, placement,
 
 App Clip Codes come in two variants: *scan-only* or with an embedded NFC tag (*NFC-integrated*).
 
-![A scan-only App Clip Code with callouts for the center icon, visual code, and the App Clip logo.](/images/com.apple.HIG/scan-only@2x.png)
+![A scan-only App Clip Code with callouts for the center icon, visual code, and the App Clip logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/scan-only@2x.png)
 
 The scan-only variant uses a camera icon in its center to let people know to use the Camera app or the Code Scanner in Control Center to scan the App Clip Code. The NFC-integrated variant uses an iPhone icon at its center that guides people to hold their device close to the App Clip Code or to scan it using the NFC Tag Reader in Control Center. People can also scan an NFC-integrated App Clip Code with the Camera app or the Code Scanner in Control Center. For example:
 
@@ -155,7 +155,7 @@ The scan-only variant uses a camera icon in its center to let people know to use
 - A gas station could have an NFC-integrated App Clip Code attached to each pump. A traveler could hold their device close to it to launch the gas station’s App Clip and use it to pay for their refill.
 - A video game creator could hand out marketing material at an industry event that includes an App Clip Code. An event attendee could scan the code to launch an App Clip that’s a playable demo of their latest video game.
 
-![An illustration that shows how a person uses an App Clip Code on a table at a coffee shop. The left side of the illustration shows two people sitting at a table. A placard in the middle of the table contains an App Clip Code. The person on the left is using their camera to scan the App Clip Code. The right side of the illustration shows a zoomed-in version of the person's phone screen and the placard on the table.](/images/com.apple.HIG/interacting-coffee-shop-example@2x.png)
+![An illustration that shows how a person uses an App Clip Code on a table at a coffee shop. The left side of the illustration shows two people sitting at a table. A placard in the middle of the table contains an App Clip Code. The person on the left is using their camera to scan the App Clip Code. The right side of the illustration shows a zoomed-in version of the person's phone screen and the placard on the table.](https://developer.apple.com/tutorials/images/com.apple.HIG/interacting-coffee-shop-example@2x.png)
 
 ### Displaying App Clip Codes
 
@@ -179,7 +179,7 @@ No matter which of the two variants you use, it’s important you carefully cons
 
 **Place your App Clip Code on a flat or cylindrical surface only.** If you place your App Clip Code on a cylindrical surface — for example, on a scooter’s handlebar — make sure the width of the App Clip Code doesn’t exceed one-sixth of the cylinder’s circumference.
 
-![An illustration that shows a circle that represents a cylindrical surface. Lines divide the circle into six segments of equal size. One segment represents an App Clip Code and shows how the code doesn’t cover more than one-sixth, or 60 degrees, of the surface’s circumference.](/images/com.apple.HIG/app-clips-slice@2x.png)
+![An illustration that shows a circle that represents a cylindrical surface. Lines divide the circle into six segments of equal size. One segment represents an App Clip Code and shows how the code doesn’t cover more than one-sixth, or 60 degrees, of the surface’s circumference.](https://developer.apple.com/tutorials/images/com.apple.HIG/app-clips-slice@2x.png)
 
 **Help your App Clip Code remain as flat as possible so it’s easy for people to scan.** To provide the best scanning experience, avoid displaying App Clip Codes on deformable materials that readily fold or crumple, such as paper, plastic, or fabric. If you need to make your App Clip Code available on a bag, flexible box, or other deformable object, display it on something rigid — like a card — that you attach to the object. If you create an App Clip Code sticker, make sure it adheres well to flat surfaces.
 
@@ -189,17 +189,17 @@ No matter which of the two variants you use, it’s important you carefully cons
 
 **Display the App Clip Code in an upright position.** Don’t rotate the generated App Clip Code or display the center glyph at an angle.
 
-![A correctly placed App Clip Code in the upright position.](/images/com.apple.HIG/upright-display-right@2x.png)
+![A correctly placed App Clip Code in the upright position.](https://developer.apple.com/tutorials/images/com.apple.HIG/upright-display-right@2x.png)
 
-![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png)
+![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
-![An incorrectly placed App Clip Code that's rotated 90 degrees to the left.](/images/com.apple.HIG/upright-display-wrong-1@2x.png)
+![An incorrectly placed App Clip Code that's rotated 90 degrees to the left.](https://developer.apple.com/tutorials/images/com.apple.HIG/upright-display-wrong-1@2x.png)
 
-![An X in a circle to indicate an invalid App Clip Code.](/images/com.apple.HIG/crossout@2x.png)
+![An X in a circle to indicate an invalid App Clip Code.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
-![An incorrectly placed App Clip Code that's rotated 135 degrees to the right.](/images/com.apple.HIG/upright-display-wrong-2@2x.png)
+![An incorrectly placed App Clip Code that's rotated 135 degrees to the right.](https://developer.apple.com/tutorials/images/com.apple.HIG/upright-display-wrong-2@2x.png)
 
-![An X in a circle to indicate an invalid App Clip Code.](/images/com.apple.HIG/crossout@2x.png)
+![An X in a circle to indicate an invalid App Clip Code.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
 **Don’t create App Clip Codes that are too small.** App Clip Codes must adhere to the following specifications.
 
@@ -209,25 +209,25 @@ No matter which of the two variants you use, it’s important you carefully cons
 | Digital communications | Minimum size of 256×256 px. Use a PNG or SVG file. |
 | NFC-integrated App Clip Code | The embedded NFC tag needs to be at least 35 mm in diameter or of equivalent size. For example, if your embedded NFC tag is 35 mm in diameter, your printed App Clip Code needs to be at least 1.37 inches (3.48 cm) in diameter. |
 
-![An App Clip Code that uses the badge design and has a minimum diameter of 3/4 inch (1.9 cm).](/images/com.apple.HIG/sizing-minimum-rectangle@2x.png)
+![An App Clip Code that uses the badge design and has a minimum diameter of 3/4 inch (1.9 cm).](https://developer.apple.com/tutorials/images/com.apple.HIG/sizing-minimum-rectangle@2x.png)
 
-![An App Clip Code that uses the design without the App Clip logo and has a minimum diameter of 3/4 inch (1.9 cm).](/images/com.apple.HIG/sizing-minimum-circular@2x.png)
+![An App Clip Code that uses the design without the App Clip logo and has a minimum diameter of 3/4 inch (1.9 cm).](https://developer.apple.com/tutorials/images/com.apple.HIG/sizing-minimum-circular@2x.png)
 
 When determining the dimensions of your App Clip Codes, consider a distance to code size ratio of no more than 20:1. If possible, use a ratio of 10:1 to ensure reliable scanning. For example, an App Clip that people scan from 40 inches (101 cm) away needs to be at least 4 inches (10.16 cm) in diameter.
 
 If you display an App Clip Code near a QR Code or other scannable item, choose a size for the App Clip Code that’s at least the other code’s or item’s size.
 
-![An illustration of an App Clip Code next to a QR code. Red guides denote that both are the same size.](/images/com.apple.HIG/app-clip-with-qr-code@2x.png)
+![An illustration of an App Clip Code next to a QR code. Red guides denote that both are the same size.](https://developer.apple.com/tutorials/images/com.apple.HIG/app-clip-with-qr-code@2x.png)
 
 **Provide enough space between an App Clip Code and adjacent App Clip Codes, graphics, or materials.** The minimum clear space around an App Clip Code is equal to the space between the center glyph and the circular code. If you place your App Clip Code next to another App Clip Code or other machine-readable code, leave enough clear space to allow for reliable scanning of each code.
 
-![An illustration that shows an App Clip Code with the badge design to the left of an App Clip Code without the App Clip logo. A red guide surrounds each App Clip Code, illustrating the clear space requirements.](/images/com.apple.HIG/app-clip-spacing@2x.png)
+![An illustration that shows an App Clip Code with the badge design to the left of an App Clip Code without the App Clip logo. A red guide surrounds each App Clip Code, illustrating the clear space requirements.](https://developer.apple.com/tutorials/images/com.apple.HIG/app-clip-spacing@2x.png)
 
 ### Using clear messaging
 
 Add clear messaging that informs people how they can use the App Clip Code to launch your App Clip, especially if you use the design without the App Clip logo. For example, add a call to action next to an App Clip Code you display in an email or on a poster. Use the suggested call-to-action messaging or your own copy. Always use a simple, clear call to action.
 
-![An illustration that shows two people sitting at a table at a coffee shop. A placard in the middle of the table contains an App Clip Code. The right side of the illustration shows a zoomed-in version of the placard, which contains an App Clip Code and surrounding text that reads 'Place your order. Hold your iPhone near the menu to place your food order.'.](/images/com.apple.HIG/clear-messaging@2x.png)
+![An illustration that shows two people sitting at a table at a coffee shop. A placard in the middle of the table contains an App Clip Code. The right side of the illustration shows a zoomed-in version of the placard, which contains an App Clip Code and surrounding text that reads 'Place your order. Hold your iPhone near the menu to place your food order.'.](https://developer.apple.com/tutorials/images/com.apple.HIG/clear-messaging@2x.png)
 
 For a scan-only App Clip Code, you can use the following call to action:
 
@@ -247,25 +247,25 @@ For more information, see [NFC](NFC.md).
 
 Use [App Store Connect](https://appstoreconnect.apple.com) or the [App Clip Code Generator](https://developer.apple.com/app-clips/resources/) command-line tool to create App Clip Codes, and follow best practices to ensure a reliable scanning experience.
 
-![Four App Clip badges, each using different colors. The two on the left use the badge design, and the two on the right use the design without the App Clip logo.](/images/com.apple.HIG/app-clips-customizing@2x.png)
+![Four App Clip badges, each using different colors. The two on the left use the badge design, and the two on the right use the design without the App Clip logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/app-clips-customizing@2x.png)
 
 **Always use the generated App Clip Code.** Don’t create your own App Clip Code design or modify a generated App Clip Code in any way. Don’t apply filters, augment its colors, or add glows, shadows, gradients, or reflections. They negatively impact people’s scanning experience. When scaling a generated App Clip Code, don’t change the generated code’s aspect ratio, and be sure to scale all attributes of the App Clip Code — for example the stroke widths.
 
-![An illustration of an invalid App Clip Code with a changed aspect ratio.](/images/com.apple.HIG/customizing-wrong-1@2x.png)
+![An illustration of an invalid App Clip Code with a changed aspect ratio.](https://developer.apple.com/tutorials/images/com.apple.HIG/customizing-wrong-1@2x.png)
 
-![An X in a circle to indicate an invalid App Clip Code.](/images/com.apple.HIG/crossout@2x.png)
+![An X in a circle to indicate an invalid App Clip Code.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
-![An illustration of an invalid App Clip Code with a color gradient instead of a solid background color.](/images/com.apple.HIG/customizing-wrong-2@2x.png)
+![An illustration of an invalid App Clip Code with a color gradient instead of a solid background color.](https://developer.apple.com/tutorials/images/com.apple.HIG/customizing-wrong-2@2x.png)
 
-![An X in a circle to indicate an invalid App Clip Code.](/images/com.apple.HIG/crossout@2x.png)
+![An X in a circle to indicate an invalid App Clip Code.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
-![An illustration of an invalid App Clip Code with a drop shadow effect.](/images/com.apple.HIG/customizing-wrong-3@2x.png)
+![An illustration of an invalid App Clip Code with a drop shadow effect.](https://developer.apple.com/tutorials/images/com.apple.HIG/customizing-wrong-3@2x.png)
 
-![An X in a circle to indicate an invalid App Clip Code.](/images/com.apple.HIG/crossout@2x.png)
+![An X in a circle to indicate an invalid App Clip Code.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
 **Choose colors with enough contrast that ensure accurate scanning.** Each App Clip Code uses three colors: a foreground color, a background color, and a third color that’s generated for you based on the foreground and background colors. Both [App Store Connect](https://appstoreconnect.apple.com) and the [App Clip Code Generator](https://developer.apple.com/app-clips/resources/) command-line tool offer a selection of default color pairs. Alternatively, you can choose custom foreground and background colors. Note that you can’t choose custom colors that will lead to a suboptimal scanning experience. If your color selection doesn’t work well, neither App Store Connect nor the command-line tool will generate an App Clip Code. To help you choose a color combination that works well, both tools contain functionality to suggest a different foreground color based on your custom background color. For more information, see [Creating App Clip Codes with the App Clip Code Generator](https://developer.apple.com/documentation/appclip/creating-app-clip-codes-with-the-app-clip-code-generator) and [Creating App Clip Codes with App Store Connect](https://developer.apple.com/documentation/appclip/creating-app-clip-codes-with-app-store-connect).
 
-![An illustration of an App Clip Code that uses the badge design and has callouts for the background, foreground, and generated colors.](/images/com.apple.HIG/app-clip-colors@2x.png)
+![An illustration of an App Clip Code that uses the badge design and has callouts for the background, foreground, and generated colors.](https://developer.apple.com/tutorials/images/com.apple.HIG/app-clip-colors@2x.png)
 
 ## Printing guidelines
 

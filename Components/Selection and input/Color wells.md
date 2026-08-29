@@ -4,7 +4,7 @@
 
 *A color well lets people adjust the color of text, shapes, guides, and other onscreen elements.*
 
-![A stylized representation of a color-selection popover extending down from an expanded button. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-color-well-intro@2x.png)
+![A stylized representation of a color-selection popover extending down from an expanded button. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-color-well-intro@2x.png)
 
 A color well displays a color picker when people tap or click it. This color picker can be the system-provided one or a custom interface that you design.
 

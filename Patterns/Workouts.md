@@ -4,7 +4,7 @@
 
 *A great workout or fitness experience encourages people to engage with their current activity and helps them track their progress on their devices.*
 
-![A sketch of a person running, suggesting exercise. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](/images/com.apple.HIG/patterns-workouts-intro@2x.png)
+![A sketch of a person running, suggesting exercise. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-workouts-intro@2x.png)
 
 People can wear their Apple Watch during many types of workouts, and they might carry their iPhone or iPad during fitness activities like walking, wheelchair pushing, and running. In contrast, people tend to use their larger or more stationary devices like iPad Pro, Mac, and Apple TV to participate in live or recorded workout sessions by themselves or with others.
 
@@ -16,13 +16,13 @@ You can create a workout experience for Apple Watch, iPhone, or iPad that helps 
 
 **Avoid distracting people from a workout with information that’s not relevant.** For example, people don’t need to review the list of workouts you offer or access other parts of your app while they’re working out. Here is an arrangement that many watchOS workout apps use, including Workout:
 
-![A screenshot of the leftmost Workout screen for an Outdoor Walk workout. Clockwise from the top-left corner are the End, Resume, New, and Segment buttons.](/images/com.apple.HIG/workouts-large-buttons@2x.png)  
+![A screenshot of the leftmost Workout screen for an Outdoor Walk workout. Clockwise from the top-left corner are the End, Resume, New, and Segment buttons.](https://developer.apple.com/tutorials/images/com.apple.HIG/workouts-large-buttons@2x.png)  
 *Large buttons that control the in-progress session — such as End, Resume, and New — appear on the leftmost screen.*
 
-![A screenshot of the middle Workout screen for an Outdoor Walk workout. Five lines of data are visible. From the top, the screen shows the elapsed time, the active calories, the current heart rate, the average pace, and the elevation.](/images/com.apple.HIG/workouts-metrics@2x.png)  
+![A screenshot of the middle Workout screen for an Outdoor Walk workout. Five lines of data are visible. From the top, the screen shows the elapsed time, the active calories, the current heart rate, the average pace, and the elevation.](https://developer.apple.com/tutorials/images/com.apple.HIG/workouts-metrics@2x.png)  
 *Metrics and other data appear on a dedicated screen that people can read at a glance.*
 
-![A screenshot of the rightmost Workout screen, which shows information about the music currently playing.](/images/com.apple.HIG/workouts-media-playback@2x.png)  
+![A screenshot of the rightmost Workout screen, which shows information about the music currently playing.](https://developer.apple.com/tutorials/images/com.apple.HIG/workouts-media-playback@2x.png)  
 *If supported, media playback controls appear on the rightmost screen.*
 
 **Use a distinct visual appearance to indicate an active workout.** During a workout, people appreciate being able to recognize an active session at a glance. The metrics page can be a good way to show that a session is active because the values update in real time. In addition to displaying updating values, you can further distinguish the metrics screen by using a unique layout.
@@ -33,9 +33,9 @@ You can create a workout experience for Apple Watch, iPhone, or iPad that helps 
 
 |  | Example text from the Workout app |  |  |
 | --- | --- | --- | --- |
-| ![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png) | GPS is not used during a Pool Swim, and water may prevent a heart-rate measurement, but Apple Watch will still track your calories, laps, and distance using the built-in accelerometer. |  |  |
-| ![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png) | In this type of workout, you earn the calorie equivalent of a brisk walk anytime sensor readings are unavailable. |  |  |
-| ![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png) | GPS will only provide distance when you do a freestyle stroke. Water might prevent a heart-rate measurement, but calories will still be tracked using the built-in accelerometer. |  |  |
+| ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png) | GPS is not used during a Pool Swim, and water may prevent a heart-rate measurement, but Apple Watch will still track your calories, laps, and distance using the built-in accelerometer. |  |  |
+| ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png) | In this type of workout, you earn the calorie equivalent of a brisk walk anytime sensor readings are unavailable. |  |  |
+| ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png) | GPS will only provide distance when you do a freestyle stroke. Water might prevent a heart-rate measurement, but calories will still be tracked using the built-in accelerometer. |  |  |
 
 **Provide a summary at the end of a session.** A summary screen confirms that a workout is finished and displays the recorded information. Consider enhancing the summary by including Activity rings, so that people can easily check their current progress.
 

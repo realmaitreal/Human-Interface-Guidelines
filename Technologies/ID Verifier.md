@@ -8,7 +8,7 @@
 >
 > New page.
 
-![A sketch of progressively larger curved lines emerging from the bottom corner of an ID card, suggesting ID Verifier. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](/images/com.apple.HIG/technologies-ID-Verifier-Apps-intro@2x.png)
+![A sketch of progressively larger curved lines emerging from the bottom corner of an ID card, suggesting ID Verifier. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-ID-Verifier-Apps-intro@2x.png)
 
 Beginning in iOS 17, you can integrate ID Verifier into your app, letting iPhone read ISO18013-5 compliant mobile IDs and helping you support in-person ID verification. For example, personnel at a concert venue can use your app on iPhone to verify customers’ ages.
 
@@ -32,8 +32,8 @@ Depending on the needs of your app, you can use ID Verifier to make the followin
 
 | Button type | Example usage |
 | --- | --- |
-| ![An illustration of a Verify Age button.](/images/com.apple.HIG/id-verifier-button-age@2x.png) | An app that checks whether people are old enough to attend an event or access a venue, like a concert hall. |
-| ![An illustration of a Verify Identity button.](/images/com.apple.HIG/id-verifier-button-identity@2x.png) | An app that verifies whether specific identity information matches expected values, such as name and birth date when picking up a rental car. |
+| ![An illustration of a Verify Age button.](https://developer.apple.com/tutorials/images/com.apple.HIG/id-verifier-button-age@2x.png) | An app that checks whether people are old enough to attend an event or access a venue, like a concert hall. |
+| ![An illustration of a Verify Identity button.](https://developer.apple.com/tutorials/images/com.apple.HIG/id-verifier-button-identity@2x.png) | An app that verifies whether specific identity information matches expected values, such as name and birth date when picking up a rental car. |
 
 **In a Display Only request, help the person using your app provide feedback on the visual confirmation they perform.** For example, when the reader displays the customer’s portrait, you might provide buttons labeled Matches Person and Doesn’t Match Person so your app can receive an approved or rejected value as part of the response.
 

@@ -8,7 +8,7 @@
 >
 > Added iOS and iPadOS platform considerations.
 
-![A stylized representation of a window consisting of three areas: a sidebar, a canvas, and an inspector. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-split-view-intro@2x.png)
+![A stylized representation of a window consisting of three areas: a sidebar, a canvas, and an inspector. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-split-view-intro@2x.png)
 
 Typically, you use a split view to show multiple levels of your app’s hierarchy at once and support navigation between them. In this scenario, selecting an item in the view’s primary pane displays the item’s contents in the secondary pane. Similarly, a split view can display a tertiary pane if items in the secondary pane contain additional content.
 
@@ -66,7 +66,7 @@ In watchOS, the split view displays either the list view or a detail view as a f
 
 **If your app displays multiple detail pages, place the detail views in a vertical [Tab views](Tab%20views.md).** People can then use the Digital Crown to scroll between the detail view’s tabs. watchOS also displays a page indicator next to the Digital Crown, indicating the number of tabs and the currently selected tab.
 
-![A screenshot showing a detail view with a vertical tab on Apple Watch. The page indicator next to the Digital Crown shows that the fifth tab is currently selected.](/images/com.apple.HIG/split-view-watch-vertical-tab@2x.png)
+![A screenshot showing a detail view with a vertical tab on Apple Watch. The page indicator next to the Digital Crown shows that the fifth tab is currently selected.](https://developer.apple.com/tutorials/images/com.apple.HIG/split-view-watch-vertical-tab@2x.png)
 
 ## Resources
 

@@ -8,13 +8,13 @@
 >
 > Consolidated guidance into one page.
 
-![A sketch of the AirPlay icon. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](/images/com.apple.HIG/technologies-AirPlay-intro@2x.png)
+![A sketch of the AirPlay icon. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-AirPlay-intro@2x.png)
 
 ## Best practices
 
 **Prefer the system-provided media player.** The built-in media player offers a standard set of controls and supports features like chapter navigation, subtitles, closed captioning, and AirPlay streaming. It’s also easy to implement, provides a consistent and familiar playback experience across the system, and accommodates the needs of most media apps. Consider designing a custom video player only if the system-provided player doesn’t meet your app’s needs. For developer guidance, see [AVPlayerViewController](https://developer.apple.com/documentation/avkit/avplayerviewcontroller).
 
-![A screenshot of the system-provided media player paused while playing a video.](/images/com.apple.HIG/airplay-video-screen@2x.png)
+![A screenshot of the system-provided media player paused while playing a video.](https://developer.apple.com/tutorials/images/com.apple.HIG/airplay-video-screen@2x.png)
 
 **Provide content in the highest possible resolution.** Your [HTTP Live Streaming](https://developer.apple.com/documentation/http-live-streaming) (HLS) playlist needs to include the full range of available resolutions so that people can experience your content in the resolution that’s appropriate for the device they’re using (AVFoundation automatically selects the resolution based on the device). If you don’t include a range of resolutions, your content looks low quality when people stream it to a device that can play at higher resolutions. For example, content that looks great on iPhone at 720p will look low quality when people use AirPlay to stream it to a 4K TV.
 
@@ -40,19 +40,19 @@ You can download AirPlay icons in [Resources](https://developer.apple.com/design
 
 Use the black AirPlay icon on white or light backgrounds when other technology icons also appear in black.
 
-![Two black AirPlay icons. The left one is the audio AirPlay icon, represented by a triangle below three concentric lines. The right one is the video AirPlay icon, represented by a triangle below a rounded rectangle.](/images/com.apple.HIG/airplay-black-icon-set@2x.png)
+![Two black AirPlay icons. The left one is the audio AirPlay icon, represented by a triangle below three concentric lines. The right one is the video AirPlay icon, represented by a triangle below a rounded rectangle.](https://developer.apple.com/tutorials/images/com.apple.HIG/airplay-black-icon-set@2x.png)
 
 ### White AirPlay icon
 
 Use the white AirPlay icon on black or dark backgrounds when other technology icons also appear in white.
 
-![Two white AirPlay icons. The left one is the audio AirPlay icon, represented by a triangle below three concentric lines. The right one is the video AirPlay icon, represented by a triangle below a rounded rectangle.](/images/com.apple.HIG/airplay-white-icon-set@2x.png)
+![Two white AirPlay icons. The left one is the audio AirPlay icon, represented by a triangle below three concentric lines. The right one is the video AirPlay icon, represented by a triangle below a rounded rectangle.](https://developer.apple.com/tutorials/images/com.apple.HIG/airplay-white-icon-set@2x.png)
 
 ### Custom color AirPlay icon
 
 Use a custom color when other technology icons also appear in the same color.
 
-![Two blue AirPlay icons. The left one is the audio AirPlay icon, represented by a triangle below three concentric lines. The right one is the video AirPlay icon, represented by a triangle below a rounded rectangle.](/images/com.apple.HIG/airplay-custom-color-icon-set@2x.png)
+![Two blue AirPlay icons. The left one is the audio AirPlay icon, represented by a triangle below three concentric lines. The right one is the video AirPlay icon, represented by a triangle below a rounded rectangle.](https://developer.apple.com/tutorials/images/com.apple.HIG/airplay-custom-color-icon-set@2x.png)
 
 **Position the AirPlay icon consistently with other technology icons.** If you display other technology icons within shapes, you can display the AirPlay icon in the same manner.
 
@@ -70,30 +70,30 @@ Use a custom color when other technology icons also appear in the same color.
 
 |  | Example text |
 | --- | --- |
-| ![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png) | Use AirPlay to listen on your speaker |
-| ![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png) | AirPlay to your speaker |
-| ![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png) | You can AirPlay with [App Name] |
+| ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png) | Use AirPlay to listen on your speaker |
+| ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png) | AirPlay to your speaker |
+| ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png) | You can AirPlay with [App Name] |
 
 **Use terms like *works with*, *use*, *supports*, and *compatible*.**
 
 |  | Example text |
 | --- | --- |
-| ![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png) | [App Name] is compatible with AirPlay |
-| ![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png) | AirPlay-enabled speaker |
-| ![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png) | You can use AirPlay with [App Name] |
-| ![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png) | [App Name] has AirPlay |
+| ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png) | [App Name] is compatible with AirPlay |
+| ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png) | AirPlay-enabled speaker |
+| ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png) | You can use AirPlay with [App Name] |
+| ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png) | [App Name] has AirPlay |
 
 **Use the name *Apple* with the name *AirPlay* if desired.**
 
 |  | Example text |
 | --- | --- |
-| ![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png) | Compatible with Apple AirPlay |
+| ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png) | Compatible with Apple AirPlay |
 
 **Refer to AirPlay if appropriate and to add clarity.** If your content is specific to AirPlay, you can use Airplay to make that clear. You can also refer to AirPlay in technical specifications.
 
 |  | Example text |
 | --- | --- |
-| ![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png) | [App Name] now supports AirPlay |
+| ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png) | [App Name] now supports AirPlay |
 
 ## Platform considerations
 

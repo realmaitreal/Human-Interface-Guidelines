@@ -226,6 +226,10 @@ def render_image(node, ctx):
     ident = node.get("identifier")
     ref = ctx["refs"].get(ident, {})
     url = pick_variant(ref)
+    if url and url.startswith("/"):
+        # Apple now returns root-relative paths (e.g. "/images/com.apple.HIG/x.png")
+        # instead of full CDN URLs; they resolve under the tutorials host.
+        url = BASE + "/tutorials" + url
     alt = esc_alt(ref.get("alt", "")) or esc_alt(slug_of(ident or "image").replace("-", " "))
     cap = node.get("metadata", {}).get("abstract")
     captxt = render_inline(cap, ctx).strip() if cap else ""
@@ -238,7 +242,7 @@ def render_image(node, ctx):
         return with_cap(f"*[Image: {alt}]*")
 
     if IMG_MODE == "remote":
-        link = url  # Apple CDN URL, already encoded
+        link = url  # fully resolved Apple URL
     else:  # local
         fname = sanitize(ident)
         if not os.path.splitext(fname)[1]:

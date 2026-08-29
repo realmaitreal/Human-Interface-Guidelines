@@ -4,7 +4,7 @@
 
 *As you design a live-viewing app, prioritize the content and create fun, fluid interactions that encourage immersion in the live-viewing experience.*
 
-![A sketch of a television containing a play button, suggesting playback of media. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](/images/com.apple.HIG/patterns-live-viewing-intro@2x.png)
+![A sketch of a television containing a play button, suggesting playback of media. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-live-viewing-intro@2x.png)
 
 Live-viewing apps need to elevate and prioritize live content. In every screen, draw people’s attention to live content and make sure they can distinguish it from video-on-demand (VOD) content at a glance.
 

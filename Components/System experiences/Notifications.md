@@ -8,7 +8,7 @@
 >
 > Updated watchOS platform considerations with guidance for presenting notification responses to double tap.
 
-![A stylized representation of a notification mockup. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-notification-intro@2x.png)
+![A stylized representation of a notification mockup. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-notification-intro@2x.png)
 
 Before you can send any notifications to people, you have to get their consent (for developer guidance, see [Asking permission to use notifications](https://developer.apple.com/documentation/usernotifications/asking-permission-to-use-notifications)). After agreeing, people generally use settings to specify the styles of notification they want to receive, and to specify delivery times for notifications that have different levels of urgency. To learn more about the ways people can customize the notification experience, see [Managing notifications](../../Patterns/Managing%20notifications.md).
 
@@ -88,7 +88,7 @@ You can help people have a great notification experience by designing app-specif
 
 A short look appears when the wearer’s wrist is raised and disappears when it’s lowered.
 
-![An illustration that represents a short look notification from a generic app. It includes a large primary image in the center, a title, and a short preview of the notification content.](/images/com.apple.HIG/notifications-short-looks@2x.png)
+![An illustration that represents a short look notification from a generic app. It includes a large primary image in the center, a title, and a short preview of the notification content.](https://developer.apple.com/tutorials/images/com.apple.HIG/notifications-short-looks@2x.png)
 
 **Avoid using a short look as the only way to communicate important information.** A short look appears only briefly, giving people just enough time to see what the notification is about and which app sent it. If your notification information is critical, make sure you deliver it in other ways, too.
 
@@ -98,7 +98,7 @@ A short look appears when the wearer’s wrist is raised and disappears when it�
 
 Long looks provide more detail about a notification. If necessary, people can swipe vertically or use the Digital Crown to scroll a long look. After viewing a long look, people can dismiss it by tapping it or simply by lowering their wrist.
 
-![An illustration that represents a long look notification from a generic app. It includes a small primary image in the upper left corner, badging a platter with the notification title and content. Beneath the notification are two full width action buttons, the second of which extends off the screen to indicate that the view is scrollable.](/images/com.apple.HIG/notifications-long-looks@2x.png)
+![An illustration that represents a long look notification from a generic app. It includes a small primary image in the upper left corner, badging a platter with the notification title and content. Beneath the notification are two full width action buttons, the second of which extends off the screen to indicate that the view is scrollable.](https://developer.apple.com/tutorials/images/com.apple.HIG/notifications-long-looks@2x.png)
 
 A custom long-look interface can be static or dynamic. The *static* interface lets you display a notification’s message along with additional static text and images. The *dynamic* interface gives you access to the notification’s full content and offers more options for configuring the appearance of the interface.
 

@@ -4,7 +4,7 @@
 
 *A web view loads and displays rich web content, such as embedded HTML and websites, directly within your app.*
 
-![A stylized representation of a compass icon. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-web-view-intro@2x.png)
+![A stylized representation of a compass icon. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-web-view-intro@2x.png)
 
 For example, Mail uses a web view to show HTML content in messages.
 

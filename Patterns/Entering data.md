@@ -8,7 +8,7 @@
 >
 > Updated to include guidance for visionOS.
 
-![A sketch of a pencil writing within a field, suggesting data entry. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](/images/com.apple.HIG/patterns-entering-data-intro@2x.png)
+![A sketch of a pencil writing within a field, suggesting data entry. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-entering-data-intro@2x.png)
 
 Entering information can be a tedious process regardless of the interaction methods people use. Improve the experience by:
 

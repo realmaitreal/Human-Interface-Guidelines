@@ -8,7 +8,7 @@
 >
 > Updated guidance for Liquid Glass.
 
-![A sketch of a capsule shape overlapping a square. A subtle bend in the edges of the square that are beneath the capsule suggests the layering of the Liquid Glass material over background content. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo.](/images/com.apple.HIG/foundations-materials-intro@2x.png)
+![A sketch of a capsule shape overlapping a square. A subtle bend in the edges of the square that are beneath the capsule suggests the layering of the Liquid Glass material over background content. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-materials-intro@2x.png)
 
 Materials help visually separate foreground elements, such as text and controls, from background elements, such as content and solid colors. By allowing color to pass through from background to foreground, a material establishes visual hierarchy to help people more easily retain a sense of place.
 
@@ -26,15 +26,15 @@ Liquid Glass forms a distinct functional layer for controls and navigation eleme
 
 The *regular* variant blurs and adjusts the luminosity of background content to maintain legibility of text and other foreground elements. Scroll edge effects further enhance legibility by blurring and reducing the opacity of background content. Most system components use this variant. Use the regular variant when background content might create legibility issues, or when components have a significant amount of text, such as alerts, sidebars, or popovers.
 
-![A visual example of the regular variant of Liquid Glass, which appears darker when there is a dark background beneath it.](/images/com.apple.HIG/materials-ios-liquid-glass-over-dark@2x.png)  
+![A visual example of the regular variant of Liquid Glass, which appears darker when there is a dark background beneath it.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-ios-liquid-glass-over-dark@2x.png)  
 *On dark background*
 
-![A visual example of the regular variant of Liquid Glass, which appears lighter when there is a light background beneath it.](/images/com.apple.HIG/materials-ios-liquid-glass-over-light@2x.png)  
+![A visual example of the regular variant of Liquid Glass, which appears lighter when there is a light background beneath it.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-ios-liquid-glass-over-light@2x.png)  
 *On light background*
 
 The *clear* variant is highly translucent, which is ideal for prioritizing the visibility of the underlying content and ensuring visually rich background elements remain prominent. Use this variant for components that float above media backgrounds — such as photos and videos — to create a more immersive content experience.
 
-![A visual example of the clear variant of Liquid Glass, which allows the visual detail of the background beneath it to show through.](/images/com.apple.HIG/materials-ios-liquid-glass-clear@2x.png)
+![A visual example of the clear variant of Liquid Glass, which allows the visual detail of the background beneath it to show through.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-ios-liquid-glass-clear@2x.png)
 
 For optimal contrast and legibility, determine whether to add a dimming layer behind components with clear Liquid Glass:
 
@@ -51,15 +51,15 @@ Use standard materials and effects — such as [UIBlurEffect](https://developer.
 
 **Help ensure legibility by using vibrant colors on top of materials.** When you use system-defined vibrant colors, you don’t need to worry about colors seeming too dark, bright, saturated, or low contrast in different contexts. Regardless of the material you choose, use vibrant colors on top of it. For guidance, see [System colors](https://developer.apple.com/design/human-interface-guidelines/color#System-colors).
 
-![An illustration of a Share button with a translucent background material and a symbol. The symbol uses the systemGray3 color and is difficult to see against the background material.](/images/com.apple.HIG/materials-legibility-non-vibrant-label@2x.png)  
+![An illustration of a Share button with a translucent background material and a symbol. The symbol uses the systemGray3 color and is difficult to see against the background material.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-legibility-non-vibrant-label@2x.png)  
 *Poor contrast between the material and `systemGray3` label*
 
-![An X in a circle to indicate incorrect usage](/images/com.apple.HIG/crossout@2x.png)
+![An X in a circle to indicate incorrect usage](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
-![An illustration of a Share button with a translucent background material and a symbol. The symbol uses vibrant color and is clearly visible against the background material.](/images/com.apple.HIG/materials-legibility-primary-label@2x.png)  
+![An illustration of a Share button with a translucent background material and a symbol. The symbol uses vibrant color and is clearly visible against the background material.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-legibility-primary-label@2x.png)  
 *Good contrast between the material and vibrant color label*
 
-![A checkmark in a circle to indicate correct usage](/images/com.apple.HIG/checkmark@2x.png)
+![A checkmark in a circle to indicate correct usage](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
 **Consider contrast and visual separation when choosing a material to combine with blur and vibrancy effects.** For example, consider that:
 
@@ -74,16 +74,16 @@ For developer guidance, see [Material](https://developer.apple.com/documentation
 
 In addition to Liquid Glass, iOS and iPadOS continue to provide four standard materials — ultra-thin, thin, regular (default), and thick — which you can use in the content layer to help create visual distinction.
 
-![An illustration of the iOS and iPadOS ultraThin material above a colorful background. Where the material overlaps the background, it provides a diffuse gradient of the background colors.](/images/com.apple.HIG/materials-ios-material-background-ultrathin@2x.png)  
+![An illustration of the iOS and iPadOS ultraThin material above a colorful background. Where the material overlaps the background, it provides a diffuse gradient of the background colors.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-ios-material-background-ultrathin@2x.png)  
 *`ultraThin`*
 
-![An illustration of the iOS and iPadOS thin material above a colorful background. Where the material overlaps the background, it provides a diffuse and slightly darkened gradient of the background colors.](/images/com.apple.HIG/materials-ios-material-background-thin@2x.png)  
+![An illustration of the iOS and iPadOS thin material above a colorful background. Where the material overlaps the background, it provides a diffuse and slightly darkened gradient of the background colors.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-ios-material-background-thin@2x.png)  
 *`thin`*
 
-![An illustration of the iOS and iPadOS regular material above a colorful background. Where the material overlaps the background, it provides a diffuse and darkened gradient of the background colors.](/images/com.apple.HIG/materials-ios-material-background-regular@2x.png)  
+![An illustration of the iOS and iPadOS regular material above a colorful background. Where the material overlaps the background, it provides a diffuse and darkened gradient of the background colors.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-ios-material-background-regular@2x.png)  
 *`regular`*
 
-![An illustration of the iOS and iPadOS thick material above a colorful background. Where the material overlaps the background, it provides a dark, muted gradient of the background colors.](/images/com.apple.HIG/materials-ios-material-background-thick@2x.png)  
+![An illustration of the iOS and iPadOS thick material above a colorful background. Where the material overlaps the background, it provides a dark, muted gradient of the background colors.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-ios-material-background-thick@2x.png)  
 *`thick`*
 
 iOS and iPadOS also define vibrant colors for labels, fills, and separators that are specifically designed to work with each material. Labels and fills both have several levels of vibrancy; separators have one level. The name of a level indicates the relative amount of contrast between an element and the background: The default level has the highest contrast, whereas quaternary (when it exists) has the lowest contrast.
@@ -115,7 +115,7 @@ macOS provides several standard materials with designated purposes, and vibrant 
 
 In tvOS, Liquid Glass appears throughout navigation elements and system experiences such as Top Shelf and Control Center. Certain interface elements, like image views and buttons, adopt Liquid Glass when they gain focus.
 
-![A screenshot of the Destination Video app running in tvOS. The app shows a screen with details about a video called A BOT-anist Adventure. The background is a colorful image of the main character in a scene from the video. The interface elements floating above the background adopt a Liquid Glass appearance to allow background color to show through and create a more immersive media experience.](/images/com.apple.HIG/materials-tvos-media-player@2x.png)
+![A screenshot of the Destination Video app running in tvOS. The app shows a screen with details about a video called A BOT-anist Adventure. The background is a colorful image of the main character in a scene from the video. The interface elements floating above the background adopt a Liquid Glass appearance to allow background color to show through and create a more immersive media experience.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-tvos-media-player@2x.png)
 
 In addition to Liquid Glass, tvOS continues to provide standard materials, which you can use to help define structure in the content layer. The thickness of a standard material affects how prominently the underlying content shows through. For example, consider using standard materials in the following ways:
 
@@ -136,13 +136,13 @@ In visionOS, windows generally use an unmodifiable system-defined material calle
 
 **Prefer translucency to opaque colors in windows.** Areas of opacity can block people’s view, making them feel constricted and reducing their awareness of the virtual and physical objects around them.
 
-![An illustration of a field of view in visionOS with a window in the center. The window has an opaque background that obstructs its surroundings.](/images/com.apple.HIG/materials-visionos-opaque-window-incorrect@2x.png)
+![An illustration of a field of view in visionOS with a window in the center. The window has an opaque background that obstructs its surroundings.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-visionos-opaque-window-incorrect@2x.png)
 
-![An X in a circle to indicate incorrect usage](/images/com.apple.HIG/crossout@2x.png)
+![An X in a circle to indicate incorrect usage](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
-![An illustration of a field of view in visionOS with a window in the center. The window has a translucent material background that allows its surroundings to pass through.](/images/com.apple.HIG/materials-visionos-glass-window@2x.png)
+![An illustration of a field of view in visionOS with a window in the center. The window has a translucent material background that allows its surroundings to pass through.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-visionos-glass-window@2x.png)
 
-![A checkmark in a circle to indicate correct usage](/images/com.apple.HIG/checkmark@2x.png)
+![A checkmark in a circle to indicate correct usage](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
 **If necessary, choose materials that help you create visual separations or indicate interactivity in your app.** If you need to create a custom component, you may need to specify a system material for it. Use the following examples for guidance.
 
@@ -150,7 +150,7 @@ In visionOS, windows generally use an unmodifiable system-defined material calle
 - The [regular](https://developer.apple.com/documentation/swiftui/material/regular) material can help you visually separate sections of your app, like a sidebar or a grouped table view.
 - The [thick](https://developer.apple.com/documentation/swiftui/material/thick) material lets you create a dark element that remains visually distinct when it’s on top of an area that uses a `regular` background.
 
-![An illustration of a field of view in visionOS with a window in the center. The window is composed of a sidebar on the left and a content area on the right, with a text field at the top and a button in the lower-right corner. The sidebar uses regular material, while the text field uses thick material and the button uses thin material.](/images/com.apple.HIG/visionos-materials-window-example@2x.png)
+![An illustration of a field of view in visionOS with a window in the center. The window is composed of a sidebar on the left and a content area on the right, with a text field at the top and a button in the lower-right corner. The sidebar uses regular material, while the text field uses thick material and the button uses thin material.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-materials-window-example@2x.png)
 
 To ensure foreground content remains legible when it displays on top of a material, visionOS applies vibrancy to text, symbols, and fills. Vibrancy enhances the sense of depth by pulling light and color forward from both virtual and physical surroundings.
 
@@ -160,20 +160,20 @@ visionOS defines three vibrancy values that help you communicate a hierarchy of 
 - Use [UIVibrancyEffectStyle.secondaryLabel](https://developer.apple.com/documentation/uikit/uivibrancyeffectstyle/secondarylabel) for descriptive text like footnotes and subtitles.
 - Use [UIVibrancyEffectStyle.tertiaryLabel](https://developer.apple.com/documentation/uikit/uivibrancyeffectstyle/tertiarylabel) for inactive elements, and only when text doesn’t need high legibility.
 
-![An illustration of a Share button with a translucent background material and a symbol. The symbol uses the default vibrant label color and has very high contrast against the background material.](/images/com.apple.HIG/materials-visionos-label-vibrant-primary@2x.png)  
+![An illustration of a Share button with a translucent background material and a symbol. The symbol uses the default vibrant label color and has very high contrast against the background material.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-visionos-label-vibrant-primary@2x.png)  
 *`label`*
 
-![An illustration of a Share button with a translucent background material and a symbol. The symbol uses the secondary vibrant label color and has high contrast against the background material.](/images/com.apple.HIG/materials-visionos-label-vibrant-secondary@2x.png)  
+![An illustration of a Share button with a translucent background material and a symbol. The symbol uses the secondary vibrant label color and has high contrast against the background material.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-visionos-label-vibrant-secondary@2x.png)  
 *`secondaryLabel`*
 
-![An illustration of a Share button with a translucent background material and a symbol. The symbol uses the tertiary vibrant label color and has muted contrast against the background material.](/images/com.apple.HIG/materials-visionos-label-vibrant-tertiary@2x.png)  
+![An illustration of a Share button with a translucent background material and a symbol. The symbol uses the tertiary vibrant label color and has muted contrast against the background material.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-visionos-label-vibrant-tertiary@2x.png)  
 *`tertiaryLabel`*
 
 ### watchOS
 
 **Use materials to provide context in a full-screen modal view.** Because full-screen modal views are common in watchOS, the contrast provided by material layers can help orient people in your app and distinguish controls and system elements from other content. Avoid removing or replacing material backgrounds for modal sheets when they’re provided by default.
 
-![An illustration of a modal view in watchOS with an example title, descriptive text, and a single action button. The modal completely covers the screen with a transparent material, and uses a thinner material for the button along with vibrant label text.](/images/com.apple.HIG/watchos-modal-view-material-background@2x.png)
+![An illustration of a modal view in watchOS with an example title, descriptive text, and a single action button. The modal completely covers the screen with a transparent material, and uses a thinner material for the button along with vibrant label text.](https://developer.apple.com/tutorials/images/com.apple.HIG/watchos-modal-view-material-background@2x.png)
 
 ## Resources
 

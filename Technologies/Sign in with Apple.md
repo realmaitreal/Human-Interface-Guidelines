@@ -4,7 +4,7 @@
 
 *Sign in with Apple provides a fast, private way to sign into apps and websites, giving people a consistent experience they can trust and the convenience of not having to remember multiple accounts and passwords.*
 
-![A sketch of the Apple logo, suggesting Sign in with Apple. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](/images/com.apple.HIG/technologies-SIWA-intro@2x.png)
+![A sketch of the Apple logo, suggesting Sign in with Apple. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-SIWA-intro@2x.png)
 
 Supporting Sign in with Apple lets people use the Apple Account they already have to sign in or sign up, and skip filling out forms, verifying email addresses, and choosing passwords. In cases where you choose to ask for a name and email address, people have the option to share a unique, random email address that automatically relays messages to their personal email address. For developer guidance, see [Authentication Services](https://developer.apple.com/documentation/authenticationservices).
 
@@ -29,7 +29,7 @@ Follow these guidelines to offer Sign in with Apple when it’s most convenient 
 
 **In a commerce app, wait until after people make a purchase before asking them to create an account.** If you support a guest checkout system, give people a quick way to create an account after the transaction completes. For example, if you support Apple Pay, let people create an account on the order confirmation page. In cases where people have already provided their name and email address during the Apple Pay transaction, you don’t need to ask for this information.
 
-![An illustration representing an order confirmation screen on iPhone. The screen includes buttons titled 'Create Account' and 'Sign up with Apple'.](/images/com.apple.HIG/create-account-after-purchase@2x.png)
+![An illustration representing an order confirmation screen on iPhone. The screen includes buttons titled 'Create Account' and 'Sign up with Apple'.](https://developer.apple.com/tutorials/images/com.apple.HIG/create-account-after-purchase@2x.png)
 
 **As soon as Sign in with Apple completes, welcome people to their new account.** Help people use their new account right away; don’t delay the experience by asking for information that isn’t required.
 
@@ -75,15 +75,15 @@ The system provides several variants of the button title. Depending on the platf
 
 The following button titles are available for iOS, macOS, tvOS, and the web:
 
-![An illustration of a button that includes the Apple logo and text that reads 'Sign in with Apple'.](/images/com.apple.HIG/apple-account-sign-in-with@2x.png)
+![An illustration of a button that includes the Apple logo and text that reads 'Sign in with Apple'.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-account-sign-in-with@2x.png)
 
-![An illustration of a button that includes the Apple logo and text that reads 'Sign up with Apple'.](/images/com.apple.HIG/apple-account-sign-up-with@2x.png)
+![An illustration of a button that includes the Apple logo and text that reads 'Sign up with Apple'.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-account-sign-up-with@2x.png)
 
-![An illustration of a button that includes the Apple logo and text that reads 'Continue with Apple'.](/images/com.apple.HIG/apple-account-continue-with@2x.png)
+![An illustration of a button that includes the Apple logo and text that reads 'Continue with Apple'.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-account-continue-with@2x.png)
 
 For watchOS, the system provides one title:  Sign in.
 
-![An illustration of a button for watchOS, that includes the Apple logo and text that reads 'Sign in'.](/images/com.apple.HIG/apple-account-watch-44mm-no-background@2x.png)
+![An illustration of a button for watchOS, that includes the Apple logo and text that reads 'Sign in'.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-account-watch-44mm-no-background@2x.png)
 
 Depending on the platform, the system provides up to three options for the appearance of the Sign in with Apple button: white, white with an outline, and black. Choose the appearance that works best with the background on which the button displays.
 
@@ -91,53 +91,53 @@ Depending on the platform, the system provides up to three options for the appea
 
 The white style is available on all platforms and the web. Use this style on dark backgrounds that provide sufficient contrast.
 
-![An illustration of a white button correctly positioned on a dark shaded background. The button includes the Apple logo and text that reads 'Sign in with Apple'.](/images/com.apple.HIG/apple-account-white-yes@2x.png)
+![An illustration of a white button correctly positioned on a dark shaded background. The button includes the Apple logo and text that reads 'Sign in with Apple'.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-account-white-yes@2x.png)
 
-![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png)
+![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
-![An illustration of a white button incorrectly positioned on a light shaded background. The button includes the Apple logo and text that reads 'Sign in with Apple'.](/images/com.apple.HIG/apple-account-white-no@2x.png)
+![An illustration of a white button incorrectly positioned on a light shaded background. The button includes the Apple logo and text that reads 'Sign in with Apple'.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-account-white-no@2x.png)
 
-![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
+![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
 #### White with outline
 
 The white outlined style is available in iOS, macOS, and the web. Use this style on white or light-color backgrounds that don’t provide sufficient contrast with the white button fill. Avoid using this style on a dark or saturated background, because the black outline can add visual clutter; instead, use the [white](https://developer.apple.com/design/human-interface-guidelines/sign-in-with-apple#White) style to contrast with a dark background.
 
-![An illustration of a white, outlined button correctly positioned on a light shaded background. The button includes the Apple logo and text that reads 'Sign in with Apple'.](/images/com.apple.HIG/apple-account-outline-yes@2x.png)
+![An illustration of a white, outlined button correctly positioned on a light shaded background. The button includes the Apple logo and text that reads 'Sign in with Apple'.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-account-outline-yes@2x.png)
 
-![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png)
+![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
-![An illustration of a white, outlined button incorrectly positioned on a dark shaded background. The button includes the Apple logo and text that reads 'Sign in with Apple'.](/images/com.apple.HIG/apple-account-outline-no@2x.png)
+![An illustration of a white, outlined button incorrectly positioned on a dark shaded background. The button includes the Apple logo and text that reads 'Sign in with Apple'.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-account-outline-no@2x.png)
 
-![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
+![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
 #### Black
 
 The black style is available on all platforms and the web. Use this style on white or light-color backgrounds that provide sufficient contrast; don’t use it on black or dark backgrounds.
 
-![An illustration of a black button correctly positioned on a light shaded background. The button includes the Apple logo and text that reads 'Sign in with Apple'.](/images/com.apple.HIG/apple-account-black-yes@2x.png)
+![An illustration of a black button correctly positioned on a light shaded background. The button includes the Apple logo and text that reads 'Sign in with Apple'.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-account-black-yes@2x.png)
 
-![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png)
+![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
-![An illustration of a black button incorrectly positioned on a dark shaded background. The button includes the Apple logo and text that reads 'Sign in with Apple'.](/images/com.apple.HIG/apple-account-black-no@2x.png)
+![An illustration of a black button incorrectly positioned on a dark shaded background. The button includes the Apple logo and text that reads 'Sign in with Apple'.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-account-black-no@2x.png)
 
-![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
+![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
 Unlike the black Sign in with Apple button for other platforms, the watchOS button uses a fill color that’s not fully black. To contrast with the pure black background of Apple Watch, the watchOS button uses the system-defined dark gray appearance.
 
-![An illustration of a dark shaded button for watchOS on a black background, that includes the Apple logo and text that reads 'Sign in'.](/images/com.apple.HIG/apple-account-watch-44mm@2x.png)
+![An illustration of a dark shaded button for watchOS on a black background, that includes the Apple logo and text that reads 'Sign in'.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-account-watch-44mm@2x.png)
 
 #### Button size and corner radius
 
 **Adjust the corner radius to match the appearance of other buttons in your app.** By default, the Sign in with Apple button has rounded corners. In iOS, macOS, and the web, you can change the corner radius to produce a button with square corners or a capsule-shape button. For developer guidance, see [cornerRadius](https://developer.apple.com/documentation/authenticationservices/asauthorizationappleidbutton/cornerradius) (iOS and macOS) and [Displaying Sign in with Apple buttons on the web](https://developer.apple.com/documentation/signinwithapple/displaying-sign-in-with-apple-buttons-on-the-web).
 
-![An illustration of a 'Sign in with Apple' button with 90-degree corners.](/images/com.apple.HIG/apple-account-minimum-corner-radii@2x.png)  
+![An illustration of a 'Sign in with Apple' button with 90-degree corners.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-account-minimum-corner-radii@2x.png)  
 *Minimum corner radius*
 
-![An illustration of a 'Sign in with Apple' button with the default corner radius.](/images/com.apple.HIG/apple-account-default-corner-radii@2x.png)  
+![An illustration of a 'Sign in with Apple' button with the default corner radius.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-account-default-corner-radii@2x.png)  
 *Default corner radius*
 
-![An illustration of a 'Sign in with Apple' button with the maximum corner radius, which results in a capsule-like appearance.](/images/com.apple.HIG/apple-account-maximum-corner-radii@2x.png)  
+![An illustration of a 'Sign in with Apple' button with the maximum corner radius, which results in a capsule-like appearance.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-account-maximum-corner-radii@2x.png)  
 *Maximum corner radius*
 
 **Maintain the minimum button size and margin around the button in iOS, macOS, and the web.** Be mindful that the button title may vary in length depending on the locale. Use the following values for guidance.
@@ -150,15 +150,15 @@ Unlike the black Sign in with Apple button for other platforms, the watchOS butt
 
 If your interface requires it, you can create a custom Sign in with Apple button for iOS, macOS, or the web. For example, you may want to align logos across multiple sign-in buttons, use buttons that display only a logo, or adjust the button’s font, bezel, or background appearance to coordinate with your UI.
 
-![An illustration that includes two side-by-side partial iPhones showing sign-in screens. The screen on the left includes four stacked buttons: Sign in with Apple, Sign in with X, Sign in with Y, and Sign in with Z. The Sign in with Apple button includes an Apple logo before its title. The Sign in with X button includes a filled circle before its title. The Sign in with Y button includes a filled square before its title. The Sign in with Z button includes a filled triangle before its title. The screen on the right includes a heading that reads 'Sign in with', which appears above a row of four square buttons containing glyphs. The first square button contains the Apple logo. The second square button contains a filled circle. The third square button contains a filled square. The fourth square button contains a filled triangle. The circle, square, and triangle shapes represent a variety of logos.](/images/com.apple.HIG/custom-sign-in-screens@2x.png)
+![An illustration that includes two side-by-side partial iPhones showing sign-in screens. The screen on the left includes four stacked buttons: Sign in with Apple, Sign in with X, Sign in with Y, and Sign in with Z. The Sign in with Apple button includes an Apple logo before its title. The Sign in with X button includes a filled circle before its title. The Sign in with Y button includes a filled square before its title. The Sign in with Z button includes a filled triangle before its title. The screen on the right includes a heading that reads 'Sign in with', which appears above a row of four square buttons containing glyphs. The first square button contains the Apple logo. The second square button contains a filled circle. The third square button contains a filled square. The fourth square button contains a filled triangle. The circle, square, and triangle shapes represent a variety of logos.](https://developer.apple.com/tutorials/images/com.apple.HIG/custom-sign-in-screens@2x.png)
 
 Always make sure that people can instantly identify your custom button as a Sign in with Apple button. If your custom button differs too much from the standard one, people may not feel comfortable using it to set up an account or sign in. App Review evaluates all custom Sign in with Apple buttons.
 
 [Apple Design Resources](https://developer.apple.com/design/resources/) provides downloadable Apple logo artwork you can use to create custom Sign in with Apple buttons that display either a logo only or a logo and text. The logo files are available in PNG, SVG, and PDF formats, and the artwork for both types of buttons includes both black and white versions. Here are examples of the black and white logo-only art files, each with a background added for visibility.
 
-![A illustration of a black Apple logo within a white square, which is surrounded by a thick, shaded border. The white square represents the minimum amount of clear space between the Apple logo and other interface elements.](/images/com.apple.HIG/siwa-black-logo-only@2x.png)
+![A illustration of a black Apple logo within a white square, which is surrounded by a thick, shaded border. The white square represents the minimum amount of clear space between the Apple logo and other interface elements.](https://developer.apple.com/tutorials/images/com.apple.HIG/siwa-black-logo-only@2x.png)
 
-![A illustration of a white Apple logo within a black square, which is surrounded by a thick, light border. The black square represents the minimum amount of clear space between the Apple logo and other interface elements.](/images/com.apple.HIG/siwa-white-logo-only@2x.png)
+![A illustration of a white Apple logo within a black square, which is surrounded by a thick, light border. The black square represents the minimum amount of clear space between the Apple logo and other interface elements.](https://developer.apple.com/tutorials/images/com.apple.HIG/siwa-white-logo-only@2x.png)
 
 All downloadable logo files include padding that simplifies positioning the logo in a button. Logo-only logo files include horizontal and vertical padding that ensures the correct proportion of the logo relative to the button. In addition to padding that keeps the logo and button correctly proportioned, logo files for buttons with text also include horizontal padding that provides a minimum margin between the logo and the button’s leading edge and title.
 
@@ -189,9 +189,9 @@ To coordinate with your app design, you can change:
 
 **Prefer the system font for the title — that is, Sign in with Apple, Sign up with Apple, or Continue with Apple.** Regardless of the font you choose, the title and button height of your custom button need to use the same proportions that the system uses. Using the system font for example, the title’s font size would be 43% of the button’s height — in other words, the button’s height would be 233% of the title’s font size, rounded to the nearest integer. Here are two examples that show these proportions using different sizes of the system font.
 
-![An illustration of a Sign in with Apple button, with callouts that indicate a button height of 44 points and a font size of 19 points.](/images/com.apple.HIG/left-aligned-correct-proportions-2@2x.png)
+![An illustration of a Sign in with Apple button, with callouts that indicate a button height of 44 points and a font size of 19 points.](https://developer.apple.com/tutorials/images/com.apple.HIG/left-aligned-correct-proportions-2@2x.png)
 
-![An illustration of a Sign in with Apple button, with callouts that indicate a button height of 56 points and a font size of 24 points.](/images/com.apple.HIG/left-aligned-correct-proportions-1@2x.png)
+![An illustration of a Sign in with Apple button, with callouts that indicate a button height of 56 points and a font size of 24 points.](https://developer.apple.com/tutorials/images/com.apple.HIG/left-aligned-correct-proportions-1@2x.png)
 
 **In general, preserve the capitalization style of the title.** By default, all variants of the button title capitalize the first word — that is, *Sign* or *Continue* — and *Apple*; all other letters are lowercase. Avoid changing this style unless your interface uses only uppercase.
 
@@ -215,13 +215,13 @@ To coordinate with your app design, you can change:
 
 **Use a mask to change the default square shape of the logo-only image.** For example, you might want to use a circular or rounded rectangular shape to present all logo-only sign-in buttons. Never crop the Apple-provided artwork to decrease its built-in padding or use the logo by itself, and avoid including additional padding.
 
-![An illustration of a logo-only Sign in with Apple button. The button includes only the Apple logo, and the button has rounded corners.](/images/com.apple.HIG/siwa-logo-masked-rounded-rect@2x.png)  
+![An illustration of a logo-only Sign in with Apple button. The button includes only the Apple logo, and the button has rounded corners.](https://developer.apple.com/tutorials/images/com.apple.HIG/siwa-logo-masked-rounded-rect@2x.png)  
 *Rounded rectangle mask*
 
-![An illustration of a logo-only Sign in with Apple button. The button includes only the Apple logo, and the button has square corners.](/images/com.apple.HIG/siwa-logo-default@2x.png)  
+![An illustration of a logo-only Sign in with Apple button. The button includes only the Apple logo, and the button has square corners.](https://developer.apple.com/tutorials/images/com.apple.HIG/siwa-logo-default@2x.png)  
 *No mask*
 
-![An illustration of a logo-only Sign in with Apple button. The button includes only the Apple logo, and the button is circular.](/images/com.apple.HIG/siwa-logo-masked-circle@2x.png)  
+![An illustration of a logo-only Sign in with Apple button. The button includes only the Apple logo, and the button is circular.](https://developer.apple.com/tutorials/images/com.apple.HIG/siwa-logo-masked-circle@2x.png)  
 *Circular mask*
 
 **Maintain a minimum margin around the button.** Ensure the margin measures at least 1/10 of the button’s height.

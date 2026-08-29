@@ -8,7 +8,7 @@
 >
 > Updated guidance for menu item icons.
 
-![A stylized representation of a menu containing a selected item and displaying a submenu. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-menus-intro@2x.png)
+![A stylized representation of a menu containing a selected item and displaying a submenu. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-menus-intro@2x.png)
 
 Menus are ubiquitous in apps and games, so most people already know how to use them. Whether you use system-provided components or custom ones, people expect menus to behave in familiar ways. For example, people understand that opening a menu reveals one or more *menu items*, each of which represents a command, option, or state that affects the current selection or context. The guidance for labeling and organizing menu items applies to all types of menus in all experiences.
 
@@ -40,17 +40,17 @@ A menu item’s label describes what it does and may include a symbol if it help
 
 **Use menu item icons sparingly and with purpose.** Icons allow people to find menu items more quickly, and help clarify what selecting an item does. Use an icon to highlight the most common actions and key features of your app, file system locations, connected devices, visual concepts like rotating or flipping an image, and user-generated content like folders and documents. Don’t display an icon if you can’t find one that clearly represents the menu item.
 
-![An illustration of a menu containing the days of the week. Each menu item is represented by a different symbol with no relation to the corresponding day.](/images/com.apple.HIG/menus-days-of-the-week-incorrect-icons@2x.png)
+![An illustration of a menu containing the days of the week. Each menu item is represented by a different symbol with no relation to the corresponding day.](https://developer.apple.com/tutorials/images/com.apple.HIG/menus-days-of-the-week-incorrect-icons@2x.png)
 
-![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
+![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
-![An illustration of a menu containing the days of the week with no accompanying symbols.](/images/com.apple.HIG/menus-days-of-the-week-correct-no-icons@2x.png)
+![An illustration of a menu containing the days of the week with no accompanying symbols.](https://developer.apple.com/tutorials/images/com.apple.HIG/menus-days-of-the-week-correct-no-icons@2x.png)
 
-![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png)
+![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
 **Apply a uniform visual treatment across menu items in the same group.** For visual consistency and balance, provide icons for all menu items in a group, or none of them.
 
-![An illustration of a menu containing two groups. The top group contains four items, and none of them have a corresponding icon. The bottom group contains two items, and each of them have an icon.](/images/com.apple.HIG/menus-groups-visual-treatment@2x.png)
+![An illustration of a menu containing two groups. The top group contains four items, and none of them have a corresponding icon. The bottom group contains two items, and each of them have an icon.](https://developer.apple.com/tutorials/images/com.apple.HIG/menus-groups-visual-treatment@2x.png)
 
 ## Organization
 
@@ -80,7 +80,7 @@ Sometimes, a menu item can reveal a set of closely related items in a subordinat
 
 Menu items often represent attributes or objects that people can turn on or off. If you want to avoid listing a separate menu item for each state, it can be efficient to create a single, toggled menu item that communicates the current state and lets people change it.
 
-![An illustration of a menu containing four items, with a checkmark icon on the leading edge of the second item.](/images/com.apple.HIG/menus-toggled-item@2x.png)
+![An illustration of a menu containing four items, with a checkmark icon on the leading edge of the second item.](https://developer.apple.com/tutorials/images/com.apple.HIG/menus-toggled-item@2x.png)
 
 **Consider using a changeable label that describes an item’s current state.** For example, instead of listing two menu items like Show Map and Hide Map, you could include one menu item whose label changes from Show Map to Hide Map, depending on whether the map is visible.
 
@@ -108,7 +108,7 @@ In-game menus give players ways to control gameplay as well as determine [settin
 
 In iOS and iPadOS, a menu can display items in one of the following three layouts.
 
-![A diagram showing small, medium, and large menu layouts, each containing the same set of menu items.](/images/com.apple.HIG/small-medium-large-menu-layouts@2x.png)
+![A diagram showing small, medium, and large menu layouts, each containing the same set of menu items.](https://developer.apple.com/tutorials/images/com.apple.HIG/small-medium-large-menu-layouts@2x.png)
 
 - **Small.** A row of four items appears at the top of the menu, above a list that contains the remaining items. For each item in the top row, the menu displays a symbol or icon, but no label.
 - **Medium.** A row of three items appears at the top of the menu, above a list that contains the remaining items. For each item in the top row, the menu displays a symbol or icon above a short label.
@@ -124,7 +124,7 @@ In visionOS, a menu can display items using the small or large layout styles tha
 
 **Prefer displaying a menu near the content it controls.** Because people need to look at a menu item before tapping it, they might miss the item’s effect if the content it controls is too far away.
 
-![A partial screenshot showing an app window in visionOS. The window contains several buttons, including a 'More' button, which is selected. A menu containing a list of actions is displayed beneath the button.](/images/com.apple.HIG/visionos-notes-menu-popover-style@2x.png)
+![A partial screenshot showing an app window in visionOS. The window contains several buttons, including a 'More' button, which is selected. A menu containing a list of actions is displayed beneath the button.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-notes-menu-popover-style@2x.png)
 
 **Prefer the subtle breakthrough effect in most cases.** This effect blends the presentation with its surrounding content, to maintain legibility and usability while preserving the depth and context of the scene. When you select [automatic](https://developer.apple.com/documentation/swiftui/breakthrougheffect/automatic) for the breakthrough effect of a menu that overlaps with 3D content, the system applies [subtle](https://developer.apple.com/documentation/swiftui/breakthrougheffect/subtle) by default. You can use [prominent](https://developer.apple.com/documentation/swiftui/breakthrougheffect/prominent) if it’s important to display a menu prominently over the entire scene in your app or game, but this can disrupt the experience for people and potentially cause discomfort. Alternatively, you can use [none](https://developer.apple.com/documentation/swiftui/breakthrougheffect/none) to fully occlude your menu behind other 3D content — for example, in a puzzle game that requires people to navigate around barriers — but this may make it difficult for people to see and access the menu.
 

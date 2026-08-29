@@ -4,7 +4,7 @@
 
 *Disclosure controls reveal and hide information and functionality related to specific controls or views.*
 
-![A stylized representation of collapsed and expanded disclosure buttons. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-disclosure-control-intro@2x.png)
+![A stylized representation of collapsed and expanded disclosure buttons. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-disclosure-control-intro@2x.png)
 
 ## Best practices
 

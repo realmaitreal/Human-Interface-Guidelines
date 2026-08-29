@@ -8,7 +8,7 @@
 >
 > Updated guidance for Liquid Glass.
 
-![A stylized representation of a toolbar, with a Back control on the leading edge, and Compose, Share, and the More menu on the trailing edge. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-toolbar-intro@2x.png)
+![A stylized representation of a toolbar, with a Back control on the leading edge, and Compose, Share, and the More menu on the trailing edge. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-toolbar-intro@2x.png)
 
 A toolbar consists of one or more sets of controls arranged horizontally along the top or bottom edge of the view, grouped into logical sections.
 
@@ -54,13 +54,13 @@ A toolbar with navigation controls appears at the top of a window, helping peopl
 
 **Use the standard Back and Close buttons.** People know that the standard Back button lets them retrace their steps through a hierarchy of information, and the standard Close button closes a modal view. Prefer the standard symbols for each, and don’t use a text label that says *Back* or *Close*. If you create a custom version of either, make sure it still looks the same, behaves as people expect, and matches the rest of your interface, and ensure you consistently implement it throughout your app or game. For guidance, see [Icons](../../Foundations/Icons.md).
 
-![An illustration of a capsule-shape Back button that includes the Back symbol on the leading side, grouped with Back in text on the trailing side.](/images/com.apple.HIG/toolbars-navigation-action-back-incorrect@2x.png)
+![An illustration of a capsule-shape Back button that includes the Back symbol on the leading side, grouped with Back in text on the trailing side.](https://developer.apple.com/tutorials/images/com.apple.HIG/toolbars-navigation-action-back-incorrect@2x.png)
 
-![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
+![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
-![An illustration of the standard circular Back button that includes the standard Back symbol.](/images/com.apple.HIG/toolbars-navigation-action-back-correct@2x.png)
+![An illustration of the standard circular Back button that includes the standard Back symbol.](https://developer.apple.com/tutorials/images/com.apple.HIG/toolbars-navigation-action-back-correct@2x.png)
 
-![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png)
+![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
 ## Actions
 
@@ -68,27 +68,27 @@ A toolbar with navigation controls appears at the top of a window, helping peopl
 
 **Make sure the meaning of each control is clear.** Don’t make people guess or experiment to figure out what a toolbar item does. Prefer simple, recognizable symbols for items instead of text, except for actions like *edit* that aren’t well-represented by symbols. For guidance on symbols that represent common actions, see [Standard icons](https://developer.apple.com/design/human-interface-guidelines/icons#Standard-icons).
 
-![An illustration of an item group with text button labels for Filter, Delete, and New.](/images/com.apple.HIG/toolbars-prefer-symbols-incorrect@2x.png)
+![An illustration of an item group with text button labels for Filter, Delete, and New.](https://developer.apple.com/tutorials/images/com.apple.HIG/toolbars-prefer-symbols-incorrect@2x.png)
 
-![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
+![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
-![An illustration of an item group with symbol button labels for Filter, Delete, and New.](/images/com.apple.HIG/toolbars-prefer-symbols-correct@2x.png)
+![An illustration of an item group with symbol button labels for Filter, Delete, and New.](https://developer.apple.com/tutorials/images/com.apple.HIG/toolbars-prefer-symbols-correct@2x.png)
 
-![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png)
+![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
 **Prefer system-provided symbols without borders.** System-provided symbols are familiar, automatically receive appropriate coloring and vibrancy, and respond consistently to user interactions. Borders (like outlined circle symbols) aren’t necessary because the section provides a visible container, and the system defines hover and selection state appearances automatically. For guidance, see [SF Symbols](../../Foundations/SF%20Symbols.md).
 
-![An illustration of an item group with buttons for Filter and More. The buttons are labeled with symbols with circular borders.](/images/com.apple.HIG/toolbars-icons-circle-outline-incorrect@2x.png)
+![An illustration of an item group with buttons for Filter and More. The buttons are labeled with symbols with circular borders.](https://developer.apple.com/tutorials/images/com.apple.HIG/toolbars-icons-circle-outline-incorrect@2x.png)
 
-![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
+![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
-![An illustration of an item group with buttons for Filter and More. The buttons are labeled with symbols without borders.](/images/com.apple.HIG/toolbars-icons-no-outline-correct@2x.png)
+![An illustration of an item group with buttons for Filter and More. The buttons are labeled with symbols without borders.](https://developer.apple.com/tutorials/images/com.apple.HIG/toolbars-icons-no-outline-correct@2x.png)
 
-![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png)
+![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
 **Use the `.prominent` style for key actions such as Done or Submit.** This separates and tints the action so there’s a clear focal point. Only specify one primary action, and put it on the trailing side of the toolbar.
 
-![An illustration of two toolbar items, with a Filter button on the leading side and a Done button on the trailing side. The buttons are ungrouped, and the Done button has the prominent style applied to indicate that it's the primary action.](/images/com.apple.HIG/toolbars-prominent-action-tinted@2x.png)
+![An illustration of two toolbar items, with a Filter button on the leading side and a Done button on the trailing side. The buttons are ungrouped, and the Done button has the prominent style applied to indicate that it's the primary action.](https://developer.apple.com/tutorials/images/com.apple.HIG/toolbars-prominent-action-tinted@2x.png)
 
 ## Item groupings
 
@@ -98,7 +98,7 @@ You can position toolbar items in three locations: the leading edge, center area
 - **Center area.** Common, useful controls appear in the center area, and the view title can appear here if it’s not on the leading edge. In macOS and iPadOS, people can add, remove, and rearrange items here if you let them customize the toolbar, and items in this section automatically collapse into the system-managed overflow menu when the window shrinks enough in size.
 - **Trailing edge.** The trailing edge contains important items that need to remain available, buttons that open nearby inspectors, an optional search field, and the More menu that contains additional items and supports toolbar customization. It also includes a primary action like Done when one exists. Items on the trailing edge remain visible at all window sizes.
 
-![A diagram of the top toolbar in the Freeform app on iPad. Callouts indicate the location of item groupings on the leading edge, center area, and trailing edge of the toolbar.](/images/com.apple.HIG/toolbars-ipad-anatomy@2x.png)
+![A diagram of the top toolbar in the Freeform app on iPad. Callouts indicate the location of item groupings on the leading edge, center area, and trailing edge of the toolbar.](https://developer.apple.com/tutorials/images/com.apple.HIG/toolbars-ipad-anatomy@2x.png)
 
 To position items in the groupings you want, pin them to the leading edge, center, or trailing edge, and insert space between buttons or other items where appropriate.
 
@@ -106,13 +106,13 @@ To position items in the groupings you want, pin them to the leading edge, cente
 
 **Group navigation controls and critical actions like Done, Close, or Save in dedicated, familiar, and visually distinct sections.** This reflects their importance and helps people discover and understand these actions.
 
-![An illustration of a top toolbar on iPhone, with controls for back, forward, tool selection, and the More menu grouped in a single section on the trailing edge.](/images/com.apple.HIG/toolbars-layout-grouping-incorrect@2x.png)
+![An illustration of a top toolbar on iPhone, with controls for back, forward, tool selection, and the More menu grouped in a single section on the trailing edge.](https://developer.apple.com/tutorials/images/com.apple.HIG/toolbars-layout-grouping-incorrect@2x.png)
 
-![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
+![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
-![An illustration of a top toolbar on iPhone, with controls for back and forward grouped on the leading edge, and controls for tool selection and the More menu grouped on the trailing edge.](/images/com.apple.HIG/toolbars-layout-grouping-correct@2x.png)
+![An illustration of a top toolbar on iPhone, with controls for back and forward grouped on the leading edge, and controls for tool selection and the More menu grouped on the trailing edge.](https://developer.apple.com/tutorials/images/com.apple.HIG/toolbars-layout-grouping-correct@2x.png)
 
-![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png)
+![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
 **Keep consistent groupings and placement across platforms.** This helps people develop familiarity with your app and trust that it behaves similarly regardless of where they use it.
 
@@ -120,13 +120,13 @@ To position items in the groupings you want, pin them to the leading edge, cente
 
 **Keep actions with text labels separate.** Placing an action with a text label next to an action with a symbol can create the illusion of a single action with a combined text and symbol, leading to confusion and misinterpretation. If your toolbar includes multiple text-labeled buttons, the text of those buttons may appear to run together, making the buttons indistinguishable. Add separation by inserting fixed space between the buttons. For developer guidance, see [UIBarButtonItem.SystemItem.fixedSpace](https://developer.apple.com/documentation/uikit/uibarbuttonitem/systemitem/fixedspace).
 
-![An illustration of a top toolbar on iPhone, with an Edit control with a text label and a Share control with a symbol grouped together on the trailing edge.](/images/com.apple.HIG/toolbars-layout-text-action-grouping-incorrect@2x.png)
+![An illustration of a top toolbar on iPhone, with an Edit control with a text label and a Share control with a symbol grouped together on the trailing edge.](https://developer.apple.com/tutorials/images/com.apple.HIG/toolbars-layout-text-action-grouping-incorrect@2x.png)
 
-![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
+![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
-![An illustration of a top toolbar on iPhone, with an Edit control with a text label and a Share control with a symbol grouped into individual sections on the trailing edge.](/images/com.apple.HIG/toolbars-layout-text-action-grouping-correct@2x.png)
+![An illustration of a top toolbar on iPhone, with an Edit control with a text label and a Share control with a symbol grouped into individual sections on the trailing edge.](https://developer.apple.com/tutorials/images/com.apple.HIG/toolbars-layout-text-action-grouping-correct@2x.png)
 
-![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png)
+![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
 ## Platform considerations
 
@@ -146,7 +146,7 @@ To position items in the groupings you want, pin them to the leading edge, cente
 
 In a macOS app, the toolbar resides in the frame at the top of a window, either below or integrated with the title bar. Note that window titles can display inline with controls, and toolbar items don’t include a bezel.
 
-![A diagram of a Finder window in macOS with callouts showing the location of the toolbar and the window frame.](/images/com.apple.HIG/toolbars-mac-window-anatomy@2x.png)
+![A diagram of a Finder window in macOS with callouts showing the location of the toolbar and the window frame.](https://developer.apple.com/tutorials/images/com.apple.HIG/toolbars-mac-window-anatomy@2x.png)
 
 **Make every toolbar item available as a command in the menu bar.** Because people can customize the toolbar or hide it, it can’t be the only place that presents a command. In contrast, it doesn’t make sense to provide a toolbar item for every menu item, because not all menu commands are important enough or used often enough to warrant space in the toolbar.
 
@@ -154,7 +154,7 @@ In a macOS app, the toolbar resides in the frame at the top of a window, either 
 
 In visionOS, the system-provided toolbar appears along the bottom edge of a window, above the window-management controls, and in a parallel plane that’s slightly in front of the window along the z-axis.
 
-![A screenshot of a toolbar along the bottom of the Notes app window in visionOS.](/images/com.apple.HIG/visionos-toolbar-notes-app@2x.png)
+![A screenshot of a toolbar along the bottom of the Notes app window in visionOS.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-toolbar-notes-app@2x.png)
 
 To maintain the legibility of toolbar items as content scrolls behind them, visionOS uses a variable blur in the bar background. The variable blur anchors the bar above the scrolling content while letting the view’s glass material remain uniform and undivided.
 
@@ -162,7 +162,7 @@ In visionOS, you can supply either a symbol or a text label for each toolbar ite
 
 **Prefer using a system-provided toolbar.** The standard toolbar has a consistent and familiar appearance and is optimized to work well with eye and hand input. In addition, the system automatically places a standard toolbar in the correct position in relation to its window.
 
-![A screenshot of a toolbar in visionOS.](/images/com.apple.HIG/visionos-toolbar-standard-layout@2x.png)
+![A screenshot of a toolbar in visionOS.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-toolbar-standard-layout@2x.png)
 
 **Avoid creating a vertical toolbar.** In visionOS, [Tab bars](../Navigation%20and%20search/Tab%20bars.md) are vertical, so presenting a vertical toolbar could confuse people.
 
@@ -176,20 +176,20 @@ In visionOS, you can supply either a symbol or a text label for each toolbar ite
 
 A toolbar button lets you offer important app functionality in a view that displays related content. You can place toolbar buttons in the top corners or along the bottom. If you place these buttons above scrolling content, the buttons always remain visible, as the content scrolls under them.
 
-![A screenshot showing toolbar buttons in the top leading and trailing corners.](/images/com.apple.HIG/toolbars-watch-top-buttons@2x.png)  
+![A screenshot showing toolbar buttons in the top leading and trailing corners.](https://developer.apple.com/tutorials/images/com.apple.HIG/toolbars-watch-top-buttons@2x.png)  
 *Top toolbar buttons*
 
-![A screenshot showing two toolbar buttons in the bottom leading and trailing corners.](/images/com.apple.HIG/toolbars-watch-bottom-buttons@2x.png)  
+![A screenshot showing two toolbar buttons in the bottom leading and trailing corners.](https://developer.apple.com/tutorials/images/com.apple.HIG/toolbars-watch-bottom-buttons@2x.png)  
 *Bottom toolbar buttons*
 
 For developer guidance, see [topBarLeading](https://developer.apple.com/documentation/swiftui/toolbaritemplacement/topbarleading), [topBarTrailing](https://developer.apple.com/documentation/swiftui/toolbaritemplacement/topbartrailing), or [bottomBar](https://developer.apple.com/documentation/swiftui/toolbaritemplacement/bottombar).
 
 You can also place a button in the scrolling view. By default, a scrolling toolbar button remains hidden until people reveal it by scrolling up. People frequently scroll to the top of a scrolling view, so discovering a toolbar button is automatic.
 
-![A screenshot showing two toolbar buttons in the top leading and trailing corners. The toolbar also has a primary action button in the scroll view, but it's hidden.](/images/com.apple.HIG/toolbars-watch-primary-button-hidden@2x.png)  
+![A screenshot showing two toolbar buttons in the top leading and trailing corners. The toolbar also has a primary action button in the scroll view, but it's hidden.](https://developer.apple.com/tutorials/images/com.apple.HIG/toolbars-watch-primary-button-hidden@2x.png)  
 *Toolbar button hidden*
 
-![A screenshot showing two toolbar buttons in the top leading and trailing corners. The toolbar also displays a primary action button in the scroll view.](/images/com.apple.HIG/toolbars-watch-primary-button-visible@2x.png)  
+![A screenshot showing two toolbar buttons in the top leading and trailing corners. The toolbar also displays a primary action button in the scroll view.](https://developer.apple.com/tutorials/images/com.apple.HIG/toolbars-watch-primary-button-visible@2x.png)  
 *Toolbar button shown*
 
 For developer guidance, see [primaryAction](https://developer.apple.com/documentation/swiftui/toolbaritemplacement/primaryaction).

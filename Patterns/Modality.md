@@ -8,7 +8,7 @@
 >
 > Enhanced guidance for in-depth modal experiences and clarified guidance on multiple modal views.
 
-![A sketch of an active window above an inactive window, suggesting focus on the frontmost window. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](/images/com.apple.HIG/patterns-modality-intro@2x.png)
+![A sketch of an active window above an inactive window, suggesting focus on the frontmost window. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-modality-intro@2x.png)
 
 Presenting content modally can:
 

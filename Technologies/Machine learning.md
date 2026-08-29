@@ -8,7 +8,7 @@
 >
 > Made minor updates for clarity.
 
-![A sketch of sparkly stars, suggesting intelligence. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](/images/com.apple.HIG/technologies-machine-learning-intro@2x.png)
+![A sketch of sparkly stars, suggesting intelligence. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-machine-learning-intro@2x.png)
 
 In addition to providing familiar features like image recognition and content recommendations, your app can use machine learning to forge deep connections with people and help them accomplish more with less effort.
 
@@ -75,7 +75,7 @@ In addition to the frequency of app updates, static or dynamic improvements can 
 
 Explicit feedback provides actionable information your app can use to improve the content and experience it presents to people. Unlike [implicit](#Implicit-feedback) — which is information an app gleans from user actions — explicit feedback is information people provide in response to a specific request from the app.
 
-![An illustration of a menu above a screen representing presented content on iPhone. The menu includes a variety of options for interacting with the content on screen, including an option to 'Love' the presented content, and an option to 'Suggest Less Like This.'](/images/com.apple.HIG/machine-learning-explicit-feedback@2x.png)
+![An illustration of a menu above a screen representing presented content on iPhone. The menu includes a variety of options for interacting with the content on screen, including an option to 'Love' the presented content, and an option to 'Suggest Less Like This.'](https://developer.apple.com/tutorials/images/com.apple.HIG/machine-learning-explicit-feedback@2x.png)
 
 *Favoriting* — marking an item for quick access in the future — and *social feedback* — expressing emotions toward others — are common user interactions that seem like mechanisms that supply explicit feedback. However, these tools actually provide implicit feedback because they don’t support app-specific requests. People use favoriting and social feedback to accomplish their own goals and apps can gather implicit feedback from these interactions.
 
@@ -101,7 +101,7 @@ Explicit feedback provides actionable information your app can use to improve th
 
 Implicit feedback is information that arises as people interact with your app’s features. Unlike the specific responses you get from [explicit](#Explicit-feedback), implicit feedback gives you a wide range of information about user behavior and preferences. Although incorporating implicit feedback isn’t required for a great machine learning app, the feedback can help you improve your app’s user experience without asking people to do any extra work.
 
-![A screenshot of a Workout app screen on Apple Watch. The screen includes text that reads 'It looks like you're working out', above buttons in a scrolling list. The two visible buttons are titled 'Record Outdoor Run' and 'Record Indoor Run'.](/images/com.apple.HIG/machine-learning-implicit-feedback@2x.png)
+![A screenshot of a Workout app screen on Apple Watch. The screen includes text that reads 'It looks like you're working out', above buttons in a scrolling list. The two visible buttons are titled 'Record Outdoor Run' and 'Record Indoor Run'.](https://developer.apple.com/tutorials/images/com.apple.HIG/machine-learning-implicit-feedback@2x.png)
 
 **Always secure people’s information.** Implicit feedback can gather potentially sensitive user information, so you must be particularly careful to maintain strict controls on user privacy.
 
@@ -125,7 +125,7 @@ Implicit feedback is information that arises as people interact with your app’
 
 Calibration is a process during which people provide information that a feature needs to function. To use Face ID, for example, a person must first scan their face.
 
-![A screenshot of the Face ID setup screen on iPhone. A face appears inside the circular frame and tick marks around the frame show that a face scan hasn't begun yet. Text below the frame explains how to perform a scan, and appears above a 'Get Started' button.](/images/com.apple.HIG/machine-learning-calibration@2x.png)
+![A screenshot of the Face ID setup screen on iPhone. A face appears inside the circular frame and tick marks around the frame show that a face scan hasn't begun yet. Text below the frame explains how to perform a scan, and appears above a 'Get Started' button.](https://developer.apple.com/tutorials/images/com.apple.HIG/machine-learning-calibration@2x.png)
 
 In general, only use calibration when your feature can’t function without that initial information. If your feature can work without calibration, consider using other ways to gather the information you need, such as [implicit](#Implicit-feedback) or possibly [explicit](#Explicit-feedback).
 
@@ -185,7 +185,7 @@ There are several machine learning patterns that can help you address mistakes:
 
 People use corrections to fix mistakes that apps make. For example, if a photo app automatically crops a photo in a way people don’t like, they can correct the mistake by cropping the photo in a different way.
 
-![A screenshot of the Camera app on iPhone showing a photo of a flower in editing mode. The crop and straighten function is selected, revealing grab bars on all edges of the photo. The tilt wheel button below the photo shows that someone chose a small tilt in the positive direction.](/images/com.apple.HIG/machine-learning-corrections@2x.png)
+![A screenshot of the Camera app on iPhone showing a photo of a flower in editing mode. The crop and straighten function is selected, revealing grab bars on all edges of the photo. The tilt wheel button below the photo shows that someone chose a small tilt in the positive direction.](https://developer.apple.com/tutorials/images/com.apple.HIG/machine-learning-corrections@2x.png)
 
 **Give people familiar, easy ways to make corrections.** When your app makes a mistake, you don’t want people to be confused about how to correct it. You can avoid causing confusion by showing the steps your app takes as it performs the automated task. For example, Photos highlights the controls it uses to auto-crop a photograph so that people can use the same controls to refine or undo the results.
 
@@ -205,7 +205,7 @@ People use corrections to fix mistakes that apps make. For example, if a photo a
 
 Depending on the design of your feature, it might work best to present a single result or multiple results from which people can choose. Providing multiple options can give people a greater sense of control and can help bridge the gap between your model’s predictions and what people actually want. Multiple options can also encourage people to have realistic expectations about the types of results your app generates.
 
-![A screenshot of the Maps app on Mac, displaying the San Francisco Bay Area. The map shows three different routes between San Francisco and Apple Park.](/images/com.apple.HIG/machine-learning-multiple-options@2x.png)
+![A screenshot of the Maps app on Mac, displaying the San Francisco Bay Area. The map shows three different routes between San Francisco and Apple Park.](https://developer.apple.com/tutorials/images/com.apple.HIG/machine-learning-multiple-options@2x.png)
 
 You might present multiple options to people in the following contexts:
 
@@ -227,7 +227,7 @@ You might present multiple options to people in the following contexts:
 
 Confidence indicates the measure of certainty for a result. Not all models produce confidence values by default, so you might consider computing them if you can use them to improve the user experience of your app.
 
-![A screenshot of a flight tracker app on iPhone. The screen displays a flight from SFO to LAX from June 3rd through June 7th. The screen shows the current lowest flight cost with a recommendation to watch over the next four weeks for a lower price. The screen includes buttons labeled 'Track' and 'View Flights', and a search field to find new dates for comparison. The active tab on the screen is titled 'Track', and there are other tabs titled 'Search' and 'Flights.'](/images/com.apple.HIG/machine-learning-confidence@2x.png)
+![A screenshot of a flight tracker app on iPhone. The screen displays a flight from SFO to LAX from June 3rd through June 7th. The screen shows the current lowest flight cost with a recommendation to watch over the next four weeks for a lower price. The screen includes buttons labeled 'Track' and 'View Flights', and a search field to find new dates for comparison. The active tab on the screen is titled 'Track', and there are other tabs titled 'Search' and 'Flights.'](https://developer.apple.com/tutorials/images/com.apple.HIG/machine-learning-confidence@2x.png)
 
 Although it might seem like higher confidence produces a higher quality result — and therefore a better user experience — it doesn’t necessarily work that way. You need to verify that your confidence values correspond to the quality of your results. For example, you might review values for multiple confidence thresholds or compare values across multiple versions of your app. If you’re not sure how your confidence values correlate with the quality of your results, it’s not a good idea to convey confidence to people.
 
@@ -249,7 +249,7 @@ Although it might seem like higher confidence produces a higher quality result �
 
 An attribution expresses the underlying basis or rationale for a result, without explaining exactly how a model works. Depending on the design of your app, you might want to use attributions to impart transparency and give people insight into your results. For example, if your app suggests books for people to read, you might use an attribution like “Because you’ve read mysteries” when you suggest books in the “thrillers” category.
 
-![An illustration of a screen on iPhone, which shows an area that contains recommended videos. The area is labeled 'For You' and includes a row of two video icons. A third video icon is partially visible on the right side of the screen, hinting at additional recommendations.](/images/com.apple.HIG/machine-learning-attribution@2x.png)
+![An illustration of a screen on iPhone, which shows an area that contains recommended videos. The area is labeled 'For You' and includes a row of two video icons. A third video icon is partially visible on the right side of the screen, hinting at additional recommendations.](https://developer.apple.com/tutorials/images/com.apple.HIG/machine-learning-attribution@2x.png)
 
 To help you decide whether to include attributions in your app, consider how you want them to affect people. For example, you might want attributions to:
 
@@ -276,7 +276,7 @@ An important part of the design process is to identify the scenarios where limit
 - Show people how to get the best results while they’re using the feature.
 - When inferior results occur, explain why so that people can understand the feature better.
 
-![A screenshot of the Memoji recording sheet on iPhone. The app shows a person's Memoji, above a message that reads 'Low light', which helps convey that additional light is required for a high-quality recording.](/images/com.apple.HIG/machine-learning-limitations@2x.png)
+![A screenshot of the Memoji recording sheet on iPhone. The app shows a person's Memoji, above a message that reads 'Low light', which helps convey that additional light is required for a high-quality recording.](https://developer.apple.com/tutorials/images/com.apple.HIG/machine-learning-limitations@2x.png)
 
 **Help people establish realistic expectations.** When a limitation may have a serious effect on user experience but happens rarely, consider making people aware of the limitation before they use your app or feature. You might describe the limitation in marketing materials or within the feature’s context so that people can decide how they want to rely on the feature. If the effects of a limitation aren’t serious, you can help set people’s expectations by providing [attribution](#Attribution).
 

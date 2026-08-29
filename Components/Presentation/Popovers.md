@@ -4,7 +4,7 @@
 
 *A popover is a transient view that appears above other content when people click or tap a control or interactive area.*
 
-![A stylized representation of a popover view. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-popover-intro@2x.png)
+![A stylized representation of a popover view. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-popover-intro@2x.png)
 
 ## Best practices
 

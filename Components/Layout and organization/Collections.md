@@ -4,7 +4,7 @@
 
 *A collection manages an ordered set of content and presents it in a customizable and highly visual layout.*
 
-![A stylized representation of eight image icons, separated into two rows of four. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-collection-view-intro@2x.png)
+![A stylized representation of eight image icons, separated into two rows of four. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-collection-view-intro@2x.png)
 
 Generally speaking, collections are ideal for showing image-based content.
 

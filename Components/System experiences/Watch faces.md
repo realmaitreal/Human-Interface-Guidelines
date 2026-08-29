@@ -4,7 +4,7 @@
 
 *A watch face is a view that people choose as their primary view in watchOS.*
 
-![A stylized representation of a series of Apple Watch faces. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-faces-intro@2x.png)
+![A stylized representation of a series of Apple Watch faces. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-faces-intro@2x.png)
 
 The watch face is at the heart of the watchOS experience. People choose a watch face they want to see every time they raise their wrist, and they customize it with their favorite complications. People can even customize different watch faces for different activities, so they can switch to the watch face that fits their current context.
 

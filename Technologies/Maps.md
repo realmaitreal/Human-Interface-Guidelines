@@ -8,7 +8,7 @@
 >
 > Added guidance for place cards and included additional artwork.
 
-![A sketch of a tri-fold map, suggesting navigation. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](/images/com.apple.HIG/technologies-maps-intro@2x.png)
+![A sketch of a tri-fold map, suggesting navigation. The image is overlaid with rectangular and circular grid lines and is tinted blue to subtly reflect the blue in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-maps-intro@2x.png)
 
 A map uses a familiar interface that supports much of the same functionality as the system-provided Maps app, such as zooming, panning, and rotation. A map can also include annotations and overlays and show routing information, and you can configure it to use a standard graphical view, a satellite image-based view, or a view that’s a hybrid of both.
 
@@ -21,10 +21,10 @@ A map uses a familiar interface that supports much of the same functionality as 
 - The *default* style presents a version of the map with fully saturated colors, and is a good option for most standard map applications without a lot of custom elements. This style is also useful for keeping visual alignment between your map and the Maps app, in situations when people might switch between them.
 - The *muted* style, by contrast, presents a desaturated version of the map. This style is great if you have a lot of information-rich content that you want to stand out against the map.
 
-![A screenshot of a map on iPhone showing Coit Tower with the default emphasis style.](/images/com.apple.HIG/maps-default-appearance@2x.png)  
+![A screenshot of a map on iPhone showing Coit Tower with the default emphasis style.](https://developer.apple.com/tutorials/images/com.apple.HIG/maps-default-appearance@2x.png)  
 *Default style*
 
-![A screenshot of a map on iPhone showing Coit Tower with desaturated colors, representing the muted emphasis style.](/images/com.apple.HIG/maps-muted-appearance@2x.png)  
+![A screenshot of a map on iPhone showing Coit Tower with desaturated colors, representing the muted emphasis style.](https://developer.apple.com/tutorials/images/com.apple.HIG/maps-muted-appearance@2x.png)  
 *Muted style*
 
 For developer guidance, see [MKStandardMapConfiguration.EmphasisStyle](https://developer.apple.com/documentation/mapkit/mkstandardmapconfiguration/emphasisstyle-swift.enum).
@@ -35,10 +35,10 @@ For developer guidance, see [MKStandardMapConfiguration.EmphasisStyle](https://d
 
 **Cluster overlapping points of interest to improve map legibility.** A *cluster* uses a single pin to represent multiple points of interest within close proximity. As people zoom in on a map, clusters expand to progressively reveal individual points of interest.
 
-![A screenshot of a single pin with the number three, representing a cluster of three points of interest that are within close proximity.](/images/com.apple.HIG/maps-points-of-interest-cluster@2x.png)  
+![A screenshot of a single pin with the number three, representing a cluster of three points of interest that are within close proximity.](https://developer.apple.com/tutorials/images/com.apple.HIG/maps-points-of-interest-cluster@2x.png)  
 *Points of interest in a cluster*
 
-![A screenshot of three orange pins when zoomed in, representing three individual points of interest.](/images/com.apple.HIG/maps-points-of-interest-individual@2x.png)  
+![A screenshot of three orange pins when zoomed in, representing three individual points of interest.](https://developer.apple.com/tutorials/images/com.apple.HIG/maps-points-of-interest-individual@2x.png)  
 *Individual points of interest when zoomed in*
 
 **Help people see the Apple logo and legal link.** It’s fine when parts of your interface temporarily cover the logo and link, but don’t cover these elements all the time. Follow these guidelines to help keep the Apple logo and legal link visible:
@@ -91,7 +91,7 @@ For developer guidance, see [MapItemDetailSelectionAccessoryStyle](https://devel
 
 Full callout style place cards appear differently depending on a person’s device. The system presents the full callout style place card in a popover style in iPadOS and macOS, and as a [sheet](../Components/Presentation/Sheets.md) in iOS.
 
-![A screenshot of the full callout style place card in a map on iPhone. The place card appears as a sheet from the bottom edge of the device.](/images/com.apple.HIG/maps-place-card-iphone-full@2x.png)
+![A screenshot of the full callout style place card in a map on iPhone. The place card appears as a sheet from the bottom edge of the device.](https://developer.apple.com/tutorials/images/com.apple.HIG/maps-place-card-iphone-full@2x.png)
 
 **Consider your map presentation when choosing a style.** The full callout style place card offers people the richest experience, presenting them with the most information about a place directly in your map. However, be sure to choose a place card style that fits in the context of your map. For example, if your app displays a small map with many annotations, consider using the compact callout style for a space-saving presentation that shows place information while maintaining the context of the other places that you specify in your map.
 
@@ -117,7 +117,7 @@ Apps connected with specific venues like shopping malls and stadiums can design 
 
 **Adjust map detail based on the zoom level.** Too much detail can cause a map to appear cluttered. Show large areas like rooms and buildings at all zoom levels. Then, progressively add more detailed features and labels as the map is zoomed in. An airport map might show only terminals and gates when zoomed out, but reveal individual stores and restrooms when zoomed in.
 
-![A screenshot of a map on iPhone, zoomed in to show the location of an elevator in San Jose International airport. A minimized card containing information about the elevator is visible at the bottom of the screen.](/images/com.apple.HIG/indoor-maps-elevator@2x.png)
+![A screenshot of a map on iPhone, zoomed in to show the location of an elevator in San Jose International airport. A minimized card containing information about the elevator is visible at the bottom of the screen.](https://developer.apple.com/tutorials/images/com.apple.HIG/indoor-maps-elevator@2x.png)
 
 **Use distinctive styling to differentiate the features of your map.** Using color along with icons can help distinguish different types of areas, stores, and services, and make it easy for people to quickly find what they’re looking for.
 
@@ -125,7 +125,7 @@ Apps connected with specific venues like shopping malls and stadiums can design 
 
 **Include surrounding areas to provide context.** Adjacent streets, playgrounds, and other nearby locations can all help orient people when they use your map. If these areas are noninteractive, use dimming and a distinct color to make them appear supplemental.
 
-![A screenshot of a map on iPhone, zoomed in to show the numbers and locations of some gates in a terminal at San Jose International airport. Other areas, including parking structures, are displayed without details. A minimized card containing a search field and a Browse SJC button is visible at the bottom of the screen.](/images/com.apple.HIG/indoor-maps-surroundings@2x.png)
+![A screenshot of a map on iPhone, zoomed in to show the numbers and locations of some gates in a terminal at San Jose International airport. Other areas, including parking structures, are displayed without details. A minimized card containing a search field and a Browse SJC button is visible at the bottom of the screen.](https://developer.apple.com/tutorials/images/com.apple.HIG/indoor-maps-surroundings@2x.png)
 
 **Consider supporting navigation between your venue and nearby transit points.** Make it easy to enter and exit your venue by offering routing to and from nearby bus stops, train stations, parking lots, garages, and other transit locations. You might also offer a way for people to quickly switch over to Apple Maps for additional navigation options.
 
@@ -133,7 +133,7 @@ Apps connected with specific venues like shopping malls and stadiums can design 
 
 **Design an indoor map that feels like a natural extension of your app.** Don’t try to replicate the appearance of Apple Maps. Instead, make sure area overlays, icons, and text match the visual style of your app. For guidance, see [Indoor Mapping Data Format](https://register.apple.com/resources/imdf/).
 
-![A screenshot of a custom map in an app on iPhone, showing an airport concourse. Elements of the map are tinted green to correspond with the app's UI, and custom icons represent gates, security checkpoints, and an information booth.](/images/com.apple.HIG/indoor-maps-custom-map-design@2x.png)
+![A screenshot of a custom map in an app on iPhone, showing an airport concourse. Elements of the map are tinted green to correspond with the app's UI, and custom icons represent gates, security checkpoints, and an information booth.](https://developer.apple.com/tutorials/images/com.apple.HIG/indoor-maps-custom-map-design@2x.png)
 
 ## Platform considerations
 
@@ -143,7 +143,7 @@ Apps connected with specific venues like shopping malls and stadiums can design 
 
 On Apple Watch, maps are static snapshots of geographic locations. Place a map in your interface at design time and show the appropriate region at runtime. The displayed region isn’t interactive; tapping it opens the Maps app on Apple Watch. You can add up to five annotations to a map to highlight points of interest or other relevant information. For developer guidance, see [WKInterfaceMap](https://developer.apple.com/documentation/watchkit/wkinterfacemap).
 
-![A screenshot of a map on Apple Watch, displaying Apple Park and some of the surrounding area.](/images/com.apple.HIG/maps-watch1@2x.png)
+![A screenshot of a map on Apple Watch, displaying Apple Park and some of the surrounding area.](https://developer.apple.com/tutorials/images/com.apple.HIG/maps-watch1@2x.png)
 
 **Fit the map interface element to the screen.** The entire element needs to be visible on the Apple Watch display without requiring scrolling.
 

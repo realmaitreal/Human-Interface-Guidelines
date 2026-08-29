@@ -8,7 +8,7 @@
 >
 > Added guidance for displaying custom controls above the keyboard, and updated to reflect virtual keyboard availability in watchOS.
 
-![A stylized representation of a numeric keypad shown on top of a grid that suggests the canvas of a design tool. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-virtual-keyboard-intro@2x.png)
+![A stylized representation of a numeric keypad shown on top of a grid that suggests the canvas of a design tool. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-virtual-keyboard-intro@2x.png)
 
 A virtual keyboard can provide a specific set of keys that are optimized for the current task; for example, a keyboard that supports entering email addresses can include the “@” character and a period or even “.com”.  A virtual keyboard doesn’t support keyboard shortcuts.
 
@@ -50,19 +50,19 @@ Custom keyboards make sense when you want to expose unique keyboard functionalit
 
 **Use the keyboard layout guide to make the keyboard feel like an integrated part of your interface.** Using the layout guide also helps you keep important parts of your interface visible while the virtual keyboard is onscreen. For developer guidance, see [Adjusting your layout with keyboard layout guide](https://developer.apple.com/documentation/uikit/adjusting-your-layout-with-keyboard-layout-guide).
 
-![An illustration of an app layout on iPhone, showing two stacked text fields and a button above the keyboard.](/images/com.apple.HIG/ui-fully-visible@2x.png)
+![An illustration of an app layout on iPhone, showing two stacked text fields and a button above the keyboard.](https://developer.apple.com/tutorials/images/com.apple.HIG/ui-fully-visible@2x.png)
 
-![A checkmark in a circle to indicate a correct example.](/images/com.apple.HIG/checkmark@2x.png)  
+![A checkmark in a circle to indicate a correct example.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)  
 *The keyboard layout guide helps ensure that app UI and the keyboard work well together.*
 
-![An illustration of an app layout on iPhone, showing two stacked text fields. The keyboard covers part of the bottom text field.](/images/com.apple.HIG/text-field-hidden@2x.png)
+![An illustration of an app layout on iPhone, showing two stacked text fields. The keyboard covers part of the bottom text field.](https://developer.apple.com/tutorials/images/com.apple.HIG/text-field-hidden@2x.png)
 
-![An X in a circle to indicate an incorrect example.](/images/com.apple.HIG/crossout@2x.png)  
+![An X in a circle to indicate an incorrect example.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)  
 *Without the layout guide, the keyboard could make entering text more difficult.*
 
-![An illustration of an app layout on iPhone, showing two stacked text fields and a button above the keyboard. The keyboard covers part of the button.](/images/com.apple.HIG/button-hidden@2x.png)
+![An illustration of an app layout on iPhone, showing two stacked text fields and a button above the keyboard. The keyboard covers part of the button.](https://developer.apple.com/tutorials/images/com.apple.HIG/button-hidden@2x.png)
 
-![An X in a circle to indicate an incorrect example.](/images/com.apple.HIG/crossout@2x.png)  
+![An X in a circle to indicate an incorrect example.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)  
 *Without the layout guide, the keyboard could make tapping a button more difficult.*
 
 **Place custom controls above the keyboard thoughtfully.** Some apps position an input accessory view containing custom controls above the keyboard to offer app-specific functionality related to the data people are working with. For example, Numbers displays controls that help people apply standard or custom calculations to spreadsheet data. If your app offers custom controls that augment the keyboard, make sure they’re relevant to the current task. If other views in your app use Liquid Glass, or if your view looks out of place above the keyboard, apply Liquid Glass to the view that contains your controls to maintain consistency. If you use a standard toolbar to contain your controls, it automatically adopts Liquid Glass. Use the keyboard layout guide and standard padding to ensure the system positions your controls as expected within the view. For developer guidance, see [ToolbarItemPlacement](https://developer.apple.com/documentation/swiftui/toolbaritemplacement) (SwiftUI), [inputAccessoryView](https://developer.apple.com/documentation/uikit/uiresponder/inputaccessoryview) (UIKit), and [UIKeyboardLayoutGuide](https://developer.apple.com/documentation/uikit/uikeyboardlayoutguide) (UIKit).

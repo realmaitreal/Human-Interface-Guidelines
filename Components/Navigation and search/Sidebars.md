@@ -8,7 +8,7 @@
 >
 > Updated guidance for sidebar icon colors, and clarified guidance for the adaptable sidebar style.
 
-![A stylized representation of the top portion of a window's sidebar displaying a section and some folders. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-sidebar-intro@2x.png)
+![A stylized representation of the top portion of a window's sidebar displaying a section and some folders. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-sidebar-intro@2x.png)
 
 A sidebar requires a large amount of vertical and horizontal space. When space is limited or you want to devote more of the screen to other information or functionality, a more compact control such as a tab bar may provide a better navigation experience. For many apps, you don’t need to choose between a tab bar or sidebar for navigation; instead, you can adopt a style of tab bar that provides both. For guidance, see [Tab bars](Tab%20bars.md) and [Layout](../../Foundations/Layout.md).
 
@@ -16,13 +16,13 @@ A sidebar requires a large amount of vertical and horizontal space. When space i
 
 **Extend visually rich content beneath the sidebar.** In iOS, iPadOS, and macOS, as with other controls such as toolbars and tab bars, sidebars can float above content in the [Liquid Glass](https://developer.apple.com/design/human-interface-guidelines/materials#Liquid-Glass) layer. To reinforce the separation, you can extend content beneath the sidebar either by letting it horizontally scroll or by applying a *background extension effect*. A background extension effect mirrors adjacent content to give the impression of stretching it under the sidebar. For developer guidance, see [backgroundExtensionEffect()](https://developer.apple.com/documentation/swiftui/view/backgroundextensioneffect()).
 
-![A screenshot of the leading side of an app on iPad. An image spans the upper part of the window, stopping at the edge of the sidebar.](/images/com.apple.HIG/sidebars-extend-content-beneath-sidebar-incorrect@2x.png)
+![A screenshot of the leading side of an app on iPad. An image spans the upper part of the window, stopping at the edge of the sidebar.](https://developer.apple.com/tutorials/images/com.apple.HIG/sidebars-extend-content-beneath-sidebar-incorrect@2x.png)
 
-![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
+![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
-![A screenshot of the leading side of an app on iPad. An image spans the upper part of the window, and uses a background extension effect to flip, blur, and extend the image beneath the sidebar to the edge of the window.](/images/com.apple.HIG/sidebars-extend-content-beneath-sidebar-correct@2x.png)
+![A screenshot of the leading side of an app on iPad. An image spans the upper part of the window, and uses a background extension effect to flip, blur, and extend the image beneath the sidebar to the edge of the window.](https://developer.apple.com/tutorials/images/com.apple.HIG/sidebars-extend-content-beneath-sidebar-correct@2x.png)
 
-![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png)
+![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
 **When possible, let people customize the contents of a sidebar.** A sidebar lets people navigate to important areas in your app, so it works well when people can decide which areas are most important and in what order they appear.
 
@@ -66,7 +66,7 @@ A sidebar’s row height, text, and glyph size depend on its overall size, which
 
 **If your app’s hierarchy is deep, consider using a sidebar within a tab in a tab bar.** In this situation, a sidebar can support secondary navigation within the tab. If you do this, be sure to prevent selections in the sidebar from changing which tab is currently open.
 
-![A partial screenshot of the Music app in visionOS. The app's window includes a sidebar for navigating the music library, and the secondary pane includes a grid of playlists.](/images/com.apple.HIG/visionos-sidebar-music@2x.png)
+![A partial screenshot of the Music app in visionOS. The app's window includes a sidebar for navigating the music library, and the secondary pane includes a grid of playlists.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-sidebar-music@2x.png)
 
 ## Resources
 

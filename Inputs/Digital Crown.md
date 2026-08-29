@@ -8,14 +8,14 @@
 >
 > Added artwork for Apple&nbsp;Vision&nbsp;Pro and Apple Watch, and clarified that visionOS apps don't receive direct information from the Digital Crown.
 
-![A sketch of a curved arrow beside a Digital Crown, that suggests turning the Digital Crown. The image is overlaid with rectangular and circular grid lines and is tinted purple to subtly reflect the purple in the original six-color Apple logo.](/images/com.apple.HIG/inputs-digital-crown-intro@2x.png)
+![A sketch of a curved arrow beside a Digital Crown, that suggests turning the Digital Crown. The image is overlaid with rectangular and circular grid lines and is tinted purple to subtly reflect the purple in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/inputs-digital-crown-intro@2x.png)
 
 On both Apple Vision Pro and Apple Watch, people can use the Digital Crown to interact with the system; on Apple Watch, people can also use the Digital Crown to interact with apps.
 
-![A close-up photograph of a person's head wearing Apple Vision Pro, with their index finger pointing at the Digital Crown.](/images/com.apple.HIG/digital-crown-apple-vision-pro@2x.png)  
+![A close-up photograph of a person's head wearing Apple Vision Pro, with their index finger pointing at the Digital Crown.](https://developer.apple.com/tutorials/images/com.apple.HIG/digital-crown-apple-vision-pro@2x.png)  
 *The Digital Crown on Apple Vision Pro*
 
-![A close-up photograph of Apple Watch, shown at an angle, with the Digital Crown prominently featured at the center of the image.](/images/com.apple.HIG/digital-crown-apple-watch@2x.png)  
+![A close-up photograph of Apple Watch, shown at an angle, with the Digital Crown prominently featured at the center of the image.](https://developer.apple.com/tutorials/images/com.apple.HIG/digital-crown-apple-watch@2x.png)  
 *The Digital Crown on Apple Watch*
 
 ## Apple Vision Pro

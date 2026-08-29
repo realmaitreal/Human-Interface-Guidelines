@@ -8,7 +8,7 @@
 >
 > Added best practices, and updated with guidance for resizable windows in iPadOS.
 
-![A stylized representation of a window with close, minimize, and full-screen buttons. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-window-intro@2x.png)
+![A stylized representation of a window with close, minimize, and full-screen buttons. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-window-intro@2x.png)
 
 In iPadOS, macOS, and visionOS, windows help define the visual boundaries of app content and separate it from other areas of the system, and enable multitasking workflows both within and between apps. Windows include system-provided interface elements such as frames and window controls that let people open, close, resize, and relocate them.
 
@@ -72,7 +72,7 @@ A macOS window can have one of three states:
 
 The system gives main, key, and inactive windows different appearances to help people visually identify them. For example, the key window uses color in the title bar options for closing, minimizing, and zooming; inactive windows and main windows that aren’t key use gray in these options. Also, inactive windows don’t use [Materials](../../Foundations/Materials.md) (an effect that can pull color into a window from the content underneath it), which makes them appear subdued and seem visually farther away than the main and key windows.
 
-![An illustration of a stack of three windows, as follows: An inactive window in the background, an app’s main window in the middle, and a key window appearing above the other two windows.](/images/com.apple.HIG/window-states@2x.png)
+![An illustration of a stack of three windows, as follows: An inactive window in the background, an app’s main window in the middle, and a key window appearing above the other two windows.](https://developer.apple.com/tutorials/images/com.apple.HIG/window-states@2x.png)
 
 > **Note**
 >
@@ -86,10 +86,10 @@ The system gives main, key, and inactive windows different appearances to help p
 
 visionOS defines two main window styles: default and volumetric. Both a default window (called a *window*) and a volumetric window (called a *volume*) can display 2D and 3D content, and people can view multiple windows and volumes at the same time in both the Shared Space and a Full Space.
 
-![An illustration representing a window in visionOS. The illustration consists of two parallel rounded rectangles, slightly separated and displayed on an angle, positioned above a window bar.](/images/com.apple.HIG/visionos-window-style-2d-window@2x.png)  
+![An illustration representing a window in visionOS. The illustration consists of two parallel rounded rectangles, slightly separated and displayed on an angle, positioned above a window bar.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-window-style-2d-window@2x.png)  
 *A window*
 
-![An illustration representing a volume in visionOS. The illustration consists of a translucent cube. The base of the cube is darker than the other sides. The front of the cube is positioned above a window bar.](/images/com.apple.HIG/visionos-window-style-3d-volume@2x.png)  
+![An illustration representing a volume in visionOS. The illustration consists of a translucent cube. The base of the cube is darker than the other sides. The front of the cube is positioned above a window bar.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-window-style-3d-volume@2x.png)  
 *A volume*
 
 > **Note**
@@ -102,7 +102,7 @@ The system defines the initial position of the first window or volume people ope
 
 The default window style consists of an upright plane that uses an unmodifiable background [Materials](../../Foundations/Materials.md) called *glass* and includes a close button, window bar, and resize controls that let people close, move, and resize the window. A window can also include a Share button, [Tab bars](../Navigation%20and%20search/Tab%20bars.md), [Toolbars](../Menus%20and%20actions/Toolbars.md), and one or more [Ornaments](../Menus%20and%20actions/Ornaments.md). By default, visionOS uses dynamic [Scale](https://developer.apple.com/design/human-interface-guidelines/spatial-layout#Scale) to help a window’s size appear to remain consistent regardless of its proximity to the viewer. For developer guidance, see [DefaultWindowStyle](https://developer.apple.com/documentation/swiftui/defaultwindowstyle).
 
-![A screenshot of a window for an app named 'Hello World' in visionOS. The window includes text and buttons for entering different experiences.](/images/com.apple.HIG/visionos-window-2d@2x.png)  
+![A screenshot of a window for an app named 'Hello World' in visionOS. The window includes text and buttons for entering different experiences.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-window-2d@2x.png)  
 *A window*
 
 **Prefer using a window to present a familiar interface and to support familiar tasks.** Help people feel at home in your app by displaying an interface they’re already comfortable with, reserving more [Immersive experiences](../../Foundations/Immersive%20experiences.md) for the meaningful content and activities you offer. If you want to showcase bounded 3D content like a game board, consider using a [visionOS volumes](https://developer.apple.com/design/human-interface-guidelines/windows#visionOS-volumes).
@@ -115,7 +115,7 @@ The default window style consists of an upright plane that uses an unmodifiable 
 
 **Choose a minimum and maximum size for each window to help keep your content looking great.** People appreciate being able to resize windows as they customize their space, but you need to make sure your layout adjusts well across all sizes. If you don’t set a minimum and maximum size for a window, people could make it so small that UI elements overlap or so large that your app or game becomes unusable. For developer guidance, see [Positioning and sizing windows](https://developer.apple.com/documentation/visionos/positioning-and-sizing-windows).
 
-![A screenshot of a window for an app in visionOS. The window includes text that discusses objects in orbit, and it includes buttons for viewing a satellite, the moon, and a telescope. The satellite button is selected and a 3D satellite is displayed.](/images/com.apple.HIG/visionos-window-2d-with-volume@2x.png)  
+![A screenshot of a window for an app in visionOS. The window includes text that discusses objects in orbit, and it includes buttons for viewing a satellite, the moon, and a telescope. The satellite button is selected and a 3D satellite is displayed.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-window-2d-with-volume@2x.png)  
 *A window containing 3D content*
 
 **Minimize the depth of 3D content you display in a window.** The system adds highlights and shadows to the views and controls within a window, giving them the appearance of [Depth](https://developer.apple.com/design/human-interface-guidelines/spatial-layout#Depth) and helping them feel more substantial, especially when people view the window from an angle. Although you can display 3D content in a window, the system clips it if the content extends too far from the window’s surface. To display 3D content that has greater depth, use a volume.
@@ -124,7 +124,7 @@ The default window style consists of an upright plane that uses an unmodifiable 
 
 You can use a volume to display 2D or 3D content that people can view from any angle. A volume includes window-management controls just like a window, but unlike in a window, a volume’s close button and window bar shift position to face the viewer as they move around the volume. For developer guidance, see [VolumetricWindowStyle](https://developer.apple.com/documentation/swiftui/volumetricwindowstyle).
 
-![A screenshot of a volume containing a 3D globe in visionOS, beside a window.](/images/com.apple.HIG/visionos-window-3d@2x.png)  
+![A screenshot of a volume containing a 3D globe in visionOS, beside a window.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-window-3d@2x.png)  
 *A volume*
 
 **Prefer using a volume to display rich, 3D content.** In contrast, if you want to present a familiar, UI-centric interface, it generally works best to use a [visionOS windows](https://developer.apple.com/design/human-interface-guidelines/windows#visionOS-windows).

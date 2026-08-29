@@ -4,7 +4,7 @@
 
 *A combo box combines a text field with a pull-down button in a single control.*
 
-![A stylized representation of a combo box control displaying a list of cities. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-combobox-intro@2x.png)
+![A stylized representation of a combo box control displaying a list of cities. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-combobox-intro@2x.png)
 
 People can enter a custom value into the field or click the button to choose from a list of predefined values. When people enter a custom value, it’s not added to the list of choices.
 

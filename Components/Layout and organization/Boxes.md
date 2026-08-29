@@ -4,7 +4,7 @@
 
 *A box creates a visually distinct group of logically related information and components.*
 
-![A stylized representation of a group of interface elements within a rounded rectangle. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-box-intro@2x.png)
+![A stylized representation of a group of interface elements within a rounded rectangle. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-box-intro@2x.png)
 
 By default, a box uses a visible border or background color to separate its contents from the rest of the interface. A box can also include a title.
 

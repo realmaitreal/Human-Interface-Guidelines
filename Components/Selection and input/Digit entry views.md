@@ -4,7 +4,7 @@
 
 *A digit entry view fills the entire screen and prompts people to enter a series of digits, like a PIN, using a digit-specific keyboard.*
 
-![A stylized representation of an Apple TV five-digit passcode entry screen. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-digit-entry-view-intro@2x.png)
+![A stylized representation of an Apple TV five-digit passcode entry screen. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-digit-entry-view-intro@2x.png)
 
 You can add an optional title and prompt above the line of digits.
 

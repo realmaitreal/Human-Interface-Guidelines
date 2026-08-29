@@ -4,7 +4,7 @@
 
 *In a macOS app, a panel typically floats above other open windows providing supplementary controls, options, or information related to the active window or current selection.*
 
-![A stylized representation of a panel floating above a window. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-panel-intro@2x.png)
+![A stylized representation of a panel floating above a window. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-panel-intro@2x.png)
 
 In general, a panel has a less prominent appearance than an app’s [macOS window states](https://developer.apple.com/design/human-interface-guidelines/windows#macOS-window-states). When the situation calls for it, a panel can also use a dark, translucent style to support a heads-up display (or *HUD*) experience.
 
@@ -32,7 +32,7 @@ When your app runs in other platforms, consider using a modal view to present su
 
 A HUD-style panel serves the same function as a standard panel, but its appearance is darker and translucent. HUDs work well in apps that present highly visual content or that provide an immersive experience, such as media editing or a full-screen slide show. For example, QuickTime Player uses a HUD to display inspector information without obstructing too much content.
 
-![A screenshot of a translucent HUD panel, used to display inspector information for a movie file, including the filename, format, frames per second, data rate, and the frame size of the movie content.](/images/com.apple.HIG/hud-style-panel@2x.png)
+![A screenshot of a translucent HUD panel, used to display inspector information for a movie file, including the filename, format, frames per second, data rate, and the frame size of the movie content.](https://developer.apple.com/tutorials/images/com.apple.HIG/hud-style-panel@2x.png)
 
 **Prefer standard panels.** People can be distracted or confused by a HUD when there’s no logical reason for its presence. Also, a HUD might not match the current appearance setting. In general, use a HUD only:
 

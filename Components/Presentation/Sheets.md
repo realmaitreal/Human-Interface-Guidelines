@@ -8,7 +8,7 @@
 >
 > Updated guidance for button placement.
 
-![A stylized representation of a sheet extending down from the top of a window. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-sheet-intro@2x.png)
+![A stylized representation of a sheet extending down from the top of a window. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-sheet-intro@2x.png)
 
 A sheet is useful for requesting specific information from people or presenting a simple task that they can complete before returning to the parent view. For example, a sheet might let people supply information needed to complete an action, such as attaching a file or choosing a location to save it.
 
@@ -18,10 +18,10 @@ In macOS, tvOS, visionOS, and watchOS, a sheet is always *modal*. A modal sheet 
 
 In iOS and iPadOS, a sheet can be either modal or *nonmodal*. When a nonmodal sheet is onscreen, people use its functionality to affect the parent view without dismissing the sheet. For example, Notes on iPhone and iPad uses a nonmodal sheet to let people format various text selections as they edit a note.
 
-![A screenshot of an in-progress note on iPhone. Several words are selected and highlighted. In the bottom half of the screen, the format sheet shows that the selected words use the regular body font.](/images/com.apple.HIG/sheets-nonmodal-notes-text-regular@2x.png)  
+![A screenshot of an in-progress note on iPhone. Several words are selected and highlighted. In the bottom half of the screen, the format sheet shows that the selected words use the regular body font.](https://developer.apple.com/tutorials/images/com.apple.HIG/sheets-nonmodal-notes-text-regular@2x.png)  
 *The Notes format sheet lets people apply formatting to selected text in the editing view.*
 
-![A screenshot of the same in-progress note on iPhone. Different words are selected and highlighted. The format sheet shows that the selected words use the body font in italics.](/images/com.apple.HIG/sheets-nonmodal-notes-text-italic@2x.png)  
+![A screenshot of the same in-progress note on iPhone. Different words are selected and highlighted. The format sheet shows that the selected words use the body font in italics.](https://developer.apple.com/tutorials/images/com.apple.HIG/sheets-nonmodal-notes-text-italic@2x.png)  
 *Because the sheet is nonmodal, people can make additional text selections without dismissing the sheet.*
 
 There are several common buttons that help people navigate through and dismiss sheets.
@@ -42,19 +42,19 @@ The placement of these buttons varies between platforms; see [Platform considera
 
 **Provide an alternative to the Done button.** If you provide a Done button, always pair it with a Cancel button to give people a clear way to dismiss the sheet without confirming or saving their changes, or a Back button to move to a previous step in the sheet. Relying solely on the Done button implies that completing the task is the only way to exit the sheet, which can feel restrictive or misleading.
 
-![An illustration of the top half of a sheet on iPhone. A Done button appears in the top-right corner on its own.](/images/com.apple.HIG/sheets-buttons-placement-done-incorrect@2x.png)
+![An illustration of the top half of a sheet on iPhone. A Done button appears in the top-right corner on its own.](https://developer.apple.com/tutorials/images/com.apple.HIG/sheets-buttons-placement-done-incorrect@2x.png)
 
-![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
+![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
-![An illustration of the top half of a sheet on iPhone. A Cancel button appears in the top-left corner of the view, and a Done button appears in the top-right corner.](/images/com.apple.HIG/sheets-buttons-placement-cancel-done@2x.png)
+![An illustration of the top half of a sheet on iPhone. A Cancel button appears in the top-left corner of the view, and a Done button appears in the top-right corner.](https://developer.apple.com/tutorials/images/com.apple.HIG/sheets-buttons-placement-cancel-done@2x.png)
 
-![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png)
+![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
 Avoid showing all three buttons — Cancel, Done, and Back — together.
 
-![An illustration of the top half of a sheet on iPhone. A Back button appears in the top-left corner of the view, and Cancel and Done buttons appear together in the top-right corner.](/images/com.apple.HIG/sheets-buttons-placement-back-cancel-done-incorrect@2x.png)
+![An illustration of the top half of a sheet on iPhone. A Back button appears in the top-left corner of the view, and Cancel and Done buttons appear together in the top-right corner.](https://developer.apple.com/tutorials/images/com.apple.HIG/sheets-buttons-placement-back-cancel-done-incorrect@2x.png)
 
-![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
+![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
 ## Platform considerations
 
@@ -64,16 +64,16 @@ Avoid showing all three buttons — Cancel, Done, and Back — together.
 
 In iOS and iPadOS, for sheets with a single view, the Cancel button belongs on the leading edge of the top toolbar. When present, the Done button belongs on the trailing edge.
 
-![An illustration of the top half of a sheet on iPhone. A Cancel button appears in the top-left corner of the view, and a Done button appears in the top-right corner.](/images/com.apple.HIG/sheets-buttons-placement-cancel-done@2x.png)
+![An illustration of the top half of a sheet on iPhone. A Cancel button appears in the top-left corner of the view, and a Done button appears in the top-right corner.](https://developer.apple.com/tutorials/images/com.apple.HIG/sheets-buttons-placement-cancel-done@2x.png)
 
 For sheets with a multi-step flow, the placement of buttons can vary across steps.
 
 A resizable sheet expands when people scroll its contents or drag the *grabber*, which is a small horizontal indicator that can appear at the top edge of a sheet. Sheets resize according to their *detents*, which are particular heights at which a sheet naturally rests. Designed for iPhone, detents specify particular heights at which a sheet naturally rests. The system defines two detents: *large* is the height of a fully expanded sheet and *medium* is about half of the fully expanded height. Sheets can have one or more custom detent values.
 
-![An illustration showing an iPhone screen in portrait orientation containing a solid rounded rectangle that occupies almost all of the screen, representing a full-screen sheet. A rounded close button appears in the upper-left corner of the sheet.](/images/com.apple.HIG/sheets-large-detent@2x.png)  
+![An illustration showing an iPhone screen in portrait orientation containing a solid rounded rectangle that occupies almost all of the screen, representing a full-screen sheet. A rounded close button appears in the upper-left corner of the sheet.](https://developer.apple.com/tutorials/images/com.apple.HIG/sheets-large-detent@2x.png)  
 *Large detent*
 
-![An illustration showing an iPhone screen in portrait orientation containing a solid rounded rectangle that occupies half of the screen, representing a half-screen sheet. A rounded close button appears in the upper-left corner of the sheet.](/images/com.apple.HIG/sheets-medium-detent@2x.png)  
+![An illustration showing an iPhone screen in portrait orientation containing a solid rounded rectangle that occupies half of the screen, representing a half-screen sheet. A rounded close button appears in the upper-left corner of the sheet.](https://developer.apple.com/tutorials/images/com.apple.HIG/sheets-medium-detent@2x.png)  
 *Medium detent*
 
 Sheets automatically support the large detent. Adding the medium detent allows the sheet to rest at both heights, whereas specifying only medium prevents the sheet from expanding to full height. For developer guidance, see [detents](https://developer.apple.com/documentation/uikit/uisheetpresentationcontroller/detents).
@@ -90,7 +90,7 @@ Sheets automatically support the large detent. Adding the medium detent allows t
 
 In macOS, a sheet is a cardlike view with rounded corners that floats on top of its parent window. The parent window is dimmed while the sheet is onscreen, signaling that people can’t interact with it until they dismiss the sheet. However, people expect to interact with other app windows before dismissing a sheet.
 
-![A screenshot of the Notes app, with the What's New in Notes sheet centered on top of a dimmed Notes document in the background.](/images/com.apple.HIG/sheets-macos-notes@2x.png)
+![A screenshot of the Notes app, with the What's New in Notes sheet centered on top of a dimmed Notes document in the background.](https://developer.apple.com/tutorials/images/com.apple.HIG/sheets-macos-notes@2x.png)
 
 **Present a sheet in a reasonable default size.** People don’t generally expect to resize sheets, so it’s important to use a size that’s appropriate for the content you display. In some cases, however, people appreciate a resizable sheet — such as when they need to expand the contents for a clearer view — so it’s a good idea to support resizing.
 
@@ -110,7 +110,7 @@ While a sheet is visible in a visionOS app, it floats in front of its parent win
 
 In watchOS, a sheet is a full-screen view that slides over your app’s current content. The sheet is semitransparent to help maintain the current context, but the system applies a material to the background that blurs and desaturates the covered content.
 
-![A screenshot of a sheet with a primary Action button and a default cancel button on Apple Watch.](/images/com.apple.HIG/sheets-watch-overlay@2x.png)
+![A screenshot of a sheet with a primary Action button and a default cancel button on Apple Watch.](https://developer.apple.com/tutorials/images/com.apple.HIG/sheets-watch-overlay@2x.png)
 
 **Use a sheet only when your modal task requires a custom title or custom content presentation.** If you need to give people important information or present a set of choices, consider using an [Alerts](Alerts.md) or [Action sheets](Action%20sheets.md).
 
@@ -118,17 +118,17 @@ In watchOS, a sheet is a full-screen view that slides over your app’s current 
 
 **If you change the default label, prefer using SF Symbols to represent the action.** Avoid using a label that might mislead people into thinking that the sheet is part of a hierarchical navigation interface. Also, if the text in the top-leading corner looks like a page or app title, people won’t know how to dismiss the sheet. For guidance, see [Standard icons](https://developer.apple.com/design/human-interface-guidelines/icons#Standard-icons).
 
-![A screenshot that shows a top toolbar with a custom Back button at the top of the screen on Apple Watch.](/images/com.apple.HIG/modal-sheet-watchos-do-not-1@2x.png)
+![A screenshot that shows a top toolbar with a custom Back button at the top of the screen on Apple Watch.](https://developer.apple.com/tutorials/images/com.apple.HIG/modal-sheet-watchos-do-not-1@2x.png)
 
-![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
+![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
-![A screenshot that shows a top toolbar with a button with the words Page title at the top of the screen on Apple Watch.](/images/com.apple.HIG/modal-sheet-watchos-do-not-2@2x.png)
+![A screenshot that shows a top toolbar with a button with the words Page title at the top of the screen on Apple Watch.](https://developer.apple.com/tutorials/images/com.apple.HIG/modal-sheet-watchos-do-not-2@2x.png)
 
-![An X in a circle to indicate incorrect usage.](/images/com.apple.HIG/crossout@2x.png)
+![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
-![A screenshot that shows a top toolbar with the default Cancel button at the top of the screen on Apple Watch.](/images/com.apple.HIG/modal-sheet-watchos-do@2x.png)
+![A screenshot that shows a top toolbar with the default Cancel button at the top of the screen on Apple Watch.](https://developer.apple.com/tutorials/images/com.apple.HIG/modal-sheet-watchos-do@2x.png)
 
-![A checkmark in a circle to indicate correct usage.](/images/com.apple.HIG/checkmark@2x.png)
+![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
 ## Resources
 

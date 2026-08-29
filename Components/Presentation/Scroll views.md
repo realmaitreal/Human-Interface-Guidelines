@@ -8,7 +8,7 @@
 >
 > Updated guidance for scroll edge effects.
 
-![A stylized representation of a scrollable image view. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](/images/com.apple.HIG/components-scroll-view-intro@2x.png)
+![A stylized representation of a scrollable image view. The image is tinted red to subtly reflect the red in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/components-scroll-view-intro@2x.png)
 
 The scroll view itself has no appearance, but it can display a translucent *scroll indicator* that typically appears after people begin scrolling the view’s content. Although the appearance and behavior of scroll indicators can vary per platform, all indicators provide visual feedback about the scrolling action. For example, in iOS, iPadOS, macOS, visionOS, and watchOS, the indicator shows whether the currently visible content is near the beginning, middle, or end of the view.
 
@@ -37,10 +37,10 @@ In all cases, automatically scroll the content only as much as necessary to help
 
 In iOS, iPadOS, and macOS, a *scroll edge effect* provides a visual separation between certain interface elements, such as [Toolbars](../Menus%20and%20actions/Toolbars.md), and the scrolling content area behind them. If you use custom bars, you might want to add this effect manually if the top layer of your interface needs extra clarity, or adjust its style from automatic to the hard or soft style.
 
-![A screenshot of the top half of an iPhone app, with a photograph of a palm tree as the background and a top toolbar with a Back button, title label, and Add button. The transition between the toolbar and background uses a hard scroll edge effect, which applies a more opaque blur with a defined edge at the bottom of the bar.](/images/com.apple.HIG/scroll-views-scroll-edge-effect-hard@2x.png)  
+![A screenshot of the top half of an iPhone app, with a photograph of a palm tree as the background and a top toolbar with a Back button, title label, and Add button. The transition between the toolbar and background uses a hard scroll edge effect, which applies a more opaque blur with a defined edge at the bottom of the bar.](https://developer.apple.com/tutorials/images/com.apple.HIG/scroll-views-scroll-edge-effect-hard@2x.png)  
 *Hard scroll edge effect*
 
-![A screenshot of the top half of an iPhone app, with a photograph of a palm tree as the background and a top toolbar with a Back button, title label, and Add button. The transition between the toolbar and background uses a soft scroll edge effect, which applies a variable blur that provides a softer fade toward the bottom of the bar.](/images/com.apple.HIG/scroll-views-scroll-edge-effect-soft@2x.png)  
+![A screenshot of the top half of an iPhone app, with a photograph of a palm tree as the background and a top toolbar with a Back button, title label, and Add button. The transition between the toolbar and background uses a soft scroll edge effect, which applies a variable blur that provides a softer fade toward the bottom of the bar.](https://developer.apple.com/tutorials/images/com.apple.HIG/scroll-views-scroll-edge-effect-soft@2x.png)  
 *Soft scroll edge effect*
 
 **Prefer the automatic scroll edge effect style.** Where possible, use the default [automatic](https://developer.apple.com/documentation/swiftui/scrolledgeeffectstyle/automatic) style of the scroll edge effect. This style provides a more opaque visual separation for top toolbars that contain a large number of controls, text that appears outside of [Liquid Glass](https://developer.apple.com/design/human-interface-guidelines/materials#Liquid-Glass) controls, and pinned table headers. If you use the soft scroll edge effect style instead, thoroughly test your interface to ensure your controls maintain legibility in a variety of contexts.

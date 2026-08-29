@@ -8,7 +8,7 @@
 >
 > Revised guidance for storing downloads to reflect downloading large assets in the background.
 
-![A sketch of a spinning indeterminate activity indicator, suggesting data loading. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](/images/com.apple.HIG/patterns-loading-intro@2x.png)
+![A sketch of a spinning indeterminate activity indicator, suggesting data loading. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-loading-intro@2x.png)
 
 If your app or game loads assets, levels, or other content, design the behavior so it doesn’t disrupt or negatively impact the user experience.
 

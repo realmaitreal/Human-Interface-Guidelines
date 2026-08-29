@@ -4,7 +4,7 @@
 
 *When it doesn’t create an unnecessary barrier to your experience, an account can be a convenient way for people to access their content and track personal details.*
 
-![A sketch of a person, suggesting personal information. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](/images/com.apple.HIG/patterns-managing-accounts-intro@2x.png)
+![A sketch of a person, suggesting personal information. The image is overlaid with rectangular and circular grid lines and is tinted orange to subtly reflect the orange in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-managing-accounts-intro@2x.png)
 
 Ask people to create an account only if your core functionality requires it; otherwise, let people enjoy your app or game without one. If you require an account, consider using [Sign in with Apple](../Technologies/Sign%20in%20with%20Apple.md) to give people a consistent sign-in experience they can trust and the convenience of not having to remember multiple accounts and authentication methods.
 

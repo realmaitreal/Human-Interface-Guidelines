@@ -8,7 +8,7 @@
 >
 > Clarified guidance and noted the availability of portrait-oriented progressive immersion.
 
-![A sketch that suggests Apple Vision Pro. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo.](/images/com.apple.HIG/foundations-immersive-experiences-intro@2x.png)
+![A sketch that suggests Apple Vision Pro. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-immersive-experiences-intro@2x.png)
 
 You can choose whether your visionOS app or game launches in the Shared Space or in a Full Space. In the *Shared Space*, your software runs alongside other experiences, and people can switch between them much as they do on a Mac; in a *Full Space*, your app or game runs alone, hiding other experiences and helping people immerse themselves in your content. Apps and games can support different types of immersion, and can transition fluidly between the Shared Space and a Full Space at any time.
 
