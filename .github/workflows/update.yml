@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@v5
 
       - name: Regenerate HIG Markdown
-        run: swift hig_download.swift --out . --readme --images remote --workers 12
+        run: swift .github/scripts/hig_download.swift --out . --readme --images remote --workers 12
 
       - name: Commit and push if changed
         run: |
@@ -36,3 +36,8 @@ jobs:
             git commit -m "Update Apple HIG ($(date -u +%Y-%m-%d))"
             git push
           fi
+
+      - name: Sync wiki
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: swift .github/scripts/sync_wiki.swift "${{ github.repository }}"
