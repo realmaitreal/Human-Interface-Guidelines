@@ -606,7 +606,7 @@ func linkThumbnailHTML(_ ref: JSONDict, _ ctx: Context, pageUrl: String) -> Stri
     guard let chosen = card ?? icon, let imgIdent = jStrOpt(chosen, "identifier") else { return nil }
     let (alt, link) = resolveImageLink(imgIdent, ctx)
     guard let link = link else { return nil }
-    let img = "<img src=\"\(htmlEscapeAttr(link))\" alt=\"\(htmlEscapeAttr(alt))\" width=\"64\">"
+    let img = "<img src=\"\(htmlEscapeAttr(link))\" alt=\"\(htmlEscapeAttr(alt))\" width=\"100%\">"
     return pageUrl.isEmpty ? img : "<a href=\"\(htmlEscapeAttr(pageUrl))\">\(img)</a>"
 }
 

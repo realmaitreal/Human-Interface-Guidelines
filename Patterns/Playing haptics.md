@@ -105,7 +105,7 @@ watchOS defines the following set of haptics, each of which conveys a specific m
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2021/10278"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/100FA6DD-1A48-485A-AFC2-47FDB92376D3/5210_wide_250x141_2x.jpg" alt="100fa6dd 1a48 485a afc2 47fdb92376d3" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2021/10278"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/100FA6DD-1A48-485A-AFC2-47FDB92376D3/5210_wide_250x141_2x.jpg" alt="100fa6dd 1a48 485a afc2 47fdb92376d3" width="100%"></a>  
 **[Practice audio haptic design](https://developer.apple.com/videos/play/wwdc2021/10278)**  
 Discover how you can deliver rich app experiences that include animation, sound, and haptics on iPhone. Learn key concepts for designing multimodal experiences within the Core Haptics framework. We’ll take you through our sample HapticRicochet app — where haptic and sound feedback is designed in harmony with key interactive moments — and show you how to create magical and delightful experiences.
 
@@ -114,7 +114,7 @@ To get the most out of this session, we recommend first watching “Expanding th
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2019/520"><img src="https://devimages-cdn.apple.com/wwdc-services/images/48/9EEAE751-B5EE-4934-8F3A-38361FBA05DE/3277_wide_250x141_2x.jpg" alt="9eeae751 b5ee 4934 8f3a 38361fba05de" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2019/520"><img src="https://devimages-cdn.apple.com/wwdc-services/images/48/9EEAE751-B5EE-4934-8F3A-38361FBA05DE/3277_wide_250x141_2x.jpg" alt="9eeae751 b5ee 4934 8f3a 38361fba05de" width="100%"></a>  
 **[Introducing Core Haptics](https://developer.apple.com/videos/play/wwdc2019/520)**  
 Core Haptics lets you design fully customized haptic patterns with synchronized audio. See examples of how haptics and audio enables you to create a greater sense of immersion in your app or game. Learn how to create, play back, and share content, and where Core Haptics fits in with other audio and vibration APIs.
 

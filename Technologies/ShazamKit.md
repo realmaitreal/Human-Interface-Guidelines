@@ -40,7 +40,7 @@ After you receive permission to access the microphone for features that use Shaz
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2021/10044"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/E875B0F9-12EF-4A12-B0B3-01A3DE667DD9/4934_wide_250x141_2x.jpg" alt="e875b0f9 12ef 4a12 b0b3 01a3de667dd9" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2021/10044"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/E875B0F9-12EF-4A12-B0B3-01A3DE667DD9/4934_wide_250x141_2x.jpg" alt="e875b0f9 12ef 4a12 b0b3 01a3de667dd9" width="100%"></a>  
 **[Explore ShazamKit](https://developer.apple.com/videos/play/wwdc2021/10044)**  
 Take advantage of Shazam’s exact audio matching capabilities within your app when you use ShazamKit. Learn how you can harness the immense Shazam catalog to create all sorts of experiences, including quickly recognizing the exact song playing in the background of a video captured by your app, offering dynamic visual effects based on the music playing in a room, or even syncing with external audio to provide companion app experiences. We’ll also show you how you can build custom catalogs within ShazamKit to match with any audio source — all on device.
 

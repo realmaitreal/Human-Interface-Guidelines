@@ -311,21 +311,21 @@ Different size class combinations apply to the full-screen experience on differe
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2025/356"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/1AAA030E-2ECA-47D8-AE09-6D7B72A840F6/10044_wide_250x141_2x.jpg" alt="1aaa030e 2eca 47d8 ae09 6d7b72a840f6" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2025/356"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/1AAA030E-2ECA-47D8-AE09-6D7B72A840F6/10044_wide_250x141_2x.jpg" alt="1aaa030e 2eca 47d8 ae09 6d7b72a840f6" width="100%"></a>  
 **[Get to know the new design system](https://developer.apple.com/videos/play/wwdc2025/356)**  
 Dive deeper into the new design system to explore key changes to visual design, information architecture, and core system components. Learn how the system reshapes the relationship between interface and content, enabling you to create designs that are dynamic, harmonious, and consistent across devices, screen sizes, and input modes.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2022/10056"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/1E740BE0-AF55-430B-B8C2-346CA2982476/6549_wide_250x141_2x.jpg" alt="1e740be0 af55 430b b8c2 346ca2982476" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2022/10056"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/1E740BE0-AF55-430B-B8C2-346CA2982476/6549_wide_250x141_2x.jpg" alt="1e740be0 af55 430b b8c2 346ca2982476" width="100%"></a>  
 **[Compose custom layouts with SwiftUI](https://developer.apple.com/videos/play/wwdc2022/10056)**  
 SwiftUI now offers powerful tools to level up your layouts and arrange views for your app’s interface. We’ll introduce you to the Grid container, which helps you create highly customizable, two-dimensional layouts, and show you how you can use the Layout protocol to build your own containers with completely custom behavior. We’ll also explore how you can create seamless animated transitions between your layout types, and share tips and best practices for creating great interfaces.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2017/802"><img src="https://devimages-cdn.apple.com/wwdc-services/images/7/2546ECBD-6443-41EC-921D-6429026F8B67/1700_wide_250x141_2x.jpg" alt="2546ecbd 6443 41ec 921d 6429026f8b67" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2017/802"><img src="https://devimages-cdn.apple.com/wwdc-services/images/7/2546ECBD-6443-41EC-921D-6429026F8B67/1700_wide_250x141_2x.jpg" alt="2546ecbd 6443 41ec 921d 6429026f8b67" width="100%"></a>  
 **[Essential Design Principles](https://developer.apple.com/videos/play/wwdc2017/802)**  
 Design principles are the key to understanding how design serves human needs for safety, meaning, achievement and beauty. Learn what these principles are and how they can help you design more welcoming, understandable, empowering and gratifying user experiences.
 

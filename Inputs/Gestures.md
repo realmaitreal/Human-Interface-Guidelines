@@ -216,14 +216,14 @@ For guidance on supporting additional gestures and button presses on specific in
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2024/10145"><img src="https://devimages-cdn.apple.com/wwdc-services/images/C03E6E6D-A32A-41D0-9E50-C3C6059820AA/B38CC217-7635-48EF-B8C9-F7954F390CCE/9273_wide_250x141_2x.jpg" alt="b38cc217 7635 48ef b8c9 f7954f390cce" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2024/10145"><img src="https://devimages-cdn.apple.com/wwdc-services/images/C03E6E6D-A32A-41D0-9E50-C3C6059820AA/B38CC217-7635-48EF-B8C9-F7954F390CCE/9273_wide_250x141_2x.jpg" alt="b38cc217 7635 48ef b8c9 f7954f390cce" width="100%"></a>  
 **[Enhance your UI animations and transitions](https://developer.apple.com/videos/play/wwdc2024/10145)**  
 Explore how to adopt the zoom transition in navigation and presentations to increase the sense of continuity in your app, and learn how to animate UIKit views with SwiftUI animations to make it easier to build animations that feel continuous.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2023/10073"><img src="https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/C6CDCC79-CCD0-4D2F-A4D1-8FC70DC663DB/8127_wide_250x141_2x.jpg" alt="c6cdcc79 ccd0 4d2f a4d1 8fc70dc663db" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2023/10073"><img src="https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/C6CDCC79-CCD0-4D2F-A4D1-8FC70DC663DB/8127_wide_250x141_2x.jpg" alt="c6cdcc79 ccd0 4d2f a4d1 8fc70dc663db" width="100%"></a>  
 **[Design for spatial input](https://developer.apple.com/videos/play/wwdc2023/10073)**  
 Learn how to design great interactions for eyes and hands. We’ll share the design principles for spatial input, explore best practices around input methods, and help you create spatial experiences that are comfortable, intuitive, and satisfying.
 

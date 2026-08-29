@@ -497,21 +497,21 @@ Live Activities in the Smart Stack use the same dimensions as watchOS widgets.
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2026/223"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/88E22B76-610C-4EBC-8E36-16E02B76781B/10734_wide_250x141_2x.jpg" alt="88e22b76 610c 4ebc 8e36 16e02b76781b" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2026/223"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/88E22B76-610C-4EBC-8E36-16E02B76781B/10734_wide_250x141_2x.jpg" alt="88e22b76 610c 4ebc 8e36 16e02b76781b" width="100%"></a>  
 **[Live Activities essentials](https://developer.apple.com/videos/play/wwdc2026/223)**  
 Elevate your app experience with Live Activities. Explore many of the places where Live Activities appear, including a new style in the Dynamic Island that delivers more information when iPhone is used in landscape. Learn how to tailor your Live Activity for each space, structure your content and data, and drive real time updates from start to finish using ActivityKit and push notifications.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2025/216"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/3AE21C44-8831-4C0A-BCBE-68C437FB8FC8/9903_wide_250x141_2x.jpg" alt="3ae21c44 8831 4c0a bcbe 68c437fb8fc8" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2025/216"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/3AE21C44-8831-4C0A-BCBE-68C437FB8FC8/9903_wide_250x141_2x.jpg" alt="3ae21c44 8831 4c0a bcbe 68c437fb8fc8" width="100%"></a>  
 **[Turbocharge your app for CarPlay](https://developer.apple.com/videos/play/wwdc2025/216)**  
 Learn how to bring your Live Activities and widgets to CarPlay and CarPlay Ultra so people can view progress of their activities and see relevant information at a glance. Explore new template options available to all CarPlay apps, and learn how navigation apps can provide turn-by-turn metadata for display in the car’s instrument cluster or HUD.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2025/278"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/126547AE-9E47-4E15-AC05-5C50AB08CBEE/9952_wide_250x141_2x.jpg" alt="126547ae 9e47 4e15 ac05 5c50ab08cbee" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2025/278"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/126547AE-9E47-4E15-AC05-5C50AB08CBEE/9952_wide_250x141_2x.jpg" alt="126547ae 9e47 4e15 ac05 5c50ab08cbee" width="100%"></a>  
 **[What’s new in widgets](https://developer.apple.com/videos/play/wwdc2025/278)**  
 WidgetKit elevates your app with updates to widgets, Live Activities, and controls. Learn how to bring your widgets to visionOS, take them on the road with CarPlay, and make them look their best with accented rendering modes. Plus, find out how relevant widgets can be surfaced in the Smart Stack on watchOS, and discover how push notifications can be used to keep your widgets up to date.
 

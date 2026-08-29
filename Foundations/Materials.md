@@ -272,14 +272,14 @@ visionOS defines three vibrancy values that help you communicate a hierarchy of 
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2025/219"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/5CD0E251-424E-490F-89CF-1E64848209A6/9910_wide_250x141_2x.jpg" alt="5cd0e251 424e 490f 89cf 1e64848209a6" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2025/219"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/5CD0E251-424E-490F-89CF-1E64848209A6/9910_wide_250x141_2x.jpg" alt="5cd0e251 424e 490f 89cf 1e64848209a6" width="100%"></a>  
 **[Meet Liquid Glass](https://developer.apple.com/videos/play/wwdc2025/219)**  
 Liquid Glass unifies Apple platform design language while providing a more dynamic and expressive user experience. Get to know the design principles of Liquid Glass, explore its core optical and physical properties, and learn where to use it and why.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2025/356"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/1AAA030E-2ECA-47D8-AE09-6D7B72A840F6/10044_wide_250x141_2x.jpg" alt="1aaa030e 2eca 47d8 ae09 6d7b72a840f6" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2025/356"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/1AAA030E-2ECA-47D8-AE09-6D7B72A840F6/10044_wide_250x141_2x.jpg" alt="1aaa030e 2eca 47d8 ae09 6d7b72a840f6" width="100%"></a>  
 **[Get to know the new design system](https://developer.apple.com/videos/play/wwdc2025/356)**  
 Dive deeper into the new design system to explore key changes to visual design, information architecture, and core system components. Learn how the system reshapes the relationship between interface and content, enabling you to create designs that are dynamic, harmonious, and consistent across devices, screen sizes, and input modes.
 

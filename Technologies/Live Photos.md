@@ -63,7 +63,7 @@ In visionOS, people can view a Live Photo, but they can’t capture one.
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2021/10047"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/80B5C413-F0CF-44C1-9EE1-7BBC8C8978F0/4937_wide_250x141_2x.jpg" alt="80b5c413 f0cf 44c1 9ee1 7bbc8c8978f0" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2021/10047"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/80B5C413-F0CF-44C1-9EE1-7BBC8C8978F0/4937_wide_250x141_2x.jpg" alt="80b5c413 f0cf 44c1 9ee1 7bbc8c8978f0" width="100%"></a>  
 **[What’s new in camera capture](https://developer.apple.com/videos/play/wwdc2021/10047)**  
 Learn how you can interact with Video Effects in Control Center including Center Stage, Portrait mode, and Mic modes. We’ll show you how to detect when these features have been enabled for your app and explore ways to adopt custom interfaces to make them controllable from within your app. Discover how to enable 10-bit HDR video capture and take advantage of minimum-focus-distance reporting for improved camera capture experiences. Explore support for IOSurface compression and delivering optimal performance in camera capture.
 

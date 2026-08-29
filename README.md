@@ -12,21 +12,21 @@ Explore the principles that guide design across Apple platforms. For more, see [
 <tr>
 <td valign="top">
 
-<a href="Getting%20started/Design%20principles.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-design-principles-thumbnail@2x.png" alt="A stylized representation of a building block. The image is tinted green to subtly reflect the green in the original six-color Apple logo." width="64"></a>  
+<a href="Getting%20started/Design%20principles.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-design-principles-thumbnail@2x.png" alt="A stylized representation of a building block. The image is tinted green to subtly reflect the green in the original six-color Apple logo." width="100%"></a>  
 **[Design principles](Getting%20started/Design%20principles.md)**  
 Explore fundamental principles that guide design across Apple platforms.
 
 </td>
 <td valign="top">
 
-<a href="Getting%20started/Designing%20for%20iOS.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-designing-for-ios-thumbnail@2x.png" alt="A stylized representation of an iPhone frame. The image is tinted green to subtly reflect the green in the original six-color Apple logo." width="64"></a>  
+<a href="Getting%20started/Designing%20for%20iOS.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-designing-for-ios-thumbnail@2x.png" alt="A stylized representation of an iPhone frame. The image is tinted green to subtly reflect the green in the original six-color Apple logo." width="100%"></a>  
 **[Designing for iOS](Getting%20started/Designing%20for%20iOS.md)**  
 People depend on their iPhone to help them stay connected, play games, view media, accomplish tasks, and track personal data in any location and while on the go.
 
 </td>
 <td valign="top">
 
-<a href="Getting%20started/Designing%20for%20macOS.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-designing-for-macos-thumbnail@2x.png" alt="A stylized representation of a Mac. The image is tinted green to subtly reflect the green in the original six-color Apple logo." width="64"></a>  
+<a href="Getting%20started/Designing%20for%20macOS.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-designing-for-macos-thumbnail@2x.png" alt="A stylized representation of a Mac. The image is tinted green to subtly reflect the green in the original six-color Apple logo." width="100%"></a>  
 **[Designing for macOS](Getting%20started/Designing%20for%20macOS.md)**  
 People rely on the power, spaciousness, and flexibility of a Mac as they perform in-depth productivity tasks, view media or content, and play games, often using several apps at once.
 
@@ -42,21 +42,21 @@ Discover key concepts that shape every great experience. For more, see [Foundati
 <tr>
 <td valign="top">
 
-<a href="Foundations/Accessibility.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-accessibility-thumbnail@2x.png" alt="A sketch of the Accessibility icon. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="64"></a>  
+<a href="Foundations/Accessibility.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-accessibility-thumbnail@2x.png" alt="A sketch of the Accessibility icon. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="100%"></a>  
 **[Accessibility](Foundations/Accessibility.md)**  
 Accessible user interfaces empower everyone to have a great experience with your app or game.
 
 </td>
 <td valign="top">
 
-<a href="Foundations/App%20icons.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-app-icons-thumbnail@2x.png" alt="A sketch of the App Store icon. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="64"></a>  
+<a href="Foundations/App%20icons.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-app-icons-thumbnail@2x.png" alt="A sketch of the App Store icon. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="100%"></a>  
 **[App icons](Foundations/App%20icons.md)**  
 A unique, memorable icon expresses your app’s or game’s purpose and personality and helps people recognize it at a glance.
 
 </td>
 <td valign="top">
 
-<a href="Foundations/Color.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-color-thumbnail@2x.png" alt="A sketch of a paint palette, suggesting the use of color. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="64"></a>  
+<a href="Foundations/Color.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-color-thumbnail@2x.png" alt="A sketch of a paint palette, suggesting the use of color. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="100%"></a>  
 **[Color](Foundations/Color.md)**  
 Judicious use of color can enhance communication, evoke your brand, provide visual continuity, communicate status and feedback, and help people understand information.
 
@@ -65,21 +65,21 @@ Judicious use of color can enhance communication, evoke your brand, provide visu
 <tr>
 <td valign="top">
 
-<a href="Foundations/Layout.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-layout-thumbnail@2x.png" alt="A sketch of a small rectangle in the upper-left quadrant of a larger rectangle, suggesting the position of a user interface element within a window. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="64"></a>  
+<a href="Foundations/Layout.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-layout-thumbnail@2x.png" alt="A sketch of a small rectangle in the upper-left quadrant of a larger rectangle, suggesting the position of a user interface element within a window. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="100%"></a>  
 **[Layout](Foundations/Layout.md)**  
 A consistent layout that adapts to various contexts makes your experience more approachable and helps people enjoy their favorite apps and games on all their devices.
 
 </td>
 <td valign="top">
 
-<a href="Foundations/Materials.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-materials-thumbnail@2x.png" alt="A sketch of a capsule shape overlapping a square. A subtle bend in the edges of the square that are beneath the capsule suggests the layering of the Liquid Glass material over background content. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="64"></a>  
+<a href="Foundations/Materials.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-materials-thumbnail@2x.png" alt="A sketch of a capsule shape overlapping a square. A subtle bend in the edges of the square that are beneath the capsule suggests the layering of the Liquid Glass material over background content. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="100%"></a>  
 **[Materials](Foundations/Materials.md)**  
 A material is a visual effect that creates a sense of depth, layering, and hierarchy between foreground and background elements.
 
 </td>
 <td valign="top">
 
-<a href="Foundations/Typography.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-typography-thumbnail@2x.png" alt="A sketch of a small letter A to the left of a large letter A, suggesting the use of typography to convey hierarchical information. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="64"></a>  
+<a href="Foundations/Typography.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-typography-thumbnail@2x.png" alt="A sketch of a small letter A to the left of a large letter A, suggesting the use of typography to convey hierarchical information. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="100%"></a>  
 **[Typography](Foundations/Typography.md)**  
 Your typographic choices can help you display legible text, convey an information hierarchy, communicate important content, and express your brand or style.
 
@@ -95,21 +95,21 @@ Review recent additions and updates to design guidance. For more, see [What’s 
 <tr>
 <td valign="top">
 
-<a href="Components/Menus%20and%20actions/Menus.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-menus-thumbnail@2x.png" alt="A stylized representation of a menu containing a selected item and displaying a submenu. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="64"></a>  
+<a href="Components/Menus%20and%20actions/Menus.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-menus-thumbnail@2x.png" alt="A stylized representation of a menu containing a selected item and displaying a submenu. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="100%"></a>  
 **[Menus](Components/Menus%20and%20actions/Menus.md)**  
 A menu reveals its options when people interact with it, making it a space-efficient way to present commands in your app or game.
 
 </td>
 <td valign="top">
 
-<a href="Components/Presentation/Scroll%20views.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-scroll-views-thumbnail@2x.png" alt="A stylized representation of a scrollable image view. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="64"></a>  
+<a href="Components/Presentation/Scroll%20views.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-scroll-views-thumbnail@2x.png" alt="A stylized representation of a scrollable image view. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="100%"></a>  
 **[Scroll views](Components/Presentation/Scroll%20views.md)**  
 A scroll view lets people view content that’s larger than the view’s boundaries by moving the content vertically or horizontally.
 
 </td>
 <td valign="top">
 
-<a href="Components/Navigation%20and%20search/Search%20fields.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-search-fields-thumbnail@2x.png" alt="A stylized representation of a search field containing placeholder text and a dictation icon. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="64"></a>  
+<a href="Components/Navigation%20and%20search/Search%20fields.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-search-fields-thumbnail@2x.png" alt="A stylized representation of a search field containing placeholder text and a dictation icon. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="100%"></a>  
 **[Search fields](Components/Navigation%20and%20search/Search%20fields.md)**  
 A search field lets people search a collection of content for specific terms they enter.
 
@@ -118,21 +118,21 @@ A search field lets people search a collection of content for specific terms the
 <tr>
 <td valign="top">
 
-<a href="Components/Navigation%20and%20search/Sidebars.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-sidebars-thumbnail@2x.png" alt="A stylized representation of a portion of a window's sidebar displaying a section and some folders. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="64"></a>  
+<a href="Components/Navigation%20and%20search/Sidebars.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-sidebars-thumbnail@2x.png" alt="A stylized representation of a portion of a window's sidebar displaying a section and some folders. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="100%"></a>  
 **[Sidebars](Components/Navigation%20and%20search/Sidebars.md)**  
 A sidebar appears on the leading side of a view and lets people navigate between areas of your app or top-level collections of content, like folders and playlists.
 
 </td>
 <td valign="top">
 
-<a href="Technologies/Siri.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-siri-thumbnail@2x.png" alt="A sketch of the Siri icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/Siri.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-siri-thumbnail@2x.png" alt="A sketch of the Siri icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[Siri](Technologies/Siri.md)**  
 People use Siri to help them with the things they need to find, know, or do every day.
 
 </td>
 <td valign="top">
 
-<a href="Components/System%20experiences/Snippets.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-snippets-thumbnail@2x.png" alt="A sketch of a snippet. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="64"></a>  
+<a href="Components/System%20experiences/Snippets.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-snippets-thumbnail@2x.png" alt="A sketch of a snippet. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="100%"></a>  
 **[Snippets](Components/System%20experiences/Snippets.md)**  
 When someone performs a task with Siri or an App Shortcut, a snippet shows the result or asks for confirmation.
 

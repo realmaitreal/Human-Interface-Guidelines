@@ -6,21 +6,21 @@
 <tr>
 <td valign="top">
 
-<a href="Status/Activity%20rings.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-activity-rings-thumbnail@2x.png" alt="A stylized representation of activity rings denoting progress. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="64"></a>  
+<a href="Status/Activity%20rings.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-activity-rings-thumbnail@2x.png" alt="A stylized representation of activity rings denoting progress. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="100%"></a>  
 **[Activity rings](Status/Activity%20rings.md)**  
 Activity rings show an individual’s daily progress toward Move, Exercise, and Stand goals.
 
 </td>
 <td valign="top">
 
-<a href="Status/Gauges.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-gauges-thumbnail@2x.png" alt="A stylized representation of a circular numeric gauge. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="64"></a>  
+<a href="Status/Gauges.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-gauges-thumbnail@2x.png" alt="A stylized representation of a circular numeric gauge. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="100%"></a>  
 **[Gauges](Status/Gauges.md)**  
 A gauge displays a specific numerical value within a range of values.
 
 </td>
 <td valign="top">
 
-<a href="Status/Progress%20indicators.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-progress-indicators-thumbnail@2x.png" alt="A stylized representation of a spinning indeterminate activity indicator above a progress bar. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="64"></a>  
+<a href="Status/Progress%20indicators.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-progress-indicators-thumbnail@2x.png" alt="A stylized representation of a spinning indeterminate activity indicator above a progress bar. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="100%"></a>  
 **[Progress indicators](Status/Progress%20indicators.md)**  
 Progress indicators let people know that your app isn’t stalled while it loads content or performs lengthy operations.
 
@@ -29,7 +29,7 @@ Progress indicators let people know that your app isn’t stalled while it loads
 <tr>
 <td valign="top">
 
-<a href="Status/Rating%20indicators.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-rating-indicators-thumbnail@2x.png" alt="A stylized representation of a rating indicator denoting a ranking of three out of five stars. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="64"></a>  
+<a href="Status/Rating%20indicators.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-rating-indicators-thumbnail@2x.png" alt="A stylized representation of a rating indicator denoting a ranking of three out of five stars. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="100%"></a>  
 **[Rating indicators](Status/Rating%20indicators.md)**  
 A rating indicator uses a series of horizontally arranged graphical symbols — by default, stars — to communicate a ranking level.
 

@@ -84,7 +84,7 @@ The system presents share and action extensions differently depending on the pla
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2022/10015"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/74342B30-92E9-48F3-B0F2-6E42C8FD9391/6506_wide_250x141_2x.jpg" alt="74342b30 92e9 48f3 b0f2 6e42c8fd9391" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2022/10015"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/74342B30-92E9-48F3-B0F2-6E42C8FD9391/6506_wide_250x141_2x.jpg" alt="74342b30 92e9 48f3 b0f2 6e42c8fd9391" width="100%"></a>  
 **[Design for Collaboration with Messages](https://developer.apple.com/videos/play/wwdc2022/10015)**  
 Discover how you can design great collaboration experiences using Apple platforms. We’ll show you how to combine the Share Sheet, live editing notifications, Messages, FaceTime, and your app’s existing collaboration features to help people connect and collaborate effortlessly.
 

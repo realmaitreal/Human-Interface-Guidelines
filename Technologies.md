@@ -8,21 +8,21 @@
 <tr>
 <td valign="top">
 
-<a href="Technologies/AirPlay.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-airplay-thumbnail@2x.png" alt="A sketch of the AirPlay icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/AirPlay.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-airplay-thumbnail@2x.png" alt="A sketch of the AirPlay icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[AirPlay](Technologies/AirPlay.md)**  
 AirPlay lets people stream media content wirelessly from iOS, iPadOS, macOS, and tvOS devices to Apple TV, HomePod, and TVs and speakers that support AirPlay.
 
 </td>
 <td valign="top">
 
-<a href="Technologies/Always%20On.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-always-on-thumbnail@2x.png" alt="A sketch of an Apple Watch containing a person running, suggesting an Always On display. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/Always%20On.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-always-on-thumbnail@2x.png" alt="A sketch of an Apple Watch containing a person running, suggesting an Always On display. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[Always On](Technologies/Always%20On.md)**  
 On devices that include the Always On display, the system can continue to display an app’s interface when people suspend their interactions with the device.
 
 </td>
 <td valign="top">
 
-<a href="Technologies/App%20Clips.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-app-clips-thumbnail@2x.png" alt="A sketch of an app icon surrounded by a dashed line, suggesting an App Clip. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/App%20Clips.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-app-clips-thumbnail@2x.png" alt="A sketch of an app icon surrounded by a dashed line, suggesting an App Clip. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[App Clips](Technologies/App%20Clips.md)**  
 An App Clip is a lightweight version of your app or game that provides an on-the-go or demo experience that’s instantly available.
 
@@ -31,21 +31,21 @@ An App Clip is a lightweight version of your app or game that provides an on-the
 <tr>
 <td valign="top">
 
-<a href="Technologies/Apple%20Pay.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-apple-pay-thumbnail@2x.png" alt="A sketch of a dollar sign, suggesting Apple Pay. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/Apple%20Pay.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-apple-pay-thumbnail@2x.png" alt="A sketch of a dollar sign, suggesting Apple Pay. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[Apple Pay](Technologies/Apple%20Pay.md)**  
 Apple Pay is a secure, easy way to make payments for physical goods and services, donations, and subscriptions in apps and in any browser.
 
 </td>
 <td valign="top">
 
-<a href="Technologies/Augmented%20reality.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-augmented-reality-thumbnail@2x.png" alt="A sketch of an AR icon, suggesting augmented reality. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/Augmented%20reality.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-augmented-reality-thumbnail@2x.png" alt="A sketch of an AR icon, suggesting augmented reality. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[Augmented reality](Technologies/Augmented%20reality.md)**  
 Augmented reality (or AR) lets you deliver immersive, engaging experiences that seamlessly blend virtual objects with the real world.
 
 </td>
 <td valign="top">
 
-<a href="Technologies/CareKit.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-carekit-thumbnail@2x.png" alt="A sketch of the CareKit icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/CareKit.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-carekit-thumbnail@2x.png" alt="A sketch of the CareKit icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[CareKit](Technologies/CareKit.md)**  
 People can use CareKit apps to manage care plans related to a chronic illness like diabetes, recover from an injury or surgery, or achieve health and wellness goals.
 
@@ -54,21 +54,21 @@ People can use CareKit apps to manage care plans related to a chronic illness li
 <tr>
 <td valign="top">
 
-<a href="Technologies/CarPlay.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-carplay-thumbnail@2x.png" alt="A sketch of the CarPlay icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/CarPlay.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-carplay-thumbnail@2x.png" alt="A sketch of the CarPlay icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[CarPlay](Technologies/CarPlay.md)**  
 CarPlay lets people get directions, make calls, send and receive messages, listen to music, and more from their car’s built-in display, all while staying focused on the road.
 
 </td>
 <td valign="top">
 
-<a href="Technologies/Game%20Center.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-game-center-thumbnail@2x.png" alt="A sketch of the Game Center icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/Game%20Center.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-game-center-thumbnail@2x.png" alt="A sketch of the Game Center icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[Game Center](Technologies/Game%20Center.md)**  
 Game Center is Apple’s social gaming network, which lets players track their progress and connect with friends across Apple platforms, and boosts the discovery of your game across players’ devices.
 
 </td>
 <td valign="top">
 
-<a href="Technologies/Generative%20AI.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-generative-ai-thumbnail@2x.png" alt="A sketch of a pencil surrounded by sparkly stars, suggesting generative intelligence. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/Generative%20AI.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-generative-ai-thumbnail@2x.png" alt="A sketch of a pencil surrounded by sparkly stars, suggesting generative intelligence. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[Generative AI](Technologies/Generative%20AI.md)**  
 Generative AI empowers you to enhance your app or game with dynamic content and offer intelligent features that unlock new levels of creativity, connection, and productivity.
 
@@ -77,21 +77,21 @@ Generative AI empowers you to enhance your app or game with dynamic content and 
 <tr>
 <td valign="top">
 
-<a href="Technologies/HealthKit.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-healthkit-thumbnail@2x.png" alt="A sketch of the HealthKit icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/HealthKit.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-healthkit-thumbnail@2x.png" alt="A sketch of the HealthKit icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[HealthKit](Technologies/HealthKit.md)**  
 HealthKit is the central repository for health and fitness data in iOS, iPadOS, and watchOS.
 
 </td>
 <td valign="top">
 
-<a href="Technologies/HomeKit.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-homekit-thumbnail@2x.png" alt="A sketch of the HomeKit icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/HomeKit.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-homekit-thumbnail@2x.png" alt="A sketch of the HomeKit icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[HomeKit](Technologies/HomeKit.md)**  
 HomeKit lets people securely control connected accessories in their homes using Siri or the Home app on iPhone, iPad, Apple Watch, and Mac.
 
 </td>
 <td valign="top">
 
-<a href="Technologies/iCloud.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-icloud-thumbnail@2x.png" alt="A sketch of the iCloud icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/iCloud.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-icloud-thumbnail@2x.png" alt="A sketch of the iCloud icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[iCloud](Technologies/iCloud.md)**  
 iCloud is a service that lets people seamlessly access the content they care about — photos, videos, documents, and more — from any device, without performing explicit synchronization.
 
@@ -100,21 +100,21 @@ iCloud is a service that lets people seamlessly access the content they care abo
 <tr>
 <td valign="top">
 
-<a href="Technologies/ID%20Verifier.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-id-verifier-apps-thumbnail@2x.png" alt="A sketch of progressively larger curved lines emerging from the bottom corner of an ID card, suggesting ID Verifier. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/ID%20Verifier.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-id-verifier-apps-thumbnail@2x.png" alt="A sketch of progressively larger curved lines emerging from the bottom corner of an ID card, suggesting ID Verifier. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[ID Verifier](Technologies/ID%20Verifier.md)**  
 ID Verifier lets your iPhone app read mobile IDs in person without requiring external hardware.
 
 </td>
 <td valign="top">
 
-<a href="Technologies/iMessage%20apps%20and%20stickers.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-imessage-apps-thumbnail@2x.png" alt="A sketch of the iMessage App Store icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/iMessage%20apps%20and%20stickers.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-imessage-apps-thumbnail@2x.png" alt="A sketch of the iMessage App Store icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[iMessage apps and stickers](Technologies/iMessage%20apps%20and%20stickers.md)**  
 An iMessage app can help people share content, collaborate, and even play games with others in a conversation; stickers are images that people can use to decorate a conversation.
 
 </td>
 <td valign="top">
 
-<a href="Technologies/In-app%20purchase.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-in-app-purchase-thumbnail@2x.png" alt="A sketch of an add button, suggesting the purchase of additional digital assets within an app. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/In-app%20purchase.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-in-app-purchase-thumbnail@2x.png" alt="A sketch of an add button, suggesting the purchase of additional digital assets within an app. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[In-app purchase](Technologies/In-app%20purchase.md)**  
 People can use in-app purchase to pay for virtual goods — like premium content, digital goods, and subscriptions — securely within your app.
 
@@ -123,21 +123,21 @@ People can use in-app purchase to pay for virtual goods — like premium content
 <tr>
 <td valign="top">
 
-<a href="Technologies/Live%20Photos.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-live-photos-thumbnail@2x.png" alt="A sketch of the Live Photos icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/Live%20Photos.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-live-photos-thumbnail@2x.png" alt="A sketch of the Live Photos icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[Live Photos](Technologies/Live%20Photos.md)**  
 Live Photos lets people capture favorite memories in a sound- and motion-rich interactive experience that adds vitality to traditional still photos.
 
 </td>
 <td valign="top">
 
-<a href="Technologies/Mac%20Catalyst.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-mac-catalyst-thumbnail@2x.png" alt="A sketch of an iPad overlapping a Mac, suggesting an iPad app running on Mac. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/Mac%20Catalyst.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-mac-catalyst-thumbnail@2x.png" alt="A sketch of an iPad overlapping a Mac, suggesting an iPad app running on Mac. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[Mac Catalyst](Technologies/Mac%20Catalyst.md)**  
 When you use Mac Catalyst to create a Mac version of your iPad app, you give people the opportunity to enjoy the experience in a new environment.
 
 </td>
 <td valign="top">
 
-<a href="Technologies/Machine%20learning.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-machine-learning-thumbnail@2x.png" alt="A sketch of sparkly stars, suggesting intelligence. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/Machine%20learning.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-machine-learning-thumbnail@2x.png" alt="A sketch of sparkly stars, suggesting intelligence. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[Machine learning](Technologies/Machine%20learning.md)**  
 Machine learning enables apps and games to learn from data and usage patterns, letting you improve existing experiences and create engaging new ones.
 
@@ -146,21 +146,21 @@ Machine learning enables apps and games to learn from data and usage patterns, l
 <tr>
 <td valign="top">
 
-<a href="Technologies/Maps.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-maps-thumbnail@2x.png" alt="A sketch of a tri-fold map, suggesting navigation. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/Maps.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-maps-thumbnail@2x.png" alt="A sketch of a tri-fold map, suggesting navigation. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[Maps](Technologies/Maps.md)**  
 A map displays outdoor or indoor geographical data in your app or on your website.
 
 </td>
 <td valign="top">
 
-<a href="Technologies/NFC.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-nfc-thumbnail@2x.png" alt="A sketch of progressively larger curved lines extending toward the right, suggesting near-field communication. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/NFC.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-nfc-thumbnail@2x.png" alt="A sketch of progressively larger curved lines extending toward the right, suggesting near-field communication. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[NFC](Technologies/NFC.md)**  
 Near-field communication (NFC) allows devices within a few centimeters of each other to exchange information wirelessly.
 
 </td>
 <td valign="top">
 
-<a href="Technologies/Photo%20editing.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-photo-editing-thumbnail@2x.png" alt="A sketch of crop marks surrounded by two arrows, suggesting photo editing. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/Photo%20editing.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-photo-editing-thumbnail@2x.png" alt="A sketch of crop marks surrounded by two arrows, suggesting photo editing. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[Photo editing](Technologies/Photo%20editing.md)**  
 Photo-editing extensions let people modify photos and videos within the Photos app by applying filters or making other changes.
 
@@ -169,21 +169,21 @@ Photo-editing extensions let people modify photos and videos within the Photos a
 <tr>
 <td valign="top">
 
-<a href="Technologies/ResearchKit.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-researchkit-thumbnail@2x.png" alt="A sketch of the ResearchKit icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/ResearchKit.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-researchkit-thumbnail@2x.png" alt="A sketch of the ResearchKit icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[ResearchKit](Technologies/ResearchKit.md)**  
 A research app lets people everywhere participate in important medical research studies.
 
 </td>
 <td valign="top">
 
-<a href="Technologies/SharePlay.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-shareplay-thumbnail@2x.png" alt="A sketch of the SharePlay icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/SharePlay.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-shareplay-thumbnail@2x.png" alt="A sketch of the SharePlay icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[SharePlay](Technologies/SharePlay.md)**  
 SharePlay helps multiple people share activities — like viewing a movie, listening to music, playing a game, or sketching ideas on a whiteboard — while they’re in a FaceTime call or Messages conversation.
 
 </td>
 <td valign="top">
 
-<a href="Technologies/ShazamKit.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-shazamkit-thumbnail@2x.png" alt="A sketch of the ShazamKit icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/ShazamKit.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-shazamkit-thumbnail@2x.png" alt="A sketch of the ShazamKit icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[ShazamKit](Technologies/ShazamKit.md)**  
 ShazamKit supports audio recognition by matching an audio sample against the ShazamKit catalog or a custom audio catalog.
 
@@ -192,21 +192,21 @@ ShazamKit supports audio recognition by matching an audio sample against the Sha
 <tr>
 <td valign="top">
 
-<a href="Technologies/Sign%20in%20with%20Apple.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-sign-in-with-apple-thumbnail@2x.png" alt="A sketch of the Apple logo, suggesting Sign in with Apple. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/Sign%20in%20with%20Apple.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-sign-in-with-apple-thumbnail@2x.png" alt="A sketch of the Apple logo, suggesting Sign in with Apple. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[Sign in with Apple](Technologies/Sign%20in%20with%20Apple.md)**  
 Sign in with Apple provides a fast, private way to sign into apps and websites, giving people a consistent experience they can trust and the convenience of not having to remember multiple accounts and passwords.
 
 </td>
 <td valign="top">
 
-<a href="Technologies/Siri.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-siri-thumbnail@2x.png" alt="A sketch of the Siri icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/Siri.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-siri-thumbnail@2x.png" alt="A sketch of the Siri icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[Siri](Technologies/Siri.md)**  
 People use Siri to help them with the things they need to find, know, or do every day.
 
 </td>
 <td valign="top">
 
-<a href="Technologies/Tap%20to%20Pay%20on%20iPhone.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-tap-to-pay-on-iphone-thumbnail@2x.png" alt="A sketch of progressively larger curved lines extending toward the right within a circle, suggesting Tap to Pay on iPhone. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/Tap%20to%20Pay%20on%20iPhone.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-tap-to-pay-on-iphone-thumbnail@2x.png" alt="A sketch of progressively larger curved lines extending toward the right within a circle, suggesting Tap to Pay on iPhone. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[Tap to Pay on iPhone](Technologies/Tap%20to%20Pay%20on%20iPhone.md)**  
 Tap to Pay on iPhone lets merchants accept contactless payments using an app on their iPhone, without having to connect external hardware.
 
@@ -215,14 +215,14 @@ Tap to Pay on iPhone lets merchants accept contactless payments using an app on 
 <tr>
 <td valign="top">
 
-<a href="Technologies/VoiceOver.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-voiceover-thumbnail@2x.png" alt="A sketch of the VoiceOver icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/VoiceOver.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-voiceover-thumbnail@2x.png" alt="A sketch of the VoiceOver icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[VoiceOver](Technologies/VoiceOver.md)**  
 VoiceOver is a screen reader that lets people experience your app’s interface without needing to see the screen.
 
 </td>
 <td valign="top">
 
-<a href="Technologies/Wallet.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-wallet-thumbnail@2x.png" alt="A sketch of the Wallet icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="Technologies/Wallet.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-wallet-thumbnail@2x.png" alt="A sketch of the Wallet icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[Wallet](Technologies/Wallet.md)**  
 Wallet helps people securely store their credit and debit cards, driver’s license or state ID, transit cards, event tickets, keys, and more on iPhone and Apple Watch.
 

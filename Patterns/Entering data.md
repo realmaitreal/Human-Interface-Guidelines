@@ -61,7 +61,7 @@ Entering information can be a tedious process regardless of the interaction meth
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2021/10059"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/9CCE8A5D-A751-441C-B88F-FB91E2D1958E/4949_wide_250x141_2x.jpg" alt="9cce8a5d a751 441c b88f fb91e2d1958e" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2021/10059"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/9CCE8A5D-A751-441C-B88F-FB91E2D1958E/4949_wide_250x141_2x.jpg" alt="9cce8a5d a751 441c b88f fb91e2d1958e" width="100%"></a>  
 **[What's new in UIKit](https://developer.apple.com/videos/play/wwdc2021/10059)**  
 Discover the latest updates and improvements to UIKit and learn how to build better iPadOS, iOS, and Mac Catalyst apps. We’ll take you through UI refinements, productivity updates, and API enhancements, and help you explore performance improvements and security & privacy features.
 

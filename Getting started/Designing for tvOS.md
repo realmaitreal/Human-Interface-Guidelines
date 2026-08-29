@@ -48,7 +48,7 @@ Great tvOS experiences integrate the platform and device capabilities that peopl
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2020/10042"><img src="https://devimages-cdn.apple.com/wwdc-services/images/49/B17CF999-313D-4C0D-A791-D2A5DD5F9242/3789_wide_250x141_2x.jpg" alt="b17cf999 313d 4c0d a791 d2a5dd5f9242" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2020/10042"><img src="https://devimages-cdn.apple.com/wwdc-services/images/49/B17CF999-313D-4C0D-A791-D2A5DD5F9242/3789_wide_250x141_2x.jpg" alt="b17cf999 313d 4c0d a791 d2a5dd5f9242" width="100%"></a>  
 **[Build SwiftUI apps for tvOS](https://developer.apple.com/videos/play/wwdc2020/10042)**  
 Add a new dimension to your tvOS app with SwiftUI. We’ll show you how to build layouts powered by SwiftUI and customize your interface with custom buttons, provide more functionality in your app with a context menu, check if views are focused, and manage default focus.
 

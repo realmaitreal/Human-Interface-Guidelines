@@ -91,14 +91,14 @@ For developer guidance, see [shouldGroupAccessibilityChildren](https://developer
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2019/254"><img src="https://devimages-cdn.apple.com/wwdc-services/images/48/23AF104C-7CFE-4F7B-AEC6-46F54121AE92/2966_wide_250x141_2x.jpg" alt="23af104c 7cfe 4f7b aec6 46f54121ae92" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2019/254"><img src="https://devimages-cdn.apple.com/wwdc-services/images/48/23AF104C-7CFE-4F7B-AEC6-46F54121AE92/2966_wide_250x141_2x.jpg" alt="23af104c 7cfe 4f7b aec6 46f54121ae92" width="100%"></a>  
 **[Writing Great Accessibility Labels](https://developer.apple.com/videos/play/wwdc2019/254)**  
 Great accessibility labels are the difference between someone using and loving your app or someone deleting your app. Experience VoiceOver as demonstrated by an Apple Accessibility engineer as she navigates complex UI and demonstrates how descriptive labels are an easy way to ensure your app is for everyone.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2021/10121"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/1A6C1BBD-8ADD-4B35-896E-7EBAA39B82FC/5019_wide_250x141_2x.jpg" alt="1a6c1bbd 8add 4b35 896e 7ebaa39b82fc" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2021/10121"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/1A6C1BBD-8ADD-4B35-896E-7EBAA39B82FC/5019_wide_250x141_2x.jpg" alt="1a6c1bbd 8add 4b35 896e 7ebaa39b82fc" width="100%"></a>  
 **[Tailor the VoiceOver experience in your data-rich apps](https://developer.apple.com/videos/play/wwdc2021/10121)**  
 Learn how to present complex data through VoiceOver with the Accessibility Custom Content API. Discover how you can deliver accessibility information in a concise form, and only when someone wants it. We’ll show you how you can integrate AXCustomContent and help people who want VoiceOver enabled to navigate your data-rich apps in an efficient manner.
 
@@ -107,7 +107,7 @@ To get the most out of this session, you should be familiar with general accessi
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2020/10116"><img src="https://devimages-cdn.apple.com/wwdc-services/images/49/669BA7EE-2BAE-4B94-84E7-41D399756313/3471_wide_250x141_2x.jpg" alt="669ba7ee 2bae 4b94 84e7 41d399756313" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2020/10116"><img src="https://devimages-cdn.apple.com/wwdc-services/images/49/669BA7EE-2BAE-4B94-84E7-41D399756313/3471_wide_250x141_2x.jpg" alt="669ba7ee 2bae 4b94 84e7 41d399756313" width="100%"></a>  
 **[VoiceOver efficiency with custom rotors](https://developer.apple.com/videos/play/wwdc2020/10116)**  
 Discover how you can integrate custom rotors and help people who use VoiceOver navigate complex situations within your app. Learn how custom rotors can help people explore even the most intricate interfaces, explore how to implement a custom rotor, and find out how rotors can improve navigation for someone who relies on VoiceOver.
 

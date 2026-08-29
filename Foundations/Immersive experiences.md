@@ -123,21 +123,21 @@ When your app or game transitions to a Full Space, you can replace passthrough w
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2026/234"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/0BDEE063-38E4-4DFC-B55F-B68D8948B1C0/10757_wide_250x141_2x.jpg" alt="0bdee063 38e4 4dfc b55f b68d8948b1c0" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2026/234"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/0BDEE063-38E4-4DFC-B55F-B68D8948B1C0/10757_wide_250x141_2x.jpg" alt="0bdee063 38e4 4dfc b55f b68d8948b1c0" width="100%"></a>  
 **[Design immersive environments for visionOS apps and the spatial web](https://developer.apple.com/videos/play/wwdc2026/234)**  
 Learn how you can create photoreal visionOS environments for your apps, websites, and SharePlay experiences. Discover the design principles that make environments feel truly immersive and find out how you can create or capture reference materials, prepare high-fidelity CG assets, and craft real-time effects such as motion and lighting.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2023/10072"><img src="https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/15489B11-8744-483D-AD38-EF78D8962FF4/8126_wide_250x141_2x.jpg" alt="15489b11 8744 483d ad38 ef78d8962ff4" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2023/10072"><img src="https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/15489B11-8744-483D-AD38-EF78D8962FF4/8126_wide_250x141_2x.jpg" alt="15489b11 8744 483d ad38 ef78d8962ff4" width="100%"></a>  
 **[Principles of spatial design](https://developer.apple.com/videos/play/wwdc2023/10072)**  
 Discover the fundamentals of spatial design. Learn how to design with depth, scale, windows, and immersion, and apply best practices for creating comfortable, human-centered experiences that transform reality. Find out how you can use these spatial design principles to extend your existing app or bring a new idea to life.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2023/10075"><img src="https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/942191E7-9B98-487D-AE81-400D58285B31/8129_wide_250x141_2x.jpg" alt="942191e7 9b98 487d ae81 400d58285b31" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2023/10075"><img src="https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/942191E7-9B98-487D-AE81-400D58285B31/8129_wide_250x141_2x.jpg" alt="942191e7 9b98 487d ae81 400d58285b31" width="100%"></a>  
 **[Design spatial SharePlay experiences](https://developer.apple.com/videos/play/wwdc2023/10075)**  
 Explore the types of shared activities you can create in your visionOS apps and find out how your apps can use Spatial Persona templates to support meaningful interactions between people. Discover how to design your UI around a shared context, handle immersive content in a shared activity, and more.
 

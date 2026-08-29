@@ -99,14 +99,14 @@ Use iCloud synchronization to provide access to the Keychain, letting people aut
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2025/279"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/473C8E4A-1764-482D-BE24-B3A7BBDBD526/9996_wide_250x141_2x.jpg" alt="473c8e4a 1764 482d be24 b3a7bbdbd526" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2025/279"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/473C8E4A-1764-482D-BE24-B3A7BBDBD526/9996_wide_250x141_2x.jpg" alt="473c8e4a 1764 482d be24 b3a7bbdbd526" width="100%"></a>  
 **[What’s new in passkeys](https://developer.apple.com/videos/play/wwdc2025/279)**  
 Discover how iOS, iPadOS, macOS, and visionOS 26 enhance passkeys. We’ll explore key updates including: the new account creation API for streamlined sign-up, keeping passkeys up-to-date, new ways to drive passkey upgrades through automatic passkey upgrades and passkey management endpoints, and the secure import/export of passkeys. Learn how these improvements enhance user experience and security, and how to implement these updates in your apps to provide a smoother, more secure authentication experience. To get the most out of this video, first watch “Meet passkeys” from WWDC22.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2024/10143"><img src="https://devimages-cdn.apple.com/wwdc-services/images/C03E6E6D-A32A-41D0-9E50-C3C6059820AA/9D0EBBBA-766E-4306-A14C-39339DD76D58/9271_wide_250x141_2x.jpg" alt="9d0ebbba 766e 4306 a14c 39339dd76d58" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2024/10143"><img src="https://devimages-cdn.apple.com/wwdc-services/images/C03E6E6D-A32A-41D0-9E50-C3C6059820AA/9D0EBBBA-766E-4306-A14C-39339DD76D58/9271_wide_250x141_2x.jpg" alt="9d0ebbba 766e 4306 a14c 39339dd76d58" width="100%"></a>  
 **[What’s new in device management](https://developer.apple.com/videos/play/wwdc2024/10143)**  
 Learn about the latest management capabilities for iOS, iPadOS, macOS, and visionOS, then discover the latest changes to Apple Business Manager and Apple School Manager. We’ll also share updates to Activation Lock, SoftwareUpdate, and Safari management.
 

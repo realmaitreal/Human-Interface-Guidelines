@@ -92,21 +92,21 @@ SwiftUI provides a powerful and streamlined way to add motion to your app. If yo
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2024/10145"><img src="https://devimages-cdn.apple.com/wwdc-services/images/C03E6E6D-A32A-41D0-9E50-C3C6059820AA/B38CC217-7635-48EF-B8C9-F7954F390CCE/9273_wide_250x141_2x.jpg" alt="b38cc217 7635 48ef b8c9 f7954f390cce" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2024/10145"><img src="https://devimages-cdn.apple.com/wwdc-services/images/C03E6E6D-A32A-41D0-9E50-C3C6059820AA/B38CC217-7635-48EF-B8C9-F7954F390CCE/9273_wide_250x141_2x.jpg" alt="b38cc217 7635 48ef b8c9 f7954f390cce" width="100%"></a>  
 **[Enhance your UI animations and transitions](https://developer.apple.com/videos/play/wwdc2024/10145)**  
 Explore how to adopt the zoom transition in navigation and presentations to increase the sense of continuity in your app, and learn how to animate UIKit views with SwiftUI animations to make it easier to build animations that feel continuous.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2024/10151"><img src="https://devimages-cdn.apple.com/wwdc-services/images/C03E6E6D-A32A-41D0-9E50-C3C6059820AA/A8C0D750-CF09-48F3-982B-0D1B870F273F/9279_wide_250x141_2x.jpg" alt="a8c0d750 cf09 48f3 982b 0d1b870f273f" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2024/10151"><img src="https://devimages-cdn.apple.com/wwdc-services/images/C03E6E6D-A32A-41D0-9E50-C3C6059820AA/A8C0D750-CF09-48F3-982B-0D1B870F273F/9279_wide_250x141_2x.jpg" alt="a8c0d750 cf09 48f3 982b 0d1b870f273f" width="100%"></a>  
 **[Create custom visual effects with SwiftUI](https://developer.apple.com/videos/play/wwdc2024/10151)**  
 Discover how to create stunning visual effects in SwiftUI. Learn to build unique scroll effects, rich color treatments, and custom transitions. We’ll also explore advanced graphic effects using Metal shaders and custom text rendering.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2023/10078"><img src="https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/2C47B638-090D-4CBB-9E9E-EBE8114536D9/8132_wide_250x141_2x.jpg" alt="2c47b638 090d 4cbb 9e9e ebe8114536d9" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2023/10078"><img src="https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/2C47B638-090D-4CBB-9E9E-EBE8114536D9/8132_wide_250x141_2x.jpg" alt="2c47b638 090d 4cbb 9e9e ebe8114536d9" width="100%"></a>  
 **[Design considerations for vision and motion](https://developer.apple.com/videos/play/wwdc2023/10078)**  
 Learn how to design engaging immersive experiences for visionOS that respect the limitations of human vision and motion perception. We’ll show you how you can use depth cues, contrast, focus, and motion to keep people comfortable as they enjoy your apps and games.
 

@@ -60,7 +60,7 @@ In iOS, iPadOS, and macOS, Spotlight helps people find content across all apps i
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2026/292"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/5614F523-C21B-4ADC-AF14-0417BC34EA15/10836_wide_250x141_2x.jpg" alt="5614f523 c21b 4adc af14 0417bc34ea15" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2026/292"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/5614F523-C21B-4ADC-AF14-0417BC34EA15/10836_wide_250x141_2x.jpg" alt="5614f523 c21b 4adc af14 0417bc34ea15" width="100%"></a>  
 **[Design intuitive search experiences](https://developer.apple.com/videos/play/wwdc2026/292)**  
 Explore new patterns and best practices when implementing search in your app. Discover how search plays a key role in helping people find and navigate content, and find out how to integrate search across different navigation models and Apple platforms.
 

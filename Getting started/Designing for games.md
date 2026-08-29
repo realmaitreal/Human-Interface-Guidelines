@@ -26,21 +26,21 @@ As you create or adapt a game for Apple platforms, learn how to integrate the fu
 <tr>
 <td valign="top">
 
-<a href="../Patterns/Launching.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-launching-thumbnail@2x.png" alt="A sketch of a square containing an arrow pointing to the upper-right corner, suggesting a transition to a new state. The image is tinted orange to subtly reflect the orange in the original six-color Apple logo." width="64"></a>  
+<a href="../Patterns/Launching.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-launching-thumbnail@2x.png" alt="A sketch of a square containing an arrow pointing to the upper-right corner, suggesting a transition to a new state. The image is tinted orange to subtly reflect the orange in the original six-color Apple logo." width="100%"></a>  
 **[Launching](../Patterns/Launching.md)**  
 A streamlined launch experience helps people start using your app or game immediately.
 
 </td>
 <td valign="top">
 
-<a href="../Patterns/Onboarding.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-onboarding-thumbnail@2x.png" alt="A sketch of a waving hand, suggesting a gesture of welcoming. The image is tinted orange to subtly reflect the orange in the original six-color Apple logo." width="64"></a>  
+<a href="../Patterns/Onboarding.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-onboarding-thumbnail@2x.png" alt="A sketch of a waving hand, suggesting a gesture of welcoming. The image is tinted orange to subtly reflect the orange in the original six-color Apple logo." width="100%"></a>  
 **[Onboarding](../Patterns/Onboarding.md)**  
 Onboarding can help people get a quick start using your app or game.
 
 </td>
 <td valign="top">
 
-<a href="../Patterns/Loading.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-loading-thumbnail@2x.png" alt="A sketch of a spinning indeterminate activity indicator, suggesting data loading. The image is tinted orange to subtly reflect the orange in the original six-color Apple logo." width="64"></a>  
+<a href="../Patterns/Loading.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-loading-thumbnail@2x.png" alt="A sketch of a spinning indeterminate activity indicator, suggesting data loading. The image is tinted orange to subtly reflect the orange in the original six-color Apple logo." width="100%"></a>  
 **[Loading](../Patterns/Loading.md)**  
 The best content-loading experience finishes before people become aware of it.
 
@@ -82,21 +82,21 @@ The best content-loading experience finishes before people become aware of it.
 <tr>
 <td valign="top">
 
-<a href="../Foundations/Layout.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-layout-thumbnail@2x.png" alt="A sketch of a small rectangle in the upper-left quadrant of a larger rectangle, suggesting the position of a user interface element within a window. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="64"></a>  
+<a href="../Foundations/Layout.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-layout-thumbnail@2x.png" alt="A sketch of a small rectangle in the upper-left quadrant of a larger rectangle, suggesting the position of a user interface element within a window. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="100%"></a>  
 **[Layout](../Foundations/Layout.md)**  
 A consistent layout that adapts to various contexts makes your experience more approachable and helps people enjoy their favorite apps and games on all their devices.
 
 </td>
 <td valign="top">
 
-<a href="../Foundations/Typography.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-typography-thumbnail@2x.png" alt="A sketch of a small letter A to the left of a large letter A, suggesting the use of typography to convey hierarchical information. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="64"></a>  
+<a href="../Foundations/Typography.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-typography-thumbnail@2x.png" alt="A sketch of a small letter A to the left of a large letter A, suggesting the use of typography to convey hierarchical information. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="100%"></a>  
 **[Typography](../Foundations/Typography.md)**  
 Your typographic choices can help you display legible text, convey an information hierarchy, communicate important content, and express your brand or style.
 
 </td>
 <td valign="top">
 
-<a href="../Patterns/Going%20full%20screen.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-going-full-screen-thumbnail@2x.png" alt="A sketch of two outward-pointing arrows arranged in a vertical line extending from the upper-left to the bottom-right, suggesting expansion. The image is tinted orange to subtly reflect the orange in the original six-color Apple logo." width="64"></a>  
+<a href="../Patterns/Going%20full%20screen.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/patterns-going-full-screen-thumbnail@2x.png" alt="A sketch of two outward-pointing arrows arranged in a vertical line extending from the upper-left to the bottom-right, suggesting expansion. The image is tinted orange to subtly reflect the orange in the original six-color Apple logo." width="100%"></a>  
 **[Going full screen](../Patterns/Going%20full%20screen.md)**  
 iPhone, iPad, and Mac offer full-screen modes that let people expand a window to fill the screen, hiding system controls and providing a distraction-free environment.
 
@@ -125,21 +125,21 @@ iPhone, iPad, and Mac offer full-screen modes that let people expand a window to
 <tr>
 <td valign="top">
 
-<a href="../Inputs/Game%20controls.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/inputs-game-controls-thumbnail@2x.png" alt="A sketch of a D-pad control from a game controller, suggesting gameplay. The image is tinted purple to subtly reflect the purple in the original six-color Apple logo." width="64"></a>  
+<a href="../Inputs/Game%20controls.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/inputs-game-controls-thumbnail@2x.png" alt="A sketch of a D-pad control from a game controller, suggesting gameplay. The image is tinted purple to subtly reflect the purple in the original six-color Apple logo." width="100%"></a>  
 **[Game controls](../Inputs/Game%20controls.md)**  
 Precise, intuitive game controls enhance gameplay and can increase a player’s immersion in the game.
 
 </td>
 <td valign="top">
 
-<a href="../Inputs/Gestures.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/inputs-gestures-thumbnail@2x.png" alt="A sketch of a pointing hand swiping in a curved motion toward the right, suggesting touch interaction with a device. The image is tinted purple to subtly reflect the purple in the original six-color Apple logo." width="64"></a>  
+<a href="../Inputs/Gestures.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/inputs-gestures-thumbnail@2x.png" alt="A sketch of a pointing hand swiping in a curved motion toward the right, suggesting touch interaction with a device. The image is tinted purple to subtly reflect the purple in the original six-color Apple logo." width="100%"></a>  
 **[Gestures](../Inputs/Gestures.md)**  
 A gesture is a physical motion that a person uses to directly affect an object in an app or game on their device.
 
 </td>
 <td valign="top">
 
-<a href="../Inputs/Pointing%20devices.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/inputs-pointing-devices-thumbnail@2x.png" alt="A sketch of an arrow-shaped pointer, suggesting use of a mouse or trackpad. The image is tinted purple to subtly reflect the purple in the original six-color Apple logo." width="64"></a>  
+<a href="../Inputs/Pointing%20devices.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/inputs-pointing-devices-thumbnail@2x.png" alt="A sketch of an arrow-shaped pointer, suggesting use of a mouse or trackpad. The image is tinted purple to subtly reflect the purple in the original six-color Apple logo." width="100%"></a>  
 **[Pointing devices](../Inputs/Pointing%20devices.md)**  
 People can use a pointing device like a trackpad or mouse to navigate the interface and initiate actions.
 
@@ -167,14 +167,14 @@ People can use a pointing device like a trackpad or mouse to navigate the interf
 <tr>
 <td valign="top">
 
-<a href="../Foundations/Accessibility.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-accessibility-thumbnail@2x.png" alt="A sketch of the Accessibility icon. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="64"></a>  
+<a href="../Foundations/Accessibility.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-accessibility-thumbnail@2x.png" alt="A sketch of the Accessibility icon. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="100%"></a>  
 **[Accessibility](../Foundations/Accessibility.md)**  
 Accessible user interfaces empower everyone to have a great experience with your app or game.
 
 </td>
 <td valign="top">
 
-<a href="../Foundations/Inclusion.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-inclusion-thumbnail@2x.png" alt="A sketch of two people, suggesting inclusion. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="64"></a>  
+<a href="../Foundations/Inclusion.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-inclusion-thumbnail@2x.png" alt="A sketch of two people, suggesting inclusion. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="100%"></a>  
 **[Inclusion](../Foundations/Inclusion.md)**  
 Inclusive apps and games put people first by prioritizing respectful communication and presenting content and functionality in ways that everyone can access and understand.
 
@@ -198,21 +198,21 @@ Inclusive apps and games put people first by prioritizing respectful communicati
 <tr>
 <td valign="top">
 
-<a href="../Technologies/Game%20Center.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-game-center-thumbnail@2x.png" alt="A sketch of the Game Center icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="../Technologies/Game%20Center.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-game-center-thumbnail@2x.png" alt="A sketch of the Game Center icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[Game Center](../Technologies/Game%20Center.md)**  
 Game Center is Apple’s social gaming network, which lets players track their progress and connect with friends across Apple platforms, and boosts the discovery of your game across players’ devices.
 
 </td>
 <td valign="top">
 
-<a href="../Technologies/iCloud.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-icloud-thumbnail@2x.png" alt="A sketch of the iCloud icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="../Technologies/iCloud.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-icloud-thumbnail@2x.png" alt="A sketch of the iCloud icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[iCloud](../Technologies/iCloud.md)**  
 iCloud is a service that lets people seamlessly access the content they care about — photos, videos, documents, and more — from any device, without performing explicit synchronization.
 
 </td>
 <td valign="top">
 
-<a href="../Technologies/In-app%20purchase.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-in-app-purchase-thumbnail@2x.png" alt="A sketch of an add button, suggesting the purchase of additional digital assets within an app. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="64"></a>  
+<a href="../Technologies/In-app%20purchase.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-in-app-purchase-thumbnail@2x.png" alt="A sketch of an add button, suggesting the purchase of additional digital assets within an app. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[In-app purchase](../Technologies/In-app%20purchase.md)**  
 People can use in-app purchase to pay for virtual goods — like premium content, digital goods, and subscriptions — securely within your app.
 
@@ -240,21 +240,21 @@ People can use in-app purchase to pay for virtual goods — like premium content
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2026/356"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/47BE2F6C-78E8-4AF4-9318-9FF3EDB1A049/10906_wide_250x141_2x.jpg" alt="47be2f6c 78e8 4af4 9318 9ff3edb1a049" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2026/356"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/47BE2F6C-78E8-4AF4-9318-9FF3EDB1A049/10906_wide_250x141_2x.jpg" alt="47be2f6c 78e8 4af4 9318 9ff3edb1a049" width="100%"></a>  
 **[Bringing Cyberpunk 2077 to Mac](https://developer.apple.com/videos/play/wwdc2026/356)**  
 Go behind the scenes and learn from CD PROJEKT RED how Cyberpunk 2077 came to Mac, setting a new standard for AAA gaming on macOS. Explore how the team leveraged Apple’s robust hardware, software, and development tools to bring this high-fidelity experience to life. Learn how you can apply similar techniques to your games. Find out how the innovative ‘For this Mac’ preset automatically optimizes graphical settings to balance visual fidelity and frame rate across the Mac lineup.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2026/252"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/DABC6BCF-5A35-4B9C-9217-200576EAD404/10775_wide_250x141_2x.jpg" alt="dabc6bcf 5a35 4b9c 9217 200576ead404" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2026/252"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/DABC6BCF-5A35-4B9C-9217-200576EAD404/10775_wide_250x141_2x.jpg" alt="dabc6bcf 5a35 4b9c 9217 200576ead404" width="100%"></a>  
 **[Design no-code games with Reality Composer Pro 3](https://developer.apple.com/videos/play/wwdc2026/252)**  
 Discover how you can use ScriptGraph in Reality Composer Pro 3 to create no-code 3D content for your apps and games. Learn how to take advantage of visual nodes to build animations, create interactive moments, and incorporate SwiftUI elements to add speech bubbles and other UI to your experience.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2025/209"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/6C097D36-BE91-4B04-854A-E6264DA86F15/9890_wide_250x141_2x.jpg" alt="6c097d36 be91 4b04 854a e6264da86f15" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2025/209"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/6C097D36-BE91-4B04-854A-E6264DA86F15/9890_wide_250x141_2x.jpg" alt="6c097d36 be91 4b04 854a e6264da86f15" width="100%"></a>  
 **[Level up your games](https://developer.apple.com/videos/play/wwdc2025/209)**  
 Learn how to make your games shine on the unified gaming platform. We’ll give you a map of the technologies you can use to level up your game and further improve your player experience. Get an overview of the fundamental tools essential to build, debug, and profile your game.
 

@@ -596,7 +596,7 @@ If some information doesn’t fit within the layout areas, the system displays i
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2026/209"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/5FACC310-770C-4BD9-8696-9E837324C325/10719_wide_250x141_2x.jpg" alt="5facc310 770c 4bd9 8696 9e837324c325" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2026/209"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/5FACC310-770C-4BD9-8696-9E837324C325/10719_wide_250x141_2x.jpg" alt="5facc310 770c 4bd9 8696 9e837324c325" width="100%"></a>  
 **[What’s new in Wallet](https://developer.apple.com/videos/play/wwdc2026/209)**  
 Explore the newest design updates and developer tools for Apple Wallet passes. Refresh your passes with beautiful new styles for rich, vibrant designs. Discover new barcode formats and a flexible pass actions API. Meet Pass Designer and Pass Builder, powerful tools that simplify designing, personalizing, and distributing your passes at scale.
 

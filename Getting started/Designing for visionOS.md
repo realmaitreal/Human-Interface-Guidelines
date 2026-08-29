@@ -68,21 +68,21 @@ Great visionOS apps and games are approachable and familiar, while offering extr
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2024/10096"><img src="https://devimages-cdn.apple.com/wwdc-services/images/C03E6E6D-A32A-41D0-9E50-C3C6059820AA/B2E0763D-C5D2-4191-AC0B-F99D56BE781F/9208_wide_250x141_2x.jpg" alt="b2e0763d c5d2 4191 ac0b f99d56be781f" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2024/10096"><img src="https://devimages-cdn.apple.com/wwdc-services/images/C03E6E6D-A32A-41D0-9E50-C3C6059820AA/B2E0763D-C5D2-4191-AC0B-F99D56BE781F/9208_wide_250x141_2x.jpg" alt="b2e0763d c5d2 4191 ac0b f99d56be781f" width="100%"></a>  
 **[Design interactive experiences for visionOS](https://developer.apple.com/videos/play/wwdc2024/10096)**  
 Learn how you can design a compelling interactive narrative experience for Apple Vision Pro from the designers of Encounter Dinosaurs. Discover how these types of experiences differ from existing apps, media, and games, and explore how to design narratives that bring audiences into new worlds. Find out how you can create stories that adapt to any space and size, provide multiple levels of interaction to make them accessible to all, and use animation, spatial audio, and custom gestures to further immerse people in your experience.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2024/10086"><img src="https://devimages-cdn.apple.com/wwdc-services/images/C03E6E6D-A32A-41D0-9E50-C3C6059820AA/A207EE2A-D9E6-4FAB-A557-ABEAA68840AB/9197_wide_250x141_2x.jpg" alt="a207ee2a d9e6 4fab a557 abeaa68840ab" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2024/10086"><img src="https://devimages-cdn.apple.com/wwdc-services/images/C03E6E6D-A32A-41D0-9E50-C3C6059820AA/A207EE2A-D9E6-4FAB-A557-ABEAA68840AB/9197_wide_250x141_2x.jpg" alt="a207ee2a d9e6 4fab a557 abeaa68840ab" width="100%"></a>  
 **[Design great visionOS apps](https://developer.apple.com/videos/play/wwdc2024/10086)**  
 Find out how to create compelling spatial computing apps by embracing immersion, designing for eyes and hands, and taking advantage of depth, scale, and space. We’ll share several examples of great visionOS apps and explore how their designers approached creating new experiences for the platform.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2023/10072"><img src="https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/15489B11-8744-483D-AD38-EF78D8962FF4/8126_wide_250x141_2x.jpg" alt="15489b11 8744 483d ad38 ef78d8962ff4" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2023/10072"><img src="https://devimages-cdn.apple.com/wwdc-services/images/D35E0E85-CCB6-41A1-B227-7995ECD83ED5/15489B11-8744-483D-AD38-EF78D8962FF4/8126_wide_250x141_2x.jpg" alt="15489b11 8744 483d ad38 ef78d8962ff4" width="100%"></a>  
 **[Principles of spatial design](https://developer.apple.com/videos/play/wwdc2023/10072)**  
 Discover the fundamentals of spatial design. Learn how to design with depth, scale, windows, and immersion, and apply best practices for creating comfortable, human-centered experiences that transform reality. Find out how you can use these spatial design principles to extend your existing app or bring a new idea to life.
 

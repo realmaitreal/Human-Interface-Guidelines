@@ -313,7 +313,7 @@ In SwiftUI, the equivalent of `systemGray` is [gray](https://developer.apple.com
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2025/219"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/5CD0E251-424E-490F-89CF-1E64848209A6/9910_wide_250x141_2x.jpg" alt="5cd0e251 424e 490f 89cf 1e64848209a6" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2025/219"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/5CD0E251-424E-490F-89CF-1E64848209A6/9910_wide_250x141_2x.jpg" alt="5cd0e251 424e 490f 89cf 1e64848209a6" width="100%"></a>  
 **[Meet Liquid Glass](https://developer.apple.com/videos/play/wwdc2025/219)**  
 Liquid Glass unifies Apple platform design language while providing a more dynamic and expressive user experience. Get to know the design principles of Liquid Glass, explore its core optical and physical properties, and learn where to use it and why.
 

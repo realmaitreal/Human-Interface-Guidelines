@@ -112,7 +112,7 @@ A sticker file must be 500 KB or smaller in size. For each supported format, the
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2017/820"><img src="https://devimages-cdn.apple.com/wwdc-services/images/7/FC4A4C67-CCE9-46D5-9376-D071D53B4FB2/1925_wide_250x141_2x.jpg" alt="fc4a4c67 cce9 46d5 9376 d071d53b4fb2" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2017/820"><img src="https://devimages-cdn.apple.com/wwdc-services/images/7/FC4A4C67-CCE9-46D5-9376-D071D53B4FB2/1925_wide_250x141_2x.jpg" alt="fc4a4c67 cce9 46d5 9376 d071d53b4fb2" width="100%"></a>  
 **[Express Yourself!](https://developer.apple.com/videos/play/wwdc2017/820)**  
 iMessage Apps help people easily create and share content, play games, and collaborate with friends without needing to leave the conversation. Explore how you can design iMessage apps and sticker packs that are perfectly suited for a deeply social context.
 

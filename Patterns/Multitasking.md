@@ -122,14 +122,14 @@ Only one window is active at a time in the Shared Space. When people look from o
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2025/208"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/873F40BE-101A-4C0D-99F0-F5C7CE7B47A3/10046_wide_250x141_2x.jpg" alt="873f40be 101a 4c0d 99f0 f5c7ce7b47a3" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2025/208"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/873F40BE-101A-4C0D-99F0-F5C7CE7B47A3/10046_wide_250x141_2x.jpg" alt="873f40be 101a 4c0d 99f0 f5c7ce7b47a3" width="100%"></a>  
 **[Elevate the design of your iPad app](https://developer.apple.com/videos/play/wwdc2025/208)**  
 Make your app look and feel great on iPadOS. Learn best practices for designing a responsive layout for resizable app windows. Get familiar with window controls and explore the best ways to accommodate them. Discover the building blocks of a great menu bar. And meet the new pointer and its updated effects.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2025/282"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/A8CAF870-197F-4982-83D8-56513E5D7D0B/10000_wide_250x141_2x.jpg" alt="a8caf870 197f 4982 83d8 56513e5d7d0b" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2025/282"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/A8CAF870-197F-4982-83D8-56513E5D7D0B/10000_wide_250x141_2x.jpg" alt="a8caf870 197f 4982 83d8 56513e5d7d0b" width="100%"></a>  
 **[Make your UIKit app more flexible](https://developer.apple.com/videos/play/wwdc2025/282)**  
 Find out how your UIKit app can become more flexible on iPhone, iPad, Mac, and Apple Vision Pro by using scenes and container view controllers. Learn to unlock your app’s full potential by transitioning from an app-centric to a scene-based lifecycle, including enhanced window resizing and improved multitasking. Explore enhancements to UISplitViewController, such as interactive column resizing and first-class support for inspector columns. And make your views and controls more adaptive by adopting new layout APIs.
 

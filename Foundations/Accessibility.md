@@ -318,21 +318,21 @@ For additional guidance, see [Create accessible spatial experiences](https://dev
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2026/220"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/987CC537-D3EE-4F1E-928B-4FBC2C3EB1DB/10731_wide_250x141_2x.jpg" alt="987cc537 d3ee 4f1e 928b 4fbc2c3eb1db" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2026/220"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/987CC537-D3EE-4F1E-928B-4FBC2C3EB1DB/10731_wide_250x141_2x.jpg" alt="987cc537 d3ee 4f1e 928b 4fbc2c3eb1db" width="100%"></a>  
 **[Refine accessibility for custom controls](https://developer.apple.com/videos/play/wwdc2026/220)**  
 Unlock the full potential of your app’s interactive elements by making them accessible to everyone. We’ll break down how people understand and use controls with VoiceOver and other assistive technologies, exploring a variety of input methods like actions, the passthrough gesture, and direct touch. Join us for an in-depth exploration of several example controls as we refine and elevate the accessibility experience in each one.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2025/316"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/F5AEB5B6-FF48-4201-B110-A0EDA465F3B4/9961_wide_250x141_2x.jpg" alt="f5aeb5b6 ff48 4201 b110 a0eda465f3b4" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2025/316"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/F5AEB5B6-FF48-4201-B110-A0EDA465F3B4/9961_wide_250x141_2x.jpg" alt="f5aeb5b6 ff48 4201 b110 a0eda465f3b4" width="100%"></a>  
 **[Principles of inclusive app design](https://developer.apple.com/videos/play/wwdc2025/316)**  
 Discover how understanding disability can help you create better apps for everyone. Find out how to make your apps more inclusive by supporting multiple types of interaction, providing customization, and adopting accessibility APIs.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2025/224"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/163752B6-501D-4816-BA92-DBF33CCF0CD2/9917_wide_250x141_2x.jpg" alt="163752b6 501d 4816 ba92 dbf33ccf0cd2" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2025/224"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/163752B6-501D-4816-BA92-DBF33CCF0CD2/9917_wide_250x141_2x.jpg" alt="163752b6 501d 4816 ba92 dbf33ccf0cd2" width="100%"></a>  
 **[Evaluate your app for Accessibility Nutrition Labels](https://developer.apple.com/videos/play/wwdc2025/224)**  
 Use Accessibility Nutrition Labels on your App Store product page to highlight the accessibility features supported by your app. You’ll learn how to evaluate your app’s accessibility features — such as VoiceOver, Larger Text, Captions, and more — and choose accurate and informative Accessibility Nutrition Labels. You’ll also find out how to approach accessibility throughout the design phase.
 

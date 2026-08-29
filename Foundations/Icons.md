@@ -324,7 +324,7 @@ To create a custom document icon, you can supply any combination of background f
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2017/823"><img src="https://devimages-cdn.apple.com/wwdc-services/images/7/597D59A1-F123-4B08-BEE1-6D79A4C22268/1914_wide_250x141_2x.jpg" alt="597d59a1 f123 4b08 bee1 6d79a4c22268" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2017/823"><img src="https://devimages-cdn.apple.com/wwdc-services/images/7/597D59A1-F123-4B08-BEE1-6D79A4C22268/1914_wide_250x141_2x.jpg" alt="597d59a1 f123 4b08 bee1 6d79a4c22268" width="100%"></a>  
 **[Designing Glyphs](https://developer.apple.com/videos/play/wwdc2017/823)**  
 Glyphs are a powerful communication tool and a fundamental element of your app’s design language. Learn about important considerations when conceptualizing glyphs and key design principles of crafting effective glyph sets for spaces inside and outside of your app.
 

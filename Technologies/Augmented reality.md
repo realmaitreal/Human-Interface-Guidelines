@@ -323,14 +323,14 @@ With the wearer’s [visionOS](https://developer.apple.com/design/human-interfac
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2022/10131"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/D9569ADB-FA90-4DB7-9987-A4366BA0E921/6628_wide_250x141_2x.jpg" alt="d9569adb fa90 4db7 9987 a4366ba0e921" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2022/10131"><img src="https://devimages-cdn.apple.com/wwdc-services/images/124/D9569ADB-FA90-4DB7-9987-A4366BA0E921/6628_wide_250x141_2x.jpg" alt="d9569adb fa90 4db7 9987 a4366ba0e921" width="100%"></a>  
 **[Qualities of great AR experiences](https://developer.apple.com/videos/play/wwdc2022/10131)**  
 Discover best practices and techniques to help craft magical AR experiences for iPhone and iPad. We’ll provide guidance to help you determine if AR is a good fit for your experience, explore examples of great AR apps, and take you through key considerations when designing for augmented reality.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2021/10073"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/53F3827F-2C69-44D5-9D85-73AF3FF759FD/4965_wide_250x141_2x.jpg" alt="53f3827f 2c69 44d5 9d85 73af3ff759fd" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2021/10073"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/53F3827F-2C69-44D5-9D85-73AF3FF759FD/4965_wide_250x141_2x.jpg" alt="53f3827f 2c69 44d5 9d85 73af3ff759fd" width="100%"></a>  
 **[Explore ARKit 5](https://developer.apple.com/videos/play/wwdc2021/10073)**  
 Build the next generation of augmented reality apps with ARKit 5. Explore how you can use Location Anchors in additional regions and more easily onboard people into your location-based AR experience. Learn more about Face Tracking and Motion Capture. And discover best practices for placing your AR content in the real world. We’ll also show you how you can integrate App Clip Codes into your AR app for easy discovery and precise positioning of your virtual content.
 

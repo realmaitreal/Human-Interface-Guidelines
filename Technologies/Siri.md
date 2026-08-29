@@ -130,21 +130,21 @@ When you provide additional custom properties as part of your schema responses, 
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2026/240"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/CAF3A339-4121-4E23-93E9-2CD25F0E3A69/10763_wide_250x141_2x.jpg" alt="caf3a339 4121 4e23 93e9 2cd25f0e3a69" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2026/240"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/CAF3A339-4121-4E23-93E9-2CD25F0E3A69/10763_wide_250x141_2x.jpg" alt="caf3a339 4121 4e23 93e9 2cd25f0e3a69" width="100%"></a>  
 **[Build intelligent Siri experiences with App Schemas](https://developer.apple.com/videos/play/wwdc2026/240)**  
 Bring your app’s content and actions to Siri with App Intents. Model your data using App Entities, adopt App Schemas to enable powerful system actions, and support natural language interactions powered by Apple Intelligence. Explore how to enable semantic search, perform actions across apps, and create contextual experiences using onscreen awareness and content transfer. Find out best practices and testing tools to build fast, reliable Siri experiences.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2026/345"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/A23B9856-2ECA-4591-84FA-0E595455AB25/10893_wide_250x141_2x.jpg" alt="a23b9856 2eca 4591 84fa 0e595455ab25" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2026/345"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/A23B9856-2ECA-4591-84FA-0E595455AB25/10893_wide_250x141_2x.jpg" alt="a23b9856 2eca 4591 84fa 0e595455ab25" width="100%"></a>  
 **[Discover new capabilities in the App Intents framework](https://developer.apple.com/videos/play/wwdc2026/345)**  
 Level up your App Intents adoption with advanced features to make it faster, more flexible, and more relevant. Find out how ValueRepresentation and RelevantEntities make your content more discoverable and allow it to travel across apps, EntityCollection improves performance, and SyncableEntity let you scale across devices. Explore richer parameter types including union values and long-running intents that handle cancellation gracefully.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2026/343"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/0C71E74E-4A72-4B59-A24D-778CA7A70B82/10891_wide_250x141_2x.jpg" alt="0c71e74e 4a72 4b59 a24d 778ca7a70b82" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2026/343"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/0C71E74E-4A72-4B59-A24D-778CA7A70B82/10891_wide_250x141_2x.jpg" alt="0c71e74e 4a72 4b59 a24d 778ca7a70b82" width="100%"></a>  
 **[Explore advanced App Intents features for Siri and Apple Intelligence](https://developer.apple.com/videos/play/wwdc2026/343)**  
 Polish how your app works with Siri using advanced App Intents APIs. Learn techniques that let people accomplish more with just their voice, help Apple Intelligence find your content, and provide context for on-screen awareness so Siri understands what’s happening in your app.
 

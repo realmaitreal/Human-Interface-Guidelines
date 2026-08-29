@@ -128,7 +128,7 @@ Use the following size for a scrolling inset banner image:
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2019/211"><img src="https://devimages-cdn.apple.com/wwdc-services/images/48/21CB7C2D-31A3-4DE5-A0EE-58FE214031F0/2713_wide_250x141_2x.jpg" alt="21cb7c2d 31a3 4de5 a0ee 58fe214031f0" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2019/211"><img src="https://devimages-cdn.apple.com/wwdc-services/images/48/21CB7C2D-31A3-4DE5-A0EE-58FE214031F0/2713_wide_250x141_2x.jpg" alt="21cb7c2d 31a3 4de5 a0ee 58fe214031f0" width="100%"></a>  
 **[Mastering the Living Room With tvOS](https://developer.apple.com/videos/play/wwdc2019/211)**  
 tvOS apps can deliver amazing experiences with stunning picture quality through 4K resolution, Dolby Vision and HDR10, and immersive sound through Dolby Atmos. Discover how to design beautiful, engaging, content-first experiences for your media applications. Learn about the new Top Shelf extension and styles to engage customers in your content before they even open your app. Take advantage of user profile support to offer an even more intuitive shared device experience.
 

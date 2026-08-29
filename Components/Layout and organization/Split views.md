@@ -92,7 +92,7 @@ In watchOS, the split view displays either the list view or a detail view as a f
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2025/282"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/A8CAF870-197F-4982-83D8-56513E5D7D0B/10000_wide_250x141_2x.jpg" alt="a8caf870 197f 4982 83d8 56513e5d7d0b" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2025/282"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/A8CAF870-197F-4982-83D8-56513E5D7D0B/10000_wide_250x141_2x.jpg" alt="a8caf870 197f 4982 83d8 56513e5d7d0b" width="100%"></a>  
 **[Make your UIKit app more flexible](https://developer.apple.com/videos/play/wwdc2025/282)**  
 Find out how your UIKit app can become more flexible on iPhone, iPad, Mac, and Apple Vision Pro by using scenes and container view controllers. Learn to unlock your app’s full potential by transitioning from an app-centric to a scene-based lifecycle, including enhanced window resizing and improved multitasking. Explore enhancements to UISplitViewController, such as interactive column resizing and first-class support for inspector columns. And make your views and controls more adaptive by adopting new layout APIs.
 

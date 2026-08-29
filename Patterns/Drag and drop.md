@@ -113,14 +113,14 @@ Drag and drop is a dynamic process that can result in multiple outcomes. To help
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2021/10059"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/9CCE8A5D-A751-441C-B88F-FB91E2D1958E/4949_wide_250x141_2x.jpg" alt="9cce8a5d a751 441c b88f fb91e2d1958e" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2021/10059"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/9CCE8A5D-A751-441C-B88F-FB91E2D1958E/4949_wide_250x141_2x.jpg" alt="9cce8a5d a751 441c b88f fb91e2d1958e" width="100%"></a>  
 **[What's new in UIKit](https://developer.apple.com/videos/play/wwdc2021/10059)**  
 Discover the latest updates and improvements to UIKit and learn how to build better iPadOS, iOS, and Mac Catalyst apps. We’ll take you through UI refinements, productivity updates, and API enhancements, and help you explore performance improvements and security & privacy features.
 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2021/10289"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/F93E642C-EBBD-479E-AC7F-F801103EF53F/5227_wide_250x141_2x.jpg" alt="f93e642c ebbd 479e ac7f f801103ef53f" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2021/10289"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/F93E642C-EBBD-479E-AC7F-F801103EF53F/5227_wide_250x141_2x.jpg" alt="f93e642c ebbd 479e ac7f f801103ef53f" width="100%"></a>  
 **[SwiftUI on the Mac: The finishing touches](https://developer.apple.com/videos/play/wwdc2021/10289)**  
 Join us for part two of our Code-Along series as we use SwiftUI to build a Mac app from start to finish. The journey continues as we explore how our sample gardening app can adapt to a person’s preferences and specific workflows. Learn how SwiftUI apps can automatically react to system settings, and discover how you can use that information to add more personality to an app. We’ll show you how you can give people the flexibility to customize an app through Settings, and explore how to use different workflows for manipulating someone’s data (like drag and drop). To finish, we’ll show you how you can move data to and from an app, incorporating features like Continuity Camera to provide a simple workflow for importing images.
 
@@ -129,7 +129,7 @@ This is the second session in a two-part Code-Along series. To get the most out 
 </td>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2020/10206"><img src="https://devimages-cdn.apple.com/wwdc-services/images/49/5C8F0205-3AE9-4647-870B-5C10FB7EA6FF/3520_wide_250x141_2x.jpg" alt="5c8f0205 3ae9 4647 870b 5c10fb7ea6ff" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2020/10206"><img src="https://devimages-cdn.apple.com/wwdc-services/images/49/5C8F0205-3AE9-4647-870B-5C10FB7EA6FF/3520_wide_250x141_2x.jpg" alt="5c8f0205 3ae9 4647 870b 5c10fb7ea6ff" width="100%"></a>  
 **[Designed for iPad](https://developer.apple.com/videos/play/wwdc2020/10206)**  
 Discover the building blocks for designing a great iPad app: Learn how to minimize use of modal interfaces and leverage the new sidebar to increase efficiency by streamlining navigation and facilitating powerful drag and drop interactions. See how to take advantage of iPad’s versatile interaction opportunities by supporting multitouch, pencil, keyboard, and trackpad. And create adaptive layouts that respond to all size classes and orientation to support a great multitasking experience. These techniques will not only improve your iPad app — they’ll make it easier to create a Mac Catalyst app that truly feels right at home on macOS.
 

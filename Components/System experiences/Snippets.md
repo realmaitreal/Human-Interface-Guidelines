@@ -98,7 +98,7 @@ A snippet consists of the following elements:
 <tr>
 <td valign="top">
 
-<a href="https://developer.apple.com/videos/play/wwdc2025/281"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/4D88FD13-E491-4499-AA3F-8A84CF4BA607/9999_wide_250x141_2x.jpg" alt="4d88fd13 e491 4499 aa3f 8a84cf4ba607" width="64"></a>  
+<a href="https://developer.apple.com/videos/play/wwdc2025/281"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/4D88FD13-E491-4499-AA3F-8A84CF4BA607/9999_wide_250x141_2x.jpg" alt="4d88fd13 e491 4499 aa3f 8a84cf4ba607" width="100%"></a>  
 **[Design interactive snippets](https://developer.apple.com/videos/play/wwdc2025/281)**  
 Snippets are compact views invoked from App Intents that display information from your app. Now, snippets can allow your app to bring even more capability to Siri, Spotlight, and the Shortcuts app by including buttons and stateful information that offer additional interactivity as part of an intent. In this session, you’ll learn best practices for designing snippets, including guidance on layout, typography, interaction, and intent types.
 
