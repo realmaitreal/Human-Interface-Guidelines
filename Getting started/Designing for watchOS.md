@@ -51,8 +51,7 @@ Great Apple Watch experiences are streamlined and specialized, and integrate the
 
 #### Videos
 
-- ![29b2363d 8dfb 4a25 a3db a804582858fd](https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/29B2363D-8DFB-4A25-A3DB-A804582858FD/9956_wide_250x141_2x.jpg)  
-  [What’s new in watchOS 26](https://developer.apple.com/videos/play/wwdc2025/334) — Discover the new features in watchOS 26 and learn how to integrate them into your watchOS and iOS apps. Explore the ARM64 architecture, and dive into the new design system. We’ll also share updates for widgets and insights on how to bring controls to Apple Watch.
+- <a href="https://developer.apple.com/videos/play/wwdc2025/334"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/29B2363D-8DFB-4A25-A3DB-A804582858FD/9956_wide_250x141_2x.jpg" alt="29b2363d 8dfb 4a25 a3db a804582858fd" width="64"></a> [What’s new in watchOS 26](https://developer.apple.com/videos/play/wwdc2025/334) — Discover the new features in watchOS 26 and learn how to integrate them into your watchOS and iOS apps. Explore the ARM64 architecture, and dive into the new design system. We’ll also share updates for widgets and insights on how to bring controls to Apple Watch.
 
 ## Change log
 

@@ -178,10 +178,8 @@ When people choose the graphite accent color in General settings, macOS causes w
 
 #### Videos
 
-- ![5cd0e251 424e 490f 89cf 1e64848209a6](https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/5CD0E251-424E-490F-89CF-1E64848209A6/9910_wide_250x141_2x.jpg)  
-  [Meet Liquid Glass](https://developer.apple.com/videos/play/wwdc2025/219) — Liquid Glass unifies Apple platform design language while providing a more dynamic and expressive user experience. Get to know the design principles of Liquid Glass, explore its core optical and physical properties, and learn where to use it and why.
-- ![174747d6 8723 4194 a932 7765179f1108](https://devimages-cdn.apple.com/wwdc-services/images/48/174747D6-8723-4194-A932-7765179F1108/2949_wide_250x141_2x.jpg)  
-  [Implementing Dark Mode on iOS](https://developer.apple.com/videos/play/wwdc2019/214) — Hear from the UIKit engineering team about the principles and concepts that anchor Dark Mode on iOS. Get introduced to the principles of enhancing your app with this new appearance using dynamic colors and images, and add an experience that people are sure to love.
+- <a href="https://developer.apple.com/videos/play/wwdc2025/219"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/5CD0E251-424E-490F-89CF-1E64848209A6/9910_wide_250x141_2x.jpg" alt="5cd0e251 424e 490f 89cf 1e64848209a6" width="64"></a> [Meet Liquid Glass](https://developer.apple.com/videos/play/wwdc2025/219) — Liquid Glass unifies Apple platform design language while providing a more dynamic and expressive user experience. Get to know the design principles of Liquid Glass, explore its core optical and physical properties, and learn where to use it and why.
+- <a href="https://developer.apple.com/videos/play/wwdc2019/214"><img src="https://devimages-cdn.apple.com/wwdc-services/images/48/174747D6-8723-4194-A932-7765179F1108/2949_wide_250x141_2x.jpg" alt="174747d6 8723 4194 a932 7765179f1108" width="64"></a> [Implementing Dark Mode on iOS](https://developer.apple.com/videos/play/wwdc2019/214) — Hear from the UIKit engineering team about the principles and concepts that anchor Dark Mode on iOS. Get introduced to the principles of enhancing your app with this new appearance using dynamic colors and images, and add an experience that people are sure to love.
 
 ## Change log
 

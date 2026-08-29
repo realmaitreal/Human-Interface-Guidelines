@@ -400,9 +400,12 @@ func pickVariant(_ ref: JSONDict) -> String? {
     return variants.max(by: { score($0) < score($1) }).flatMap { jStrOpt($0, "url") }
 }
 
-func renderImage(_ node: JSONDict, _ ctx: Context) -> String {
-    let ident = jStrOpt(node, "identifier")
-    let ref = ident.map { jDict(ctx.refs, $0) } ?? [:]
+/// Resolves an image identifier to alt text plus a usable link (a fully
+/// resolved Apple URL in remote mode, or a local `_assets/...` relative
+/// path in local mode — registering it for download as a side effect).
+/// `link` is nil when there's no usable image or `--images none` was set.
+func resolveImageLink(_ identifier: String?, _ ctx: Context) -> (alt: String, link: String?) {
+    let ref = identifier.map { jDict(ctx.refs, $0) } ?? [:]
     var url = pickVariant(ref)
     if let u = url, u.hasPrefix("/") {
         // Apple now returns root-relative paths (e.g. "/images/com.apple.HIG/x.png")
@@ -411,8 +414,29 @@ func renderImage(_ node: JSONDict, _ ctx: Context) -> String {
     }
     var alt = escAlt(jStrOpt(ref, "alt") ?? "")
     if alt.isEmpty {
-        alt = escAlt(slugOf(orDefault(ident, "image")).replacingOccurrences(of: "-", with: " "))
+        alt = escAlt(slugOf(orDefault(identifier, "image")).replacingOccurrences(of: "-", with: " "))
     }
+
+    guard ctx.cfg.imgMode != "none", let resolvedUrl = url else { return (alt, nil) }
+
+    let link: String
+    if ctx.cfg.imgMode == "remote" {
+        link = resolvedUrl
+    } else {  // local
+        var fname = sanitize(identifier)
+        if fileExtension(of: fname).isEmpty {
+            var ext = fileExtension(of: urlPathComponent(resolvedUrl))
+            if ext.isEmpty { ext = ".png" }
+            fname += ext
+        }
+        ctx.images.set(fname, resolvedUrl)  // dedupe by filename
+        link = encPath(relPath(pathJoin(["_assets", fname]), from: ctx.pagedir))
+    }
+    return (alt, link)
+}
+
+func renderImage(_ node: JSONDict, _ ctx: Context) -> String {
+    let (alt, link) = resolveImageLink(jStrOpt(node, "identifier"), ctx)
     let metadata = jDict(node, "metadata")
     let capArr = metadata["abstract"] as? [Any]
     let captxt = (capArr?.isEmpty == false) ? strip(renderInline(capArr, ctx)) : ""
@@ -422,22 +446,8 @@ func renderImage(_ node: JSONDict, _ ctx: Context) -> String {
     }
 
     // No usable image, or text-only mode: keep the description as a caption.
-    if ctx.cfg.imgMode == "none" || url == nil {
+    guard let link = link else {
         return withCap("*[Image: \(alt)]*")
-    }
-
-    let link: String
-    if ctx.cfg.imgMode == "remote" {
-        link = url!  // fully resolved Apple URL
-    } else {  // local
-        var fname = sanitize(ident)
-        if fileExtension(of: fname).isEmpty {
-            var ext = fileExtension(of: urlPathComponent(url!))
-            if ext.isEmpty { ext = ".png" }
-            fname += ext
-        }
-        ctx.images.set(fname, url!)  // dedupe by filename
-        link = encPath(relPath(pathJoin(["_assets", fname]), from: ctx.pagedir))
     }
     return withCap("![\(alt)](\(link))")
 }
@@ -573,14 +583,31 @@ func renderTable(_ b: JSONDict, _ ctx: Context) -> String {
 /// "card"|"icon", identifier: ...}]`), separate from the inline images used
 /// in prose. Reuses renderImage so remote/local/none modes, alt text, and
 /// dedup-by-filename all behave identically to any other image.
-func linkThumbnailMarkdown(_ ref: JSONDict, _ ctx: Context) -> String? {
+func htmlEscapeAttr(_ s: String) -> String {
+    s.replacingOccurrences(of: "&", with: "&amp;")
+     .replacingOccurrences(of: "\"", with: "&quot;")
+     .replacingOccurrences(of: "<", with: "&lt;")
+     .replacingOccurrences(of: ">", with: "&gt;")
+}
+
+/// A small clickable thumbnail for a links-block entry, e.g. `<a
+/// href="page"><img src="..." width="64"></a>`. Kept as a single inline
+/// HTML snippet (not Markdown image syntax split across lines) so it
+/// renders identically as plain list-item content in every renderer —
+/// GitHub, Xcode/Quick Look, VS Code, etc. — instead of depending on
+/// lazy-continuation rules for multi-line list items, which parsers
+/// handle inconsistently, and without an explicit size it can also blow
+/// up to the image's native pixel dimensions in non-GitHub viewers.
+func linkThumbnailHTML(_ ref: JSONDict, _ ctx: Context, pageUrl: String) -> String? {
     let images = jDictArr(ref, "images")
     guard !images.isEmpty else { return nil }
     let card = images.first { jStrOpt($0, "type") == "card" }
     let icon = images.first { jStrOpt($0, "type") == "icon" }
     guard let chosen = card ?? icon, let imgIdent = jStrOpt(chosen, "identifier") else { return nil }
-    let rendered = renderImage(["identifier": imgIdent, "type": "image"], ctx)
-    return rendered.isEmpty ? nil : rendered
+    let (alt, link) = resolveImageLink(imgIdent, ctx)
+    guard let link = link else { return nil }
+    let img = "<img src=\"\(htmlEscapeAttr(link))\" alt=\"\(htmlEscapeAttr(alt))\" width=\"64\">"
+    return pageUrl.isEmpty ? img : "<a href=\"\(htmlEscapeAttr(pageUrl))\">\(img)</a>"
 }
 
 func renderLinksBlock(_ b: JSONDict, _ ctx: Context) -> String {
@@ -595,11 +622,8 @@ func renderLinksBlock(_ b: JSONDict, _ ctx: Context) -> String {
             let a = strip(renderInline(abstract, ctx))
             if !a.isEmpty { body += " — \(a)" }
         }
-        if let thumb = linkThumbnailMarkdown(ref, ctx) {
-            lines.append("- \(thumb)  \n  \(body)")
-        } else {
-            lines.append("- \(body)")
-        }
+        let prefix = linkThumbnailHTML(ref, ctx, pageUrl: url).map { "\($0) " } ?? ""
+        lines.append("- \(prefix)\(body)")
     }
     return lines.isEmpty ? "" : lines.joined(separator: "\n") + "\n\n"
 }

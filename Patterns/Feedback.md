@@ -53,10 +53,8 @@ The most effective feedback tends to match the significance of the information t
 
 #### Videos
 
-- ![e55d60d2 c7d7 4f96 9a9d 8af4c7d6bb49](https://devimages-cdn.apple.com/wwdc-services/images/42/E55D60D2-C7D7-4F96-9A9D-8AF4C7D6BB49/2247_wide_250x141_2x.jpg)  
-  [Designing Fluid Interfaces](https://developer.apple.com/videos/play/wwdc2018/803) — Discover the techniques used to create the fluid gestural interface of iPhone X. Learn how to design with gestures and motion that feel intuitive and natural, making your app a delight to use.
-- ![2546ecbd 6443 41ec 921d 6429026f8b67](https://devimages-cdn.apple.com/wwdc-services/images/7/2546ECBD-6443-41EC-921D-6429026F8B67/1700_wide_250x141_2x.jpg)  
-  [Essential Design Principles](https://developer.apple.com/videos/play/wwdc2017/802) — Design principles are the key to understanding how design serves human needs for safety, meaning, achievement and beauty. Learn what these principles are and how they can help you design more welcoming, understandable, empowering and gratifying user experiences.
+- <a href="https://developer.apple.com/videos/play/wwdc2018/803"><img src="https://devimages-cdn.apple.com/wwdc-services/images/42/E55D60D2-C7D7-4F96-9A9D-8AF4C7D6BB49/2247_wide_250x141_2x.jpg" alt="e55d60d2 c7d7 4f96 9a9d 8af4c7d6bb49" width="64"></a> [Designing Fluid Interfaces](https://developer.apple.com/videos/play/wwdc2018/803) — Discover the techniques used to create the fluid gestural interface of iPhone X. Learn how to design with gestures and motion that feel intuitive and natural, making your app a delight to use.
+- <a href="https://developer.apple.com/videos/play/wwdc2017/802"><img src="https://devimages-cdn.apple.com/wwdc-services/images/7/2546ECBD-6443-41EC-921D-6429026F8B67/1700_wide_250x141_2x.jpg" alt="2546ecbd 6443 41ec 921d 6429026f8b67" width="64"></a> [Essential Design Principles](https://developer.apple.com/videos/play/wwdc2017/802) — Design principles are the key to understanding how design serves human needs for safety, meaning, achievement and beauty. Learn what these principles are and how they can help you design more welcoming, understandable, empowering and gratifying user experiences.
 
 ---
 *Source: [https://developer.apple.com/design/human-interface-guidelines/feedback](https://developer.apple.com/design/human-interface-guidelines/feedback)*

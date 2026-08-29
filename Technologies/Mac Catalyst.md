@@ -168,8 +168,7 @@ The system automatically converts the context menus in your iPad app to context 
 
 #### Videos
 
-- ![c0f7535c fb17 48d8 8530 f959a9471dce](https://devimages-cdn.apple.com/wwdc-services/images/48/C0F7535C-FB17-48D8-8530-F959A9471DCE/3273_wide_250x141_2x.jpg)  
-  [Designing iPad Apps for Mac](https://developer.apple.com/videos/play/wwdc2019/809) — Discover how you can create a great Mac experience with your iPad app. Learn about essential techniques for adapting your iPad app's layout and architecture for Mac, considerations for type and color, and how you can take advantage of macOS interfaces such as the menu bar, sidebar and window toolbar.
+- <a href="https://developer.apple.com/videos/play/wwdc2019/809"><img src="https://devimages-cdn.apple.com/wwdc-services/images/48/C0F7535C-FB17-48D8-8530-F959A9471DCE/3273_wide_250x141_2x.jpg" alt="c0f7535c fb17 48d8 8530 f959a9471dce" width="64"></a> [Designing iPad Apps for Mac](https://developer.apple.com/videos/play/wwdc2019/809) — Discover how you can create a great Mac experience with your iPad app. Learn about essential techniques for adapting your iPad app's layout and architecture for Mac, considerations for type and color, and how you can take advantage of macOS interfaces such as the menu bar, sidebar and window toolbar.
 
 ## Change log
 

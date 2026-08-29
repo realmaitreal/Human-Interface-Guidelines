@@ -299,8 +299,7 @@ For developer guidance, see [primaryAction](https://developer.apple.com/document
 
 #### Videos
 
-- ![1aaa030e 2eca 47d8 ae09 6d7b72a840f6](https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/1AAA030E-2ECA-47D8-AE09-6D7B72A840F6/10044_wide_250x141_2x.jpg)  
-  [Get to know the new design system](https://developer.apple.com/videos/play/wwdc2025/356) — Dive deeper into the new design system to explore key changes to visual design, information architecture, and core system components. Learn how the system reshapes the relationship between interface and content, enabling you to create designs that are dynamic, harmonious, and consistent across devices, screen sizes, and input modes.
+- <a href="https://developer.apple.com/videos/play/wwdc2025/356"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/1AAA030E-2ECA-47D8-AE09-6D7B72A840F6/10044_wide_250x141_2x.jpg" alt="1aaa030e 2eca 47d8 ae09 6d7b72a840f6" width="64"></a> [Get to know the new design system](https://developer.apple.com/videos/play/wwdc2025/356) — Dive deeper into the new design system to explore key changes to visual design, information architecture, and core system components. Learn how the system reshapes the relationship between interface and content, enabling you to create designs that are dynamic, harmonious, and consistent across devices, screen sizes, and input modes.
 
 ## Change log
 

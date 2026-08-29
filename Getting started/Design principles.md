@@ -188,8 +188,7 @@ People remember how a product makes them feel. Think about the emotions that are
 
 #### Videos
 
-- ![ca6cb08e b5aa 4189 8721 ba9affab2ad9](https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/CA6CB08E-B5AA-4189-8721-BA9AFFAB2AD9/10773_wide_250x141_2x.jpg)  
-  [Principles of great design](https://developer.apple.com/videos/play/wwdc2026/250) — Dive deep into fundamental design principles for Apple platforms.
+- <a href="https://developer.apple.com/videos/play/wwdc2026/250"><img src="https://devimages-cdn.apple.com/wwdc-services/images/9B2E82C5-4DDF-4B9A-9459-328D8E297696/CA6CB08E-B5AA-4189-8721-BA9AFFAB2AD9/10773_wide_250x141_2x.jpg" alt="ca6cb08e b5aa 4189 8721 ba9affab2ad9" width="64"></a> [Principles of great design](https://developer.apple.com/videos/play/wwdc2026/250) — Dive deep into fundamental design principles for Apple platforms.
 
 ## Change log
 

@@ -287,12 +287,10 @@ Game Center supports both real-time and turn-based multiplayer activities that m
 
 #### Videos
 
-- ![0bec1e9e 5221 48f9 853b beda2be23d63](https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/0BEC1E9E-5221-48F9-853B-BEDA2BE23D63/9892_wide_250x141_2x.jpg)  
-  [Get started with Game Center](https://developer.apple.com/videos/play/wwdc2025/214) — Explore the features of Game Center and learn how to get started. We’ll show you best practices for implementing achievements, challenges, leaderboards, and activities to maximize your game’s discoverability, attract new players, and increase engagement.
+- <a href="https://developer.apple.com/videos/play/wwdc2025/214"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/0BEC1E9E-5221-48F9-853B-BEDA2BE23D63/9892_wide_250x141_2x.jpg" alt="0bec1e9e 5221 48f9 853b beda2be23d63" width="64"></a> [Get started with Game Center](https://developer.apple.com/videos/play/wwdc2025/214) — Explore the features of Game Center and learn how to get started. We’ll show you best practices for implementing achievements, challenges, leaderboards, and activities to maximize your game’s discoverability, attract new players, and increase engagement.
 
 To get the most out of this session, we also recommend watching “Engage players with the Apple Games app”.
-- ![0c96ee37 e8a0 46db 88b3 3bf6c3f633dd](https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/0C96EE37-E8A0-46DB-88B3-3BF6C3F633DD/9893_wide_250x141_2x.jpg)  
-  [Engage players with the Apple Games app](https://developer.apple.com/videos/play/wwdc2025/215) — Meet the Games app – a new destination for players to keep up with what’s happening in their games, discover new ones, and play with friends, all in one place. Learn how to set up your game for optimal visibility in the Games app, integrate Game Center to enable social play, and keep players coming back with In-App Events.
+- <a href="https://developer.apple.com/videos/play/wwdc2025/215"><img src="https://devimages-cdn.apple.com/wwdc-services/images/3055294D-836B-4513-B7B0-0BC5666246B0/0C96EE37-E8A0-46DB-88B3-3BF6C3F633DD/9893_wide_250x141_2x.jpg" alt="0c96ee37 e8a0 46db 88b3 3bf6c3f633dd" width="64"></a> [Engage players with the Apple Games app](https://developer.apple.com/videos/play/wwdc2025/215) — Meet the Games app – a new destination for players to keep up with what’s happening in their games, discover new ones, and play with friends, all in one place. Learn how to set up your game for optimal visibility in the Games app, integrate Game Center to enable social play, and keep players coming back with In-App Events.
 
 To get the most out of this session, we also recommend watching “Get started with Game Center”.
 

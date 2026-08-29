@@ -30,8 +30,7 @@ For example, Mail uses a web view to show HTML content in messages.
 
 #### Videos
 
-- ![8a0a5e12 9d2c 4629 a13c 8eb702a9da28](https://devimages-cdn.apple.com/wwdc-services/images/119/8A0A5E12-9D2C-4629-A13C-8EB702A9DA28/4920_wide_250x141_2x.jpg)  
-  [Explore WKWebView additions](https://developer.apple.com/videos/play/wwdc2021/10032) — Explore the latest updates to WKWebView. We’ll show you how to use APIs to manipulate web content without JavaScript, explore delegates that can help with WebRTC and Downloads, and share how you can easily create a richer web experience within your app.
+- <a href="https://developer.apple.com/videos/play/wwdc2021/10032"><img src="https://devimages-cdn.apple.com/wwdc-services/images/119/8A0A5E12-9D2C-4629-A13C-8EB702A9DA28/4920_wide_250x141_2x.jpg" alt="8a0a5e12 9d2c 4629 a13c 8eb702a9da28" width="64"></a> [Explore WKWebView additions](https://developer.apple.com/videos/play/wwdc2021/10032) — Explore the latest updates to WKWebView. We’ll show you how to use APIs to manipulate web content without JavaScript, explore delegates that can help with WebRTC and Downloads, and share how you can easily create a richer web experience within your app.
 
 ---
 *Source: [https://developer.apple.com/design/human-interface-guidelines/web-views](https://developer.apple.com/design/human-interface-guidelines/web-views)*
