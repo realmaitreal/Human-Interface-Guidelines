@@ -69,21 +69,43 @@ Before people can enjoy an AR experience in your app, they need to move their de
 
 **Let people use direct manipulation to interact with objects when possible.** It’s more immersive and intuitive when people can interact with onscreen 3D objects by touching them directly, than by using indirect controls in screen space. However, in situations where people are moving around as they use your app, indirect controls can work better.
 
+<table>
+<tr>
+<td>
+
 ![An illustration showing a cube and a hand with the index finger touching the cube. There's a curved line intersecting the finger and cube to indicate the movement of the finger to the right as it directly manipulates the object.](https://developer.apple.com/tutorials/images/com.apple.HIG/augmented-reality-user-interaction-direct@2x.png)  
 *Direct manipulation*
 
+</td>
+<td>
+
 ![An illustration showing a cube. Below the cube are two buttons, each with a circular arrow pointing in the opposite direction, offering indirect ways to rotate the cube.](https://developer.apple.com/tutorials/images/com.apple.HIG/augmented-reality-user-interaction-indirect@2x.png)  
 *Indirect controls*
+
+</td>
+</tr>
+</table>
 
 **Let people directly interact with virtual objects using standard, familiar gestures.** For example, consider supporting a single-finger drag gesture for moving objects, and a two-finger rotation gesture for spinning objects. For guidance, see [Gestures](../Inputs/Gestures.md).
 
 **In general, keep interactions simple.** Touch gestures are inherently two-dimensional, but an AR experience involves the three dimensions of the real world. Consider the following approaches to simplifying people’s interactions with virtual objects.
 
+<table>
+<tr>
+<td>
+
 ![An illustration showing a sphere. The base of the sphere is on a grid. Two lines that are parallel to the grid and perpendicular to each other pass through the center of the sphere. There's an arrow at the tip of each line, indicating movement direction across the two-dimensional surface of the grid.](https://developer.apple.com/tutorials/images/com.apple.HIG/augmented-reality-plane-movement@2x.png)  
 *Limit movement to the two-dimensional surface on which the object rests.*
 
+</td>
+<td>
+
 ![An illustration showing a sphere. A dotted line runs vertically through the center of the sphere. An arrow wraps around the outside of the sphere and the vertical line, from left to right, indicating the ability to rotate the sphere around the line.](https://developer.apple.com/tutorials/images/com.apple.HIG/augmented-reality-axis-rotation@2x.png)  
 *Limit object rotation to a single axis.*
+
+</td>
+</tr>
+</table>
 
 **Respond to gestures within reasonable proximity of interactive virtual objects.** It can be difficult for people to be precise when aiming to touch specific points on objects that are small, thin, or placed at a distance. When your app detects a gesture near an interactive object, it’s usually best to assume that people want to affect that object.
 
@@ -130,11 +152,22 @@ You can enhance an AR experience by using known images and objects in the real-w
 
 **In a three-dimensional context, prefer 3D hints.** For example, placing a 3D rotation indicator around an object is more intuitive than displaying text-based instructions in a 2D overlay. Avoid displaying textual overlay hints in a 3D context unless people aren’t responding to contextual hints.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of a cube. The base of the cube is indicated with a grid, and the active side of the cube is outlined in blue. Arrows follow a continuous circle around the cube to the right, hinting that the cube can be rotated within the 3D context.](https://developer.apple.com/tutorials/images/com.apple.HIG/augmented-reality-3d-hint@2x.png)  
 *Prefer a 3D hint in a 3D context.*
 
+</td>
+<td>
+
 ![An illustration of a cube. The base of the cube is indicated with a grid, and underneath the cube is the word Rotate, hinting that the cube can be rotated within the 3D space.](https://developer.apple.com/tutorials/images/com.apple.HIG/augmented-reality-2d-hint@2x.png)  
 *If necessary, use a 2D hint in a 3D context.*
+
+</td>
+</tr>
+</table>
 
 **Make important text readable.** Use screen space to display text used for critical labels, annotations, and instructions. If you need to display text in 3D space, make sure the text faces people and that you use the same type size regardless of the distance between the text and the labeled object.
 
@@ -166,11 +199,22 @@ ARKit can’t track device position and orientation during an interruption, such
 
 **Let people reset the experience if it doesn’t meet their expectations.** Don’t force people to wait for conditions to improve or struggle with object placement. Give them a way to start over again and see if they have better results.
 
+<table>
+<tr>
+<td>
+
 ![An illustration showing a corner of a brightly lit office that contains a desk and chair.](https://developer.apple.com/tutorials/images/com.apple.HIG/augmented-reality-sufficient-lighting@2x.png)  
 *Sufficient lighting*
 
+</td>
+<td>
+
 ![An illustration showing a corner of a dark office that contains a desk and chair.](https://developer.apple.com/tutorials/images/com.apple.HIG/augmented-reality-insufficient-lighting@2x.png)  
 *Insufficient lighting*
+
+</td>
+</tr>
+</table>
 
 **Suggest possible fixes if problems occur.** Analysis of the real-world environment and surface detection can fail or take too long for a variety of reasons — insufficient light, an overly reflective surface, a surface without enough detail, or too much camera motion. If your app is notified of these problems, use straightforward, friendly language to offer suggestions for resolving them.
 
@@ -184,9 +228,20 @@ ARKit can’t track device position and orientation during an interruption, such
 
 Apps can display an AR icon in controls that launch ARKit-based experiences. You can download this icon in [Resources](https://developer.apple.com/design/resources/#ios-apps).
 
+<table>
+<tr>
+<td>
+
 ![The AR glyph.](https://developer.apple.com/tutorials/images/com.apple.HIG/augmented-reality-glyph@2x.png)
 
+</td>
+<td>
+
 ![A button containing the AR glyph and the text View in AR.](https://developer.apple.com/tutorials/images/com.apple.HIG/augmented-reality-glyph-button@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Use the AR glyph as intended.** The glyph is strictly for initiating an ARKit-based experience. Never alter the glyph (other than adjusting its size and color), use it for other purposes, or use it in conjunction with AR experiences not created using ARKit.
 
@@ -200,11 +255,22 @@ Apps that include collections of products or other objects can use badging to id
 
 **Use the AR badges as intended and don’t alter them.** You can download AR badges, available in collapsed and expanded form, in [Resources](https://developer.apple.com/design/resources/#ios-apps). Use these images exclusively to identify products or other objects that can be viewed in AR using ARKit. Never alter the badges, change their color, use them for other purposes, or use them in conjunction with AR experiences not created with ARKit.
 
+<table>
+<tr>
+<td>
+
 ![The AR badge with both the glyph and the text AR.](https://developer.apple.com/tutorials/images/com.apple.HIG/augmented-reality-badge-iconandtext@2x.png)  
 *AR badge*
 
+</td>
+<td>
+
 ![The glyph-only AR badge.](https://developer.apple.com/tutorials/images/com.apple.HIG/augmented-reality-badge-icon@2x.png)  
 *Glyph-only AR badge*
+
+</td>
+</tr>
+</table>
 
 **Prefer the AR badge to the glyph-only badge.** In general, use the glyph-only badge for constrained spaces that can’t accommodate the AR badge. Both badges work well at their default size.
 
@@ -214,9 +280,20 @@ Apps that include collections of products or other objects can use badging to id
 
 **Maintain minimum clear space.** The minimum amount of clear space required around an AR badge is 10% of the badge’s height. Don’t allow other elements to infringe on this space and occlude the badge in any way.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of the AR badge with the AR glyph and text AR. A frame surrounds the badge to indicate leaving clear space around the badge.](https://developer.apple.com/tutorials/images/com.apple.HIG/augmented-reality-badge-iconandtext-clear@2x.png)
 
+</td>
+<td>
+
 ![An illustration of the glyph-only AR badge. A frame surrounds the badge to indicate leaving clear space around the badge.](https://developer.apple.com/tutorials/images/com.apple.HIG/augmented-reality-badge-icon-clear@2x.png)
+
+</td>
+</tr>
+</table>
 
 ## Platform considerations
 

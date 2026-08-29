@@ -26,11 +26,22 @@ Liquid Glass forms a distinct functional layer for controls and navigation eleme
 
 The *regular* variant blurs and adjusts the luminosity of background content to maintain legibility of text and other foreground elements. Scroll edge effects further enhance legibility by blurring and reducing the opacity of background content. Most system components use this variant. Use the regular variant when background content might create legibility issues, or when components have a significant amount of text, such as alerts, sidebars, or popovers.
 
+<table>
+<tr>
+<td>
+
 ![A visual example of the regular variant of Liquid Glass, which appears darker when there is a dark background beneath it.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-ios-liquid-glass-over-dark@2x.png)  
 *On dark background*
 
+</td>
+<td>
+
 ![A visual example of the regular variant of Liquid Glass, which appears lighter when there is a light background beneath it.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-ios-liquid-glass-over-light@2x.png)  
 *On light background*
+
+</td>
+</tr>
+</table>
 
 The *clear* variant is highly translucent, which is ideal for prioritizing the visibility of the underlying content and ensuring visually rich background elements remain prominent. Use this variant for components that float above media backgrounds — such as photos and videos — to create a more immersive content experience.
 
@@ -51,15 +62,26 @@ Use standard materials and effects — such as [UIBlurEffect](https://developer.
 
 **Help ensure legibility by using vibrant colors on top of materials.** When you use system-defined vibrant colors, you don’t need to worry about colors seeming too dark, bright, saturated, or low contrast in different contexts. Regardless of the material you choose, use vibrant colors on top of it. For guidance, see [System colors](https://developer.apple.com/design/human-interface-guidelines/color#System-colors).
 
+<table>
+<tr>
+<td>
+
 ![An illustration of a Share button with a translucent background material and a symbol. The symbol uses the systemGray3 color and is difficult to see against the background material.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-legibility-non-vibrant-label@2x.png)  
 *Poor contrast between the material and `systemGray3` label*
 
 ![An X in a circle to indicate incorrect usage](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
+</td>
+<td>
+
 ![An illustration of a Share button with a translucent background material and a symbol. The symbol uses vibrant color and is clearly visible against the background material.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-legibility-primary-label@2x.png)  
 *Good contrast between the material and vibrant color label*
 
 ![A checkmark in a circle to indicate correct usage](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Consider contrast and visual separation when choosing a material to combine with blur and vibrancy effects.** For example, consider that:
 
@@ -74,17 +96,39 @@ For developer guidance, see [Material](https://developer.apple.com/documentation
 
 In addition to Liquid Glass, iOS and iPadOS continue to provide four standard materials — ultra-thin, thin, regular (default), and thick — which you can use in the content layer to help create visual distinction.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of the iOS and iPadOS ultraThin material above a colorful background. Where the material overlaps the background, it provides a diffuse gradient of the background colors.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-ios-material-background-ultrathin@2x.png)  
 *`ultraThin`*
+
+</td>
+<td>
 
 ![An illustration of the iOS and iPadOS thin material above a colorful background. Where the material overlaps the background, it provides a diffuse and slightly darkened gradient of the background colors.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-ios-material-background-thin@2x.png)  
 *`thin`*
 
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+
 ![An illustration of the iOS and iPadOS regular material above a colorful background. Where the material overlaps the background, it provides a diffuse and darkened gradient of the background colors.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-ios-material-background-regular@2x.png)  
 *`regular`*
 
+</td>
+<td>
+
 ![An illustration of the iOS and iPadOS thick material above a colorful background. Where the material overlaps the background, it provides a dark, muted gradient of the background colors.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-ios-material-background-thick@2x.png)  
 *`thick`*
+
+</td>
+</tr>
+</table>
 
 iOS and iPadOS also define vibrant colors for labels, fills, and separators that are specifically designed to work with each material. Labels and fills both have several levels of vibrancy; separators have one level. The name of a level indicates the relative amount of contrast between an element and the background: The default level has the highest contrast, whereas quaternary (when it exists) has the lowest contrast.
 
@@ -136,13 +180,24 @@ In visionOS, windows generally use an unmodifiable system-defined material calle
 
 **Prefer translucency to opaque colors in windows.** Areas of opacity can block people’s view, making them feel constricted and reducing their awareness of the virtual and physical objects around them.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of a field of view in visionOS with a window in the center. The window has an opaque background that obstructs its surroundings.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-visionos-opaque-window-incorrect@2x.png)
 
 ![An X in a circle to indicate incorrect usage](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
+</td>
+<td>
+
 ![An illustration of a field of view in visionOS with a window in the center. The window has a translucent material background that allows its surroundings to pass through.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-visionos-glass-window@2x.png)
 
 ![A checkmark in a circle to indicate correct usage](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
+
+</td>
+</tr>
+</table>
 
 **If necessary, choose materials that help you create visual separations or indicate interactivity in your app.** If you need to create a custom component, you may need to specify a system material for it. Use the following examples for guidance.
 
@@ -160,14 +215,28 @@ visionOS defines three vibrancy values that help you communicate a hierarchy of 
 - Use [UIVibrancyEffectStyle.secondaryLabel](https://developer.apple.com/documentation/uikit/uivibrancyeffectstyle/secondarylabel) for descriptive text like footnotes and subtitles.
 - Use [UIVibrancyEffectStyle.tertiaryLabel](https://developer.apple.com/documentation/uikit/uivibrancyeffectstyle/tertiarylabel) for inactive elements, and only when text doesn’t need high legibility.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of a Share button with a translucent background material and a symbol. The symbol uses the default vibrant label color and has very high contrast against the background material.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-visionos-label-vibrant-primary@2x.png)  
 *`label`*
+
+</td>
+<td>
 
 ![An illustration of a Share button with a translucent background material and a symbol. The symbol uses the secondary vibrant label color and has high contrast against the background material.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-visionos-label-vibrant-secondary@2x.png)  
 *`secondaryLabel`*
 
+</td>
+<td>
+
 ![An illustration of a Share button with a translucent background material and a symbol. The symbol uses the tertiary vibrant label color and has muted contrast against the background material.](https://developer.apple.com/tutorials/images/com.apple.HIG/materials-visionos-label-vibrant-tertiary@2x.png)  
 *`tertiaryLabel`*
+
+</td>
+</tr>
+</table>
 
 ### watchOS
 

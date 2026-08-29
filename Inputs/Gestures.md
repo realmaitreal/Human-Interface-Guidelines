@@ -112,25 +112,53 @@ When designing apps and games that use custom gestures or anchor content to a pe
 
 **Reserve the area around a person’s hand for system overlays and their related gestures.** If possible, don’t anchor content to a person’s hands or wrists. If you’re designing a game that involves hand-anchored content, place it outside of the immediate area of someone’s hand to avoid colliding with the Home indicator.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of a person's open hand with the palm facing upward. A dashed circular line above the hand indicates the area reserved for system overlays.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-hand-area-of-focus@2x.png)  
 *The area reserved for interacting with system overlays.*
+
+</td>
+<td>
 
 ![An illustration of a person's open hand with the palm facing upward. A button with a circle icon representing the Home indicator appears above the palm.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-spatial-gesture-home-indicator@2x.png)  
 *A person looks at their palm to reveal the Home indicator.*
 
+</td>
+<td>
+
 ![An illustration of a person's open hand with the palm facing downward. An overlay with the status bar appears above the hand.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-spatial-gesture-control-center@2x.png)  
 *A person turns their hand to reveal the status bar, and can tap to open Control Center.*
 
+</td>
+</tr>
+</table>
+
 **Consider deferring the system overlay behavior when designing an immersive app or game.** In certain circumstances, you may not want the Home indicator to appear when someone looks at the palm of their hand. For example, a game that uses virtual hands or gloves may want to keep someone within the world of the story, even if they happen to look at their hands from different angles. In such cases, when your app is running in a Full Space, you can choose to require a tap to reveal the Home indicator instead. For developer guidance, see [persistentSystemOverlays(_:)](https://developer.apple.com/documentation/swiftui/view/persistentsystemoverlays(_:)).
+
+<table>
+<tr>
+<td>
 
 ![An image of a person's open hand with the palm facing upward, shown from the person's perspective. A button with a circle icon representing the Home indicator appears above the palm. The image background shows the room that's the person's surroundings.](https://developer.apple.com/tutorials/images/com.apple.HIG/gestures-default-home-indicator@2x.png)  
 *Default behavior in the Shared Space*
 
+</td>
+<td>
+
 ![An image of a person's open hand with the palm facing upward, shown from the person's perspective. A button with a circle icon representing the Home indicator appears above the palm. The image background shows a forest in a fully immersive space.](https://developer.apple.com/tutorials/images/com.apple.HIG/gestures-home-indicator-in-immersive-space@2x.png)  
 *Default behavior in a Full Space*
 
+</td>
+<td>
+
 ![An image of a person's open hand wearing a bulky space suit glove, shown from the person's perspective. The palm faces upward, and no button appears above it. The image background shows a starry sky in a fully immersive space.](https://developer.apple.com/tutorials/images/com.apple.HIG/gestures-fully-immersive-game-with-glove@2x.png)  
 *Deferred behavior in a Full Space*
+
+</td>
+</tr>
+</table>
 
 > **Note**
 >

@@ -26,43 +26,87 @@ The Camera Control offers two types of controls for adjusting values or changing
 - A *slider* provides a range of values to choose from, such as how much contrast to apply to the content.
 - A *picker* offers discrete options, such as turning a grid on and off in the viewfinder.
 
+<table>
+<tr>
+<td>
+
 ![A partial screenshot of the Camera Control overlay displaying a slider control.](https://developer.apple.com/tutorials/images/com.apple.HIG/camera-control-slider-control@2x.png)  
 *Slider control*
+
+</td>
+<td>
 
 ![A partial screenshot of the Camera Control overlay displaying a picker control.](https://developer.apple.com/tutorials/images/com.apple.HIG/camera-control-picker-control@2x.png)  
 *Picker control*
 
+</td>
+</tr>
+</table>
+
 In addition to custom controls that you create, the system provides a set of standard controls that you can optionally include in the overlay to allow someone to adjust their camera’s zoom and exposure.
+
+<table>
+<tr>
+<td>
 
 ![A partial screenshot of the Camera Control overlay displaying the system zoom factor control.](https://developer.apple.com/tutorials/images/com.apple.HIG/system-control-type-zoom-factor@2x.png)  
 *Zoom factor control*
 
+</td>
+<td>
+
 ![A partial screenshot of the Camera Control overlay displaying the system exposure bias control.](https://developer.apple.com/tutorials/images/com.apple.HIG/system-control-type-exposure-bias@2x.png)  
 *Exposure bias control*
+
+</td>
+</tr>
+</table>
 
 ## Best practices
 
 **Use SF Symbols to represent control functionality.** The system doesn’t support custom symbols; instead, pick a symbol from SF Symbols that clearly denotes a control’s behavior. iOS offers thousands of symbols you can use to represent the controls your app shows in the overlay. Symbols for controls don’t represent their current state. To view available symbols, see the Camera & Photos section in the [SF Symbols app](https://developer.apple.com/sf-symbols/).
 
+<table>
+<tr>
+<td>
+
 ![A partial screenshot of the Camera Control overlay displaying a camera flash control that uses the bolt.fill symbol.](https://developer.apple.com/tutorials/images/com.apple.HIG/camera-control-picker-sf-symbols-flash@2x.png)  
 *The `bolt.fill` symbol that represents a control for the camera flash*
+
+</td>
+<td>
 
 ![A partial screenshot of the Camera Control overlay displaying a camera filters control that uses the camera.filters symbol.](https://developer.apple.com/tutorials/images/com.apple.HIG/camera-control-picker-sf-symbols-filters@2x.png)  
 *The `camera.filters` symbol that represents a control for filters*
 
+</td>
+</tr>
+</table>
+
 **Keep names of controls short.** Control labels adhere to Dynamic Type sizes, and longer names may obfuscate the camera’s viewfinder.
 
 **Include units or symbols with slider control values to provide context.** Providing descriptive information in the overlay, such as EV, %, or a custom string, helps people understand what the slider controls. For developer guidance, see [localizedValueFormat](https://developer.apple.com/documentation/avfoundation/avcaptureslider/localizedvalueformat).
+
+<table>
+<tr>
+<td>
 
 ![A partial screenshot showing an example of the Camera Control overlay with a slider control displaying a value and context for the type of value.](https://developer.apple.com/tutorials/images/com.apple.HIG/system-control-with-label@2x.png)
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)  
 *Value with context*
 
+</td>
+<td>
+
 ![A partial screenshot showing an example of the Camera Control overlay with a slider control displaying a value without information about what the value represents.](https://developer.apple.com/tutorials/images/com.apple.HIG/system-control-no-label@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)  
 *Value without context*
+
+</td>
+</tr>
+</table>
 
 **Define prominent values for a slider control.** Prominent values are ones people choose most frequently, or values that are evenly spaced, like the major increments of zoom factor. When a person slides on the Camera Control to adjust a slider control, the system more easily lands on prominent values you define. For developer guidance, see [prominentValues](https://developer.apple.com/documentation/avfoundation/avcaptureslider/prominentvalues-199dz).
 
@@ -72,15 +116,26 @@ In addition to custom controls that you create, the system provides a set of sta
 
 **Minimize distractions in the viewfinder.** When capturing a photo or video, people appreciate a large preview image with as few visual distractions as possible. Avoid duplicating controls, like sliders and toggles, in your UI and the overlay when the system displays the overlay.
 
+<table>
+<tr>
+<td>
+
 ![A partial screenshot showing an example of the Camera Control overlay with UI elements removed from the capture viewport.](https://developer.apple.com/tutorials/images/com.apple.HIG/camera-control-screen-ui-good-example@2x.png)
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)  
 *Keep UI minimal.*
 
+</td>
+<td>
+
 ![A partial screenshot showing an example of the Camera Control overlay with UI elements duplicated in the capture viewport.](https://developer.apple.com/tutorials/images/com.apple.HIG/camera-control-screen-ui-bad-example@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)  
 *Avoid showing controls in the viewfinder that people access in the overlay.*
+
+</td>
+</tr>
+</table>
 
 **Enable or disable controls depending on the camera mode.** For example, disable video controls when taking photos. The overlay supports multiple controls, but you can’t remove or add controls at runtime.
 

@@ -12,11 +12,22 @@
 
 **Consider temporarily hiding the status bar when displaying full-screen media.** A status bar can be distracting when people are paying attention to media. Temporarily hide these elements to provide a more immersive experience. The Photos app, for example, hides the status bar and other interface elements when people browse full-screen photos.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of the top half of the Photos app on iPhone, showing a photo filling the screen. The status bar is visible at the top of the screen.](https://developer.apple.com/tutorials/images/com.apple.HIG/status-bar-visible@2x.png)  
 *The Photos app with the status bar visible*
 
+</td>
+<td>
+
 ![A screenshot of the top half of the Photos app on iPhone, showing a photo filling the screen. The status bar is hidden, and only the photo is visible.](https://developer.apple.com/tutorials/images/com.apple.HIG/status-bar-hidden@2x.png)  
 *The Photos app with the status bar hidden*
+
+</td>
+</tr>
+</table>
 
 **Avoid permanently hiding the status bar.** Without a status bar, people have to leave your app to check the time or see if they have a Wi-Fi connection. Let people redisplay a hidden status bar with a simple, discoverable gesture. For example, when browsing full-screen photos in the Photos app, a single tap shows the status bar again.
 

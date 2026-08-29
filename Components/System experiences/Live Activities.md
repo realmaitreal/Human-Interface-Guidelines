@@ -96,13 +96,24 @@ For design guidance, see [StandBy presentation](https://developer.apple.com/desi
 
 **Ensure text is easy to read.** Use large, heavier-weight text — a medium weight or higher. Use small text sparingly and make sure key information is legible at a glance.
 
+<table>
+<tr>
+<td>
+
 ![An illustration that shows text in the Dynamic Island that's small and difficult to read.](https://developer.apple.com/tutorials/images/com.apple.HIG/live-activities-text-incorrect-size@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
+</td>
+<td>
+
 ![An illustration that shows text in the Dynamic Island with heavier weights and legible size.](https://developer.apple.com/tutorials/images/com.apple.HIG/live-activities-text-correct-size@2x.png)
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
+
+</td>
+</tr>
+</table>
 
 ### Creating Live Activity layouts
 
@@ -120,39 +131,75 @@ For design guidance, see [StandBy presentation](https://developer.apple.com/desi
 
 Keep content compact and snug within a margin that’s concentric to the outer edge of the Live Activity.
 
+<table>
+<tr>
+<td>
+
 ![An illustration that shows how a Live Activity places an icon too far from the edge of the Dynamic Island.](https://developer.apple.com/tutorials/images/com.apple.HIG/live-activities-content-incorrect-position@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
+
+</td>
+<td>
 
 ![An illustration that shows how a Live Activity places an icon close to the edge of the Dynamic Island without poking into the rounded shape of the Dynamic Island.](https://developer.apple.com/tutorials/images/com.apple.HIG/live-activities-content-correct-position@2x.png)
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
+</td>
+</tr>
+</table>
+
 **When separating a block of content, place it in an inset container shape or use a thick line.** Don’t draw content all the way to the edge of the Dynamic Island.
+
+<table>
+<tr>
+<td>
 
 ![An illustration that shows how a Live Activity draws content all the way to the edge of the Dynamic Island to separate content.](https://developer.apple.com/tutorials/images/com.apple.HIG/live-activities-separating-content-incorrect@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
+</td>
+<td>
+
 ![An illustration of a Live Activity with content in an inset, rounded shape to group it together.](https://developer.apple.com/tutorials/images/com.apple.HIG/live-activities-separating-content-pill@2x.png)
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
+
+</td>
+<td>
 
 ![An illustration of a Live Activity that uses a line to separate a block of content.](https://developer.apple.com/tutorials/images/com.apple.HIG/live-activities-separating-content-separator@2x.png)
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
+</td>
+</tr>
+</table>
+
 > **Tip**
 >
 > To align nonrounded content in the rounded corners of the Live Activity view, it may be helpful to blur the nonrounded content in your drawing tool. When the content is blurred, it may be easier to find the positioning that best aligns with the outer perimeter of the view.
+
+<table>
+<tr>
+<td>
 
 ![An illustration that shows a Live Activity with blurred text that's too far from the edge of the Dynamic Island.](https://developer.apple.com/tutorials/images/com.apple.HIG/live-activities-blur-content-incorrect-position@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
+</td>
+<td>
+
 ![An illustration that shows a Live Activity with blurred text that's close to the edge of the Dynamic Island without poking into the rounded shape of the Dynamic Island.](https://developer.apple.com/tutorials/images/com.apple.HIG/live-activities-blur-content-correct-position@2x.png)
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Dynamically change the height of your Live Activity on the Lock Screen or in the expanded presentation.** When there’s less information to show, reduce the height of the Live Activity to only use the space needed for the content. When more information becomes available, increase the height to display additional content. For example, a rideshare app might display a more compact Live Activity without additional details while it locates a driver. The app’s height extends as more information is available to display the estimated pickup time, driver details, and so on.
 
@@ -212,13 +259,24 @@ Your Live Activity needs to support all locations, devices, and their correspond
 
 **Keep content as narrow as possible and ensure it’s snug against the TrueDepth camera.** Try not to obscure key information in the status bar, and don’t add padding between content and the TrueDepth camera. Maintain a balanced layout with similarly sized views for both leading and trailing elements; for example, use shortened units or less precise data to maintain appropriate width and balance.
 
+<table>
+<tr>
+<td>
+
 ![An illustration that shows a compact presentation that appears unbalanced and too wide because it uses padding around the TrueDepth camera.](https://developer.apple.com/tutorials/images/com.apple.HIG/live-activities-unbalanced-content@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
+</td>
+<td>
+
 ![An illustration that shows a compact presentation that’s snug around the TrueDepth camera.](https://developer.apple.com/tutorials/images/com.apple.HIG/live-activities-balanced-content@2x.png)
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Link to relevant app content.** When people tap a compact Live Activity, open your app directly to the related details. Ensure both leading and trailing elements link to the same screen.
 
@@ -232,13 +290,24 @@ Your Live Activity needs to support all locations, devices, and their correspond
 
 **Wrap content tightly around the TrueDepth camera.** Arrange content close to the TrueDepth camera, and try to avoid leaving too much room around it to use space more efficiently and to help diminish the camera’s presence.
 
+<table>
+<tr>
+<td>
+
 ![An illustration that shows an expanded presentation of a Live Activity that leaves empty space next to the TrueDepth camera.](https://developer.apple.com/tutorials/images/com.apple.HIG/live-activities-layout-incorrect@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
+</td>
+<td>
+
 ![An illustration that shows an expanded presentation of a Live Activity that uses the space next to the TrueDepth camera.](https://developer.apple.com/tutorials/images/com.apple.HIG/live-activities-layout-correct@2x.png)
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
+
+</td>
+</tr>
+</table>
 
 ### Lock Screen presentation
 
@@ -295,11 +364,22 @@ If you offer a watchOS app and someone taps the Live Activity in the Smart Stack
 ![An illustration that shows the compact presentation of a Live Activity in the Dynamic Island on iPhone.](https://developer.apple.com/tutorials/images/com.apple.HIG/live-activities-ios-dynamic-island-default@2x.png)  
 *iPhone compact view*
 
+<table>
+<tr>
+<td>
+
 ![An illustration that shows the automatically generated default presentation of a Live Activity in a Smart Stack view, with the leading and trailing elements from the iPhone compact view spaced apart in the lower corners.](https://developer.apple.com/tutorials/images/com.apple.HIG/live-activity-watch-default-implementation@2x.png)  
 *Default Smart Stack view*
 
+</td>
+<td>
+
 ![An illustration that shows a custom presentation of a Live Activity in a Smart Stack view, with a balanced design that shows a graphical countdown timer balanced with explanatory text.](https://developer.apple.com/tutorials/images/com.apple.HIG/live-activity-watch-custom-implementation@2x.png)  
 *Custom Smart Stack view*
+
+</td>
+</tr>
+</table>
 
 **Focus on essential information and significant updates.** Use space in the Smart Stack as efficiently as possible and think of the most useful information that a Live Activity can convey:
 

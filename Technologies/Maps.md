@@ -21,11 +21,22 @@ A map uses a familiar interface that supports much of the same functionality as 
 - The *default* style presents a version of the map with fully saturated colors, and is a good option for most standard map applications without a lot of custom elements. This style is also useful for keeping visual alignment between your map and the Maps app, in situations when people might switch between them.
 - The *muted* style, by contrast, presents a desaturated version of the map. This style is great if you have a lot of information-rich content that you want to stand out against the map.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of a map on iPhone showing Coit Tower with the default emphasis style.](https://developer.apple.com/tutorials/images/com.apple.HIG/maps-default-appearance@2x.png)  
 *Default style*
 
+</td>
+<td>
+
 ![A screenshot of a map on iPhone showing Coit Tower with desaturated colors, representing the muted emphasis style.](https://developer.apple.com/tutorials/images/com.apple.HIG/maps-muted-appearance@2x.png)  
 *Muted style*
+
+</td>
+</tr>
+</table>
 
 For developer guidance, see [MKStandardMapConfiguration.EmphasisStyle](https://developer.apple.com/documentation/mapkit/mkstandardmapconfiguration/emphasisstyle-swift.enum).
 
@@ -35,11 +46,22 @@ For developer guidance, see [MKStandardMapConfiguration.EmphasisStyle](https://d
 
 **Cluster overlapping points of interest to improve map legibility.** A *cluster* uses a single pin to represent multiple points of interest within close proximity. As people zoom in on a map, clusters expand to progressively reveal individual points of interest.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of a single pin with the number three, representing a cluster of three points of interest that are within close proximity.](https://developer.apple.com/tutorials/images/com.apple.HIG/maps-points-of-interest-cluster@2x.png)  
 *Points of interest in a cluster*
 
+</td>
+<td>
+
 ![A screenshot of three orange pins when zoomed in, representing three individual points of interest.](https://developer.apple.com/tutorials/images/com.apple.HIG/maps-points-of-interest-individual@2x.png)  
 *Individual points of interest when zoomed in*
+
+</td>
+</tr>
+</table>
 
 **Help people see the Apple logo and legal link.** It’s fine when parts of your interface temporarily cover the logo and link, but don’t cover these elements all the time. Follow these guidelines to help keep the Apple logo and legal link visible:
 

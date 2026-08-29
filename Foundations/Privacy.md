@@ -66,15 +66,26 @@ Ideally, the current context helps people understand why you’re requesting the
 
 **Don’t include additional actions in your custom screen or window.** For example, don’t provide a way for people to leave the screen or window without viewing the system alert — like offering an option to close or cancel.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of an app’s pre-alert screen that includes a button titled Cancel that appears below the Next button.](https://developer.apple.com/tutorials/images/com.apple.HIG/privacy-custom-messaging-incorrect-cancel-button@2x.png)
 
 ![An X in a circle to indicate an incorrect example.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)  
 *Don’t include an option to cancel.*
 
+</td>
+<td>
+
 ![A screenshot of an app’s pre-alert screen that includes a Close button in the top-left corner. The Next button appears near the bottom of the screen.](https://developer.apple.com/tutorials/images/com.apple.HIG/privacy-custom-messaging-incorrect-close-button@2x.png)
 
 ![An X in a circle to indicate an incorrect example.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)  
 *Don’t include an option to close the view.*
+
+</td>
+</tr>
+</table>
 
 ### Tracking requests
 

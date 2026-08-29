@@ -50,14 +50,28 @@ To ensure that your icon looks great in any context and on various devices, crea
 
 Messages supports small, regular, and large stickers. Pick the size that works best for your content and prepare all of your stickers at that size; don’t mix sizes within a single sticker pack. Messages displays stickers in a grid, organized differently for different sizes.
 
+<table>
+<tr>
+<td>
+
 ![An illustration showing a grid of small stickers in the bottom half of an iPhone screen. Eight stickers are visible in the area, followed by a partial row of four, arranged in three rows.](https://developer.apple.com/tutorials/images/com.apple.HIG/sticker-sizes-small@2x.png)  
 *Small*
+
+</td>
+<td>
 
 ![An illustration showing a grid of regular stickers in the bottom half of an iPhone screen. Six stickers are visible in the area, in two rows of three.](https://developer.apple.com/tutorials/images/com.apple.HIG/sticker-sizes-regular@2x.png)  
 *Regular*
 
+</td>
+<td>
+
 ![An illustration showing a grid of large stickers in the bottom half of an iPhone screen. Two stickers are fully visible in the area, followed by a partial row of two additional stickers.](https://developer.apple.com/tutorials/images/com.apple.HIG/sticker-sizes-large@2x.png)  
 *Large*
+
+</td>
+</tr>
+</table>
 
 Create your sticker images using the following @3x dimensions for the sticker size you chose. If necessary, the system generates @2x and @1x versions by downscaling the images at runtime. For developer guidance, see [MSStickerSize](https://developer.apple.com/documentation/messages/msstickersize).
 

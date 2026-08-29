@@ -32,19 +32,41 @@ In addition to toggles, all platforms also support buttons that behave like togg
 
 **Change the default color of a switch only if necessary.** The default green color tends to work well in most cases, but you might want to use your app’s accent color instead. Be sure to use a color that provides enough contrast with the uncolored appearance to be perceptible.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of two list rows, one with an active switch toggle and one with an inactive switch toggle. The active toggle is tinted green with the standard switch color.](https://developer.apple.com/tutorials/images/com.apple.HIG/toggles-ios-default-color@2x.png)  
 *Standard switch color*
+
+</td>
+<td>
 
 ![An illustration of two list rows, one with an active switch toggle and one with an inactive switch toggle. The active toggle is tinted purple with a custom switch color.](https://developer.apple.com/tutorials/images/com.apple.HIG/toggles-ios-custom-color@2x.png)  
 *Custom switch color*
 
+</td>
+</tr>
+</table>
+
 **Outside of a list, use a button that behaves like a toggle, not a switch.** For example, the Phone app uses a toggle on the filter button to let users filter their recent calls.  The app adds a blue highlight to indicate when the toggle is active, and removes it when the toggle is inactive.
+
+<table>
+<tr>
+<td>
 
 ![A screenshot of the top half of the Phone app on iPhone, showing the filtered list of recent missed calls. The filter button in the top trailing corner has a blue highlight, indicating that the toggle is active.](https://developer.apple.com/tutorials/images/com.apple.HIG/toggles-ios-phone-filter-on@2x.png)  
 *The Phone app uses a toggle to switch between all recent calls and various filter options. When someone chooses a filter, the toggle appears with a custom background drawn behind the symbol.*
 
+</td>
+<td>
+
 ![A screenshot of the top half of the Phone app on iPhone, showing all recent calls. The filter button in the top trailing corner has no highlight, indicating that the toggle is inactive.](https://developer.apple.com/tutorials/images/com.apple.HIG/toggles-ios-phone-filter-off@2x.png)  
 *When someone returns to the main Recents view, the toggle appears without anything behind the symbol.*
+
+</td>
+</tr>
+</table>
 
 **Avoid supplying a label that explains the button’s purpose.** The interface icon you create — combined with the alternative background appearances you supply — help people understand what the button does. For developer guidance, see [changesSelectionAsPrimaryAction](https://developer.apple.com/documentation/uikit/uibutton/changesselectionasprimaryaction).
 
@@ -76,14 +98,28 @@ A checkbox is a small, square button that’s empty when the button is off, cont
 
 **Accurately reflect a checkbox’s state in its appearance.** A checkbox’s state can be on, off, or mixed. If you use a checkbox to globally turn on and off multiple subordinate checkboxes, show a mixed state when the subordinate checkboxes have different states. For example, you might need to present a text-style setting that turns all styles on or off, but also lets people choose a subset of individual style settings like bold, italic, or underline. For developer guidance, see [allowsMixedState](https://developer.apple.com/documentation/appkit/nsbutton/allowsmixedstate).
 
+<table>
+<tr>
+<td>
+
 ![An illustration that shows a checkbox with the on state, which looks like a small rounded square with blue fill and a white checkmark.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkbox-selected@2x.png)  
 *On*
+
+</td>
+<td>
 
 ![An illustration that shows a checkbox with the off state, which looks like a small rounded square with no fill.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkbox-deselected@2x.png)  
 *Off*
 
+</td>
+<td>
+
 ![An illustration that shows a checkbox with the mixed state, which looks like a small rounded square with blue fill and a white hyphen.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkbox-mixed@2x.png)  
 *Mixed*
+
+</td>
+</tr>
+</table>
 
 #### Radio buttons
 
@@ -93,11 +129,22 @@ A radio button is a small, circular button followed by a label. Typically displa
 
 A radio button’s state is either selected (a filled circle) or deselected (an empty circle). Although a radio button can also display a mixed state (indicated by a dash), this state is rarely useful because you can communicate multiple states by using additional radio buttons. If you need to show that a setting or item has a mixed state, consider using a checkbox instead.
 
+<table>
+<tr>
+<td>
+
 ![An illustration that shows a selected radio button, which looks like a white dot centered in a small circle with a dark fill.](https://developer.apple.com/tutorials/images/com.apple.HIG/radio-button-selected@2x.png)  
 *Selected*
 
+</td>
+<td>
+
 ![An illustration that shows a deselected radio button, which looks like a small, empty circle.](https://developer.apple.com/tutorials/images/com.apple.HIG/radio-button-deselected@2x.png)  
 *Deselected*
+
+</td>
+</tr>
+</table>
 
 **Prefer a set of radio buttons to present mutually exclusive options.** If you need to let people choose multiple options in a set, use checkboxes instead.
 

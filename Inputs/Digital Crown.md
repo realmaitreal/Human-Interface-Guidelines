@@ -12,11 +12,22 @@
 
 On both Apple Vision Pro and Apple Watch, people can use the Digital Crown to interact with the system; on Apple Watch, people can also use the Digital Crown to interact with apps.
 
+<table>
+<tr>
+<td>
+
 ![A close-up photograph of a person's head wearing Apple Vision Pro, with their index finger pointing at the Digital Crown.](https://developer.apple.com/tutorials/images/com.apple.HIG/digital-crown-apple-vision-pro@2x.png)  
 *The Digital Crown on Apple Vision Pro*
 
+</td>
+<td>
+
 ![A close-up photograph of Apple Watch, shown at an angle, with the Digital Crown prominently featured at the center of the image.](https://developer.apple.com/tutorials/images/com.apple.HIG/digital-crown-apple-watch@2x.png)  
 *The Digital Crown on Apple Watch*
+
+</td>
+</tr>
+</table>
 
 ## Apple Vision Pro
 

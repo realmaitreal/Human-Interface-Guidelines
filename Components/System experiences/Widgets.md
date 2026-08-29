@@ -62,14 +62,28 @@ For example, a small system widget appears differently depending on the device a
 
 - On the Home Screen of iPhone and iPad, people choose from different appearances for widgets: light, dark, clear, and tinted. In light and dark appearances, widgets have a full-color design. In a clear appearance, the system desaturates the widget and adds translucency, highlights, and the Liquid Glass material. In a tinted appearance, the system desaturates the widget and its content, then applies a person’s selected tint color.
 
+<table>
+<tr>
+<td>
+
 ![An image of the small Stocks widget on the Home Screen in the full-color appearance.](https://developer.apple.com/tutorials/images/com.apple.HIG/widgets-stocks-default@2x.png)  
 *Full-color*
+
+</td>
+<td>
 
 ![An image of the small Stocks widget on the Home Screen in the clear appearance.](https://developer.apple.com/tutorials/images/com.apple.HIG/widgets-stocks-clear@2x.png)  
 *Clear*
 
+</td>
+<td>
+
 ![An image of the small Stocks widget on the Home Screen in the tinted appearance.](https://developer.apple.com/tutorials/images/com.apple.HIG/widgets-stocks-tinted@2x.png)  
 *Tinted*
+
+</td>
+</tr>
+</table>
 
 - On Apple Vision Pro, the widget appears as a 3D object, surrounded by a frame. It takes on a full-color appearance with a glass- or paper-like coating layer that responds to lighting conditions. Additionally, people can choose a tinted appearance that applies a color from a set of system-provided color palettes.
 
@@ -81,11 +95,22 @@ For example, a small system widget appears differently depending on the device a
 
 - On the Lock Screen of iPhone in StandBy, the widget appears scaled up in size with the background removed. When the ambient light falls below a threshold, the system renders the widget with a monochromatic red tint.
 
+<table>
+<tr>
+<td>
+
 ![An image of the Stocks widget on the Lock Screen in StandBy, showing the price of Apple stock.](https://developer.apple.com/tutorials/images/com.apple.HIG/widgets-stocks-standby@2x.png)  
 *StandBy*
 
+</td>
+<td>
+
 ![An image of the Stocks widget on the Lock Screen that uses the dark appearance in low-light conditions, showing the price of Apple stock.](https://developer.apple.com/tutorials/images/com.apple.HIG/widgets-stocks-standby-night-mode@2x.png)  
 *iPhone in StandBy during low-light conditions*
+
+</td>
+</tr>
+</table>
 
 Similarly, a rectangular accessory widget appears as follows:
 
@@ -150,11 +175,22 @@ To remain relevant and useful, widgets periodically refresh their information bu
 
 People tap or click a widget to launch its corresponding app. It can also include buttons and toggles to offer additional functionality without launching the app. For example, the Reminders widget includes toggles to mark a task as completed.  When people interact with your widget in areas that aren’t buttons or toggles, the interaction launches your app.
 
+<table>
+<tr>
+<td>
+
 ![An image of the large Reminders widget with a toggle for each task. None of the tasks is complete.](https://developer.apple.com/tutorials/images/com.apple.HIG/widgets-reminders-large-unselected@2x.png)  
 *Incomplete tasks*
 
+</td>
+<td>
+
 ![An image of the large Reminders widget with a toggle for each task. The toggles for the first and third items in the list indicate that these tasks are complete.](https://developer.apple.com/tutorials/images/com.apple.HIG/widgets-reminders-large-selected@2x.png)  
 *Completed tasks*
+
+</td>
+</tr>
+</table>
 
 **Offer simple, relevant functionality and reserve complexity for your app.** Useful widgets offer an easy way to complete a task or action that’s directly related to its content.
 
@@ -200,9 +236,20 @@ As you design for various devices and scale factors, use the values listed in [S
 
 **Support light and dark appearances.** Prefer light backgrounds for the light appearance and dark backgrounds for the dark appearance, and consider using the semantic system colors for text and backgrounds to let the colors dynamically adapt to the current appearance. You can also support different appearances by putting color variants in your asset catalog. For guidance, see [Dark Mode](../../Foundations/Dark%20Mode.md); for developer guidance, see [Asset management](https://developer.apple.com/documentation/xcode/asset-management) and [Supporting Dark Mode in your interface](https://developer.apple.com/documentation/uikit/supporting-dark-mode-in-your-interface).
 
+<table>
+<tr>
+<td>
+
 ![An image of the small Notes widget. Below the yellow bar that contains the app icon and name, the widget displays a single note in black text on a white background.](https://developer.apple.com/tutorials/images/com.apple.HIG/widgets-notes-light-appearance@2x.png)
 
+</td>
+<td>
+
 ![An image of the small Notes widget. Below the yellow bar that contains the app icon and name, the widget displays a single note in white text on a black background.](https://developer.apple.com/tutorials/images/com.apple.HIG/widgets-notes-dark-appearance@2x.png)
+
+</td>
+</tr>
+</table>
 
 ### Accented
 
@@ -222,9 +269,20 @@ For developer guidance, see [widgetAccentable(_:)](https://developer.apple.com/d
 
 **Design placeholder content that helps people recognize your widget.** An installed widget displays placeholder content while its data loads. Create an effective placeholder appearance by combining static interface components with semi-opaque shapes that stand in for dynamic content. For example, use rectangles of different widths to suggest lines of text, and circles or squares in place of glyphs and images.
 
+<table>
+<tr>
+<td>
+
 ![An image of a small Tips widget that displays placeholder content on top of a yellow background. In the bottom half of the widget, three horizontal bars in different shades of yellow represent lines of text.](https://developer.apple.com/tutorials/images/com.apple.HIG/widgets-tips-placeholder-content@2x.png)
 
+</td>
+<td>
+
 ![An image of a small Tips widget that displays actual data on top of a yellow background. The horizontal bars in the placeholder widget are replaced by three short lines of text in different shades of yellow.](https://developer.apple.com/tutorials/images/com.apple.HIG/widgets-tips-full-content@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Write a succinct widget description.** The widget gallery displays descriptions that help people understand what each widget does. Begin a description with an action verb — for example, “See the current weather conditions and forecast for a location” or “Keep track of your upcoming events and meetings.” Avoid including unnecessary phrases that reference the widget itself, like “This widget shows…,” “Use this widget to…,” or “Add this widget.” Use approachable language and [sentence-style capitalization](https://support.apple.com/guide/applestyleguide/c-apsgb744e4a3/web#apdca93e113f1d64).
 
@@ -232,9 +290,20 @@ For developer guidance, see [widgetAccentable(_:)](https://developer.apple.com/d
 
 **Consider coloring the Add button.** After people choose your app in the widget gallery, an Add button appears below the group of widgets you offer. You can specify a color for this button to help remind people of your brand.
 
+<table>
+<tr>
+<td>
+
 ![An illustration that represents the widget gallery open to the small widget for the Notes app. Below the widget is a page control showing that this is the first page of six; below the page control is a button that uses the Notes app's yellow accent color.](https://developer.apple.com/tutorials/images/com.apple.HIG/widgets-add-button-tint-color-notes@2x.png)
 
+</td>
+<td>
+
 ![An illustration that represents the widget gallery open to the small widget for the Weather app. Below the widget is a page control showing that this is the first page of six; below the page control is a button that uses the Weather app's blue accent color.](https://developer.apple.com/tutorials/images/com.apple.HIG/widgets-add-button-tint-color-weather@2x.png)
+
+</td>
+</tr>
+</table>
 
 ## Platform considerations
 
@@ -283,11 +352,22 @@ For developer guidance, see [Updating your widgets for visionOS](https://develop
 
 Widgets on Apple Vision Pro can adapt based on a person’s proximity, and visionOS provides widgets with two key thresholds to design for: the [simplified](https://developer.apple.com/documentation/widgetkit/levelofdetail/simplified) threshold for when a person views a widget at a distance, and the [default](https://developer.apple.com/documentation/widgetkit/levelofdetail/default) threshold when a person views it nearby.
 
+<table>
+<tr>
+<td>
+
 ![A placeholder image showing a widget viewed from a distance in visionOS.](https://developer.apple.com/tutorials/images/com.apple.HIG/widgets-extra-large-portrait-far-proximity@2x.png)  
 *Viewed from a distance*
 
+</td>
+<td>
+
 ![A placeholder image showing a widget viewed from nearby in visionOS.](https://developer.apple.com/tutorials/images/com.apple.HIG/widgets-extra-large-portrait-close-proximity@2x.png)  
 *Viewed from nearby*
+
+</td>
+</tr>
+</table>
 
 Because widgets can appear throughout a person’s environment, it’s also important to match a widget’s size to the type of content it contains, and to be aware of how it appears at a variety of distances.
 

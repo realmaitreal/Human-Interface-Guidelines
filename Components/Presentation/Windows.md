@@ -86,11 +86,22 @@ The system gives main, key, and inactive windows different appearances to help p
 
 visionOS defines two main window styles: default and volumetric. Both a default window (called a *window*) and a volumetric window (called a *volume*) can display 2D and 3D content, and people can view multiple windows and volumes at the same time in both the Shared Space and a Full Space.
 
+<table>
+<tr>
+<td>
+
 ![An illustration representing a window in visionOS. The illustration consists of two parallel rounded rectangles, slightly separated and displayed on an angle, positioned above a window bar.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-window-style-2d-window@2x.png)  
 *A window*
 
+</td>
+<td>
+
 ![An illustration representing a volume in visionOS. The illustration consists of a translucent cube. The base of the cube is darker than the other sides. The front of the cube is positioned above a window bar.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-window-style-3d-volume@2x.png)  
 *A volume*
+
+</td>
+</tr>
+</table>
 
 > **Note**
 >

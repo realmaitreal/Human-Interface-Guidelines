@@ -40,9 +40,20 @@ If you need to provide a list of mutually exclusive choices that aren’t comman
 
 **Consider using a More pull-down button to present items that don’t need prominent positions in the main interface.** A More button can help you offer a range of items where space is constrained, but it can also hinder discoverability. Although people generally understand that a More button offers additional functionality related to the current context, the ellipsis icon doesn’t necessarily help them predict its contents. To design an effective More button, weigh the convenience of its size against its impact on discoverability to find a balance that works in your app.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of the Notes app on iPhone, open to a Notes document titled Nature Walks. The top toolbar includes a More button on the trailing edge.](https://developer.apple.com/tutorials/images/com.apple.HIG/menu-secondary-actions-collapsed@2x.png)
 
+</td>
+<td>
+
 ![A screenshot of the Notes app on iPhone, open to a Notes document titled Nature Walks. The More button in the top toolbar is expanded, revealing the More menu with additional funtionality.](https://developer.apple.com/tutorials/images/com.apple.HIG/menu-secondary-actions-expanded@2x.png)
+
+</td>
+</tr>
+</table>
 
 ## Resources
 

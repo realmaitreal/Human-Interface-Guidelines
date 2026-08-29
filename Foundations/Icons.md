@@ -52,11 +52,22 @@ Adjustments for optical centering are typically very small, but they can have a 
 
 **Include text in your design only when it’s essential for conveying meaning.** For example, using a character in an interface icon that represents text formatting can be the most direct way to communicate the concept. If you need to display individual characters in your icon, be sure to localize them. If you need to suggest a passage of text, design an abstract representation of it, and include a flipped version of the icon to use when the context is right-to-left. For guidance, see [Right to left](Right%20to%20left.md).
 
+<table>
+<tr>
+<td>
+
 ![A partial screenshot of the SF Symbols app showing the info panel for the character symbol, which looks like the capital letter A. Below the image, the following eight localized versions of the symbol are listed: Latin, Arabic, Hebrew, Hindi, Japanese, Korean, Thai, and Chinese.](https://developer.apple.com/tutorials/images/com.apple.HIG/character-in-glyph@2x.png)  
 *Create localized versions of an icon that displays individual characters.*
 
+</td>
+<td>
+
 ![A partial screenshot of the SF Symbols app showing the info panel for the text dot page symbol, which looks like three left-aligned horizontal lines inside a rounded rectangle. Below the image, the left-to-right and right-to-left localized versions are shown.](https://developer.apple.com/tutorials/images/com.apple.HIG/abstract-text-in-glyph@2x.png)  
 *Create a flipped version of an icon that suggests reading direction.*
+
+</td>
+</tr>
+</table>
 
 **If you create a custom interface icon, use a vector format like PDF or SVG.** The system automatically scales a vector-based interface icon for high-resolution displays, so you don’t need to provide high-resolution versions of it. In contrast, PNG — used for app icons and other images that include effects like shading, textures, and highlighting — doesn’t support scaling, so you have to supply multiple versions for each PNG-based interface icon. Alternatively, you can create a custom SF Symbol and specify a scale that ensures the symbol’s emphasis matches adjacent text. For guidance, see [SF Symbols](SF%20Symbols.md).
 
@@ -182,22 +193,50 @@ If you don’t supply a document icon for a file type you support, macOS creates
 
 In some cases, it can make sense to create a set of document icons to represent a range of file types your app handles. For example, Xcode uses custom document icons to help people distinguish projects, AR objects, and Swift code files.
 
+<table>
+<tr>
+<td>
+
 ![Image of an Xcode project document icon.](https://developer.apple.com/tutorials/images/com.apple.HIG/doc-icon-custom-1@2x.png)
+
+</td>
+<td>
 
 ![Image of a document icon for an AR object.](https://developer.apple.com/tutorials/images/com.apple.HIG/doc-icon-custom-2@2x.png)
 
+</td>
+<td>
+
 ![Image of a document icon for a Swift file.](https://developer.apple.com/tutorials/images/com.apple.HIG/doc-icon-custom-3@2x.png)
 
+</td>
+</tr>
+</table>
+
 To create a custom document icon, you can supply any combination of background fill, center image, and text. The system layers, positions, and masks these elements as needed and composites them onto the familiar folded-corner icon shape.
+
+<table>
+<tr>
+<td>
 
 ![A square canvas that contains a grid of pink lines and a jagged white EKG line that runs horizontally across the middle. The pink grid gets lighter in color toward the bottom edge.](https://developer.apple.com/tutorials/images/com.apple.HIG/doc-icon-parts-background-fill@2x.png)  
 *Background fill*
 
+</td>
+<td>
+
 ![A solid pink heart.](https://developer.apple.com/tutorials/images/com.apple.HIG/doc-icon-parts-center-image@2x.png)  
 *Center image*
 
+</td>
+<td>
+
 ![The word heart in all caps.](https://developer.apple.com/tutorials/images/com.apple.HIG/doc-icon-parts-text@2x.png)  
 *Text*
+
+</td>
+</tr>
+</table>
 
 ![A custom document icon that displays the pink heart and the word heart on top of the pink grid and white EKG line.](https://developer.apple.com/tutorials/images/com.apple.HIG/doc-icon-parts@2x.png)  
 *macOS composites the elements you supply to produce your custom document icon.*
@@ -208,20 +247,45 @@ To create a custom document icon, you can supply any combination of background f
 
 **Designing a single, expressive image for the background fill can be a great way to help people understand and recognize a document type.** For example, Xcode and TextEdit both use rich background images that don’t include a center image.
 
+<table>
+<tr>
+<td>
+
 ![Image of an Xcode project document icon.](https://developer.apple.com/tutorials/images/com.apple.HIG/doc-icon-custom-1@2x.png)
+
+</td>
+<td>
 
 ![Image of a TextEdit rich text document icon.](https://developer.apple.com/tutorials/images/com.apple.HIG/doc-icon-fill-only@2x.png)
 
+</td>
+</tr>
+</table>
+
 **Consider reducing complexity in the small versions of your document icon.** Icon details that are clear in large versions can look blurry and be hard to recognize in small versions. For example, to ensure that the grid lines in the custom heart document icon remain clear in intermediate sizes, you might use fewer lines and thicken them by aligning them to the reduced pixel grid. In the 16x16 px size, you might remove the lines altogether.
+
+<table>
+<tr>
+<td>
 
 ![Pixelated image of the heart document icon. The grid, the EKG line, the heart shape, and the word heart are visible but blurry.](https://developer.apple.com/tutorials/images/com.apple.HIG/doc-icon-fewer-details-1@2x.png)  
 *The 32x32 px icon has fewer grid lines and a thicker EKG line.*
 
+</td>
+<td>
+
 ![Pixelated image of the heart document icon, in which only the blurry heart shape and EKG line are visible.](https://developer.apple.com/tutorials/images/com.apple.HIG/doc-icon-fewer-details-2@2x.png)  
 *The 16x16 px @2x icon retains the EKG line but has no grid lines.*
 
+</td>
+<td>
+
 ![Pixelated image of the heart document icon, in which only the blurry heart shape is visible.](https://developer.apple.com/tutorials/images/com.apple.HIG/doc-icon-fewer-details-3@2x.png)  
 *The 16x16 px @1x icon has no EKG line and no grid lines.*
+
+</td>
+</tr>
+</table>
 
 **Avoid placing important content in the top-right corner of your background fill.** The system automatically masks your image to fit the document icon shape and draws the white folded corner on top of the fill. Create a set of background images in the sizes listed below.
 

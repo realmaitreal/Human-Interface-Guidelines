@@ -38,14 +38,28 @@ In a linear slider either with or without tick marks, the thumb is a narrow loze
 
 In a circular slider, the thumb appears as a small circle. Tick marks, when present, appear as evenly spaced dots around the circumference of the slider.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of a horizontal slider with the thumb in the middle. The leading portion of the track up to the thumb is filled with a blue highlight color.](https://developer.apple.com/tutorials/images/com.apple.HIG/sliders-no-tick-marks@2x.png)  
 *Linear slider without tick marks*
+
+</td>
+<td>
 
 ![An illustration of a horizontal slider with the thumb between two tick marks in the middle of the slider. The leading portion of the track up to the thumb is filled with a blue highlight color.](https://developer.apple.com/tutorials/images/com.apple.HIG/sliders-tick-marks@2x.png)  
 *Linear slider with tick marks*
 
+</td>
+<td>
+
 ![An illustration of a circular slider with the thumb at the 12 o'clock position.](https://developer.apple.com/tutorials/images/com.apple.HIG/sliders-circular@2x.png)  
 *Circular slider*
+
+</td>
+</tr>
+</table>
 
 **Consider giving live feedback as the value of a slider changes.** Live feedback shows people results in real time. For example, your Dock icons are dynamically scaled when adjusting the Size slider in Dock settings.
 
@@ -67,11 +81,22 @@ In a circular slider, the thumb appears as a small circle. Tick marks, when pres
 
 A slider is a horizontal track — appearing as a set of discrete steps or as a continuous bar — that represents a finite range of values. People can tap buttons on the sides of the slider to increase or decrease its value by a predefined amount.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of a watchOS volume slider with discrete steps. The first two of three steps are filled with a green highlight color, indicating the volume level.](https://developer.apple.com/tutorials/images/com.apple.HIG/sliders-watchos-discrete@2x.png)  
 *Discrete*
 
+</td>
+<td>
+
 ![An illustration of a watchOS volume slider with a continuous bar. Two-thirds of the bar is filled with a green highlight color, indicating the volume level.](https://developer.apple.com/tutorials/images/com.apple.HIG/sliders-watchos-continuous@2x.png)  
 *Continuous*
+
+</td>
+</tr>
+</table>
 
 **If necessary, create custom glyphs to communicate what the slider does.** The system displays plus and minus signs by default.
 

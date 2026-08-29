@@ -73,9 +73,20 @@ A button’s role can have additional effects on its appearance. For example, a 
 
 **Configure a button to display an activity indicator when you need to provide feedback about an action that doesn’t instantly complete.** Displaying an activity indicator within a button can save space in your user interface while clearly communicating the reason for the delay. To help clarify what’s happening, you can also configure the button to display a different label alongside the activity indicator. For example, the label “Checkout” could change to “Checking out…” while the activity indicator is visible. When a delay occurs after people click or tap your configured button, the system displays the activity indicator next to the original or alternative label, hiding the button image, if there is one.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of a button labeled Checkout.](https://developer.apple.com/tutorials/images/com.apple.HIG/button-activity-indicator-hidden@2x.png)
 
+</td>
+<td>
+
 ![An illustration of a button labeled Checking out, with an activity indicator on the leading side of the label.](https://developer.apple.com/tutorials/images/com.apple.HIG/button-activity-indicator-visible@2x.png)
+
+</td>
+</tr>
+</table>
 
 ### macOS
 
@@ -147,17 +158,34 @@ There are three standard button shapes in visionOS. Typically, an icon-only butt
 
 visionOS buttons use different visual styles to communicate four different interaction states.
 
+<table>
+<tr>
+<td>
+
 ![An image of a circular button that contains an icon of an outlined square with rounded corners. The button background is dark and the dashed outline is white.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-button-state-idle@2x.png)  
 *Idle*
+
+</td>
+<td>
 
 ![An image of a circular button that contains an icon of an outlined square with rounded corners. The button background is medium dark and the outline is white.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-button-state-hover@2x.png)  
 *Hover*
 
+</td>
+<td>
+
 ![An image of a circular button that contains an icon of an outlined square with rounded corners. The button background is white and the outline is black.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-button-state-selected@2x.png)  
 *Selected*
 
+</td>
+<td>
+
 ![An image of a circular button that contains an icon of an outlined square with rounded corners. The button background is very dark and the outline is light.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-button-state-unavailable@2x.png)  
 *Unavailable*
+
+</td>
+</tr>
+</table>
 
 > **Note**
 >

@@ -57,29 +57,58 @@ Starting in watchOS 9, the system organizes complications (also known as *access
 
 Circular layouts can include text, gauges, and full-color images in circular areas on the Infograph and Infograph Modular watch faces. The circular family also defines extra-large layouts for displaying content on the X-Large watch face.
 
+<table>
+<tr>
+<td>
+
 ![A white musical notes icon displayed within a red circle. The circle’s outline is bright red for about ninety percent of the circumference and dull red for about ten percent, showing current progress.](https://developer.apple.com/tutorials/images/com.apple.HIG/circular-closed-gauge-image@2x.png)  
 *Closed gauge image*
+
+</td>
+<td>
 
 ![The number one hundred in white text displayed within a green circle. The circle’s outline appears to overlap the starting point on the circumference by about five percent, showing current progress.](https://developer.apple.com/tutorials/images/com.apple.HIG/circular-closed-gauge-text@2x.png)  
 *Closed gauge text*
 
+</td>
+<td>
+
 ![The number one point zero in white text, surrounded by a partial circle that begins at about the 8:00 position and ends at about the 4:00 position. The partial circle’s outline shades from green at the 8:00 position to violet the 4:00 position. A small green sun icon appears at about the 6:00 position.](https://developer.apple.com/tutorials/images/com.apple.HIG/circular-open-gauge-image@2x.png)  
 *Open gauge image*
+
+</td>
+<td>
 
 ![The number forty-two in white text, surrounded by a partial circle that begins at about the 8:00 position and ends at about the 4:00 position. The partial circle’s outline shades from blue at the 8:00 position to violet the 4:00 position. The letters A, Q, I appear in green text at about the 6:00 position.](https://developer.apple.com/tutorials/images/com.apple.HIG/circular-open-gauge-simple-text@2x.png)  
 *Open gauge text*
 
+</td>
+<td>
+
 ![The number seventy-two in white text, surrounded by a partial circle that begins at about the 8:00 position and ends at about the 4:00 position. The partial circle’s outline shades from green at the 8:00 position to yellow the 4:00 position. Two numbers appear side by side at about the 6:00 position. Fifty-five appears in green text on the left and seventy-six appears in orange text on the right.](https://developer.apple.com/tutorials/images/com.apple.HIG/circular-open-gauge-range-text@2x.png)  
 *Open gauge range*
+
+</td>
+<td>
 
 ![An image of the breathe app icon.](https://developer.apple.com/tutorials/images/com.apple.HIG/graphic-circular-image@2x.png)  
 *Image*
 
+</td>
+<td>
+
 ![A sunset icon displayed above the time seven twenty-four PM, centered within a circular area.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-graphic-circular-stack@2x.png)  
 *Stack image*
 
+</td>
+<td>
+
 ![Two lines of text centered within a circular area. The top line is the Apple stock symbol A A P L in white and the second line is the number 121.96 in green.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-graphic-circular-stack-text@2x.png)  
 *Stack text*
+
+</td>
+</tr>
+</table>
 
 You can also add text to accompany a regular-size circular image, using a design that curves the text along the bezel of some watch faces, like Infograph. The text can fill nearly 180 degrees of the bezel before truncating.
 
@@ -107,29 +136,58 @@ A SwiftUI view that implements a regular-size circular complication uses the fol
 
 If you want to design an oversized treatment of important information that can appear on the X-Large watch face — for example, the Contacts complication, which features a contact photo — use the extra-large versions of the circular family’s layouts. The following layouts let you display full-color images, text, and gauges in a large circular region that fills most of the X-Large watch face. Some of the text fields can support multicolor text.
 
+<table>
+<tr>
+<td>
+
 ![A white musical notes icon displayed within a red circle. The circle’s outline is bright red for about sixty-six percent of the circumference and dull red for about ten percent, showing current progress.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-graphic-xl-circular-closed-gauge-image@2x.png)  
 *Closed gauge image*
+
+</td>
+<td>
 
 ![The number one eighty-five in blue text displayed within a blue circle. The circle’s outline is bright blue for eighty-five percent of the circumference and dull blue for fifteen percent, showing current progress.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-graphic-xl-circular-closed-gauge-text@2x.png)  
 *Closed gauge text*
 
+</td>
+<td>
+
 ![The number fifty in light-blue text, surrounded by a partial light-blue circle that includes a teardrop shape at the bottom.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-graphic-xl-circular-open-gauge-image@2x.png)  
 *Open gauge image*
+
+</td>
+<td>
 
 ![The number twenty-nine in green text, surrounded by a partial white circle that includes the letters A, Q, I in green text at the bottom.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-graphic-xl-circular-open-gauge-simple-text@2x.png)  
 *Open gauge text*
 
+</td>
+<td>
+
 ![The number fifty-six in white text, surrounded by a partial circle that shades from green at the 8:00 position to red at the 4:00 position. Two numbers appear side by side at the bottom of the partial circle. Fifty-two appears in green text on the left and eighty-nine appears in red text on the right.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-graphic-xl-circular-open-gauge-range-text@2x.png)  
 *Open gauge range*
+
+</td>
+<td>
 
 ![An image of the Breathe app icon.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-graphic-xl-circular-image@2x.png)  
 *Image*
 
+</td>
+<td>
+
 ![A red sunset icon displayed above the time seven twenty-four PM, centered within a circular area.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-graphic-xl-circular-stack-image@2x.png)  
 *Stack image*
 
+</td>
+<td>
+
 ![Two lines of text centered within a circular area. The top line is the Apple stock symbol A A P L in white and the second line is the number 121.96 in green.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-graphic-xl-circular-stack-text@2x.png)  
 *Stack text*
+
+</td>
+</tr>
+</table>
 
 Use the following values for guidance as you create images for an extra-large circular complication.
 
@@ -162,20 +220,40 @@ A SwiftUI view that implements an extra-large circular layout uses the following
 
 Corner layouts let you display full-color images, text, and gauges in the corners of the watch face, like Infograph. Some of the templates also support multicolor text.
 
+<table>
+<tr>
+<td>
+
 ![An icon showing a yellow sun partially obscured by a white cloud within a circular area.](https://developer.apple.com/tutorials/images/com.apple.HIG/corner-circular-image@2x.png)  
 *Circular image*
+
+</td>
+<td>
 
 ![The value fourteen minutes and fifty-nine seconds displayed next to a thin solid bar. The text and the bar appear to follow the curve of the bottom-right quadrant of a circle. The timer app icon appears below the time value.](https://developer.apple.com/tutorials/images/com.apple.HIG/corner-gauge-image@2x.png)  
 *Gauge image*
 
+</td>
+<td>
+
 ![The weather values fifty-five, shown in green, and seventy-six, shown in orange, displayed with a shaded solid bar between them. The bar shades from green to orange to match the values. The text and the bar appear to follow the curve of the top-right quadrant of a circle. The value seventy-two degrees appears in large white text above the temperature range.](https://developer.apple.com/tutorials/images/com.apple.HIG/corner-gauge-text@2x.png)  
 *Gauge text*
+
+</td>
+<td>
 
 ![Two lines of text, both of which appear to follow the curve of the top-left quadrant of a circle. The top line contains the word cup in large white text. The bottom line contains the time ten oh nine AM followed by a plus sign and zero hours, all in orange text.](https://developer.apple.com/tutorials/images/com.apple.HIG/corner-stack-text@2x.png)  
 *Stack text*
 
+</td>
+<td>
+
 ![A line displaying zero hours, zero minutes, and zero seconds in orange text. The line appears to follow the curve of the bottom-left quadrant of a circle. The  stopwatch app icon appears below the line of text.](https://developer.apple.com/tutorials/images/com.apple.HIG/corner-text-image@2x.png)  
 *Text image*
+
+</td>
+</tr>
+</table>
 
 As you design images for a corner complication, use the following values for guidance.
 
@@ -207,17 +285,34 @@ Inline layouts include utilitarian small and large layouts.
 
 Utilitarian small layouts are intended to occupy a rectangular area in the corner of a watch face, such as the Chronograph and Simple watch faces. The content can include an image, interface icon, or a circular graph.
 
+<table>
+<tr>
+<td>
+
 ![The letters L, O, N displayed above the time six oh nine.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-utility-small-flat@2x.png)  
 *Flat*
+
+</td>
+<td>
 
 ![Two tear drop icons, each centered within a partial ring.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-utility-small-ring-image@2x.png)  
 *Ring image*
 
+</td>
+<td>
+
 ![Two partial rings, each displaying the number sixty-three centered within them.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-utility-small-ring-text@2x.png)  
 *Ring text*
 
+</td>
+<td>
+
 ![An image of the moon.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-utility-small-square@2x.png)  
 *Square*
+
+</td>
+</tr>
+</table>
 
 As you design images for a utilitarian small layout, use the following values for guidance.
 
@@ -252,14 +347,28 @@ Starting with watchOS 10, if you have created a rectangular layout for your watc
 
 For developer guidance, see [WidgetFamily.accessoryRectangular](https://developer.apple.com/documentation/widgetkit/widgetfamily/accessoryrectangular). See [Widgets](Widgets.md) for additional guidance on designing widgets for the Smart Stack.
 
+<table>
+<tr>
+<td>
+
 ![Three lines of left-aligned text. The first line uses blue text to display the words water reminders. The second line uses white text to display the words thirty-two ounces consumed. The third line uses gray text to display the words four day streak, woo hoo.](https://developer.apple.com/tutorials/images/com.apple.HIG/rectangular-standard-body@2x.png)  
 *Standard body*
+
+</td>
+<td>
 
 ![Two lines of text displayed above a bar that can fill with color to indicate progress. The first line uses blue text to display a tear drop icon followed by the words water reminder. The second line uses white text to display the words thirty-two ounces consumed. The bar uses the same blue color as used in the first line of text to fill the bar from the left to about seventy percent of the total length.](https://developer.apple.com/tutorials/images/com.apple.HIG/rectangular-text-gauge@2x.png)  
 *Text gauge*
 
+</td>
+<td>
+
 ![A line of text displayed above a graph. The text displays in white the words sixty-eight B, P, M, followed by the words two minutes ago, in red text. The graph shows many heart rate values over time.](https://developer.apple.com/tutorials/images/com.apple.HIG/rectangular-large-image@2x.png)  
 *Large image*
+
+</td>
+</tr>
+</table>
 
 Use the following values for guidance as you create images for a rectangular layout.
 
@@ -286,23 +395,46 @@ A SwiftUI view that implements a rectangular layout uses the following default t
 
 Circular small templates display a small image or a few characters of text. They appear in the corner of the watch face (for example, in the Color watch face).
 
+<table>
+<tr>
+<td>
+
 ![A tear drop icon centered within a partial ring.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-circular-small-ring-image@2x.png)  
 *Ring image*
+
+</td>
+<td>
 
 ![The number sixty-three centered within a partial ring.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-circular-small-ring-text@2x.png)  
 *Ring text*
 
+</td>
+<td>
+
 ![A stopwatch icon centered within a circular area.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-circular-small-simple-image@2x.png)  
 *Simple image*
+
+</td>
+<td>
 
 ![The number sixty-eight and the degree symbol centered within a circular area.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-circular-small-simple-text@2x.png)  
 *Simple text*
 
+</td>
+<td>
+
 ![A sunset icon displayed above the time seven twenty-four PM, centered within a circular area.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-circular-small-stack-image@2x.png)  
 *Stack image*
 
+</td>
+<td>
+
 ![The letters L, O, N displayed above the time six oh nine.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-circular-small-stack-text@2x.png)  
 *Stack text*
+
+</td>
+</tr>
+</table>
 
 As you design images for a circular small complication, use the following values for guidance.
 
@@ -321,26 +453,52 @@ As you design images for a circular small complication, use the following values
 
 Modular small templates display two stacked rows consisting of an icon and content, a circular graph, or a single larger item (for example, the bottom row of complications on the Modular watch face).
 
+<table>
+<tr>
+<td>
+
 ![Text and numbers arranged in a two-row column. The top row displays the letters C and P and the number fourteen. The bottom row displays the letters M and H and the number twenty-eight.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-modular-small-columns-text@2x.png)  
 *Columns text*
+
+</td>
+<td>
 
 ![A tear drop icon centered within a partial ring.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-modular-small-ring-image@2x.png)  
 *Ring image*
 
+</td>
+<td>
+
 ![The number sixty-three centered within a partial ring.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-modular-small-ring-text@2x.png)  
 *Ring text*
+
+</td>
+<td>
 
 ![An image of the moon.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-modular-small-simple-image@2x.png)  
 *Simple image*
 
+</td>
+<td>
+
 ![The number sixty-eight and the degree symbol.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-modular-small-simple-text@2x.png)  
 *Simple text*
+
+</td>
+<td>
 
 ![A sunset icon displayed above the time seven twenty-four PM.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-modular-small-stack-image@2x.png)  
 *Stack image*
 
+</td>
+<td>
+
 ![The letters L, O, N displayed above the time six oh nine.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-modular-small-stack-text@2x.png)  
 *Stack text*
+
+</td>
+</tr>
+</table>
 
 As you design icons and images for a modular small complication, use the following values for guidance.
 
@@ -359,17 +517,34 @@ As you design icons and images for a modular small complication, use the followi
 
 Modular large templates offer a large canvas for displaying up to three rows of content (for example, in the center of the Modular watch face).
 
+<table>
+<tr>
+<td>
+
 ![Activity-related information displayed in a three-row column. The top row displays a calorie count of 396 out of 660. The middle row displays a minute count of 13 out of 30. The bottom row displays an hour count of 3 out of 12.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-modular-large-columns@2x.png)  
 *Columns*
+
+</td>
+<td>
 
 ![Weather-related information displayed in three left-aligned lines of text. The top row displays the location Cupertino California. The middle row displays sixty-eight degrees and cloudy. The bottom row displays a forecast high of seventy-two degrees and low of sixty-two degrees.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-modular-large-standard-body@2x.png)  
 *Standard body*
 
+</td>
+<td>
+
 ![Sports-related information displayed in a two-column, two-row table with a title. The table title is Final Score. The first table row contains the number 14 followed by the text Central Prep. The second table row contains the number 28 followed by the text Mission High.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-modular-large-table@2x.png)  
 *Table*
 
+</td>
+<td>
+
 ![Calendar-related information displayed in two lines of fully justified text. The first line displays the word wednesday. The second line displays the abbreviation mar and the number nine in text that is about twice as tall as the text in the first line.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-modular-large-tall-body@2x.png)  
 *Tall body*
+
+</td>
+</tr>
+</table>
 
 As you design icons and images for a modular large complication, use the following values for guidance.
 
@@ -383,23 +558,46 @@ As you design icons and images for a modular large complication, use the followi
 
 Extra large templates display larger text and images (for example, on the X-Large watch faces).
 
+<table>
+<tr>
+<td>
+
 ![A tear drop icon centered within a partial ring.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-extralarge-ring-image@2x.png)  
 *Ring image*
+
+</td>
+<td>
 
 ![The number sixty-three centered within a partial ring.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-extralarge-ring-text@2x.png)  
 *Ring text*
 
+</td>
+<td>
+
 ![An image of the moon.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-extralarge-simple-image@2x.png)  
 *Simple image*
+
+</td>
+<td>
 
 ![The number sixty-eight and the degree symbol.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-extralarge-simple-text@2x.png)  
 *Simple text*
 
+</td>
+<td>
+
 ![A sunset icon displayed above the time seven twenty-four PM.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-extralarge-stack-image@2x.png)  
 *Stack image*
 
+</td>
+<td>
+
 ![The letters L, O, N displayed above the time six oh nine.](https://developer.apple.com/tutorials/images/com.apple.HIG/complication-extralarge-stack-text@2x.png)  
 *Stack text*
+
+</td>
+</tr>
+</table>
 
 As you design icons and images for an extra large complication, use the following values for guidance.
 

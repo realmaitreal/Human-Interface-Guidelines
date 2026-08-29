@@ -33,14 +33,28 @@
 
 **Adjust line breaks according to the needs of the field.** By default, the system clips any text extending beyond the bounds of a text field. Alternatively, you can set up a text field to wrap text to a new line at the character or word level, or to truncate (indicated by an ellipsis) at the beginning, middle, or end.
 
+<table>
+<tr>
+<td>
+
 ![A partial screenshot of a text field that contains a sentence that is cut off before its end.](https://developer.apple.com/tutorials/images/com.apple.HIG/text-fields-clipped-text@2x.png)  
 *Clipped text*
+
+</td>
+<td>
 
 ![A partial screenshot of a text field that contains a sentence that wraps to two lines.](https://developer.apple.com/tutorials/images/com.apple.HIG/text-fields-wrapped-text@2x.png)  
 *Wrapped text*
 
+</td>
+<td>
+
 ![A partial screenshot of a text field that contains a sentence that includes an ellipsis in place of the last few words.](https://developer.apple.com/tutorials/images/com.apple.HIG/text-fields-truncated-text@2x.png)  
 *Truncated text*
+
+</td>
+</tr>
+</table>
 
 **Consider using an expansion tooltip to show the full version of clipped or truncated text.** An expansion tooltip behaves like a regular [tooltip](https://developer.apple.com/design/human-interface-guidelines/offering-help#macOS-visionOS) and appears when someone places the pointer over the field.
 

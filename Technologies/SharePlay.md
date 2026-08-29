@@ -32,9 +32,20 @@ An *activity* is an app-defined type of shareable experience. For example, an ap
 
 **Make it easy to start sharing an activity.** If there’s no session available when people start a shareable activity, you can present UI that lets them start a group activity. In response, the system asks people if they want to share or continue the experience solo.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of the TV app on iPhone. The screen shows an alert overlaid on a video and text. The alert includes buttons titled 'SharePlay', 'Start Only for Me', and 'Cancel'.](https://developer.apple.com/tutorials/images/com.apple.HIG/shareplay-start-alert@2x.png)
 
+</td>
+<td>
+
 ![A screenshot of the TV app on iPhone. The screen shows a video with SharePlay turned on. The area around the Dynamic Island includes an icon of the person being shared with, badged with the app logo, and the text 'Started A BOT-anist'.  A FaceTime call with the SharePlay recipient sits in an overlay in the lower right corner of the screen.](https://developer.apple.com/tutorials/images/com.apple.HIG/shareplay-sharing-content@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Help people prepare to join a session before displaying the activity.** For example, if people must log in, download content, or make a payment before they can participate, display views that help them perform these tasks before showing the activity UI. Make these tasks as simple and effortless as possible so people can join the group activity quickly.
 

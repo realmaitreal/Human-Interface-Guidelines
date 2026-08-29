@@ -22,14 +22,28 @@ SF Symbols provides four rendering modes — monochrome, hierarchical, palette, 
 
 To support the rendering modes, SF Symbols organizes a symbol’s paths into distinct layers. For example, the `cloud.sun.rain.fill` symbol consists of three layers: the primary layer contains the cloud paths, the secondary layer contains the paths that define the sun and its rays, and the tertiary layer contains the raindrop paths.
 
+<table>
+<tr>
+<td>
+
 ![An image of the cloud sun rain fill symbol. The cloud is black and the raindrops and sun are gray to indicate that the cloud is in the primary layer.](https://developer.apple.com/tutorials/images/com.apple.HIG/sf-three-layers-primary@2x.png)  
 *Primary*
+
+</td>
+<td>
 
 ![An image of the cloud sun rain fill symbol. The sun is black and the raindrops and cloud are gray to indicate that the sun is in the secondary layer.](https://developer.apple.com/tutorials/images/com.apple.HIG/sf-three-layers-secondary@2x.png)  
 *Secondary*
 
+</td>
+<td>
+
 ![An image of the cloud sun rain fill symbol. The raindrops are black and the sun and cloud are gray to indicate that the raindrops are in the primary layer.](https://developer.apple.com/tutorials/images/com.apple.HIG/sf-three-layers-tertiary@2x.png)  
 *Tertiary*
+
+</td>
+</tr>
+</table>
 
 Depending on the rendering mode you choose, a symbol can produce various appearances. For example, Hierarchical rendering mode assigns a different opacity of a single color to each layer, creating a visual hierarchy that gives depth to the symbol.
 
@@ -63,11 +77,22 @@ Regardless of rendering mode, using system-provided colors ensures that symbols 
 
 In SF Symbols 7 and later, gradient rendering generates a smooth linear gradient from a single source color. You can use gradients across all rendering modes for both system and custom colors and for custom symbols. Gradients render for symbols of any size, but look best at larger sizes.
 
+<table>
+<tr>
+<td>
+
 ![The sun symbol with a solid yellow fill.](https://developer.apple.com/tutorials/images/com.apple.HIG/sf-symbols-sun-solid-fill@2x.png)  
 *Solid fill*
 
+</td>
+<td>
+
 ![The sun symbol with a gradient fill derived from a single yellow source color. The gradient color is bright on the left edge of the symbol, and subtly darkens as it approaches the right edge.](https://developer.apple.com/tutorials/images/com.apple.HIG/sf-symbols-sun-gradient-fill@2x.png)  
 *Gradient fill*
+
+</td>
+</tr>
+</table>
 
 ## Variable color
 
@@ -91,14 +116,28 @@ Each of the nine symbol weights — from ultralight to black — corresponds to 
 
 Each symbol is also available in three scales: small, medium (the default), and large. The scales are defined relative to the cap height of the San Francisco system font.
 
+<table>
+<tr>
+<td>
+
 ![A diagram showing the first of three images of the plus circle symbol followed by the capitalized word add. In each image, the word uses the same size, but the symbol uses a different size. The symbol size is small in this image. Two parallel horizontal lines appear across all three images. The top line shows the height of the capital letter A and the bottom line is the baseline under the word add. In this small symbol, the circle touches both lines.](https://developer.apple.com/tutorials/images/com.apple.HIG/sf-symbol-scale-small@2x.png)  
 *Small*
+
+</td>
+<td>
 
 ![The second of three images of the plus circle symbol followed by the capitalized word add. In this medium symbol, the circle extends slightly above and below the lines.](https://developer.apple.com/tutorials/images/com.apple.HIG/sf-symbol-scale-medium@2x.png)  
 *Medium*
 
+</td>
+<td>
+
 ![The third of three images of the plus circle symbol followed by the capitalized word add. In this large symbol, the vertical line of the plus sign almost touches both lines.](https://developer.apple.com/tutorials/images/com.apple.HIG/sf-symbol-scale-large@2x.png)  
 *Large*
+
+</td>
+</tr>
+</table>
 
 Specifying a scale lets you adjust a symbol’s emphasis compared to adjacent text, without disrupting the weight matching with text that uses the same point size. For developer guidance, see [imageScale(_:)](https://developer.apple.com/documentation/swiftui/view/imagescale(_:)) (SwiftUI), [UIImage.SymbolScale](https://developer.apple.com/documentation/uikit/uiimage/symbolscale) (UIKit), and [NSImage.SymbolConfiguration](https://developer.apple.com/documentation/appkit/nsimage/symbolconfiguration-swift.class) (AppKit).
 

@@ -24,22 +24,47 @@ For details on Apple Pencil features and compatibility, see [Apple Pencil](https
 
 **Help people express themselves by responding to the way they use Apple Pencil.** Apple Pencil may sense tilt (altitude), force (pressure), orientation (azimuth), and [Barrel roll](https://developer.apple.com/design/human-interface-guidelines/apple-pencil-and-scribble#Barrel-roll). Use this information to affect the strokes Apple Pencil makes, such as by varying thickness and intensity. When responding to pressure, keep things simple and intuitive. For example, it feels natural to affect continuous properties — such as ink opacity or brush size — by varying the pressure.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of Apple Pencil tilted up from a horizontal line by 45 degrees.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-pencil-altitude@2x.png)  
 *Altitude*
+
+</td>
+<td>
 
 ![An illustration of Apple Pencil drawing a curved line that increases in thickness as more pressure is applied to the tool.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-pencil-pressure@2x.png)  
 *Pressure*
 
+</td>
+<td>
+
 ![An illustration of Apple Pencil balancing on its tip at the center of a circle that has degree marks around its circumference. A line from the center of the circle to one of the degree marks indicates the angle at which Apple Pencil is tilted.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-pencil-azimuth@2x.png)  
 *Azimuth*
+
+</td>
+</tr>
+</table>
 
 **Provide visual feedback to indicate a direct connection with content.** Make sure Apple Pencil appears to directly and immediately manipulate content it touches onscreen. Avoid letting Apple Pencil appear to initiate seemingly disconnected actions, or affect content on other parts of the screen.
 
 **Design a great left- and right-handed experience.** Avoid placing controls in locations that may be obscured by either hand. If there’s a chance controls may become obscured, consider letting people reposition them.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of an iPad app that shows a stack of three circular controls on both side edges. A drawing of a person’s left hand holding an Apple Pencil is shown at the bottom-left corner of the screen, partially obscuring the controls on that side. The controls on the left edge are grayed out to indicate the original position they no longer occupy, while the controls on the right edge are bright to indicate their final position.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-pencil-controls-moved-right@2x.png)
 
+</td>
+<td>
+
 ![An illustration of an iPad app that shows a stack of three circular controls on both side edges. A drawing of a person’s right hand holding an Apple Pencil is shown at the bottom-right corner of the screen, partially obscuring the controls on that side. The controls on the right edge are grayed out to indicate the original position they no longer occupy, while the controls on the left edge are bright to indicate their final position.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-pencil-controls-moved-left@2x.png)
+
+</td>
+</tr>
+</table>
 
 ## Hover
 
@@ -49,17 +74,31 @@ For details on Apple Pencil features and compatibility, see [Apple Pencil](https
 
 **Prefer showing a preview value that’s near the middle in a range of dynamic values.** Dynamic properties like opacity or flow can be difficult to depict at the highest or lowest ends of the spectrum. For example, previewing the appearance of a brush mark made with the maximum pressure could occlude the area in which people are marking; in contrast, depicting a mark made with the minimum pressure could be hard for people to detect, making the preview an inaccurate representation of an actual mark or even invisible.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of Apple Pencil hovering slightly above a gray rectangle that represents the screen. A small blue oval beneath the tip represents a preview.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-pencil-preview-small@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
+
+</td>
+<td>
 
 ![An illustration of Apple Pencil hovering slightly above a gray rectangle that represents the screen. A medium blue oval beneath the tip represents a preview.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-pencil-preview-medium@2x.png)
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
+</td>
+<td>
+
 ![An illustration of Apple Pencil hovering slightly above a gray rectangle that represents the screen. A large blue oval beneath the tip represents a preview.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-pencil-preview-large@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Consider using hover to support relevant interactions close to where people are marking.** For example, you might respond to hover by displaying a contextual menu of tool sizes when people perform a gesture like [Squeeze](https://developer.apple.com/design/human-interface-guidelines/apple-pencil-and-scribble#Squeeze) or press a modifier key on an attached keyboard. Revealing a menu near where people are marking lets them make choices without moving Apple Pencil or their hands to another part of the screen.
 

@@ -18,14 +18,28 @@ A *point* is an abstract unit of measurement that helps visual content remain co
 
 When creating bitmap images, you specify a *scale factor* which determines the resolution of an image. You can visualize scale factor by considering the density of pixels per point in 2D displays of various resolutions. For example, a scale factor of 1 (also called @1x) describes a 1:1 pixel density, where one pixel is equal to one point. High-resolution 2D displays have higher pixel densities, such as 2:1 or 3:1. A 2:1 density (called @2x) has a scale factor of 2, and a 3:1 density (called @3x) has a scale factor of 3. Because of higher pixel densities, high-resolution displays demand images with more pixels.
 
+<table>
+<tr>
+<td>
+
 ![Image of a circle that's in standard resolution at scale factor of @1x, and is 10 by 10 pixels.](https://developer.apple.com/tutorials/images/com.apple.HIG/image-resolution-1x@2x.png)  
 *1x (10x10 px)*
+
+</td>
+<td>
 
 ![Image of a circle that's in high resolution at a scale factor of @2x, and is 20 by 20 pixels.](https://developer.apple.com/tutorials/images/com.apple.HIG/image-resolution-2x@2x.png)  
 *2x (20x20 px)*
 
+</td>
+<td>
+
 ![Image of a circle that's in high resolution at a scale factor of @3x, and is 30 by 30 pixels.](https://developer.apple.com/tutorials/images/com.apple.HIG/image-resolution-3x@2x.png)  
 *3x (30x30 px)*
+
+</td>
+</tr>
+</table>
 
 **Provide high-resolution assets for all bitmap images in your app, for every device you support.** As you add each image to your project’s asset catalog, identify its scale factor by appending “@1x,” “@2x,” or “@3x” to its filename. Use the following values for guidance; for additional scale factors, see [Layout](Layout.md).
 

@@ -51,23 +51,45 @@ An app icon’s shape varies based on a platform’s visual language. In iOS, iP
 
 Embrace simplicity in your icon design. Simple icons tend to be easiest for people to understand and recognize. An icon with fine visual features might look busy when rendered with system-provided shadows and highlights, and details may be hard to discern at smaller sizes. Find a concept or element that captures the essence of your app or game, make it the core idea of your icon, and express it in a simple, unique way with a minimal number of shapes. Prefer a simple background, such as a solid color or gradient, that puts the emphasis on your primary design — you don’t need to fill the entire icon canvas with content.
 
+<table>
+<tr>
+<td>
+
 ![An image of the Podcasts app icon.](https://developer.apple.com/tutorials/images/com.apple.HIG/app-icons-embrace-simplicity-podcasts@2x.png)  
 *The Podcasts app icon*
 
+</td>
+<td>
+
 ![An image of the Home app icon.](https://developer.apple.com/tutorials/images/com.apple.HIG/app-icons-embrace-simplicity-home@2x.png)  
 *The Home app icon*
+
+</td>
+</tr>
+</table>
 
 **Provide a visually consistent icon design across all the platforms your app supports.** A consistent design helps people quickly find your app wherever it appears and prevents people from mistaking your app for multiple apps.
 
 **Consider basing your icon design around filled, overlapping shapes.** Overlapping solid shapes in the foreground, particularly when paired with transparency and blurring, can give an icon a sense of depth.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of two circles centered above a grid. One circle encloses the other. The inner circle has a solid fill. The outer circle is larger than the inner circle, allowing some space between them. The outer circle has no fill and shows just an outline.](https://developer.apple.com/tutorials/images/com.apple.HIG/app-icons-element-outline-shape@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
+</td>
+<td>
+
 ![An illustration of two circles centered above a grid. One circle encloses the other. The inner circle has a solid fill. The outer circle is larger than the inner circle, has no outline, and has a semi-transparent fill that allows the background grid to show through. Together, the two circles give the impression that the inner circle is resting upon the outer circle.](https://developer.apple.com/tutorials/images/com.apple.HIG/app-icons-element-filled-shape@2x.png)
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Include text only when it’s essential to your experience or brand.** Text in icons doesn’t support accessibility or localization, is often too small to read easily, and can make an icon appear cluttered. In some contexts, your app name already appears nearby, making it redundant to display the name within the icon itself. Although displaying a mnemonic like the first letter of your app’s name can help people recognize your app or game, avoid including nonessential words that tell people what to do with it — like “Watch” or “Play” — or context-specific terms like “New” or “For visionOS.” If you include text in a tvOS app icon, make sure it’s above other layers so it’s not cropped by the parallax effect.
 

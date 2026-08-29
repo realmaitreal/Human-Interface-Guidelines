@@ -28,9 +28,20 @@ In addition to helping people share and collaborate on documents, visionOS suppo
 
 **Write succinct phrases that summarize the sharing permissions you support.** For example, you might write phrases like “Only invited people can edit” or “Everyone can make changes.” The system uses your permission summary in a button that reveals a set of sharing options that people use to define the collaboration.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of a Notes document with the share sheet open on iPhone, with collaboration options set to indicate that only invited people can edit the selected document.](https://developer.apple.com/tutorials/images/com.apple.HIG/collaboration-sharing-permission-invited@2x.png)
 
+</td>
+<td>
+
 ![An illustration of a Notes document with the share sheet open on iPhone, with collaboration options set to indicate that everyone can make changes to the selected document.](https://developer.apple.com/tutorials/images/com.apple.HIG/collaboration-sharing-permission-everyone@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Provide a set of simple sharing options that streamline collaboration setup.** You can customize the view that appears when people choose the permission summary button to provide choices that reflect your collaboration functionality. For example, you might offer options that let people specify who can access the content and whether they can edit it or just read it, and whether collaborators can add new participants. Keep the number of custom choices to a minimum and group them in ways that help people understand them at a glance.
 

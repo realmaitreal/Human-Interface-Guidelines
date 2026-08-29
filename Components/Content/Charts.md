@@ -60,11 +60,22 @@ Clear, accurate descriptions can help make a chart more approachable and accessi
 
 In contrast, consider using a dynamic range when the possible data values can vary widely and you want the marks to fill the available plot area. For example, the upper bound of the Y axis range in the Health app’s Steps chart varies so that the largest number of steps in a particular time period is close to the top of the chart.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of the Steps chart in the Health app, which shows the average number of steps per day for a single week.](https://developer.apple.com/tutorials/images/com.apple.HIG/charts-dynamic-range-axis-small@2x.png)  
 *Weekly range*
 
+</td>
+<td>
+
 ![An illustration of the Steps chart in the Health app, which shows the average number of steps per day in a one-month period.](https://developer.apple.com/tutorials/images/com.apple.HIG/charts-dynamic-range-axis-large@2x.png)  
 *Monthly range*
+
+</td>
+</tr>
+</table>
 
 **Define the value of the lower bound based on mark type and chart usage.** For example, bar charts can work well when you use zero for the lower bound of the Y axis, because doing so lets people visually compare the relative heights of individual bars to get a reasonable estimate of their values. In contrast, defining a lower bound of zero can sometimes make meaningful differences between values more difficult to discern. For example, a heart rate chart that always uses zero for the lower bound could obscure important differences between resting and active readings because the differences occur in a range that’s far from zero.
 

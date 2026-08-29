@@ -26,15 +26,29 @@ Controls display their information differently depending on where they appear:
 - On the Lock Screen, a control displays its symbol.
 - On iPhone devices with a control assigned to the Action button, pressing and holding it displays the control’s symbol in the Dynamic Island, as well as its value (if present).
 
+<table>
+<tr>
+<td>
+
 ![A partial screenshot of Control Center on iPhone, highlighting that the Silent mode control is active, with a symbol of a bell with a line drawn through it and red tint.](https://developer.apple.com/tutorials/images/com.apple.HIG/control-control-center@2x.png)  
 *Control toggle in Control Center*
+
+</td>
+<td>
 
 ![A partial screenshot of the bottom of the Lock Screen on iPhone, highlighting that the Silent mode control is active on the right, with a symbol of a bell with a line drawn through it and red tint.](https://developer.apple.com/tutorials/images/com.apple.HIG/control-lock-screen@2x.png)  
 *Control toggle on the Lock Screen*
 
+</td>
+<td>
+
 ![A partial screenshot that displays the Dynamic Island at the top of the Home Screen on iPhone, showing that the Silent mode control is active with a red tinted symbol of a bell with a line drawn through it in the leading area and red tinted text that says Silent in the trailing area.](https://developer.apple.com/tutorials/images/com.apple.HIG/control-dynamic-island@2x.png)  
 *Control toggle in the Dynamic Island
 performed from the Action button*
+
+</td>
+</tr>
+</table>
 
 ## Best practices
 
@@ -48,11 +62,22 @@ performed from the Action button*
 
 **Select a tint color that works with your app’s brand.** The system applies this tint color to a control toggle’s symbol in its on state. When a person performs the action of a control from the Action button, the system also uses this tint color to display the value and symbol in the Dynamic Island. For guidance, see [Branding](../../Foundations/Branding.md).
 
+<table>
+<tr>
+<td>
+
 ![An inactive control toggle with a light bulb symbol that isn't tinted.](https://developer.apple.com/tutorials/images/com.apple.HIG/control-lightbulb-not-tinted@2x.png)  
 *Nontinted control toggle in the off state*
 
+</td>
+<td>
+
 ![An active control toggle with a light bulb symbol that's tinted yellow.](https://developer.apple.com/tutorials/images/com.apple.HIG/control-lightbulb-tinted@2x.png)  
 *Tinted control toggle in the on state*
+
+</td>
+</tr>
+</table>
 
 **Help people provide additional information the system needs to perform an action.** A person may need to configure a control to perform a desired action — for example, select a specific light in a house to turn on and off. If a control requires configuration, prompt people to complete this step when they first add it. People can reconfigure the control at any time. For developer guidance, see [promptsForUserConfiguration()](https://developer.apple.com/documentation/swiftui/controlwidgetconfiguration/promptsforuserconfiguration()).
 
@@ -60,19 +85,41 @@ performed from the Action button*
 
 **Provide hint text for the Action button.** When a person presses the Action button, the system displays hint text to help them understand what happens when they press and hold. When someone presses and holds the Action button, the system performs the action configured to it. Use verbs to construct the hint text. For developer guidance, see [controlWidgetActionHint(_:)](https://developer.apple.com/documentation/swiftui/view/controlwidgetactionhint(_:)-5yoyh).
 
+<table>
+<tr>
+<td>
+
 ![A partial screenshot of the Home Screen on iPhone that displays hint text for the Action button. The hint text is Hold for Silent.](https://developer.apple.com/tutorials/images/com.apple.HIG/controls-action-button-coaching-text-on@2x.png)
 
+</td>
+<td>
+
 ![A partial screenshot of the Home Screen on iPhone that displays hint text for the Action button. The hint text is Hold for Ring.](https://developer.apple.com/tutorials/images/com.apple.HIG/controls-action-button-coaching-text-off@2x.png)
+
+</td>
+</tr>
+</table>
 
 **If your control title or value can vary, include a placeholder.** Placeholder information tells people what your control does when the title and value are situational. The system displays this information when someone brings up the controls gallery in Control Center or the Lock Screen and chooses your control, or before they assign it to the Action button.
 
 **Hide sensitive information when the device is locked.** When the device is locked, consider having the system redact the title and value to hide personal or security-related information. Specify if the system needs to redact the symbol state as well. If specified, the system redacts the title and value, and displays the symbol in its off state.
 
+<table>
+<tr>
+<td>
+
 ![A medium-size control toggle displaying a symbol of a light bulb, a title, and value text.](https://developer.apple.com/tutorials/images/com.apple.HIG/control-regular-text@2x.png)  
 *Control toggle with no information hidden*
 
+</td>
+<td>
+
 ![A medium-size control toggle with redacted text.](https://developer.apple.com/tutorials/images/com.apple.HIG/control-redacted-text@2x.png)  
 *Control toggle with information hidden on a locked device*
+
+</td>
+</tr>
+</table>
 
 **Require authentication for actions that affect security.** For example, require people to unlock their device to access controls to lock or unlock the door to their house or start their car. For developer guidance, see [IntentAuthenticationPolicy](https://developer.apple.com/documentation/appintents/intentauthenticationpolicy).
 

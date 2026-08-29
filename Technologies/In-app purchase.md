@@ -73,9 +73,20 @@ Sometimes, people need help with a purchase or want to request a refund. To help
 
 **Make it easy for people to request a refund.** Although your purchase-help screen can offer useful information and alternative solutions, make sure this content doesn’t create a barrier to requesting a refund. For example, avoid making people scroll or open another screen to reveal your refund-request button. When people choose your refund-request item, they automatically enter the system-provided refund flow shown below.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of the system-provided refund-request sheet on iPhone. The title Request Refund appears in the top center and a close button is in the top right. Below the title, the sheet displays the following information about the refund item: an image of a lighthouse, the title Power Surge for The Coast, the cost $2.99, the purchase date June 5, 2023, and the Apple Account chavez four at iCloud dot com. Below the item information, the sheet lists the following five issues to choose from: I didn’t mean to buy this, A child/minor made purchase without permission, My purchase does not work as expected, Purchase not received, and Other. A checkmark appears next to My purchase does not work as expected. Below the list is the statement ’You may lose access to refunded items’ and a Request Refund button at the bottom of the sheet.](https://developer.apple.com/tutorials/images/com.apple.HIG/system-refund-flow-1@2x.png)
 
+</td>
+<td>
+
 ![A screenshot of the system-provided confirmation sheet on iPhone, which displays a checkmark icon and the title ’Your request has been submitted.’ Below the title, the sheet displays the following text: 'You’ll receive an email at chavez four at iCloud dot com with a status update within 48 hours. To check the status of claims, go to https report a problem dot Apple dot com.' A Done button appears at the bottom of the sheet.](https://developer.apple.com/tutorials/images/com.apple.HIG/system-refund-flow-2@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Avoid characterizing or providing guidance on Apple’s refund policies.** For example, don’t speculate about whether customers will receive the refund they request. To help people understand the refund-request process, you can provide a link to [Request a refund for apps or content that you bought from Apple](https://support.apple.com/en-us/HT204084).
 
@@ -138,15 +149,37 @@ For developer guidance on implementing offer codes, see [Offer codes](https://de
 
 **Consider supporting offer redemption within your app.** The system automatically provides screens that present the offer-redemption flow, whether people redeem the offer in your app or in the App Store. When you use StoreKit API to let people redeem offer codes within your app, the only custom UI you need to create is one that initiates the system-provided flow. For developer guidance, see [presentOfferCodeRedeemSheet(in:)](https://developer.apple.com/documentation/storekit/appstore/presentoffercoderedeemsheet(in:)) and [offerCodeRedemption(isPresented:onCompletion:)](https://developer.apple.com/documentation/swiftui/view/offercoderedemption(ispresented:oncompletion:)). There are several natural places to provide this custom UI. For example, you could add a “Redeem Code” button to your paywall, onboarding screens, or your app’s settings screen.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of the Forest Explorer app’s subscription sign-up page on iPhone. The Redeem Code button is highlighted out of the three subscription buttons.](https://developer.apple.com/tutorials/images/com.apple.HIG/iphone-custom-redeem@2x.png)
+
+</td>
+<td>
 
 ![A screenshot of an app’s subscription settings screen on iPhone. It includes the app name, subscription level, price, and next billing date, above buttons for Manage Subscription, Restore Purchase, and Redeem Code.](https://developer.apple.com/tutorials/images/com.apple.HIG/subscription-management@2x.png)
 
+</td>
+</tr>
+</table>
+
 After people tap your custom redeem button, the system automatically provides a series of code-redemption screens like the ones shown below.
+
+<table>
+<tr>
+<td>
 
 ![An illustration representing a code redemption screen on iPhone. The top of the screen contains a large icon area above the label Redeem Code and a text field containing placeholder text that says Enter Code. The bottom of the screen contains a tappable link to view Terms and Conditions.](https://developer.apple.com/tutorials/images/com.apple.HIG/system-provided-redemption-1@2x.png)
 
+</td>
+<td>
+
 ![An illustration representing a code redemption screen on iPhone. The top of the screen contains a photo area. A small icon overlaps some of the lower-left corner of the photo area. Below the photo area is the label Offer Name in large text, and below the label is small text that reads '1 month free, then $4.99 per month.' The bottom of the screen contains a Redeem Offer button and a tappable link to view Terms and Conditions.](https://developer.apple.com/tutorials/images/com.apple.HIG/system-provided-redemption-3@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Supply an engaging and informative promotional image.** Creating this optional image can help people understand the value of your content. If you don’t supply a promotional image, the code redemption screens use your app icon by default. To learn more, see [Promoting your in-app purchases](https://developer.apple.com/app-store/promoting-in-app-purchases/).
 
@@ -162,9 +195,20 @@ Supporting subscription management means people can upgrade, downgrade, or cance
 
 **Consider using the system-provided subscription-management UI.** Using StoreKit APIs lets you present a consistent experience that helps people manage or cancel their subscriptions without leaving your app. For developer guidance, see [showManageSubscriptions(in:)](https://developer.apple.com/documentation/storekit/appstore/showmanagesubscriptions(in:)).
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of an app’s subscription management screen on iPhone. It includes the app name, subscription level, price, and next billing date, above a list of subscription options and a Cancel Subscription button.](https://developer.apple.com/tutorials/images/com.apple.HIG/system-cancel-flow-1@2x.png)
 
+</td>
+<td>
+
 ![A screenshot of an app’s subscription management screen on iPhone. An alert in the center of the screen asks for confirmation to cancel the subscription. The alert includes the text: Confirm Cancellation. If you confirm and cancel your subscription now, you can still access it until July 2023. The alert includes Not Now and Confirm buttons.](https://developer.apple.com/tutorials/images/com.apple.HIG/system-cancel-flow-2@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Consider ways to encourage a subscriber to keep their subscription or resubscribe later.** When you use StoreKit APIs, your app is notified when someone chooses to cancel their subscription. In this scenario, you might want to extend a personalized offer as an alternative to cancellation or invite people to describe their reasons for canceling in an exit survey. In addition to giving you insights into various customer problems, survey feedback can also help inform messaging for retention and win-back strategies.
 
@@ -184,11 +228,22 @@ The sign-up screen in your watchOS app needs to display the same set of informat
 
 **Clearly describe the differences between versions of your app that run on different devices.** If your watchOS app supports different functionality or provides a subset of the content that’s available on other devices, be sure to clarify these differences in your description. Be straightforward about the advantages of accessing subscription content through your watchOS app without implying that the experience is identical to the ones in other versions of your app.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of an app running on Apple Watch. The screen includes text that reads: Intrepid Pro. Unlock 90,000 topographic maps, advanced GPS features, and offline access for trail guidance anywhere. A Close button appears in the top-left corner of the screen.](https://developer.apple.com/tutorials/images/com.apple.HIG/clarify-description-before@2x.png)  
 *A description that might lead people to expect access to 90,000 maps on their Apple Watch*
 
+</td>
+<td>
+
 ![A screenshot of an app running on Apple Watch. The screen includes text that reads: Intrepid Pro. Use advanced GPS features for trail guidance on Apple Watch. Unlock 90,000 topographic maps for use on iPhone and other devices. A Close button appears in the top-left corner of the screen.](https://developer.apple.com/tutorials/images/com.apple.HIG/clarify-description-after@2x.png)  
 *A description that clarifies how the subscription works on Apple Watch in contrast with other devices*
+
+</td>
+</tr>
+</table>
 
 **Consider using a modal sheet to display the required information.** After people respond to your call to action to learn more about your subscription offers, you can use a modal sheet to present all required items in a single view. Even though people must scroll the view to access all the information, displaying it in a modal sheet helps your app UI remain streamlined and concise. Also, a modal sheet’s default Close button makes it easy for people to return to your free content with one tap. If you create a custom sign-up view instead of using a modal sheet, design a complete, efficient flow and include a Close or Cancel button that lets people return to your free content.
 
@@ -197,11 +252,22 @@ The sign-up screen in your watchOS app needs to display the same set of informat
 - Display each option in a separate button. Using one button per payment option lets people start the signup process with one tap. In this design, it’s important to lock up each button with its description so that people can see how these elements are related, especially while scrolling.
 - Display a list of options, followed by a button people tap to start the signup process. Using a list to display one option per row gives you a compact design that minimizes scrolling while making subscription choices easy to scan and understand. In this design, the button’s title can update to reflect the chosen option.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of an app running on Apple Watch. The screen includes two subscription buttons: $4.99 per month and $29.99 per year. A Close button appears in the top-left corner of the screen.](https://developer.apple.com/tutorials/images/com.apple.HIG/lock-up-option-information@2x.png)  
 *One payment option per button*
 
+</td>
+<td>
+
 ![A screenshot of an app running on Apple Watch. The screen includes a list of subscription options: $4.99 billed monthly and $29.99 billed yearly. The $29.99 option is selected. A $29.99 per year button appears at the bottom of the screen, and a Close button appears in the top-left corner of the screen.](https://developer.apple.com/tutorials/images/com.apple.HIG/list-option-information@2x.png)  
 *One payment option per list row, followed by a button that updates to display the chosen option*
+
+</td>
+</tr>
+</table>
 
 ## Resources
 

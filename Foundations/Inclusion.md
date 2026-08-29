@@ -64,14 +64,28 @@ In addition, you can often avoid referencing a specific gender in an avatar, emo
 
 If you need to depict a generic person or people, use a nongendered human image to reinforce the message that *generic person* means *human*, not *man* or *woman*. SF Symbols provides many nongendered glyphs you can use, such as the figure and person symbols shown here:
 
+<table>
+<tr>
+<td>
+
 ![A solid silhouette of a person from the shoulders up, within a circle.](https://developer.apple.com/tutorials/images/com.apple.HIG/person-crop-circle@2x.png)  
 *person.crop.circle*
+
+</td>
+<td>
 
 ![Solid silhouettes of three people, with the left silhouette in the foreground and the other two in the background, all from the shoulders up.](https://developer.apple.com/tutorials/images/com.apple.HIG/person-3-fill@2x.png)  
 *person.3.fill*
 
+</td>
+<td>
+
 ![A solid silhouette of a person standing with an arm raised high on the left side of the image.](https://developer.apple.com/tutorials/images/com.apple.HIG/figure-wave@2x.png)  
 *figure.wave*
+
+</td>
+</tr>
+</table>
 
 Most apps and games don’t need to know a person’s gender, but if you require this information — such as for health or legal reasons — consider providing inclusive options, such as *nonbinary*, *self-identify*, and *decline to state*. In this situation, you could also let people specify the pronouns they use so you can address them properly when necessary.
 

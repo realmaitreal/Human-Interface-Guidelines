@@ -323,12 +323,19 @@ def render_aside(b, ctx):
 
 
 def render_row(b, ctx):
-    cols = []
-    for col in b.get("columns", []):
-        c = render_blocks(col.get("content", []), ctx).rstrip()
-        if c:
-            cols.append(c)
-    return "\n\n".join(cols) + "\n\n" if cols else ""
+    raw_cols = b.get("columns", [])
+    cols = [render_blocks(col.get("content", []), ctx).strip() for col in raw_cols]
+    if not any(cols):
+        return ""
+    if len(raw_cols) <= 1:
+        return "\n\n".join(c for c in cols if c) + "\n\n"
+    # Multi-column layout (e.g. side-by-side principle cards, before/after
+    # image comparisons): use an HTML table so columns render side by side
+    # instead of stacking. A blank line right after <td> and before </td>
+    # switches GitHub's Markdown renderer back into Markdown mode for the
+    # cell content.
+    cells = "\n".join(f"<td>\n\n{c}\n\n</td>" for c in cols)
+    return f"<table>\n<tr>\n{cells}\n</tr>\n</table>\n\n"
 
 
 def _cell(cellblocks, ctx):

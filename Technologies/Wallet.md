@@ -38,11 +38,22 @@ Passes are digital representations of information that people can add to Wallet,
 
 **Help the system suggest a pass when relevant.** Ideally, passes automatically appear when they’re needed so people don’t have to manually locate them. When you provide information about when and where your pass is relevant, the system can display a link to it on the Lock Screen when people are most likely to want it. For example, a gym membership card could appear on the Lock Screen as people enter the gym. For certain types of passes, like event tickets, the system can also start a Live Activity. For developer guidance, see [Showing a Pass on the Lock Screen](https://developer.apple.com/documentation/walletpasses/showing-a-pass-on-the-lock-screen).
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of the bottom portion of the Lock Screen on iPhone showing a banner from the Gym app that reads 'Get ready for today's workout! Open your membership pass to badge in.'](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-passes-pass-notification@2x.png)  
 *Lock Screen banner*
 
+</td>
+<td>
+
 ![A screenshot of the bottom portion of the Lock Screen on iPhone showing a Live Activity for a soccer event ticket, displaying the seat location at level 3, row 12, seat 5.](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-passes-pass-live-activity@2x.png)  
 *Live Activity*
+
+</td>
+</tr>
+</table>
 
 **Keep passes up to date.** Physical passes don’t typically change, but a digital pass can reflect changes as they happen. An airline boarding pass, for example, can automatically update to display flight delays and gate changes.
 
@@ -87,25 +98,47 @@ Use Pass Designer to design and preview passes for Apple Wallet. Starting from A
 
 **Ensure sufficient contrast between background and text colors.** Pick label colors that keep text legible against both solid backgrounds and background images.
 
+<table>
+<tr>
+<td>
+
 ![A gym membership pass with a solid purple background and white label text that's clearly legible against the background.](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-passes-text-sufficient-contrast@2x.png)  
 *Sufficient contrast between a solid background and label text*
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
+
+</td>
+<td>
 
 ![A gym membership pass with a solid purple background and label text that's difficult to distinguish from the background.](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-passes-text-insufficient-contrast@2x.png)  
 *Insufficient contrast between a solid background and label text*
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+
 ![A concert ticket pass with an image background and white label text that's clearly legible against the background.](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-passes-background-sufficient-contrast@2x.png)  
 *Sufficient contrast between an image background and label text*
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
+</td>
+<td>
+
 ![A concert ticket pass with an image background and label text that's difficult to distinguish from the background.](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-passes-background-insufficient-contrast@2x.png)  
 *Insufficient contrast between an image background and label text*
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Use language that works on any device.** Passes can appear on multiple devices, so use text that makes sense everywhere. For example, “Slide to view” is meaningful on iPhone but doesn’t apply on Apple Watch.
 
@@ -133,11 +166,22 @@ The event ticket pass style is for entry into events like sporting events, conce
 
 Non-poster style event tickets use standard pass fields and can use a background image and thumbnail.
 
+<table>
+<tr>
+<td>
+
 ![A soccer event ticket with a blurred full-image background of a soccer player in motion, displaying event details, seat information, and a barcode at the bottom.](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-passes-types-event-ticket-background@2x.png)  
 *Event ticket with background and thumbnail*
 
+</td>
+<td>
+
 ![A soccer event ticket on a solid dark blue background, displaying event details, seat information, a thumbnail, and a barcode at the bottom.](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-passes-types-event-ticket@2x.png)  
 *Event ticket with thumbnail*
+
+</td>
+</tr>
+</table>
 
 ### Store cards
 
@@ -183,23 +227,45 @@ The logo appears in the top leading corner of passes with pass fields. It’s ty
 
 **Avoid inner drop shadows on logo artwork.** They can reduce legibility when the logo renders on the pass.
 
+<table>
+<tr>
+<td>
+
 ![A brown paper bag icon with a flat appearance and no inner drop shadow.](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-passes-images-logo-no-shadow@2x.png)
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
+
+</td>
+<td>
 
 ![A brown paper bag icon with an inner drop shadow applied, creating a recessed effect inside the icon shape.](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-passes-images-logo-with-shadow-incorrect@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
+</td>
+</tr>
+</table>
+
 ### Primary logo
 
 Like the logo, the primary logo appears in the top-leading corner of your pass, but is used exclusively for semantic passes.
 
+<table>
+<tr>
+<td>
+
 ![The top portion of an airline boarding pass with callouts identifying a square primary logo in the top-left corner and the logo text beside it.](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-passes-images-primary-logo-square@2x.png)  
 *Square primary logo with logo text*
 
+</td>
+<td>
+
 ![The top portion of an airline boarding pass with a callout identifying a rectangular text-based primary logo in the top-left corner.](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-passes-images-primary-logo-wide@2x.png)  
 *Rectangular primary logo with no logo text*
+
+</td>
+</tr>
+</table>
 
 |  |  |
 | --- | --- |
@@ -227,11 +293,22 @@ The secondary logo displays an additional logo for a ticket issuer or event orga
 
 Icons are square and represent your company or brand when your pass appears on the Lock Screen, in Mail, and on passes in Wallet. The system automatically applies rounded corners, so you don’t need to round them.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of the bottom portion of the Lock Screen on iPhone showing an airline boarding pass banner that reads 'Get ready for flight AP 1042 to Tokyo!', with the pass icon appearing in the leading edge of the banner.](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-passes-images-icon-notification@2x.png)  
 *Icon in a Lock Screen banner*
 
+</td>
+<td>
+
 ![The bottom portion of an airline boarding pass open in Wallet on iPhone, with the pass icon visible in the bottom-leading corner of the pass, and two featured actions below: Go to Terminal I and Track Luggage.](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-passes-images-icon-wallet@2x.png)  
 *Icon displayed on a pass in Wallet*
+
+</td>
+</tr>
+</table>
 
 |  |  |
 | --- | --- |
@@ -271,11 +348,22 @@ Thumbnails are small images, such as a movie poster, that appear on event ticket
 
 The background image is the visual centerpiece of a pass.
 
+<table>
+<tr>
+<td>
+
 ![A soccer event ticket with a blurred full-image background of a soccer player in motion, displaying event details, seat information, and a barcode at the bottom.](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-passes-types-event-ticket-background@2x.png)  
 *Backgrounds appear blurred behind content on older event tickets.*
 
+</td>
+<td>
+
 ![A food truck coupon pass with a background illustration of a food truck in an outdoor setting, a barcode overlaid on the illustration, and coupon details at the top and bottom.](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-passes-images-background-unblurred@2x.png)  
 *Backgrounds appear unblurred on poster event tickets and poster generic passes.*
+
+</td>
+</tr>
+</table>
 
 **Non-poster pass backgrounds**
 
@@ -297,17 +385,39 @@ The background image is the visual centerpiece of a pass.
 
 Position content within the safe area — on poster generic passes and poster event tickets, a material strip covers the bottom edge of the image. If your pass includes a barcode, account for it in your background design. You can preview your pass layout in Pass Designer to verify placement. For developer guidance, see `footerBackgroundColor` in [Pass](https://developer.apple.com/documentation/walletpasses/pass).
 
+<table>
+<tr>
+<td>
+
 ![A museum poster generic pass with a background illustration featuring a dinosaur skull, butterflies, and marine creatures, with a QR code and member details at the bottom.](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-passes-images-background-layout-qr-code@2x.png)  
 *Pass layout*
+
+</td>
+<td>
 
 ![A museum poster generic pass with a background illustration featuring a dinosaur skull, butterflies, and marine creatures. Blue overlays show the safe areas for pass content, including a header area at the top and QR code and footer areas below.](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-passes-images-background-layout-qr-code-safe-areas@2x.png)  
 *Safe areas*
 
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+
 ![An art museum poster generic pass with a full-art background illustration of a waterfall scene, with a barcode and member details at the bottom.](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-passes-images-background-layout-barcode@2x.png)  
 *Pass layout*
 
+</td>
+<td>
+
 ![A background artwork image of a waterfall scene. Blue overlays show the safe areas for pass content, including a header area at the top and barcode and footer areas below.](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-passes-images-background-layout-barcode-safe-areas@2x.png)  
 *Safe areas*
+
+</td>
+</tr>
+</table>
 
 ### Footer
 
@@ -324,9 +434,20 @@ The footer is only available for airline boarding passes.
 
 When you support order tracking, Wallet can display information about an order a customer placed through your app or website, updating the information whenever the status of the order changes. In iOS 17 and later, you can help people start tracking their order right from your app or website and offer additional ways to add their order to Wallet.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of an order fulfillment screen for a food truck app on iPhone. The screen displays information about an order placed, and includes a status bar, shipping address, list of items ordered, and additional order details.](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-ot-status-order-placed@2x.png)
 
+</td>
+<td>
+
 ![A screenshot of an order fulfillment screen for a food truck app on iPhone. The screen displays information about an order placed, and denotes that the order was delivered today. The screen includes the shipping address, a link to track the shipment, a list of items ordered, and additional order details.](https://developer.apple.com/tutorials/images/com.apple.HIG/wallet-ot-status-delivered@2x.png)
+
+</td>
+</tr>
+</table>
 
 Wallet presents a dashboard that displays a customer’s active and completed orders. People can choose an order to view details about it, like the items they ordered and fulfillment information for shipping and pickup.
 

@@ -50,11 +50,22 @@ A tab bar floats above content at the bottom of the screen. Its items rest on a 
 
 For tab bars with an attached accessory, like the MiniPlayer in Music, you can choose to minimize the tab bar and move the accessory inline with it when a person scrolls down. A person can exit the minimized state by tapping a tab or scrolling to the top of the view. For developer guidance, see [TabBarMinimizeBehavior](https://developer.apple.com/documentation/swiftui/tabbarminimizebehavior) and [UITabBarController.MinimizeBehavior](https://developer.apple.com/documentation/uikit/uitabbarcontroller/minimizebehavior).
 
+<table>
+<tr>
+<td>
+
 ![An illustration of the bottom half of an iPhone in portrait orientation, with the Music app open. The MiniPlayer is open above the tab bar at the bottom of the screen.](https://developer.apple.com/tutorials/images/com.apple.HIG/tab-bar-with-accessory-expanded@2x.png)  
 *A tab bar with an attached accessory, expanded*
 
+</td>
+<td>
+
 ![An illustration of the bottom half of an iPhone in portrait orientation, with the Music app open. The tab bar is minimized into the currently open tab at the leading bottom corner of the screen, with the MiniPlayer at the bottom center, and the search tab in the trailing corner.](https://developer.apple.com/tutorials/images/com.apple.HIG/tab-bar-with-accessory-collapsed@2x.png)  
 *A tab bar with an attached accessory, minimized*
+
+</td>
+</tr>
+</table>
 
 A tab bar can include a dedicated search tab at the trailing end. For guidance, see [Search fields](Search%20fields.md).
 
@@ -99,11 +110,22 @@ In visionOS, a tab bar is always vertical, floating in a position that’s fixed
 
 **Supply a symbol and a text label for each tab.** A tab’s symbol is always visible in the tab bar. When people look at the tab bar, the system reveals tab labels, too. Even though the tab bar expands, you need to keep tab labels short so people can read them at a glance.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot showing a collapsed tab bar containing only symbols.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-tab-bar-collapsed@2x.png)  
 *Collapsed*
 
+</td>
+<td>
+
 ![A screenshot showing an expanded tab bar containing both symbols and labels.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-tab-bar-expanded@2x.png)  
 *Expanded*
+
+</td>
+</tr>
+</table>
 
 **If it makes sense in your app, consider using a sidebar within a tab.** If your app’s hierarchy is deep, you might want to use a [Sidebars](Sidebars.md) to support secondary navigation within a tab. If you do this, be sure to prevent selections in the sidebar from changing which tab is currently open.
 

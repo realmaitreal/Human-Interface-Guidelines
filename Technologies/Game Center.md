@@ -67,11 +67,22 @@ Your game can include custom links into the Game Overlay (in iOS, iPadOS, macOS)
 
 Achievements give players an added incentive to stay engaged with your game. Game Center achievements appear in a collectible card format that highlights the player’s progress and showcases your artwork. For developer guidance, see [Rewarding players with achievements](https://developer.apple.com/documentation/gamekit/rewarding-players-with-achievements).
 
+<table>
+<tr>
+<td>
+
 ![An iPhone screenshot of the game The Coast with the Game Overlay open, showing the Achievements overview screen.](https://developer.apple.com/tutorials/images/com.apple.HIG/games-achievement-overlay@2x.png)  
 *Achievements overview*
 
+</td>
+<td>
+
 ![An iPhone screenshot of the game The Coast with the Game Overlay open, showing the detail view of a single achievement.](https://developer.apple.com/tutorials/images/com.apple.HIG/games-achievement-overlay-detail@2x.png)  
 *Achievement detail*
+
+</td>
+</tr>
+</table>
 
 ### Integrating achievements into your game
 
@@ -95,11 +106,22 @@ Achievements give players an added incentive to stay engaged with your game. Gam
 
 Leaderboards are a great way to encourage friendly competition within your game. When you adopt Game Center, players can easily check their ranking against friends and global players as well as receive notifications when their friends challenge them or pass their score on a leaderboard. You can take advantage of the system-designed UI or present leaderboard information within custom UI. For developer guidance, see [Encourage progress and competition with leaderboards](https://developer.apple.com/documentation/gamekit/encourage-progress-and-competition-with-leaderboards).
 
+<table>
+<tr>
+<td>
+
 ![An iPhone screenshot of the game The Coast with the Game Overlay open, showing the Leaderboards overview screen.](https://developer.apple.com/tutorials/images/com.apple.HIG/games-leaderboards-overlay@2x.png)  
 *Leaderboards overview*
 
+</td>
+<td>
+
 ![An iPhone screenshot of the game The Coast with the Game Overlay open, showing the detail view of a single leaderboard.](https://developer.apple.com/tutorials/images/com.apple.HIG/games-leaderboards-detail@2x.png)  
 *Leaderboard detail*
+
+</td>
+</tr>
+</table>
 
 **Choose a leaderboard type.** Game Center supports two types of leaderboards: *classic* and *recurring*.
 
@@ -132,11 +154,22 @@ For games that run in iOS, iPadOS, and macOS, use a single image for your leader
 
 Challenges turn single player activities into multiplayer experiences with friends. Challenges are built on top of leaderboards and allow players to connect with their friends and participate in competitions with time limits. For developer documentation, see [Creating engaging challenges from leaderboards](https://developer.apple.com/documentation/gamekit/creating-engaging-challenges-from-leaderboards).
 
+<table>
+<tr>
+<td>
+
 ![An iPhone screenshot of the game The Coast with the Game Overlay open, showing the Challenges overview screen.](https://developer.apple.com/tutorials/images/com.apple.HIG/games-challenges-overlay@2x.png)  
 *Challenges overview*
 
+</td>
+<td>
+
 ![An iPhone screenshot of the game The Coast with the Game Overlay open, showing the detail view of a single challenge.](https://developer.apple.com/tutorials/images/com.apple.HIG/games-challenges-overlay-detail@2x.png)  
 *Challenge detail*
+
+</td>
+</tr>
+</table>
 
 **Create engaging challenges.** Challenges are great for short, skill-based gameplay activities that have a clear way of gauging players’ accomplishments. Create challenges that take 1-5 minutes to play, with gameplay that players can complete individually. Examples of compelling challenges are:
 
@@ -166,11 +199,22 @@ Challenges turn single player activities into multiplayer experiences with frien
 
 Game Center supports both real-time and turn-based multiplayer activities that make it easy to connect players with friends or other players. Players can access multiplayer gameplay through party codes, the Game Overlay, the dashboard, or in the Games app. For developer documentation, see [Creating activities for your game](https://developer.apple.com/documentation/gamekit/creating-activities-for-your-game).
 
+<table>
+<tr>
+<td>
+
 ![An iPhone screenshot of the game The Coast with the Game Overlay open, showing the Multiplayer levels overview screen.](https://developer.apple.com/tutorials/images/com.apple.HIG/games-multiplayer-overlay@2x.png)  
 *Multiplayer levels overview*
 
+</td>
+<td>
+
 ![An iPhone screenshot of the game The Coast with the Game Overlay open, showing the detail view of a single multiplayer level.](https://developer.apple.com/tutorials/images/com.apple.HIG/games-multiplayer-overlay-detail@2x.png)  
 *Multiplayer level detail*
+
+</td>
+</tr>
+</table>
 
 **Use party codes to invite players to multiplayer activities.** Game Center party codes are a great way to coordinate real-time multiplayer sessions whether you use Game Center matchmaking and networking facilities or provide your own. Game Center generates alpha-numeric party codes that are typically eight characters long, such as “2MP4-9CMF.”  When integrating party codes into your multiplayer games, consider the following guidelines for the best player experience:
 

@@ -24,9 +24,20 @@ When Live Photos is available, the Camera app captures additional content — in
 
 In cases where movement isn’t possible, show a system-provided badge above the photo, either with or without text. Never include a playback button that a viewer can interpret as a video playback button.
 
+<table>
+<tr>
+<td>
+
 ![A nighttime photo of an alpine lake with a system-provided Live Photo badge with the text Live in the upper left corner.](https://developer.apple.com/tutorials/images/com.apple.HIG/live-photo-badge-with-text@2x.png)
 
+</td>
+<td>
+
 ![A nighttime photo of an alpine lake with a system-provided Live Photo badge without text in the upper left corner.](https://developer.apple.com/tutorials/images/com.apple.HIG/live-photo-badge@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Keep badge placement consistent.** If you show a badge, put it in the same location on every photo. Typically, a badge looks best in a corner of a photo.
 

@@ -40,13 +40,24 @@ A menu item’s label describes what it does and may include a symbol if it help
 
 **Use menu item icons sparingly and with purpose.** Icons allow people to find menu items more quickly, and help clarify what selecting an item does. Use an icon to highlight the most common actions and key features of your app, file system locations, connected devices, visual concepts like rotating or flipping an image, and user-generated content like folders and documents. Don’t display an icon if you can’t find one that clearly represents the menu item.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of a menu containing the days of the week. Each menu item is represented by a different symbol with no relation to the corresponding day.](https://developer.apple.com/tutorials/images/com.apple.HIG/menus-days-of-the-week-incorrect-icons@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
+</td>
+<td>
+
 ![An illustration of a menu containing the days of the week with no accompanying symbols.](https://developer.apple.com/tutorials/images/com.apple.HIG/menus-days-of-the-week-correct-no-icons@2x.png)
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Apply a uniform visual treatment across menu items in the same group.** For visual consistency and balance, provide icons for all menu items in a group, or none of them.
 

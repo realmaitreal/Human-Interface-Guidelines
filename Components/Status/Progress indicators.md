@@ -19,19 +19,41 @@ Because the duration of an operation is either known or unknown, there are two t
 
 Both determinate and indeterminate progress indicators can have different appearances depending on the platform. A determinate progress indicator shows the progress of a task by filling a linear or circular track as the task completes. *Progress bars* include a track that fills from the leading side to the trailing side. *Circular progress indicators* have a track that fills in a clockwise direction.
 
+<table>
+<tr>
+<td>
+
 ![An image of a horizontal progress bar in macOS filled almost to the midpoint with solid color.](https://developer.apple.com/tutorials/images/com.apple.HIG/progress-indicator-determinate-bar@2x.png)  
 *Progress bar*
+
+</td>
+<td>
 
 ![An image of a circular progress indicator in macOS filled almost to the eight o'clock position with solid color.](https://developer.apple.com/tutorials/images/com.apple.HIG/progress-indicator-determinate-circle@2x.png)  
 *Circular progress indicator*
 
+</td>
+</tr>
+</table>
+
 An indeterminate progress indicator — also called an *activity indicator* — uses an animated image to indicate progress. All platforms support a circular image that appears to spin; however, macOS also supports an indeterminate progress bar.
+
+<table>
+<tr>
+<td>
 
 ![An image of a spinning, circular activity indicator in macOS.](https://developer.apple.com/tutorials/images/com.apple.HIG/progress-indicator-intermediate-spinner@2x.png)  
 *macOS*
 
+</td>
+<td>
+
 ![An image of a spinning activity indicator in watchOS.](https://developer.apple.com/tutorials/images/com.apple.HIG/activity-indicators-watch@2x.png)  
 *watchOS*
+
+</td>
+</tr>
+</table>
 
 For developer guidance, see [ProgressView](https://developer.apple.com/documentation/swiftui/progressview).
 
@@ -77,11 +99,22 @@ For developer guidance, see [UIRefreshControl](https://developer.apple.com/docum
 
 In macOS, an indeterminate progress indicator can have a bar or circular appearance. Both versions use an animated image to indicate that the app is performing a task.
 
+<table>
+<tr>
+<td>
+
 ![An image of a completely filled horizontal progress bar in macOS. The fill is animated to cycle through various shade changes as progress continues.](https://developer.apple.com/tutorials/images/com.apple.HIG/progress-indicator-intermediate-bar@2x.png)  
 *Indeterminate progress bar*
 
+</td>
+<td>
+
 ![An image of a spinning, circular activity indicator in macOS.](https://developer.apple.com/tutorials/images/com.apple.HIG/progress-indicator-intermediate-spinner@2x.png)  
 *Indeterminate circular progress indicator*
+
+</td>
+</tr>
+</table>
 
 **Prefer an activity indicator (spinner) to communicate the status of a background operation or when space is constrained.** Spinners are small and unobtrusive, so they’re useful for asynchronous background tasks, like retrieving messages from a server. Spinners are also good for communicating progress within a small area, such as within a text field or next to a specific control, such as a button.
 
@@ -91,14 +124,28 @@ In macOS, an indeterminate progress indicator can have a bar or circular appeara
 
 By default the system displays the progress indicators in white over the scene’s background color. You can change the color of the progress indicator by setting its tint color.
 
+<table>
+<tr>
+<td>
+
 ![An image of a progress bar filling from left to right in watchOS.](https://developer.apple.com/tutorials/images/com.apple.HIG/progress-bar-watch@2x.png)  
 *Progress bar*
+
+</td>
+<td>
 
 ![An image of a circular progress indicator filling clockwise in watchOS.](https://developer.apple.com/tutorials/images/com.apple.HIG/progress-ring-watch@2x.png)  
 *Circular progress indicator*
 
+</td>
+<td>
+
 ![An image of a spinning activity indicator in watchOS.](https://developer.apple.com/tutorials/images/com.apple.HIG/activity-indicators-watch@2x.png)  
 *Activity indicator*
+
+</td>
+</tr>
+</table>
 
 ## Resources
 

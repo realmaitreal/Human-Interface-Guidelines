@@ -12,9 +12,20 @@
 
 After people choose an item from a pop-up button’s menu, the menu closes, and the button can update its content to indicate the current selection.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of Calendar on iPhone, with a new calendar event open for editing. The editing screen contains controls for setting the details of the event, including its start and end dates, travel time, repeat interval, calendar, invitees, alert options, and attachments.](https://developer.apple.com/tutorials/images/com.apple.HIG/pop-up-button-closed@2x.png)
 
+</td>
+<td>
+
 ![A screenshot of Calendar on iPhone, with a new calendar event open for editing. A pop-up button menu emerges from the Repeat button, with options for choosing a repeat interval from a list of preset options, or creating a custom one.](https://developer.apple.com/tutorials/images/com.apple.HIG/pop-up-button-open@2x.png)
+
+</td>
+</tr>
+</table>
 
 ## Best practices
 

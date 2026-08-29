@@ -66,11 +66,22 @@ Each view category is designed to support specific types of content and interact
 | [Charts](https://developer.apple.com/design/human-interface-guidelines/carekit#Charts) | Display graphical data that can help people understand how their treatment is progressing. |
 | [Contact views](https://developer.apple.com/design/human-interface-guidelines/carekit#Contact-views) | Display contact information. Support communication through phone, message, and email, and link to a map of the contact’s location. |
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of a CareKit app screen on iPhone that shows completed and uncompleted days, a medication task, a chart that compares the patient's nausea with their medication intake, and a logging task the patient can use to log each occurrence of nausea.](https://developer.apple.com/tutorials/images/com.apple.HIG/carekit-tasks-and-charts@2x.png)  
 *Tasks and charts*
 
+</td>
+<td>
+
 ![A screenshot of a CareKit app screen on iPhone that shows contact information for two doctors, including buttons for phone, message, email, and map directions.](https://developer.apple.com/tutorials/images/com.apple.HIG/carekit-contacts@2x.png)  
 *Contacts*
+
+</td>
+</tr>
+</table>
 
 A CareKit UI view consists of a header and may include a stack of content subviews. Located at the top of the view, the header can display text, a symbol, and a disclosure indicator, and can include a separator at its bottom edge. The content stack appears below the header and displays your content subviews in a vertical arrangement.
 
@@ -156,11 +167,22 @@ A care plan typically includes a care team and other trusted individuals who can
 
 In CareKit 2.0, CareKit UI provides two styles of the contact view: simple and detailed.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of a simple contact view that displays a person glyph, followed by a doctor's name and practice type, and a disclosure button to display additional information.](https://developer.apple.com/tutorials/images/com.apple.HIG/carekit-simple-contact@2x.png)  
 *Simple*
 
+</td>
+<td>
+
 ![An illustration of a detailed contact view that displays a person glyph, followed by a doctor's name and practice type in a header area. In a subview area, the view displays information about the doctor, and buttons for calling, messaging, emailing, and navigating to the doctor's physical address.](https://developer.apple.com/tutorials/images/com.apple.HIG/carekit-detailed-contact@2x.png)  
 *Detailed*
+
+</td>
+</tr>
+</table>
 
 **Consider using color to categorize care team members.** Color can help people identify care team members at a glance.
 

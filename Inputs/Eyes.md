@@ -44,13 +44,24 @@ visionOS also supports *focus effects* that help people navigate apps and the sy
 
 **In general, give an interactive item a rounded shape.** People’s eyes tend to be drawn toward the corners in a shape, making it difficult to keep looking at the shape’s center. The more rounded an item’s shape, the easier it is for people to use their eyes to target it.
 
+<table>
+<tr>
+<td>
+
 ![A square button.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-eyes-sharp-button-incorrect@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
+</td>
+<td>
+
 ![A circular button.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-eyes-rounded-button-correct@2x.png)
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
+
+</td>
+</tr>
+</table>
 
 **If you create an interactive component that consists of more than one element, be sure to provide an overall containing shape that visionOS can highlight.** For example, if an image and a label below it combine to act as one interactive component, you need to define a custom region that encompasses both elements, allowing visionOS to highlight the entire region when people look at either element.
 

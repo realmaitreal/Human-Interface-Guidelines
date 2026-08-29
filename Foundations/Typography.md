@@ -94,11 +94,22 @@ The system defines a set of typographic attributes — called text styles — th
 
 Dynamic Type is a system-level feature in iOS, iPadOS, tvOS, visionOS, and watchOS that lets people adjust the size of visible text on their device to ensure readability and comfort. For related guidance, see [Accessibility](Accessibility.md).
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of a Mail message on iPhone, using the default font size. From the left, the message header displays the sender's contact photo or initials, followed by a two-line layout with the sender name and date on top and the recipient name and attachment glyph on the bottom. The message body contains four lines of text and the address of Muir Woods National Monument.](https://developer.apple.com/tutorials/images/com.apple.HIG/typography-default-type@2x.png)  
 *Mail content at the default text size*
 
+</td>
+<td>
+
 ![A screenshot of a Mail message on iPhone, using the largest accessibility font size. From the top, the message header displays the sender name on one line, followed by the truncated recipient name on the next line, and the date and attachment glyph on the third line. Below the header and message title, the first line and part of the second line of body text are visible on the screen.](https://developer.apple.com/tutorials/images/com.apple.HIG/typography-dynamic-type@2x.png)  
 *Mail content at the largest accessibility text size*
+
+</td>
+</tr>
+</table>
 
 For a list of available Dynamic Type sizes, see [Specifications](https://developer.apple.com/design/human-interface-guidelines/typography#Specifications). You can also download Dynamic Type size tables in the [Apple Design Resources](https://developer.apple.com/design/resources/) for each platform.
 
@@ -153,13 +164,24 @@ visionOS uses bolder versions of the Dynamic Type body and title styles and it i
 
 **In general, prefer 2D text.** The more visual depth text characters have, the more difficult they can be to read. Although a small amount of 3D text can provide a fun visual element that draws people’s attention, if you’re going to display content that people need to read and understand, prefer using text that has little or no visual depth.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot that shows the correct placement of 2D text on a window in visionOS.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-typography-2d-text-correct@2x.png)
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
+</td>
+<td>
+
 ![A screenshot that shows the incorrect placement of 3D text on a window in visionOS.](https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-typography-3d-text-incorrect@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Make sure text looks good and remains legible when people scale it.** Use a text style that makes the text look good at full scale, then test it for legibility at different scales.
 

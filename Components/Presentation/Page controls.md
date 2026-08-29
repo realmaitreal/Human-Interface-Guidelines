@@ -34,15 +34,26 @@ If it enhances your app or game, you can provide a custom image to use as the de
 
 **Avoid using more than two different indicator images in a page control.** If your list contains one page with special meaning — like the current-location page in Weather — you can make the page easy to find by giving it a unique indicator image. In contrast, a page control that uses several unique images to mark several important pages is hard to use because people must memorize the meaning of each image. A page control that displays more than two types of indicator images tends to look messy and haphazard, even when each image is clear.
 
+<table>
+<tr>
+<td>
+
 ![An illustration that represents the Weather app highlighted to show a page control at the bottom edge of the screen. The page control displays a mix of icons, such as weak sun, cloud, cloud with sun, and cloud with drizzle.](https://developer.apple.com/tutorials/images/com.apple.HIG/page-indicator-customization-incorrect@2x.png)
 
 ![An X in a circle to indicate an incorrect example.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)  
 *Using several different indicators can make a page control look busy and difficult to use.*
 
+</td>
+<td>
+
 ![An illustration that represents the Weather app highlighted to show a page control at the bottom edge of the screen. The page control displays the location symbol on the leading side followed by a series of dots.](https://developer.apple.com/tutorials/images/com.apple.HIG/page-indicator-customization-correct@2x.png)
 
 ![A checkmark in a circle to indicate a correct example.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)  
 *Using only two different indicators looks well-organized and provides a consistent experience.*
+
+</td>
+</tr>
+</table>
 
 **Avoid coloring indicator images.** Custom colors can reduce the contrast that differentiates the current-page indicator and makes the page control visible on the screen. To ensure that your page control is easy to use and looks good in different contexts, let the system automatically color the indicators.
 
@@ -86,11 +97,22 @@ In visionOS, page controls represent available pages and indicate the current pa
 
 In watchOS, page controls can be displayed at the bottom of the screen for horizontal pagination, or next to the Digital Crown when presenting a vertical [tab view](../Layout%20and%20organization/Tab%20views.md). When using vertical tab views, the page indicator shows people where they are in the navigation, both within the current page and within the set of pages. The page control transitions between scrolling through a page’s content and scrolling to other pages.
 
+<table>
+<tr>
+<td>
+
 ![An illustration representing a screen that includes a vertical tab view on Apple Watch. A page control next to the Digital Crown shows that the fourth tab is currently selected.](https://developer.apple.com/tutorials/images/com.apple.HIG/page-controls-watch-vertical@2x.png)  
 *Vertical page control*
 
+</td>
+<td>
+
 ![An illustration representing a screen that includes a horizontal tab view on Apple Watch. A page control at the bottom shows that the second tab is currently selected.](https://developer.apple.com/tutorials/images/com.apple.HIG/page-controls-watch-horizontal@2x.png)  
 *Horizontal page control*
+
+</td>
+</tr>
+</table>
 
 **Use vertical pagination to separate multiple views into distinct, purposeful pages.** Give each page a clear purpose, and let people scroll through the pages using the Digital Crown. In watchOS, this design is more effective than horizontal pagination or many levels of hierarchical navigation.
 

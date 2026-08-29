@@ -14,9 +14,20 @@
 
 **Use an action sheet — not an alert — to offer choices related to an intentional action.** For example, when people cancel the message they’re editing in Mail on iPhone, an action sheet provides two choices: delete the draft, or save the draft. Although an alert can also help people confirm or cancel an action that has destructive consequences, it doesn’t provide additional choices related to the action. More importantly, an alert is usually unexpected, generally telling people about a problem or a change in the current situation that might require them to act. For guidance, see [Alerts](Alerts.md).
 
+<table>
+<tr>
+<td>
+
 ![A partial screenshot of a new message being composed in Mail on iPhone.](https://developer.apple.com/tutorials/images/com.apple.HIG/action-sheet-iphone-mail@2x.png)
 
+</td>
+<td>
+
 ![A partial screenshot of a new message being composed in Mail on iPhone, with the action sheet open after choosing to cancel the message. The action sheet presents choices to delete the draft or save the draft.](https://developer.apple.com/tutorials/images/com.apple.HIG/action-sheet-iphone-mail-delete-action@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Use action sheets sparingly.** Action sheets give people important information and choices, but they interrupt the current task to do so. To encourage people to pay attention to action sheets, avoid using them more than necessary.
 

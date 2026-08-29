@@ -66,19 +66,44 @@ Pickers display lists of items that people navigate using the Digital Crown, whi
 
 A picker can display a list of items using the wheels style. watchOS can also display date and time pickers using the wheels style. For developer guidance, see [Picker](https://developer.apple.com/documentation/swiftui/picker) and [DatePicker](https://developer.apple.com/documentation/swiftui/datepicker).
 
+<table>
+<tr>
+<td>
+
 ![An illustration representing a screen containing a picker view on Apple Watch, showing three items in a list. The center item is highlighted.](https://developer.apple.com/tutorials/images/com.apple.HIG/pickers-wheel-watch@2x.png)
+
+</td>
+<td>
 
 ![An illustration representing a screen containing a date picker on Apple Watch, with the day highlighted.](https://developer.apple.com/tutorials/images/com.apple.HIG/pickers-date-watch@2x.png)
 
+</td>
+<td>
+
 ![An illustration representing a screen containing a time picker on Apple Watch, with the minutes highlighted.](https://developer.apple.com/tutorials/images/com.apple.HIG/pickers-time-watch@2x.png)
+
+</td>
+</tr>
+</table>
 
 You can configure a picker to display an outline, caption, and scrolling indicator.
 
 For longer lists, the navigation link displays the picker as a button. When someone taps the button, the system shows the list of options. The person can also scrub through the options using the Digital Crown without tapping the button. For developer guidance, see [navigationLink](https://developer.apple.com/documentation/swiftui/pickerstyle/navigationlink).
 
+<table>
+<tr>
+<td>
+
 ![An illustration representing a screen that contains a picker button on Apple Watch. The button’s text denotes that the second item is selected.](https://developer.apple.com/tutorials/images/com.apple.HIG/pickers-navigation-button-watch@2x.png)
 
+</td>
+<td>
+
 ![An illustration representing a screen showing a list of items on Apple Watch. The second item in the list is selected.](https://developer.apple.com/tutorials/images/com.apple.HIG/pickers-navigation-list-watch@2x.png)
+
+</td>
+</tr>
+</table>
 
 ## Resources
 

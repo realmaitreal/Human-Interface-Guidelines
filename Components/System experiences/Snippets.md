@@ -16,11 +16,22 @@ You can present a snippet related to one of your app’s actions by including it
 
 There are two snippet types: confirmation and result. A *confirmation* snippet lets people confirm or cancel an action, and may include options that affect the result. By contrast, a *result* snippet provides information — possibly as the outcome of a confirmation — that doesn’t require further action. An app intent that displays a snippet always shows a result, while the confirmation step is optional.
 
+<table>
+<tr>
+<td>
+
 ![A partial screenshot showing a confirmation snippet on iPhone. The snippet includes an order summary at the top, with a Cancel button and an Order button at the bottom for the person to cancel or confirm the order.](https://developer.apple.com/tutorials/images/com.apple.HIG/snippets-confirmation-type@2x.png)  
 *A confirmation snippet requires additional input to proceed.*
 
+</td>
+<td>
+
 ![A partial screenshot showing a result snippet on iPhone. The snippet includes an order status and shipping date at the top, with a Done button at the bottom for the person to dismiss the snippet.](https://developer.apple.com/tutorials/images/com.apple.HIG/snippets-result-type@2x.png)  
 *A result snippet provides information without requiring further action.*
+
+</td>
+</tr>
+</table>
 
 For developer guidance, see [Displaying static and interactive snippets](https://developer.apple.com/documentation/appintents/displaying-static-and-interactive-snippets).
 
@@ -44,13 +55,24 @@ A snippet consists of the following elements:
 
 **Communicate a snippet’s purpose visually.** Don’t rely on showing the dialogue text to convey a snippet’s purpose. While the spoken app intent dialogue is essential for interactions when someone isn’t looking at the screen, prefer to omit it from a snippet’s visual representation and use the custom view to convey its information instead.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of a result snippet from Calendar that shows details for an upcoming event. The dialogue at the top repeats the information from the custom view, so that the event title, date, time, and participants are included in both places.](https://developer.apple.com/tutorials/images/com.apple.HIG/snippet-response-heavy-dialogue-incorrect@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
+</td>
+<td>
+
 ![An illustration of a result snippet from Calendar that shows details for an upcoming event. The snippet omits the dialogue from the top and includes the event title, date, time, and participants in the custom view only.](https://developer.apple.com/tutorials/images/com.apple.HIG/snippet-response-light-dialogue-correct@2x.png)
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
+
+</td>
+</tr>
+</table>
 
 ## Platform considerations
 

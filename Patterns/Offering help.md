@@ -26,14 +26,28 @@ A tip is a small, transient view that briefly describes how to use a feature in 
 
 **Use the most appropriate tip type for your app’s user interface.** Display a popover tip when you want to preserve the content flow, or an inline tip when you want to ensure that surrounding information is visible. You can use an annotation-style inline tip when pointing to a specific UI element, or a hint-style tip when it’s not related to a specific piece of UI.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of a popover-style tip on iPhone. The tip appears atop nearby content, and points to a feature depicted by a blue star icon. The content beneath the tip is obscured.](https://developer.apple.com/tutorials/images/com.apple.HIG/offering-help-tip-popover@2x.png)  
 *Popover*
+
+</td>
+<td>
 
 ![An illustration of an annotation-style tip on iPhone. The tip is embedded among the surrounding content, and points to a feature depicted by a blue star icon. Displaced text appears above and below the tip.](https://developer.apple.com/tutorials/images/com.apple.HIG/offering-help-tip-annotation@2x.png)  
 *Annotation*
 
+</td>
+<td>
+
 ![An illustration of an hint-style tip on iPhone. The tip is embedded among the surrounding content. Displaced text appears above and below the tip.](https://developer.apple.com/tutorials/images/com.apple.HIG/offering-help-tip-hint@2x.png)  
 *Hint*
+
+</td>
+</tr>
+</table>
 
 **Use tips for simple features.** Tips work best on features that are easy to describe and that people can complete with a few simple steps. If a feature requires more than three actions, it’s probably too complicated for a tip.
 
@@ -43,23 +57,45 @@ A tip is a small, transient view that briefly describes how to use a feature in 
 
 **If there’s an image or symbol that people associate with the feature, consider including it in the tip, and prefer the filled variant.** For example, a tip with a star can help people understand that the tip is related to favorites.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of a hint-style tip with an unfilled blue star symbol on the leading side.](https://developer.apple.com/tutorials/images/com.apple.HIG/offering-help-tip-symbol-usage-unfilled-incorrect@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
+
+</td>
+<td>
 
 ![An illustration of a hint-style tip with a filled blue star symbol on the leading side.](https://developer.apple.com/tutorials/images/com.apple.HIG/offering-help-tip-symbol-usage-filled-correct@2x.png)
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
+</td>
+</tr>
+</table>
+
 If the feature is represented by an image that the tip connects to directly, avoid repeating the same image in both the tip and the UI.
+
+<table>
+<tr>
+<td>
 
 ![An illustration of an annotation-style tip pointing to a feature depicted by a blue star icon. The tip includes a similar blue star symbol on its leading side.](https://developer.apple.com/tutorials/images/com.apple.HIG/offering-help-tip-symbol-usage-incorrect@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
+</td>
+<td>
+
 ![An illustration of an annotation-style tip pointing to a feature depicted by a blue star icon. The tip is text-only and omits an accompanying symbol.](https://developer.apple.com/tutorials/images/com.apple.HIG/offering-help-tip-symbol-usage-correct@2x.png)
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Use buttons to direct people to information or options.** If your feature has settings people can customize, or you want to redirect people to an area where they can learn more about a feature, consider adding a button. Buttons can take people directly to the settings where they make adjustments. Or if there’s more information people might find useful, add a button to take them to additional resources, such as a setup flow.
 

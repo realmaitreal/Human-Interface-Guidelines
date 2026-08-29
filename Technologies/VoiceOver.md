@@ -34,15 +34,26 @@ You inform VoiceOver about your app’s content by providing alternative text th
 
 VoiceOver reads elements in the same order people read content in the their active language and locale. For example, in US English, this is top-to-bottom, left-to-right. In the ungrouped example below, VoiceOver describes each image before moving on to the captions. In the grouped example, VoiceOver describes each image with its respective caption.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of the top portion of an iPhone. The UI onscreen shows two images. On the left is a basket of mangoes, and on the right is a basket of artichokes. There are captions beneath the images that read 'Mangoes come from trees that belong to the genus Mangifera' and 'Artichokes come from a variety of a species of thistle.' The images and captions are all contained within a single VoiceOver frame.](https://developer.apple.com/tutorials/images/com.apple.HIG/voiceover-incorrect-grouping@2x.png)  
 *Ungrouped related elements make it hard for VoiceOver to accurately describe the UI.*
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
+</td>
+<td>
+
 ![An illustration of the top portion of an iPhone. The UI onscreen shows two images. On the left is a basket of mangoes, and on the right is a basket of artichokes. There are captions beneath the images that read 'Mangoes come from trees that belong to the genus Mangifera' and 'Artichokes come from a variety of a species of thistle.' Just the image of mangoes and its caption are contained within a single VoiceOver frame.](https://developer.apple.com/tutorials/images/com.apple.HIG/voiceover-correct-grouping@2x.png)  
 *Grouped related elements help VoiceOver accurately describe the UI.*
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
+
+</td>
+</tr>
+</table>
 
 For developer guidance, see [shouldGroupAccessibilityChildren](https://developer.apple.com/documentation/objectivec/nsobject-swift.class/shouldgroupaccessibilitychildren).
 

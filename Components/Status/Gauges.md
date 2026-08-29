@@ -34,13 +34,24 @@ In addition to supporting gauges, macOS also defines a level indicator that disp
 
 The capacity style can depict discrete or continuous values.
 
+<table>
+<tr>
+<td>
+
 ![An image of a continuous capacity indicator that uses the default green fill to indicate an amount of about two-thirds of the total capacity.](https://developer.apple.com/tutorials/images/com.apple.HIG/indicators-continuous@2x.png)
 
 **Continuous.** A horizontal translucent track that fills with a solid bar to indicate the current value.
 
+</td>
+<td>
+
 ![An image of a discrete capacity indicator that uses the default green fill to indicate an amount of three-quarters of the total capacity.](https://developer.apple.com/tutorials/images/com.apple.HIG/indicators-discrete@2x.png)
 
 **Discrete.** A horizontal row of separate, equally sized, rectangular segments. The number of segments matches the total capacity, and the segments fill completely — never partially — with color to indicate the current value.
+
+</td>
+</tr>
+</table>
 
 **Consider using the continuous style for large ranges.** A large value range can make the segments of a discrete capacity indicator too small to be useful.
 

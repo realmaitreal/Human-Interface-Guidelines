@@ -14,11 +14,22 @@ Within a segmented control, all segments are usually equal in width. Like [Butto
 
 A segmented control offers a single choice from among a set of options, or in macOS, either a single choice or multiple choices. For example, in macOS Keynote people can select only one segment in the alignment options control to align selected text. In contrast, people can choose multiple segments in the font attributes control to combine styles like bold, italics, and underline. The toolbar of a Keynote window also uses a segmented control to let people show and hide various editing panes within the main window area.
 
+<table>
+<tr>
+<td>
+
 ![A partial screenshot of a segmented control that consists of four text-alignment options. The center alignment option is selected.](https://developer.apple.com/tutorials/images/com.apple.HIG/segmented-control-one-choice@2x.png)  
 *Single choice*
 
+</td>
+<td>
+
 ![A partial screenshot of a segmented control that consists of four font types. Three of the four options are selected.](https://developer.apple.com/tutorials/images/com.apple.HIG/segmented-control-multiple-choices@2x.png)  
 *Multiple choices*
+
+</td>
+</tr>
+</table>
 
 In addition to representing the state of a single or multiple-choice selection, a segmented control can function as a set of buttons that perform actions without showing a selection state. For example, the Reply, Reply all, and Forward buttons in macOS Mail. For developer guidance, see [isMomentary](https://developer.apple.com/documentation/uikit/uisegmentedcontrol/ismomentary) and [NSSegmentedControl.SwitchTracking.momentary](https://developer.apple.com/documentation/appkit/nssegmentedcontrol/switchtracking/momentary).
 

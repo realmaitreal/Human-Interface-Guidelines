@@ -209,35 +209,71 @@ Use a custom color when other technology icons appear in the same color.
 
 **Use the HomeKit icon noninteractively.** Don’t use the icon and the name *HomeKit* in custom interactive elements or buttons. You can use the Apple Home app icon to open the app’s product page in the App Store.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of an incorrectly used HomeKit icon in a circular button styled with a chrome appearance.](https://developer.apple.com/tutorials/images/com.apple.HIG/homekit-donot1@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
+
+</td>
+<td>
 
 ![An illustration of a button incorrectly titled 'HomeKit' with a custom gradient background.](https://developer.apple.com/tutorials/images/com.apple.HIG/homekit-donot2@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
+</td>
+</tr>
+</table>
+
 **Don’t use the HomeKit icon within text or as a replacement for the word HomeKit.** See [Referring to HomeKit](https://developer.apple.com/design/human-interface-guidelines/homekit#Referring-to-HomeKit) to learn how to properly reference HomeKit in text.
+
+<table>
+<tr>
+<td>
 
 ![The first in a series of images showing examples of the HomeKit icon when used in text. In this example, the icon correctly appears first in the line, and then the text 'Lights set with HomeKit.'](https://developer.apple.com/tutorials/images/com.apple.HIG/homekit-lights-right@2x.png)
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
+</td>
+<td>
+
 ![The second in a series of images showing examples of the HomeKit icon when used in text. This example depicts the icon incorrectly positioned after the word 'with' in the text 'Lights set with HomeKit.'](https://developer.apple.com/tutorials/images/com.apple.HIG/homekit-lights-wrong1@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
+
+</td>
+<td>
 
 ![The third in a series of images showing examples of the HomeKit icon when used in text. This example depicts the icon incorrectly positioned at the end of the line of text that reads 'Lights set with'.](https://developer.apple.com/tutorials/images/com.apple.HIG/homekit-lights-wrong2@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
+</td>
+</tr>
+</table>
+
 **Pair the icon with the name *HomeKit* correctly.** You can show the name below or beside the icon if other technologies are referenced in this way. Use the same font that’s used on the rest of your layout. For related guidance, see [Referring to HomeKit](https://developer.apple.com/design/human-interface-guidelines/homekit#Referring-to-HomeKit).
+
+<table>
+<tr>
+<td>
 
 ![An illustration of a view containing setup information within an app. The top of the view includes the title 'Setup' above a divider line. Three rows with icons, text, and disclosure buttons for displaying additional information appear below the divider. The first row includes the HomeKit icon followed by the word 'HomeKit'. The other  two rows display dashed squares representing other app icons, each followed by the word 'Name'.](https://developer.apple.com/tutorials/images/com.apple.HIG/homekit-setup@2x.png)  
 *Using the icon and name in setup or instructional content*
 
+</td>
+<td>
+
 ![An illustration of a view containing a grid of four app buttons. The top of the view includes the title 'Apps' above a divider line. Two rows of buttons and labels appear below the divider. The first button in the first row includes the Apple Home app icon, and appears above the text 'Apple Home'. The remaining buttons include dashed squares representing other app icons, and each appears above the text 'App Name'.](https://developer.apple.com/tutorials/images/com.apple.HIG/homekit-apps@2x.png)  
 *Using the icon and name referencing the Apple Home app*
+
+</td>
+</tr>
+</table>
 
 ## Referring to HomeKit
 

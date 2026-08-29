@@ -58,11 +58,22 @@ Activity rings are available in iOS with [HKActivityRingView](https://developer.
 - With an Apple Watch paired, iOS shows all three Activity rings.
 - Without an Apple Watch paired, iOS shows the Move ring only, which represents an approximation of a person’s activity based on their steps and workout information from other apps.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of the Activity summary in the iOS Fitness app with Apple Watch paired. All three Activity rings are displayed.](https://developer.apple.com/tutorials/images/com.apple.HIG/activity-rings-watch-paired@2x.png)  
 *Apple Watch paired*
 
+</td>
+<td>
+
 ![A screenshot of the Activity summary in the iOS Fitness app with no Apple Watch paired. Only the Move ring is displayed.](https://developer.apple.com/tutorials/images/com.apple.HIG/activity-rings-no-watch-paired@2x.png)  
 *No Apple Watch paired*
+
+</td>
+</tr>
+</table>
 
 Because iOS shows Activity rings whether or not an Apple Watch is paired, activity history can include a combination of both styles. For example, Activity rings in Fitness have three rings when a person exercises with their Apple Watch paired, and only the Move ring when they exercise without their Apple Watch.
 

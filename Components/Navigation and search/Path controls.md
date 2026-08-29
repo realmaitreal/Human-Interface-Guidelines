@@ -10,13 +10,24 @@ For example, choosing View > Show Path Bar in the Finder displays a path bar at 
 
 There are two styles of path control.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of a Finder path bar that displays a hierarchy of four locations.](https://developer.apple.com/tutorials/images/com.apple.HIG/path-controls-standard@2x.png)
 
 **Standard.** A linear list that includes the root disk, parent folders, and selected item. Each item appears with an icon and a name. If the list is too long to fit within the control, it hides names between the first and last items. If you make the control editable, people can drag an item onto the control to select the item and display its path in the control.
 
+</td>
+<td>
+
 ![A screenshot of a path control showing a folder icon and a pop-up control.](https://developer.apple.com/tutorials/images/com.apple.HIG/path-controls-popup@2x.png)
 
 **Pop up.** A control similar to a [pop-up button](../Menus%20and%20actions/Pop-up%20buttons.md) that shows the icon and name of the selected item. People can click the item to open a menu containing the root disk, parent folders, and selected item. If you make the control editable, the menu contains an additional Choose command that people can use to select an item and display it in the control. They can also drag an item onto the control to select it and display its path.
+
+</td>
+</tr>
+</table>
 
 ## Best practices
 

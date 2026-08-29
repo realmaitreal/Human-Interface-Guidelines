@@ -24,9 +24,20 @@ You can also create app extensions to provide custom share and action activities
 
 **Use the Share button to display an activity view.** People are accustomed to accessing system-provided activities when they choose the Share button. Avoid confusing people by providing an alternative way to do the same thing.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of the Notes app on iPhone, with an open Notes document titled Nature Walks. The top toolbar includes a Share button grouped with a More button on its trailing edge.](https://developer.apple.com/tutorials/images/com.apple.HIG/activity-views-share-button@2x.png)
 
+</td>
+<td>
+
 ![A screenshot of the Notes app on iPhone, with an open Notes document titled Nature Walks. An activity view is open from the Share button, including controls for sharing the document with contacts or other apps, and copying, exporting, or adding markup to the document.](https://developer.apple.com/tutorials/images/com.apple.HIG/activity-views-share-sheet@2x.png)
+
+</td>
+</tr>
+</table>
 
 ## Share and action extensions
 

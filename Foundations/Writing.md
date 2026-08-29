@@ -20,9 +20,20 @@ Whether you’re building an onboarding experience, writing an alert, or describ
 
 Compare the tone of these two examples from Apple Watch. In the first, the tone is straightforward and direct, reflecting the seriousness of the situation. In the second, the tone is light and congratulatory.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of a Fall Detection message that reads: it looks like you've taken a hard fall.](https://developer.apple.com/tutorials/images/com.apple.HIG/writing-fall-detection-message@2x.png)
 
+</td>
+<td>
+
 ![A screenshot of an Activity message that reads: you set a personal record for your longest daily Move streak, 35 days!](https://developer.apple.com/tutorials/images/com.apple.HIG/writing-move-streak-message@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Be clear.** Choose words that are easily understood and convey the right thing. Check each word to be sure it needs to be there. If you can use fewer words, do so. When in doubt, read your writing out loud.
 

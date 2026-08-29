@@ -34,13 +34,24 @@ For developer guidance, see [Apple Pay](https://developer.apple.com/documentatio
 
 **If you use a custom button to start the Apple Pay payment process, make sure your custom button doesn’t display “Apple Pay” or the Apple Pay logo.** In this scenario, you must let people know that you accept Apple Pay by displaying the [Apple Pay mark](https://developer.apple.com/design/human-interface-guidelines/apple-pay#Apple-Pay-mark) graphic or referencing Apple Pay in text on the same page that displays your payment button.
 
+<table>
+<tr>
+<td>
+
 ![An illustration that shows the correct arrangement of the Apple Pay logo above a custom button titled 'Order Now'.](https://developer.apple.com/tutorials/images/com.apple.HIG/custom-button-yes@2x.png)
 
 ![Correct usage](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
+</td>
+<td>
+
 ![An illustration that shows the incorrect arrangement of the Apple Pay logo above a custom button titled 'Apple Pay'.](https://developer.apple.com/tutorials/images/com.apple.HIG/custom-button-no@2x.png)
 
 ![Incorrect usage](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Use the Apple Pay mark graphic only to communicate that you accept Apple Pay.** The Apple Pay mark doesn’t facilitate payment. Never use it as a payment button or position it as a button. When using the Apple Pay mark to indicate Apple Pay as the selected payment method, you can create a separate custom button that matches your app or website design to initiate the Apple Pay payment.
 
@@ -229,49 +240,93 @@ Use the *automatic* style to let the current system appearance determine the app
 
 Use on white or light-color backgrounds that provide sufficient contrast. Don’t use on black or dark backgrounds.
 
+<table>
+<tr>
+<td>
+
 ![An illustration showing the correct placement of a black Apple Pay button over a light background.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-pay-black-yes@2x.png)
 
 ![Correct usage](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
+
+</td>
+<td>
 
 ![An illustration showing the incorrect placement of a black Apple Pay button over a dark background.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-pay-black-no@2x.png)
 
 ![Incorrect usage](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
+</td>
+</tr>
+</table>
+
 #### White with outline
 
 Use on white or light-color backgrounds that don’t provide sufficient contrast. Don’t place on dark or saturated backgrounds.
+
+<table>
+<tr>
+<td>
 
 ![An illustration showing the correct placement of a white, outlined Apple Pay button over a light background.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-pay-outline-yes@2x.png)
 
 ![Correct usage](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
+</td>
+<td>
+
 ![An illustration showing the incorrect placement of a white, outlined Apple Pay button over a dark background.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-pay-outline-no@2x.png)
 
 ![Incorrect usage](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
+
+</td>
+</tr>
+</table>
 
 #### White
 
 Use on dark-color backgrounds that provide sufficient contrast.
 
+<table>
+<tr>
+<td>
+
 ![An illustration showing the correct placement of a white Apple Pay button over a dark background.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-pay-white-yes@2x.png)
 
 ![Correct usage](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
+
+</td>
+<td>
 
 ![An illustration showing the incorrect placement of a white Apple Pay button over a light background.](https://developer.apple.com/tutorials/images/com.apple.HIG/apple-pay-white-no@2x.png)
 
 ![Incorrect usage](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
+</td>
+</tr>
+</table>
+
 ### Button size and position
 
 **Prominently display the Apple Pay button.** Make the Apple Pay button no smaller than other payment buttons, and avoid making people scroll to see it.
+
+<table>
+<tr>
+<td>
 
 ![An illustration showing an Apple Pay button positioned correctly above a custom Add to Cart button. Both buttons are the same size.](https://developer.apple.com/tutorials/images/com.apple.HIG/ap-same-size-correct@2x.png)
 
 ![Correct usage](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
 
+</td>
+<td>
+
 ![An illustration showing an Apple Pay button positioned incorrectly at a smaller size above a larger custom Add to Cart button.](https://developer.apple.com/tutorials/images/com.apple.HIG/ap-smaller-incorrect@2x.png)
 
 ![Incorrect usage](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Position the Apple Pay button correctly in relation to an Add to Cart button.** In a side-by-side layout, place the Apple Pay button to the right of an Add to Cart button.
 
@@ -285,24 +340,49 @@ Use on dark-color backgrounds that provide sufficient contrast.
 
 In a stacked layout, place the Apple Pay button above an Add to Cart button.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of a Check Out with Apple Pay button correctly positioned above a custom Add to Cart button.](https://developer.apple.com/tutorials/images/com.apple.HIG/ap-top-correct@2x.png)
 
 ![Correct usage](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
+
+</td>
+<td>
 
 ![An illustration of a Check Out with Apple Pay button incorrectly positioned below a custom Add to Cart button.](https://developer.apple.com/tutorials/images/com.apple.HIG/ap-below-incorrect@2x.png)
 
 ![Incorrect usage](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
+</td>
+</tr>
+</table>
+
 **Adjust the corner radius to match the appearance of other buttons.** By default, an Apple Pay button has rounded corners. You can change the corner radius to produce a button with square corners or a capsule-shape button. For developer guidance, see [cornerRadius](https://developer.apple.com/documentation/passkit/pkpaymentbutton/cornerradius).
+
+<table>
+<tr>
+<td>
 
 ![An illustration showing a Check Out with Apple Pay button above a custom Add to Cart button. Both buttons have 90-degree corners.](https://developer.apple.com/tutorials/images/com.apple.HIG/minimum-corner-radii@2x.png)  
 *Minimum corner radius*
 
+</td>
+<td>
+
 ![An illustration showing a Check Out with Apple Pay button above a custom Add to Cart button. Both buttons have the default corner radius.](https://developer.apple.com/tutorials/images/com.apple.HIG/default-corner-radii@2x.png)  
 *Default corner radius*
 
+</td>
+<td>
+
 ![An illustration showing a Check Out with Apple Pay button above a custom Add to Cart button. Both buttons have the maximum corner radius, which results in a capsule-shaped appearance.](https://developer.apple.com/tutorials/images/com.apple.HIG/maximum-corner-radii@2x.png)  
 *Maximum corner radius*
+
+</td>
+</tr>
+</table>
 
 **Maintain the minimum button size and margins around the button.** Be mindful that the button title may vary in length depending on the locale.
 
@@ -310,9 +390,20 @@ In a stacked layout, place the Apple Pay button above an Add to Cart button.
 >
 > If the size you specify doesn’t accommodate the translated title for the type of payment button you’re using, the system automatically replaces it with the plain Apple Pay button shown below on the left. There is no automatic replacement for the Set Up Apple Pay button.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of an Apple Pay button, labeled to indicate minimum margins of one-tenth the button’s height, a 100-point minimum width, and a 30-point minimum height.](https://developer.apple.com/tutorials/images/com.apple.HIG/minimum-apple-pay@2x.png)
 
+</td>
+<td>
+
 ![An illustration of a Donate with Apple Pay button, labeled to indicate minimum margins of one-tenth the button’s height, a 140-point minimum width, and a 30-point minimum height.](https://developer.apple.com/tutorials/images/com.apple.HIG/minimum-apple-pay-donate@2x.png)
+
+</td>
+</tr>
+</table>
 
 Use the following values for guidance.
 

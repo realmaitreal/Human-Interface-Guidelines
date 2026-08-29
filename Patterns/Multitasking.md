@@ -39,11 +39,22 @@ For guidance, see [Playing audio](Playing%20audio.md).
 
 On iPhone, multitasking lets people use FaceTime or watch a video in Picture in Picture while they also use a different app.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of the app switcher on iPhone, showing four open apps.](https://developer.apple.com/tutorials/images/com.apple.HIG/multitasking-app-switcher-iphone@2x.png)  
 *The app switcher displays all currently open apps.*
 
+</td>
+<td>
+
 ![A screenshot of Mail on iPhone, showing an individual email. On top of the email body content, a small image in the bottom-left corner shows the person currently in a FaceTime call.](https://developer.apple.com/tutorials/images/com.apple.HIG/multitasking-pip-iphone@2x.png)  
 *A current FaceTime call can continue while people use another app.*
+
+</td>
+</tr>
+</table>
 
 ### iPadOS
 

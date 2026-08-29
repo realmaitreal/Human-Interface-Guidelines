@@ -31,11 +31,22 @@ The color palette in Dark Mode includes dimmer background colors and brighter fo
 
 **Embrace colors that adapt to the current appearance.** Semantic colors (like [labelColor](https://developer.apple.com/documentation/appkit/nscolor/labelcolor) and [controlColor](https://developer.apple.com/documentation/appkit/nscolor/controlcolor) in macOS or [separator](https://developer.apple.com/documentation/uikit/uicolor/separator) in iOS and iPadOS) automatically adapt to the current appearance. When you need a custom color, add a Color Set asset to your app’s asset catalog in Xcode, and specify the bright and dim variants of the color. Avoid using hard-coded color values or colors that don’t adapt.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of a square with a light background and four color swatches representing system colors in the light appearance.](https://developer.apple.com/tutorials/images/com.apple.HIG/dark-mode-system-colors-light@2x.png)  
 *System colors in the light appearance*
 
+</td>
+<td>
+
 ![An illustration of a square with a dark background and four color swatches representing system colors in the dark appearance.](https://developer.apple.com/tutorials/images/com.apple.HIG/dark-mode-system-colors-dark@2x.png)  
 *System colors in the dark appearance*
+
+</td>
+</tr>
+</table>
 
 **Aim for sufficient color contrast in all appearances.** Using system-defined colors can help you achieve a good contrast ratio between your foreground and background content. At a minimum, make sure the contrast ratio between colors is no lower than 4.5:1. For custom foreground and background colors, strive for a contrast ratio of 7:1, especially in small text. This ratio ensures that your foreground content stands out from the background, and helps your content meet recommended accessibility guidelines.
 
@@ -49,22 +60,47 @@ The system uses [SF Symbols](SF%20Symbols.md) (which automatically adapt to Dark
 
 **Design separate interface icons for the light and dark appearances if necessary.** For example, an icon that depicts a full moon might need a subtle dark outline to contrast well with a light background, but need no outline when it displays on a dark background. Similarly, an icon that represents a drop of oil might need a slight border to make the edge visible against a dark background.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of a black droplet icon against a light background.](https://developer.apple.com/tutorials/images/com.apple.HIG/dark-mode-icon-in-light-mode@2x.png)  
 *Icon in the light appearance with no border*
+
+</td>
+<td>
 
 ![An illustration of a black droplet icon against a dark background. The icon has a white border to distinguish it from the similar surrounding color.](https://developer.apple.com/tutorials/images/com.apple.HIG/dark-mode-icon-in-dark-mode@2x.png)  
 *Icon in the dark appearance with border for better contrast*
 
+</td>
+</tr>
+</table>
+
 **Make sure full-color images and icons look good in both appearances.** Use the same asset if it looks good in both the light and dark appearances. If an asset looks good in only one mode, modify the asset or create separate light and dark assets. Use asset catalogs to combine your assets into a single named image.
+
+<table>
+<tr>
+<td>
 
 ![An illustration of two people sitting at a restaurant table done in a simple, abstract style. The illustration has a light background and its details are clearly visible.](https://developer.apple.com/tutorials/images/com.apple.HIG/dark-mode-illustration-in-light-mode@2x.png)  
 *Illustration on a light background*
 
+</td>
+<td>
+
 ![An illustration of two people sitting at a restaurant table done in a simple, abstract style. The illustration has a dark background, and the darker portions of the image are hard to distinguish from the background.](https://developer.apple.com/tutorials/images/com.apple.HIG/dark-mode-illustration-in-dark-mode-incorrect@2x.png)  
 *On a dark background, the same illustration has poor contrast and many details are lost*
 
+</td>
+<td>
+
 ![An illustration of two people sitting at a restaurant table done in a simple, abstract style. The illustration has a dark background, and its color values are adjusted to be clearly visible in contrast to the background.](https://developer.apple.com/tutorials/images/com.apple.HIG/dark-mode-illustration-in-dark-mode-correct@2x.png)  
 *Illustration adjusted for better contrast on a dark background*
+
+</td>
+</tr>
+</table>
 
 ### Text
 
@@ -72,11 +108,22 @@ The system uses vibrancy and increased contrast to maintain the legibility of te
 
 **Use the system-provided label colors for labels.** The primary, secondary, tertiary, and quaternary label colors adapt automatically to the light and dark appearances.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of a button in the light appearance with dark primary label text.](https://developer.apple.com/tutorials/images/com.apple.HIG/dark-mode-label-in-light-mode@2x.png)  
 *Primary label in the light appearance*
 
+</td>
+<td>
+
 ![An illustration of a button in the dark appearance with light secondary label text.](https://developer.apple.com/tutorials/images/com.apple.HIG/dark-mode-label-in-dark-mode@2x.png)  
 *Secondary label in the dark appearance*
+
+</td>
+</tr>
+</table>
 
 **Use system views to draw text fields and text views.** System views and controls make your app’s text look good on all backgrounds, adjusting automatically for the presence or absence of vibrancy. When possible, use a system-provided view to display text instead of drawing the text yourself.
 
@@ -88,14 +135,28 @@ The system uses vibrancy and increased contrast to maintain the legibility of te
 
 In Dark Mode, the system uses two sets of background colors — called *base* and *elevated* — to enhance the perception of depth when one dark interface is layered above another. The base colors are dimmer, making background interfaces appear to recede, and the elevated colors are brighter, making foreground interfaces appear to advance.
 
+<table>
+<tr>
+<td>
+
 ![A diagram that shows a stack of 4 terms on top of a black background. The term at the top shows the most contrast with the background and the term at the bottom shows the least.](https://developer.apple.com/tutorials/images/com.apple.HIG/base-with-four-semantic-colors@2x.png)  
 *Base*
+
+</td>
+<td>
 
 ![A diagram that shows a stack of 4 terms on top of a nearly black background. The term at the top shows the most contrast with the background and the term at the bottom shows the least.](https://developer.apple.com/tutorials/images/com.apple.HIG/elevated-with-four-semantic-colors@2x.png)  
 *Elevated*
 
+</td>
+<td>
+
 ![A diagram that shows a stack of 4 terms on top of a white background. The term at the top shows the most contrast with the background and the term at the bottom shows the least.](https://developer.apple.com/tutorials/images/com.apple.HIG/light-with-four-semantic-colors@2x.png)  
 *Light*
+
+</td>
+</tr>
+</table>
 
 **Prefer the system background colors.** Dark Mode is dynamic, which means that the background color automatically changes from base to elevated when an interface is in the foreground, such as a popover or modal sheet. The system also uses the elevated background color to provide visual separation between apps in a multitasking environment and between windows in a multiple-window context. Using a custom background color can make it harder for people to perceive these system-provided visual distinctions.
 

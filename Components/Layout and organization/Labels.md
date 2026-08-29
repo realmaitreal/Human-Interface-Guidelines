@@ -55,11 +55,22 @@ The guidance below can help you use a label to display text. In some cases, guid
 
 Date and time text components (shown below on the left) display the current date, the current time, or a combination of both. You can configure a date text component to use a variety of formats, calendars, and time zones. A countdown timer text component (shown below on the right) displays a precise countdown or count-up timer. You can configure a timer text component to display its count value in a variety of formats.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of date and time text components on Apple Watch, with the date aligned to the leading edge and the time aligned to the trailing edge.](https://developer.apple.com/tutorials/images/com.apple.HIG/labels-date-time-text-component@2x.png)  
 *Date and time labels*
 
+</td>
+<td>
+
 ![An illustration of a countdown timer text component on Apple Watch, with the time value at the center.](https://developer.apple.com/tutorials/images/com.apple.HIG/labels-countdown-timer-text-component@2x.png)  
 *Timer label*
+
+</td>
+</tr>
+</table>
 
 When you use the system-provided date and timer text components, watchOS automatically adjusts the label’s presentation to fit the available space. The system also updates the content without further input from your app.
 

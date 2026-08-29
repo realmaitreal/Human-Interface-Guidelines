@@ -20,17 +20,34 @@ You may also want to use custom colors to enhance the visual experience of your 
 
 **Make sure all your app’s colors work well in light, dark, and increased contrast contexts.** iOS, iPadOS, macOS, and tvOS offer both light and [Dark Mode](Dark%20Mode.md) appearance settings. [System colors](https://developer.apple.com/design/human-interface-guidelines/color#System-colors) vary subtly depending on the system appearance, adjusting to ensure proper color differentiation and contrast for text, symbols, and other elements. With the Increase Contrast setting turned on, the color differences become far more apparent. When possible, use system colors, which already define variants for all these contexts. If you define a custom color, make sure to supply light and dark variants, and an increased contrast option for each variant that provides a significantly higher amount of visual differentiation. Even if your app ships in a single appearance mode, provide both light and dark colors to support Liquid Glass adaptivity in these contexts.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of the Notes app in iOS with the light system appearance and default contrast. The Notes app is open to a note with the text 'Note'. The text is selected, which shows a yellow selection highlight and text editing menu. The Done button appears in the upper-right corner. The Liquid Glass background of the button is yellow, and its label, which shows a checkmark, is white. The shade of yellow is vibrant.](https://developer.apple.com/tutorials/images/com.apple.HIG/color-context-light-mode@2x.png)  
 *Default (light)*
+
+</td>
+<td>
 
 ![A screenshot of the Notes app in iOS with the light system appearance and increased contrast. The Notes app is open to a note with the text 'Note'. The text is selected, which shows a yellow selection highlight and text editing menu. The Done button appears in the upper-right corner. The Liquid Glass background of the button is yellow, and its label, which shows a checkmark, is black. The shade of yellow is darker to provide more contrast and differentiation against the note's white background.](https://developer.apple.com/tutorials/images/com.apple.HIG/color-context-light-mode-high-contrast@2x.png)  
 *Increased contrast (light)*
 
+</td>
+<td>
+
 ![A screenshot of the Notes app in iOS with the dark system appearance and default contrast. The Notes app is open to a note with the text 'Note'. The text is selected, which shows a yellow selection highlight and text editing menu. The Done button appears in the upper-right corner. The Liquid Glass background of the button is yellow, and its label, which shows a checkmark, is white.](https://developer.apple.com/tutorials/images/com.apple.HIG/color-context-dark-mode@2x.png)  
 *Default (dark)*
 
+</td>
+<td>
+
 ![A screenshot of the Notes app in iOS with the dark system appearance and increased contrast. The Notes app is open to a note with the text 'Note'. The text is selected, which shows a yellow selection highlight and text editing menu. The Done button appears in the upper-right corner. The Liquid Glass background of the button is yellow, and its label, which shows a checkmark, is black.](https://developer.apple.com/tutorials/images/com.apple.HIG/color-context-dark-mode-high-contrast@2x.png)  
 *Increased contrast (dark)*
+
+</td>
+</tr>
+</table>
 
 **Test your app’s color scheme under a variety of lighting conditions.** Colors can look different when you view your app outside on a sunny day or in dim light. In bright surroundings, colors look darker and more muted. In dark environments, colors appear bright and saturated. In visionOS, colors can look different depending on the colors of a wall or object in a person’s physical surroundings and how it reflects light. Adjust app colors to provide an optimal viewing experience in the majority of use cases.
 
@@ -48,11 +65,22 @@ You may also want to use custom colors to enhance the visual experience of your 
 
 **Consider how the colors you use might be perceived in other countries and cultures.** For example, red communicates danger in some cultures, but has positive connotations in other cultures. Make sure the colors in your app send the message you intend.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of an upward-trending stock chart in the Stocks app in English. The line of the graph is green to indicate the rising value of the stock during the selected time period.](https://developer.apple.com/tutorials/images/com.apple.HIG/color-inclusive-color-charts-english@2x.png)  
 *Green indicates a positive trend in the Stocks app in English.*
 
+</td>
+<td>
+
 ![An illustration of an upward-trending stock chart in the Stocks app in Chinese. The line of the graph is red to indicate the rising value of the stock during the selected time period.](https://developer.apple.com/tutorials/images/com.apple.HIG/color-inclusive-color-charts-chinese@2x.png)  
 *Red indicates a positive trend in the Stocks app in Chinese.*
+
+</td>
+</tr>
+</table>
 
 ## System colors
 
@@ -66,26 +94,51 @@ iOS, iPadOS, macOS, and visionOS also define sets of *dynamic system colors* tha
 
 By default, [Liquid Glass](https://developer.apple.com/design/human-interface-guidelines/materials#Liquid-Glass) has no inherent color, and instead takes on colors from the content directly behind it. You can apply color to some Liquid Glass elements, giving them the appearance of colored or stained glass. This is useful for drawing emphasis to a specific control, like a primary call to action, and is the approach the system uses for prominent button styling. Symbols or text labels on Liquid Glass controls can also have color.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of the Done button in iOS, which appears as a checkmark on a blue Liquid Glass background.](https://developer.apple.com/tutorials/images/com.apple.HIG/color-liquid-glass-overview-tinted@2x.png)  
 *Controls can use color in the Liquid Glass background, like in a primary action button.*
+
+</td>
+<td>
 
 ![A screenshot of a tab bar in iOS, with the first tab selected. The symbol and text label of the selected tab bar item are blue.](https://developer.apple.com/tutorials/images/com.apple.HIG/color-liquid-glass-overview-color-over-tab-bar@2x.png)  
 *Symbols and text that appear on Liquid Glass can have color, like in a selected tab bar item.*
 
+</td>
+<td>
+
 ![A screenshot of the Share button in iOS over a colorful image. The colors from the background image infuse the Liquid Glass in the button, affecting its color.](https://developer.apple.com/tutorials/images/com.apple.HIG/color-liquid-glass-overview-clear@2x.png)  
 *By default, Liquid Glass picks up the color from the content layer behind it.*
+
+</td>
+</tr>
+</table>
 
 For smaller elements like toolbars and tab bars, the system can adapt Liquid Glass between a light and dark appearance in response to the underlying content. By default, symbols and text on these elements follow a monochromatic color scheme, becoming darker when the underlying content is light, and lighter when it’s dark. Liquid Glass appears more opaque in larger elements like sidebars to preserve legibility over complex backgrounds and accommodate richer content on the material’s surface.
 
 **Apply color sparingly to the Liquid Glass material, and to symbols or text on the material.** If you apply color, reserve it for elements that truly benefit from emphasis, such as status indicators or primary actions. To emphasize primary actions, apply color to the background rather than to symbols or text. For example, the system applies the app accent color to the background in prominent buttons — such as the Done button — to draw attention and elevate their visual prominence. Refrain from adding color to the background of multiple controls.
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of the top half of an iPhone app that shows a toolbar with several buttons. All of the buttons in the toolbar use a blue accent color for their Liquid Glass background.](https://developer.apple.com/tutorials/images/com.apple.HIG/colors-liquid-glass-usage-incorrect@2x.png)
 
 ![An X in a circle to indicate incorrect usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/crossout@2x.png)
 
+</td>
+<td>
+
 ![A screenshot of the top half of an iPhone app that shows a toolbar with several buttons. Only the Done button in the toolbar uses a blue accent color for its Liquid Glass background.](https://developer.apple.com/tutorials/images/com.apple.HIG/colors-liquid-glass-usage-correct@2x.png)
 
 ![A checkmark in a circle to indicate correct usage.](https://developer.apple.com/tutorials/images/com.apple.HIG/checkmark@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Avoid using similar colors in control labels if your app has a colorful background.** While color can make apps more visually appealing, playful, or reflective of your brand, too much color can be overwhelming and make control labels more difficult to read. If your app features colorful backgrounds or visually rich content, prefer a monochromatic appearance for toolbars and tab bars, or choose an accent color with sufficient visual differentiation. By contrast, in apps with primarily monochromatic content or backgrounds, choosing your brand color as the app accent color can be an effective way to tailor your app experience and reflect your company’s identity.
 

@@ -86,11 +86,25 @@ The system also applies magnetism to text-entry areas, where it can help people 
 
 **Add padding around interactive elements to create comfortable hit regions.** You might need to experiment to determine the right size for an element’s hit region. If the hit region is too small, it can make people feel that they have to be extra precise when interacting with the element. On the other hand, when an element’s hit region is too large, people can feel that it takes a lot of effort to pull the pointer away from the element. In general, it works well to add about 12 points of padding around elements that include a bezel; for elements without a bezel, it works well to add about 24 points of padding around the element’s visible edges.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of a button that has a filled, rounded-rectangle bezel. The button is centered on top of a shaded rectangle that extends beyond the button by the same distance on all sides. Centered on each side, a callout indicates that the padding between the button and each edge of the shaded rectangle is 12 points.](https://developer.apple.com/tutorials/images/com.apple.HIG/padding-for-button-with-bezel@2x.png)
+
+</td>
+<td>
 
 ![An illustration of a symbol centered on top of a shaded rectangle that extends beyond the symbol by the same distance on all sides. Centered on each side, a callout indicates that the padding between the symbol and each edge of the shaded rectangle is 24 points.](https://developer.apple.com/tutorials/images/com.apple.HIG/padding-for-glyph@2x.png)
 
+</td>
+<td>
+
 ![An illustration of a button without a bezel, centered on top of a shaded rectangle that extends beyond the button by the same distance on all sides. Centered on each side, a callout indicates that the padding between the button and each edge of the shaded rectangle is 24 points.](https://developer.apple.com/tutorials/images/com.apple.HIG/padding-for-button-without-bezel@2x.png)
+
+</td>
+</tr>
+</table>
 
 **Create contiguous hit regions for custom bar buttons.** If there’s space between the hit regions of adjacent buttons in a bar, people may experience a distracting motion when the pointer reverts briefly to its default shape as it moves between buttons.
 

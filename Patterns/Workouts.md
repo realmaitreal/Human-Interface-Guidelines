@@ -16,14 +16,28 @@ You can create a workout experience for Apple Watch, iPhone, or iPad that helps 
 
 **Avoid distracting people from a workout with information that’s not relevant.** For example, people don’t need to review the list of workouts you offer or access other parts of your app while they’re working out. Here is an arrangement that many watchOS workout apps use, including Workout:
 
+<table>
+<tr>
+<td>
+
 ![A screenshot of the leftmost Workout screen for an Outdoor Walk workout. Clockwise from the top-left corner are the End, Resume, New, and Segment buttons.](https://developer.apple.com/tutorials/images/com.apple.HIG/workouts-large-buttons@2x.png)  
 *Large buttons that control the in-progress session — such as End, Resume, and New — appear on the leftmost screen.*
+
+</td>
+<td>
 
 ![A screenshot of the middle Workout screen for an Outdoor Walk workout. Five lines of data are visible. From the top, the screen shows the elapsed time, the active calories, the current heart rate, the average pace, and the elevation.](https://developer.apple.com/tutorials/images/com.apple.HIG/workouts-metrics@2x.png)  
 *Metrics and other data appear on a dedicated screen that people can read at a glance.*
 
+</td>
+<td>
+
 ![A screenshot of the rightmost Workout screen, which shows information about the music currently playing.](https://developer.apple.com/tutorials/images/com.apple.HIG/workouts-media-playback@2x.png)  
 *If supported, media playback controls appear on the rightmost screen.*
+
+</td>
+</tr>
+</table>
 
 **Use a distinct visual appearance to indicate an active workout.** During a workout, people appreciate being able to recognize an active session at a glance. The metrics page can be a good way to show that a session is active because the values update in real time. In addition to displaying updating values, you can further distinguish the metrics screen by using a unique layout.
 

@@ -64,11 +64,22 @@ You can place search as a tab in a tab bar, which keeps search visible and alway
 - **Standard tab.** This style displays the search tab uniformly with the rest of the tab bar. Tapping the search tab navigates people to a search landing page with a search field at the top.
 - **Button appearance.** This style displays the search tab as a separate button and allows people to start searching immediately. Tapping the search tab brings focus to the search field and displays the keyboard.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of a tab bar at the bottom of an iPhone screen. A tab for search appears as part of the tab bar.](https://developer.apple.com/tutorials/images/com.apple.HIG/search-fields-search-as-tab-standard@2x.png)  
 *Standard tab*
 
+</td>
+<td>
+
 ![An illustration of a tab bar at the bottom of an iPhone screen. A tab for search appears on the trailing edge as a separate button.](https://developer.apple.com/tutorials/images/com.apple.HIG/search-fields-search-as-tab-prominent@2x.png)  
 *Button appearance*
+
+</td>
+</tr>
+</table>
 
 **Choose the standard tab style to provide suggestions, promote discovery, and encourage exploration.** This style of search tab creates a dedicated landing page for search, providing an opportunity to reveal any content or suggestions that might be helpful before someone taps the field to begin the search. This approach is great for an app with a variety of rich content that people might want to explore. For example, Apple TV uses this search tab style to present its various genres and categories, helping ground people in what’s available before they search.
 
@@ -81,11 +92,22 @@ As an alternative to search in a tab bar, you can also place search in a toolbar
 - You can include search in a bottom toolbar either as an expanded field or as a toolbar button, depending on how much space is available. When someone taps it, it animates into a search field above the keyboard so they can begin typing.
 - You can include search in a top toolbar, also called a navigation bar, where it appears as a toolbar button. When someone taps it, it animates into a search field that appears either above the keyboard or at the top if there isn’t space at the bottom.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of an iPhone screen with search in a bottom toolbar. The search field is positioned in an isolated group between a Filter button on the leading edge and a Compose button on the trailing edge.](https://developer.apple.com/tutorials/images/com.apple.HIG/search-fields-ios-toolbar-with-items@2x.png)  
 *Search in a bottom toolbar*
 
+</td>
+<td>
+
 ![An illustration of an iPhone screen with search in a top toolbar. A Back button appears on the leading edge, and an Add button appears on the trailing edge. A button group with Search and More appears next to the Add button.](https://developer.apple.com/tutorials/images/com.apple.HIG/search-fields-ios-navigation-bar-item@2x.png)  
 *Search in a top toolbar*
+
+</td>
+</tr>
+</table>
 
 **Place search at the bottom if there’s room.** You can either add a search field to an existing toolbar, or as a new toolbar where search is the only item. Search at the bottom is useful in any situation where search is a priority, since it keeps the search experience easy to reach. Examples of apps with search at the bottom in various toolbar layouts include Settings, where it’s the only item, and Mail and Notes, where it fits alongside other important controls.
 
@@ -103,11 +125,22 @@ In some cases you might want your app to include a search field inline with cont
 
 The placement and behavior of the search field in iPadOS and macOS is similar. If your app is available on both iPad and Mac, try to keep the search experience as consistent as possible across both platforms.
 
+<table>
+<tr>
+<td>
+
 ![An illustration of an iPad screen with a search field on the trailing edge of the top toolbar. The search field has the word Design entered into the field, and three search suggestions appear in a list beneath the field.](https://developer.apple.com/tutorials/images/com.apple.HIG/search-fields-toolbar-search-ipad@2x.png)  
 *iPadOS*
 
+</td>
+<td>
+
 ![An illustration of a Mac screen with a search field on the trailing edge of the toolbar. The search field has the word Design entered into the field, and three search suggestions appear in a list beneath the field.](https://developer.apple.com/tutorials/images/com.apple.HIG/search-fields-toolbar-search-mac@2x.png)  
 *macOS*
+
+</td>
+</tr>
+</table>
 
 **Put a search field at the trailing side of the toolbar for many common uses.** Many apps benefit from the familiar pattern of search in the toolbar, particularly apps with split views that need to search across multiple columns of information, like Mail, Notes, and Voice Memos. This placement makes great use of space because it lets people navigate results while keeping their selection visible in the detail view. Additionally, consider placing search in the toolbar if results appear in the detail view of your app, like in Freeform, where search in the toolbar filters the boards in the detail view below.
 
