@@ -66,6 +66,13 @@ When people glance at their Apple Watch, they know they can access essential inf
 When people play your game on an Apple device, they dive into the world you designed while relying on the platform features they love.
 
 </td>
+<td valign="top">
+
+<a href="Getting%20started/Designing%20for%20iPhone%20Duo.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-designing-for-iphone-thumbnail@2x.png" alt="A stylized representation of an iPhone Duo frame. The image is tinted green to subtly reflect the green in the original six-color Apple logo." width="100%"></a>  
+**[Designing for iPhone Duo](Getting%20started/Designing%20for%20iPhone%20Duo.md)**  
+An app designed for iPhone Duo adapts seamlessly to both displays, providing a continuous experience as the device opens and closes.
+
+</td>
 </tr>
 </table>
 

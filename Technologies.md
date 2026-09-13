@@ -178,7 +178,7 @@ A research app lets people everywhere participate in important medical research 
 
 <a href="Technologies/SharePlay.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-shareplay-thumbnail@2x.png" alt="A sketch of the SharePlay icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[SharePlay](Technologies/SharePlay.md)**  
-SharePlay helps multiple people share activities — like viewing a movie, listening to music, playing a game, or sketching ideas on a whiteboard — while they’re in a FaceTime call or Messages conversation.
+SharePlay lets people experience activities together from anywhere, whether they’re watching a movie, playing a game, or sketching on a whiteboard.
 
 </td>
 <td valign="top">

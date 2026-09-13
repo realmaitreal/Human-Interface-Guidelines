@@ -84,7 +84,7 @@ The best content-loading experience finishes before people become aware of it.
 
 <a href="../Foundations/Layout.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-layout-thumbnail@2x.png" alt="A sketch of a small rectangle in the upper-left quadrant of a larger rectangle, suggesting the position of a user interface element within a window. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="100%"></a>  
 **[Layout](../Foundations/Layout.md)**  
-A consistent layout that adapts to various contexts makes your experience more approachable and helps people enjoy their favorite apps and games on all their devices.
+A consistent layout that adapts across display sizes, orientations, and multitasking configurations helps people understand and enjoy your app or game on all their devices.
 
 </td>
 <td valign="top">

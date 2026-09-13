@@ -19,16 +19,16 @@ Explore fundamental principles that guide design across Apple platforms.
 </td>
 <td valign="top">
 
-<a href="Getting%20started/Designing%20for%20iOS.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-designing-for-ios-thumbnail@2x.png" alt="A stylized representation of an iPhone frame. The image is tinted green to subtly reflect the green in the original six-color Apple logo." width="100%"></a>  
-**[Designing for iOS](Getting%20started/Designing%20for%20iOS.md)**  
-People depend on their iPhone to help them stay connected, play games, view media, accomplish tasks, and track personal data in any location and while on the go.
+<a href="Getting%20started/Designing%20for%20iPhone%20Duo.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-designing-for-iphone-thumbnail@2x.png" alt="A stylized representation of an iPhone Duo frame. The image is tinted green to subtly reflect the green in the original six-color Apple logo." width="100%"></a>  
+**[Designing for iPhone Duo](Getting%20started/Designing%20for%20iPhone%20Duo.md)**  
+An app designed for iPhone Duo adapts seamlessly to both displays, providing a continuous experience as the device opens and closes.
 
 </td>
 <td valign="top">
 
-<a href="Getting%20started/Designing%20for%20macOS.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-designing-for-macos-thumbnail@2x.png" alt="A stylized representation of a Mac. The image is tinted green to subtly reflect the green in the original six-color Apple logo." width="100%"></a>  
-**[Designing for macOS](Getting%20started/Designing%20for%20macOS.md)**  
-People rely on the power, spaciousness, and flexibility of a Mac as they perform in-depth productivity tasks, view media or content, and play games, often using several apps at once.
+<a href="Getting%20started/Designing%20for%20iOS.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-designing-for-ios-thumbnail@2x.png" alt="A stylized representation of an iPhone frame. The image is tinted green to subtly reflect the green in the original six-color Apple logo." width="100%"></a>  
+**[Designing for iOS](Getting%20started/Designing%20for%20iOS.md)**  
+People depend on their iPhone to help them stay connected, play games, view media, accomplish tasks, and track personal data in any location and while on the go.
 
 </td>
 </tr>
@@ -67,7 +67,7 @@ Judicious use of color can enhance communication, evoke your brand, provide visu
 
 <a href="Foundations/Layout.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-layout-thumbnail@2x.png" alt="A sketch of a small rectangle in the upper-left quadrant of a larger rectangle, suggesting the position of a user interface element within a window. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="100%"></a>  
 **[Layout](Foundations/Layout.md)**  
-A consistent layout that adapts to various contexts makes your experience more approachable and helps people enjoy their favorite apps and games on all their devices.
+A consistent layout that adapts across display sizes, orientations, and multitasking configurations helps people understand and enjoy your app or game on all their devices.
 
 </td>
 <td valign="top">
@@ -95,32 +95,32 @@ Review recent additions and updates to design guidance. For more, see [What’s 
 <tr>
 <td valign="top">
 
-<a href="Components/Menus%20and%20actions/Menus.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-menus-thumbnail@2x.png" alt="A stylized representation of a menu containing a selected item and displaying a submenu. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="100%"></a>  
-**[Menus](Components/Menus%20and%20actions/Menus.md)**  
-A menu reveals its options when people interact with it, making it a space-efficient way to present commands in your app or game.
+<a href="Foundations/Branding.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-branding-thumbnail@2x.png" alt="A sketch of a megaphone, suggesting communication. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="100%"></a>  
+**[Branding](Foundations/Branding.md)**  
+Apps and games express their unique brand identity in ways that make them instantly recognizable while feeling at home on the platform and giving people a consistent experience.
 
 </td>
 <td valign="top">
 
-<a href="Components/Presentation/Scroll%20views.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-scroll-views-thumbnail@2x.png" alt="A stylized representation of a scrollable image view. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="100%"></a>  
-**[Scroll views](Components/Presentation/Scroll%20views.md)**  
-A scroll view lets people view content that’s larger than the view’s boundaries by moving the content vertically or horizontally.
+<a href="Technologies/SharePlay.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-shareplay-thumbnail@2x.png" alt="A sketch of the SharePlay icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
+**[SharePlay](Technologies/SharePlay.md)**  
+SharePlay lets people experience activities together from anywhere, whether they’re watching a movie, playing a game, or sketching on a whiteboard.
 
 </td>
 <td valign="top">
 
-<a href="Components/Navigation%20and%20search/Search%20fields.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-search-fields-thumbnail@2x.png" alt="A stylized representation of a search field containing placeholder text and a dictation icon. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="100%"></a>  
-**[Search fields](Components/Navigation%20and%20search/Search%20fields.md)**  
-A search field lets people search a collection of content for specific terms they enter.
+<a href="Foundations/Layout.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-layout-thumbnail@2x.png" alt="A sketch of a small rectangle in the upper-left quadrant of a larger rectangle, suggesting the position of a user interface element within a window. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="100%"></a>  
+**[Layout](Foundations/Layout.md)**  
+A consistent layout that adapts across display sizes, orientations, and multitasking configurations helps people understand and enjoy your app or game on all their devices.
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-<a href="Components/Navigation%20and%20search/Sidebars.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-sidebars-thumbnail@2x.png" alt="A stylized representation of a portion of a window's sidebar displaying a section and some folders. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="100%"></a>  
-**[Sidebars](Components/Navigation%20and%20search/Sidebars.md)**  
-A sidebar appears on the leading side of a view and lets people navigate between areas of your app or top-level collections of content, like folders and playlists.
+<a href="Components/Menus%20and%20actions/Menus.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-menus-thumbnail@2x.png" alt="A stylized representation of a menu containing a selected item and displaying a submenu. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="100%"></a>  
+**[Menus](Components/Menus%20and%20actions/Menus.md)**  
+A menu reveals its options when people interact with it, making it a space-efficient way to present commands in your app or game.
 
 </td>
 <td valign="top">
@@ -165,6 +165,7 @@ When someone performs a task with Siri or an App Shortcut, a snippet shows the r
     - [Game Center](Technologies/Game%20Center.md)
     - [iCloud](Technologies/iCloud.md)
     - [In-app purchase](Technologies/In-app%20purchase.md)
+  - [Designing for iPhone Duo](Getting%20started/Designing%20for%20iPhone%20Duo.md)
 - [Foundations](Foundations.md)
   - [Accessibility](Foundations/Accessibility.md)
   - [App icons](Foundations/App%20icons.md)
