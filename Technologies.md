@@ -31,6 +31,13 @@ An App Clip is a lightweight version of your app or game that provides an on-the
 <tr>
 <td valign="top">
 
+<a href="Technologies/Apple%20In-App%20Purchase.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-in-app-purchase-thumbnail@2x.png" alt="A sketch of an add button, suggesting the purchase of additional digital assets within an app. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
+**[Apple In-App Purchase](Technologies/Apple%20In-App%20Purchase.md)**  
+People can use Apple In-App Purchase to pay for digital goods and services, like premium content and subscriptions, securely within your app.
+
+</td>
+<td valign="top">
+
 <a href="Technologies/Apple%20Pay.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-apple-pay-thumbnail@2x.png" alt="A sketch of a dollar sign, suggesting Apple Pay. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[Apple Pay](Technologies/Apple%20Pay.md)**  
 Apple Pay is a secure, easy way to make payments for physical goods and services, donations, and subscriptions in apps and in any browser.
@@ -43,6 +50,8 @@ Apple Pay is a secure, easy way to make payments for physical goods and services
 Augmented reality (or AR) lets you deliver immersive, engaging experiences that seamlessly blend virtual objects with the real world.
 
 </td>
+</tr>
+<tr>
 <td valign="top">
 
 <a href="Technologies/CareKit.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-carekit-thumbnail@2x.png" alt="A sketch of the CareKit icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
@@ -50,8 +59,6 @@ Augmented reality (or AR) lets you deliver immersive, engaging experiences that 
 People can use CareKit apps to manage care plans related to a chronic illness like diabetes, recover from an injury or surgery, or achieve health and wellness goals.
 
 </td>
-</tr>
-<tr>
 <td valign="top">
 
 <a href="Technologies/CarPlay.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-carplay-thumbnail@2x.png" alt="A sketch of the CarPlay icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
@@ -66,6 +73,8 @@ CarPlay lets people get directions, make calls, send and receive messages, liste
 Game Center is Apple’s social gaming network, which lets players track their progress and connect with friends across Apple platforms, and boosts the discovery of your game across players’ devices.
 
 </td>
+</tr>
+<tr>
 <td valign="top">
 
 <a href="Technologies/Generative%20AI.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-generative-ai-thumbnail@2x.png" alt="A sketch of a pencil surrounded by sparkly stars, suggesting generative intelligence. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
@@ -73,8 +82,6 @@ Game Center is Apple’s social gaming network, which lets players track their p
 Generative AI empowers you to enhance your app or game with dynamic content and offer intelligent features that unlock new levels of creativity, connection, and productivity.
 
 </td>
-</tr>
-<tr>
 <td valign="top">
 
 <a href="Technologies/HealthKit.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-healthkit-thumbnail@2x.png" alt="A sketch of the HealthKit icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
@@ -89,6 +96,8 @@ HealthKit is the central repository for health and fitness data in iOS, iPadOS, 
 HomeKit lets people securely control connected accessories in their homes using Siri or the Home app on iPhone, iPad, Apple Watch, and Mac.
 
 </td>
+</tr>
+<tr>
 <td valign="top">
 
 <a href="Technologies/iCloud.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-icloud-thumbnail@2x.png" alt="A sketch of the iCloud icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
@@ -96,8 +105,6 @@ HomeKit lets people securely control connected accessories in their homes using 
 iCloud is a service that lets people seamlessly access the content they care about — photos, videos, documents, and more — from any device, without performing explicit synchronization.
 
 </td>
-</tr>
-<tr>
 <td valign="top">
 
 <a href="Technologies/ID%20Verifier.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-id-verifier-apps-thumbnail@2x.png" alt="A sketch of progressively larger curved lines emerging from the bottom corner of an ID card, suggesting ID Verifier. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
@@ -110,13 +117,6 @@ ID Verifier lets your iPhone app read mobile IDs in person without requiring ext
 <a href="Technologies/iMessage%20apps%20and%20stickers.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-imessage-apps-thumbnail@2x.png" alt="A sketch of the iMessage App Store icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[iMessage apps and stickers](Technologies/iMessage%20apps%20and%20stickers.md)**  
 An iMessage app can help people share content, collaborate, and even play games with others in a conversation; stickers are images that people can use to decorate a conversation.
-
-</td>
-<td valign="top">
-
-<a href="Technologies/In-app%20purchase.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-in-app-purchase-thumbnail@2x.png" alt="A sketch of an add button, suggesting the purchase of additional digital assets within an app. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
-**[In-app purchase](Technologies/In-app%20purchase.md)**  
-People can use in-app purchase to pay for virtual goods — like premium content, digital goods, and subscriptions — securely within your app.
 
 </td>
 </tr>

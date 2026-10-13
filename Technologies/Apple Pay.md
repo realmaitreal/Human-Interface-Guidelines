@@ -22,7 +22,7 @@ For developer guidance, see [Apple Pay](https://developer.apple.com/documentatio
 
 > **Note**
 >
-> Use [In-app purchase](In-app%20purchase.md) to sell virtual goods in your app, such as premium content, and subscriptions for digital content.
+> Use [Apple In-App Purchase](Apple%20In-App%20Purchase.md) to sell virtual goods in your app, such as premium content, and subscriptions for digital content.
 
 ## Offering Apple Pay
 

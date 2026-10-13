@@ -212,9 +212,9 @@ iCloud is a service that lets people seamlessly access the content they care abo
 </td>
 <td valign="top">
 
-<a href="../Technologies/In-app%20purchase.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-in-app-purchase-thumbnail@2x.png" alt="A sketch of an add button, suggesting the purchase of additional digital assets within an app. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
-**[In-app purchase](../Technologies/In-app%20purchase.md)**  
-People can use in-app purchase to pay for virtual goods — like premium content, digital goods, and subscriptions — securely within your app.
+<a href="../Technologies/Apple%20In-App%20Purchase.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-in-app-purchase-thumbnail@2x.png" alt="A sketch of an add button, suggesting the purchase of additional digital assets within an app. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
+**[Apple In-App Purchase](../Technologies/Apple%20In-App%20Purchase.md)**  
+People can use Apple In-App Purchase to pay for digital goods and services, like premium content and subscriptions, securely within your app.
 
 </td>
 </tr>

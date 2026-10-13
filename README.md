@@ -95,6 +95,29 @@ Review recent additions and updates to design guidance. For more, see [What’s 
 <tr>
 <td valign="top">
 
+<a href="Getting%20started/Designing%20for%20iPhone%20Duo.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-designing-for-iphone-thumbnail@2x.png" alt="A stylized representation of an iPhone Duo frame. The image is tinted green to subtly reflect the green in the original six-color Apple logo." width="100%"></a>  
+**[Designing for iPhone Duo](Getting%20started/Designing%20for%20iPhone%20Duo.md)**  
+An app designed for iPhone Duo adapts seamlessly to both displays, providing a continuous experience as the device opens and closes.
+
+</td>
+<td valign="top">
+
+<a href="Technologies/Apple%20In-App%20Purchase.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-in-app-purchase-thumbnail@2x.png" alt="A sketch of an add button, suggesting the purchase of additional digital assets within an app. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
+**[Apple In-App Purchase](Technologies/Apple%20In-App%20Purchase.md)**  
+People can use Apple In-App Purchase to pay for digital goods and services, like premium content and subscriptions, securely within your app.
+
+</td>
+<td valign="top">
+
+<a href="Foundations/Layout.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-layout-thumbnail@2x.png" alt="A sketch of a small rectangle in the upper-left quadrant of a larger rectangle, suggesting the position of a user interface element within a window. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="100%"></a>  
+**[Layout](Foundations/Layout.md)**  
+A consistent layout that adapts across display sizes, orientations, and multitasking configurations helps people understand and enjoy your app or game on all their devices.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 <a href="Foundations/Branding.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-branding-thumbnail@2x.png" alt="A sketch of a megaphone, suggesting communication. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="100%"></a>  
 **[Branding](Foundations/Branding.md)**  
 Apps and games express their unique brand identity in ways that make them instantly recognizable while feeling at home on the platform and giving people a consistent experience.
@@ -109,32 +132,9 @@ SharePlay lets people experience activities together from anywhere, whether they
 </td>
 <td valign="top">
 
-<a href="Foundations/Layout.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-layout-thumbnail@2x.png" alt="A sketch of a small rectangle in the upper-left quadrant of a larger rectangle, suggesting the position of a user interface element within a window. The image is overlaid with rectangular and circular grid lines and is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="100%"></a>  
-**[Layout](Foundations/Layout.md)**  
-A consistent layout that adapts across display sizes, orientations, and multitasking configurations helps people understand and enjoy your app or game on all their devices.
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-<a href="Components/Menus%20and%20actions/Menus.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-menus-thumbnail@2x.png" alt="A stylized representation of a menu containing a selected item and displaying a submenu. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="100%"></a>  
-**[Menus](Components/Menus%20and%20actions/Menus.md)**  
-A menu reveals its options when people interact with it, making it a space-efficient way to present commands in your app or game.
-
-</td>
-<td valign="top">
-
 <a href="Technologies/Siri.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-siri-thumbnail@2x.png" alt="A sketch of the Siri icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
 **[Siri](Technologies/Siri.md)**  
 People use Siri to help them with the things they need to find, know, or do every day.
-
-</td>
-<td valign="top">
-
-<a href="Components/System%20experiences/Snippets.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-snippets-thumbnail@2x.png" alt="A sketch of a snippet. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="100%"></a>  
-**[Snippets](Components/System%20experiences/Snippets.md)**  
-When someone performs a task with Siri or an App Shortcut, a snippet shows the result or asks for confirmation.
 
 </td>
 </tr>
@@ -164,7 +164,7 @@ When someone performs a task with Siri or an App Shortcut, a snippet shows the r
     - [Inclusion](Foundations/Inclusion.md)
     - [Game Center](Technologies/Game%20Center.md)
     - [iCloud](Technologies/iCloud.md)
-    - [In-app purchase](Technologies/In-app%20purchase.md)
+    - [Apple In-App Purchase](Technologies/Apple%20In-App%20Purchase.md)
   - [Designing for iPhone Duo](Getting%20started/Designing%20for%20iPhone%20Duo.md)
 - [Foundations](Foundations.md)
   - [Accessibility](Foundations/Accessibility.md)
@@ -302,6 +302,7 @@ When someone performs a task with Siri or an App Shortcut, a snippet shows the r
   - [AirPlay](Technologies/AirPlay.md)
   - [Always On](Technologies/Always%20On.md)
   - [App Clips](Technologies/App%20Clips.md)
+  - [Apple In-App Purchase](Technologies/Apple%20In-App%20Purchase.md)
   - [Apple Pay](Technologies/Apple%20Pay.md)
   - [Augmented reality](Technologies/Augmented%20reality.md)
   - [CareKit](Technologies/CareKit.md)
@@ -313,7 +314,6 @@ When someone performs a task with Siri or an App Shortcut, a snippet shows the r
   - [iCloud](Technologies/iCloud.md)
   - [ID Verifier](Technologies/ID%20Verifier.md)
   - [iMessage apps and stickers](Technologies/iMessage%20apps%20and%20stickers.md)
-  - [In-app purchase](Technologies/In-app%20purchase.md)
   - [Live Photos](Technologies/Live%20Photos.md)
   - [Mac Catalyst](Technologies/Mac%20Catalyst.md)
   - [Machine learning](Technologies/Machine%20learning.md)
