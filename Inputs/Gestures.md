@@ -6,7 +6,7 @@
 
 > **Note**
 >
-> Added guidance for working with system overlays in visionOS and made organizational updates.
+> Added guidance for gestures and touch input in macOS.
 
 ![A sketch of a pointing hand swiping in a curved motion toward the right, suggesting touch interaction with a device. The image is overlaid with rectangular and circular grid lines and is tinted purple to subtly reflect the purple in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/inputs-gestures-intro@2x.png)
 
@@ -56,7 +56,19 @@ In addition to the [Standard gestures](https://developer.apple.com/design/human-
 
 ### macOS
 
-People primarily interact with macOS using a [Keyboards](Keyboards.md) and mouse. In addition, they can make [Standard gestures](https://developer.apple.com/design/human-interface-guidelines/gestures#Standard-gestures) on a Magic Trackpad, Magic Mouse, or a [Game controls](Game%20controls.md) that includes a touch surface.
+People primarily interact with macOS using a [Keyboards](Keyboards.md) and a [Pointing devices](Pointing%20devices.md), like a mouse or a trackpad. In addition, people can make [Standard gestures](https://developer.apple.com/design/human-interface-guidelines/gestures#Standard-gestures) on a Magic Trackpad, Magic Mouse, or a game controller with a touch surface. On a Mac with a touch display, or on an iPad connected with Sidecar, people can also interact directly using touch gestures as a secondary input mode. For developer guidance, see [Adopting gesture recognizers in your app](https://developer.apple.com/documentation/appkit/adopting-gesture-recognizers-in-your-app) and [Handling AppKit gestures](https://developer.apple.com/documentation/appkit/handling-appkit-gestures).
+
+**Keep the layout and size of interface elements the same when you support touch.** In macOS, touch is secondary to keyboard and pointing device input. People switch between inputs frequently, and it’s essential to keep the interface stable and predictable regardless of how someone interacts with it.
+
+**Make tap targets bigger, not the controls themselves.** Instead of increasing the size of small controls, optimize them for touch by enlarging their tap targets to anticipate that interaction may start slightly outside of their visual bounds. Where possible, use standard framework controls, which the system configures with an optimal tap target size automatically.
+
+**Consider providing expandable controls.** For small or densely packed controls, consider providing a temporary variant resized appropriately for touch that appears when someone taps the control. Ensure the expanded version is easy to see and operate while someone touches and holds it, and leave it in place for a short time after they lift their finger to keep the control accessible to touch. When using standard system controls, steppers, sliders, and dials gain this behavior automatically.
+
+**Don’t use touch as the only way to access controls or features.** Make sure all of your app’s functions are available through input from a keyboard and pointing device. Conversely, aim to provide touch equivalents for actions otherwise performed exclusively with a pointing device, like using a keyboard modifier to shift-drag or displaying a menu when the pointer moves over an element. For guidance, see [macOS](https://developer.apple.com/design/human-interface-guidelines/pointing-devices#macOS).
+
+**Where possible, align with gestures people already know.** Preserve gestures that may already exist for your app on iPhone or iPad, or on Mac with a trackpad or Magic Mouse. Test to ensure they don’t conflict with macOS system gestures.
+
+**Make sure custom gestures work for both touch and trackpad.** Supporting both direct and indirect touch input makes the gesture available to the widest audience. Use modifier keys where needed to help the gesture work for all touch inputs.
 
 ### tvOS
 
@@ -187,12 +199,26 @@ The system provides APIs that support the familiar gestures people use with thei
 | Tap | iOS, iPadOS, macOS, tvOS, visionOS, watchOS | Activate a control; select an item. |
 | Swipe | iOS, iPadOS, macOS, tvOS, visionOS, watchOS | Reveal actions and controls; dismiss views; scroll. |
 | Drag | iOS, iPadOS, macOS, tvOS, visionOS, watchOS | Move a UI element. |
-| Touch (or pinch) and hold | iOS, iPadOS, tvOS, visionOS, watchOS | Reveal additional controls or functionality. |
-| Double tap | iOS, iPadOS, macOS, tvOS, visionOS, watchOS | Zoom in; zoom out if already zoomed in; perform a primary action on Apple Watch Series 9 and Apple Watch Ultra 2. |
+| Touch (or pinch) and hold | iOS, iPadOS, macOS, tvOS, visionOS, watchOS | Reveal additional controls or functionality. |
+| Double tap | iOS, iPadOS, macOS, tvOS, visionOS, watchOS | Zoom in; zoom out if already zoomed in; open an item on a Mac with a touch display; perform a primary action on Apple Watch Series 9 and later and Apple Watch Ultra 2 and later. |
 | Zoom | iOS, iPadOS, macOS, tvOS, visionOS | Zoom a view; magnify content. |
 | Rotate | iOS, iPadOS, macOS, tvOS, visionOS | Rotate a selected item. |
 
 For guidance on supporting additional gestures and button presses on specific input devices, see [Pointing devices](Pointing%20devices.md), [Remotes](Remotes.md), and [Game controls](Game%20controls.md).
+
+### macOS trackpad and touch display gestures
+
+The following common actions are supported by standard gestures on both a trackpad and a Mac with a touch display.
+
+| Action | Trackpad | Touch display |
+| --- | --- | --- |
+| Select | Primary click | Tap |
+| Open | Double click | Double tap |
+| Scroll | Slide two fingers up or down | Slide one finger up or down |
+| Zoom | Pinch | Pinch |
+| Rotate | Move two fingers around each other | Move two fingers around each other |
+| Open a context menu | Secondary click | Touch and hold |
+| Drag | Click and drag | Touch and hold, then drag |
 
 ## Resources
 
@@ -216,6 +242,13 @@ For guidance on supporting additional gestures and button presses on specific in
 <tr>
 <td valign="top">
 
+<a href="https://developer.apple.com/videos/play/tech-talks/111456"><img src="https://devimages-cdn.apple.com/wwdc-services/images/8/B44DD0F5-C2D2-48D2-BD21-2E3B25CB88A3/11326_wide_250x141_2x.jpg" alt="b44dd0f5 c2d2 48d2 bd21 2e3b25cb88a3" width="100%"></a>  
+**[Design for touch on Mac](https://developer.apple.com/videos/play/tech-talks/111456)**  
+Discover the key design considerations for updating your app for touch on macOS. We’ll explore the touch gestures now available on Mac, how system gestures work, how to size controls and touch targets while keeping your app great with a pointer and keyboard, and how to adapt hover interactions. Finally, we’ll dive into the expansion behaviors of native controls like steppers, dials, and sliders, and what that means for your app.
+
+</td>
+<td valign="top">
+
 <a href="https://developer.apple.com/videos/play/wwdc2024/10145"><img src="https://devimages-cdn.apple.com/wwdc-services/images/C03E6E6D-A32A-41D0-9E50-C3C6059820AA/B38CC217-7635-48EF-B8C9-F7954F390CCE/9273_wide_250x141_2x.jpg" alt="b38cc217 7635 48ef b8c9 f7954f390cce" width="100%"></a>  
 **[Enhance your UI animations and transitions](https://developer.apple.com/videos/play/wwdc2024/10145)**  
 Explore how to adopt the zoom transition in navigation and presentations to increase the sense of continuity in your app, and learn how to animate UIKit views with SwiftUI animations to make it easier to build animations that feel continuous.
@@ -235,6 +268,7 @@ Learn how to design great interactions for eyes and hands. We’ll share the des
 
 | Date | Changes |
 | --- | --- |
+| October 28, 2026 | Added guidance for gestures and touch input in macOS. |
 | September 9, 2024 | Added guidance for working with system overlays in visionOS and made organizational updates. |
 | September 15, 2023 | Updated specifications to include double tap in watchOS. |
 | June 21, 2023 | Changed page title from Touchscreen gestures and updated to include guidance for visionOS. |

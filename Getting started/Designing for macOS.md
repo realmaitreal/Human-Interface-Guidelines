@@ -4,15 +4,19 @@
 
 *People rely on the power, spaciousness, and flexibility of a Mac as they perform in-depth productivity tasks, view media or content, and play games, often using several apps at once.*
 
+> **Note**
+>
+> Added guidance for touch input.
+
 ![A stylized representation of a Mac shown on top of a grid. The image is overlaid with rectangular and circular grid lines and is tinted green to subtly reflect the green in the original six-color Apple logo.](https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-macOS-intro@2x.png)
 
 As you begin designing your app or game for macOS, start by understanding the fundamental device characteristics and patterns that distinguish the macOS experience. Using these characteristics and patterns to inform your design decisions can help you provide an app or game that Mac users appreciate.
 
-**Display.** A Mac typically has a large, high-resolution display, and people can extend their workspace by connecting additional displays, including their iPad.
+**Display.** A Mac typically has a large, high-resolution display, and people can extend their workspace by connecting additional displays, including their iPad with [Sidecar](https://support.apple.com/102597).
 
-**Ergonomics.** People generally use a Mac while they’re stationary, often placing the device on a desk or table. In the typical use case, the viewing distance can range from about 1 to 3 feet.
+**Ergonomics.** People generally use a Mac while they’re stationary, often placing the device on a desk or table. On a Mac with a touch display, people reach forward to touch the screen, so they tend to use touch for brief, intentional interactions rather than sustained work.
 
-**Inputs.** People expect to enter data and control the interface using any combination of input modes, such as physical [Keyboards](../Inputs/Keyboards.md), [Pointing devices](../Inputs/Pointing%20devices.md), [Game controls](../Inputs/Game%20controls.md), and [Siri](../Technologies/Siri.md).
+**Inputs.** People primarily interact with macOS using a [Keyboards](../Inputs/Keyboards.md) and a [Pointing devices](../Inputs/Pointing%20devices.md). They also enter data and control the interface using other inputs, like [Gestures](../Inputs/Gestures.md) on a trackpad or a Mac with a touch display, [Siri](../Technologies/Siri.md), Voice Control, or a connected [Game controls](../Inputs/Game%20controls.md).
 
 **App interactions.** Interactions can last anywhere from a few minutes of performing some quick tasks to several hours of deep concentration. People frequently have multiple apps open at the same time, and they expect smooth transitions between active and inactive states as they switch from one app to another.
 
@@ -30,9 +34,10 @@ Great Mac experiences integrate the platform and device capabilities that people
 - Leverage large displays to present more content in fewer nested levels and with less need for modality, while maintaining a comfortable information density that doesn’t make people strain to view the content they want.
 - Let people resize, hide, show, and move your windows to fit their work style and device configuration, and support full-screen mode to offer a distraction-free context.
 - Use the menu bar to give people easy access to all the commands they need to do things in your app.
-- Help people take advantage of high-precision input modes to perform pixel-perfect selections and edits.
 - Handle keyboard shortcuts to help people accelerate actions and use keyboard-only work styles.
-- Support personalization, letting people customize toolbars, configure windows to display the views they use most, and choose the colors and fonts they want to see in the interface.
+- Help people take advantage of high-precision input modes to perform pixel-perfect selections and edits.
+- Support standard gestures on trackpads and Mac devices with a touch display. Use larger tap targets and controls that expand on touch to make touch interaction easier, while keeping control size and density the same to stay optimized for keyboard and pointing device input.
+- Allow for personalization, letting people customize toolbars, configure windows to display the views they use most, and choose the colors and fonts they want to see in the interface.
 
 ## Resources
 
@@ -71,6 +76,12 @@ Update your AppKit app to take full advantage of the new design system. We’ll 
 </td>
 </tr>
 </table>
+
+## Change log
+
+| Date | Changes |
+| --- | --- |
+| October 28, 2026 | Added guidance for touch input. |
 
 ---
 *Source: [https://developer.apple.com/design/human-interface-guidelines/designing-for-macos](https://developer.apple.com/design/human-interface-guidelines/designing-for-macos)*

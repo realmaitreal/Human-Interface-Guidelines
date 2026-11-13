@@ -19,16 +19,16 @@ Explore fundamental principles that guide design across Apple platforms.
 </td>
 <td valign="top">
 
-<a href="Getting%20started/Designing%20for%20iPhone%20Duo.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-designing-for-iphone-thumbnail@2x.png" alt="A stylized representation of an iPhone Duo frame. The image is tinted green to subtly reflect the green in the original six-color Apple logo." width="100%"></a>  
-**[Designing for iPhone Duo](Getting%20started/Designing%20for%20iPhone%20Duo.md)**  
-An app designed for iPhone Duo adapts seamlessly to both displays, providing a continuous experience as the device opens and closes.
+<a href="Getting%20started/Designing%20for%20macOS.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-designing-for-macos-thumbnail@2x.png" alt="A stylized representation of a Mac. The image is tinted green to subtly reflect the green in the original six-color Apple logo." width="100%"></a>  
+**[Designing for macOS](Getting%20started/Designing%20for%20macOS.md)**  
+People rely on the power, spaciousness, and flexibility of a Mac as they perform in-depth productivity tasks, view media or content, and play games, often using several apps at once.
 
 </td>
 <td valign="top">
 
-<a href="Getting%20started/Designing%20for%20iOS.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-designing-for-ios-thumbnail@2x.png" alt="A stylized representation of an iPhone frame. The image is tinted green to subtly reflect the green in the original six-color Apple logo." width="100%"></a>  
-**[Designing for iOS](Getting%20started/Designing%20for%20iOS.md)**  
-People depend on their iPhone to help them stay connected, play games, view media, accomplish tasks, and track personal data in any location and while on the go.
+<a href="Getting%20started/Designing%20for%20iPhone%20Duo.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-designing-for-iphone-thumbnail@2x.png" alt="A stylized representation of an iPhone Duo frame. The image is tinted green to subtly reflect the green in the original six-color Apple logo." width="100%"></a>  
+**[Designing for iPhone Duo](Getting%20started/Designing%20for%20iPhone%20Duo.md)**  
+An app designed for iPhone Duo adapts seamlessly to both displays, providing a continuous experience as the device opens and closes.
 
 </td>
 </tr>
@@ -95,16 +95,32 @@ Review recent additions and updates to design guidance. For more, see [What’s 
 <tr>
 <td valign="top">
 
-<a href="Getting%20started/Designing%20for%20iPhone%20Duo.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-designing-for-iphone-thumbnail@2x.png" alt="A stylized representation of an iPhone Duo frame. The image is tinted green to subtly reflect the green in the original six-color Apple logo." width="100%"></a>  
-**[Designing for iPhone Duo](Getting%20started/Designing%20for%20iPhone%20Duo.md)**  
-An app designed for iPhone Duo adapts seamlessly to both displays, providing a continuous experience as the device opens and closes.
+<a href="Getting%20started/Designing%20for%20macOS.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-designing-for-macos-thumbnail@2x.png" alt="A stylized representation of a Mac. The image is tinted green to subtly reflect the green in the original six-color Apple logo." width="100%"></a>  
+**[Designing for macOS](Getting%20started/Designing%20for%20macOS.md)**  
+People rely on the power, spaciousness, and flexibility of a Mac as they perform in-depth productivity tasks, view media or content, and play games, often using several apps at once.
 
 </td>
 <td valign="top">
 
-<a href="Technologies/Apple%20In-App%20Purchase.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-in-app-purchase-thumbnail@2x.png" alt="A sketch of an add button, suggesting the purchase of additional digital assets within an app. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
-**[Apple In-App Purchase](Technologies/Apple%20In-App%20Purchase.md)**  
-People can use Apple In-App Purchase to pay for digital goods and services, like premium content and subscriptions, securely within your app.
+<a href="Inputs/Gestures.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/inputs-gestures-thumbnail@2x.png" alt="A sketch of a pointing hand swiping in a curved motion toward the right, suggesting touch interaction with a device. The image is tinted purple to subtly reflect the purple in the original six-color Apple logo." width="100%"></a>  
+**[Gestures](Inputs/Gestures.md)**  
+A gesture is a physical motion that a person uses to directly affect an object in an app or game on their device.
+
+</td>
+<td valign="top">
+
+<a href="Inputs/Pointing%20devices.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/inputs-pointing-devices-thumbnail@2x.png" alt="A sketch of an arrow-shaped pointer, suggesting use of a mouse or trackpad. The image is tinted purple to subtly reflect the purple in the original six-color Apple logo." width="100%"></a>  
+**[Pointing devices](Inputs/Pointing%20devices.md)**  
+People can use a pointing device like a trackpad or mouse to navigate the interface and initiate actions.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<a href="Getting%20started/Designing%20for%20iPhone%20Duo.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/platforms-designing-for-iphone-thumbnail@2x.png" alt="A stylized representation of an iPhone Duo frame. The image is tinted green to subtly reflect the green in the original six-color Apple logo." width="100%"></a>  
+**[Designing for iPhone Duo](Getting%20started/Designing%20for%20iPhone%20Duo.md)**  
+An app designed for iPhone Duo adapts seamlessly to both displays, providing a continuous experience as the device opens and closes.
 
 </td>
 <td valign="top">
@@ -114,27 +130,11 @@ People can use Apple In-App Purchase to pay for digital goods and services, like
 A consistent layout that adapts across display sizes, orientations, and multitasking configurations helps people understand and enjoy your app or game on all their devices.
 
 </td>
-</tr>
-<tr>
 <td valign="top">
 
-<a href="Foundations/Branding.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/foundations-branding-thumbnail@2x.png" alt="A sketch of a megaphone, suggesting communication. The image is tinted yellow to subtly reflect the yellow in the original six-color Apple logo." width="100%"></a>  
-**[Branding](Foundations/Branding.md)**  
-Apps and games express their unique brand identity in ways that make them instantly recognizable while feeling at home on the platform and giving people a consistent experience.
-
-</td>
-<td valign="top">
-
-<a href="Technologies/SharePlay.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-shareplay-thumbnail@2x.png" alt="A sketch of the SharePlay icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
-**[SharePlay](Technologies/SharePlay.md)**  
-SharePlay lets people experience activities together from anywhere, whether they’re watching a movie, playing a game, or sketching on a whiteboard.
-
-</td>
-<td valign="top">
-
-<a href="Technologies/Siri.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/technologies-siri-thumbnail@2x.png" alt="A sketch of the Siri icon. The image is tinted blue to subtly reflect the blue in the original six-color Apple logo." width="100%"></a>  
-**[Siri](Technologies/Siri.md)**  
-People use Siri to help them with the things they need to find, know, or do every day.
+<a href="Components/System%20experiences/Widgets.md"><img src="https://developer.apple.com/tutorials/images/com.apple.HIG/components-widgets-thumbnail@2x.png" alt="A stylized representation of a set of different-sized widgets on an iPad Home Screen. The image is tinted red to subtly reflect the red in the original six-color Apple logo." width="100%"></a>  
+**[Widgets](Components/System%20experiences/Widgets.md)**  
+A widget provides quick access to essential information and focused interactions from your app or game in additional contexts.
 
 </td>
 </tr>
